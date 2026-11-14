@@ -3,6 +3,11 @@ on:
   schedule:
     - cron: '41 * * * *'
   workflow_dispatch:
+  push:
+    paths:
+      - 'marketwide.py'
+      - 'price_scan.py'
+      - '.github/workflows/marketwide.yml'
 permissions:
   contents: write
 concurrency:
