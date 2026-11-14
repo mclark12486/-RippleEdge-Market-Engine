@@ -63,8 +63,8 @@ def main():
   url=f"https://www.sec.gov/Archives/edgar/daily-index/{day.year}/QTR{q}/master.{day:%Y%m%d}.idx"
   try:
    body=get(url,agent);txt=body.decode("latin-1")
-   if "CIK|Company Name|Form Type|Date Filed|Filename" not in txt:raise ValueError("invalid index header")
-   lines=txt.split("-----",1)[-1].splitlines()
+   if "CIK|Company Name|Form Type|Date Filed|Filename" not in txt:raise ValueError("invalid index header; response preview: "+repr(txt[:120]))
+   lines=txt.splitlines()
    count=0
    for line in lines:
     parts=line.split("|")
@@ -72,6 +72,7 @@ def main():
     cik,_,form,filed,filename=parts
     new+=db.execute("INSERT OR IGNORE INTO sec_filings VALUES(?,?,?,?,?)",(cik.zfill(10),filename,form,filed,now())).rowcount
     count+=1
+   if count==0:raise ValueError("no filing records parsed from index")
    indexed+=count
    sec_obs.append({"date":str(day),"status":"OK","records":count,"url":url,"checked_at":now()})
    break
