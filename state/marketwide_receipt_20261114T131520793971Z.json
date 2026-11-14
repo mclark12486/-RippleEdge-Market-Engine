@@ -1,0 +1,58 @@
+{
+  "run_id": "20261114T131520793971Z",
+  "started": "2026-11-14T13:15:20.794012+00:00",
+  "ended": "2026-11-14T13:15:21.977588+00:00",
+  "census_rows": 13248,
+  "unique_symbols": 13248,
+  "nasdaq_count": 5596,
+  "other_exchange_count": 7652,
+  "etf_flag_yes": 5787,
+  "feeds": {
+    "nasdaq": {
+      "status": "OK",
+      "count": 5596,
+      "url": "https://www.nasdaqtrader.com/dynamic/symdir/nasdaqlisted.txt",
+      "sha256": "f7eb7ca0af8db7d05c083c85d8c344f8001e8218ec408f4f13e92fae1f72ad6f",
+      "checked_at": "2026-11-14T13:15:20.971849+00:00"
+    },
+    "other": {
+      "status": "OK",
+      "count": 7652,
+      "url": "https://www.nasdaqtrader.com/dynamic/symdir/otherlisted.txt",
+      "sha256": "0bf4e933114548681a5106e98bf6aea4f90aa95bb4cfb360361edaa268c4fac9",
+      "checked_at": "2026-11-14T13:15:21.299441+00:00"
+    }
+  },
+  "sec_indexes": [
+    {
+      "date": "2026-11-13",
+      "status": "FAILED",
+      "error": "invalid index header",
+      "url": "https://www.sec.gov/Archives/edgar/daily-index/2026/QTR4/master.20261113.idx"
+    },
+    {
+      "date": "2026-11-12",
+      "status": "FAILED",
+      "error": "invalid index header",
+      "url": "https://www.sec.gov/Archives/edgar/daily-index/2026/QTR4/master.20261112.idx"
+    },
+    {
+      "date": "2026-11-11",
+      "status": "FAILED",
+      "error": "HTTP Error 403: Forbidden",
+      "url": "https://www.sec.gov/Archives/edgar/daily-index/2026/QTR4/master.20261111.idx"
+    },
+    {
+      "date": "2026-11-10",
+      "status": "FAILED",
+      "error": "invalid index header",
+      "url": "https://www.sec.gov/Archives/edgar/daily-index/2026/QTR4/master.20261110.idx"
+    }
+  ],
+  "sec_index_records": 0,
+  "new_sec_filing_records": 0,
+  "full_market_hourly_coverage": "BLOCKED: no bulk price, news, and ETF holdings feeds",
+  "scope_note": "Listing census, not individual issuer forensic review; SEC index not realtime",
+  "status": "PARTIAL: SEC index not available",
+  "db_sha256": "5152882892f4439879be1db84c63292da1a0693416f4ab69efe8b4697b4a9e3e"
+}
