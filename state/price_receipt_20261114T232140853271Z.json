@@ -1,0 +1,15 @@
+{
+  "run_id": "20261114T232140853271Z",
+  "checked_at": "2026-11-14T23:21:40.853261+00:00",
+  "provider": "Massive/Polygon grouped daily aggregates",
+  "census_requested": 13248,
+  "endpoint": "https://api.massive.com/v2/aggs/grouped/locale/us/market/stocks/{date}",
+  "scope": "US equities and ETFs where provider has a daily bar; NOT intraday hourly quotes",
+  "status": "PRICE_FEED_BLOCKED",
+  "reason": "MASSIVE_API_KEY secret missing",
+  "provider_returned": 0,
+  "matched": 0,
+  "missing": 13248,
+  "sqlite_integrity": "ok",
+  "db_sha256": "2f4cdb02010a7134d00760656e3d6626f4c6f773746669cb1bd7c0bb490b5338"
+}
