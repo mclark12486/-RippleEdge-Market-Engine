@@ -1,0 +1,52 @@
+name: RippleEdge hourly SEC intake
+on:
+  schedule:
+    - cron: '17 * * * *'
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: rippleedge-state
+  cancel-in-progress: false
+jobs:
+  scan:
+    runs-on: ubuntu-latest
+    timeout-minutes: 55
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Check required contact
+        env:
+          SEC_USER_AGENT: ${{ secrets.SEC_USER_AGENT }}
+        run: |
+          if [ -z "$SEC_USER_AGENT" ]; then echo "::error::SEC_USER_AGENT secret missing"; exit 1; fi
+      - name: Scan SEC submissions
+        env:
+          SEC_USER_AGENT: ${{ secrets.SEC_USER_AGENT }}
+        run: |
+          mkdir -p state
+          python scanner.py --db state/latest.sqlite
+      - name: Save append-only run receipt and durable SQLite snapshot
+        run: |
+          set -e
+          receipt=$(ls -t state/receipt_*.json | head -1)
+          id=$(basename "$receipt" .json | sed 's/^receipt_//')
+          cp state/latest.sqlite "state/snapshot_${id}.sqlite"
+          git config user.name "rippleedge-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add state/latest.sqlite "state/snapshot_${id}.sqlite" "$receipt"
+          git commit -m "RippleEdge SEC intake ${id}" || exit 0
+          git push
+      - name: Upload checkpoint for independent inspection
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: rippleedge-checkpoint-${{ github.run_id }}
+          path: |
+            state/latest.sqlite
+            state/receipt_*.json
+          retention-days: 90
