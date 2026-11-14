@@ -1,0 +1,42 @@
+name: RippleEdge market-wide census and SEC index
+on:
+  schedule:
+    - cron: '41 * * * *'
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: rippleedge-marketwide
+  cancel-in-progress: false
+jobs:
+  marketwide:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Run market-wide census and SEC index
+        env:
+          SEC_USER_AGENT: ${{ secrets.SEC_USER_AGENT }}
+        run: python marketwide.py
+      - name: Persist small database and immutable receipt
+        run: |
+          set -e
+          git config user.name rippleedge-bot
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add state/marketwide.sqlite state/marketwide_initialized state/marketwide_receipt_*.json
+          git commit -m "RippleEdge marketwide census $(date -u +%Y%m%dT%H%M%SZ)"
+          git push
+      - name: Upload evidence artifact
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: rippleedge-marketwide-${{ github.run_id }}
+          path: |
+            state/marketwide.sqlite
+            state/marketwide_receipt_*.json
+          retention-days: 90
