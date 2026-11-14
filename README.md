@@ -19,6 +19,10 @@ An evidence-driven, scheduled market census and SEC filing intake system. **No t
 
 The first market-wide workflow succeeded and recorded 13,248 unique listed symbols: 5,596 Nasdaq-listed and 7,652 other-exchange-listed, including 5,787 ETF-flagged securities. SEC daily index ingestion recorded **zero filings** because its index requests failed or were rejected by the parser. A parser correction was subsequently committed and requires a new execution to verify.
 
+## Optional bulk price and volume integration
+
+The hourly workflow now runs `price_scan.py` after the listing census. It uses Massive (formerly Polygon) grouped **daily** US stock-market aggregates, matched against the latest Nasdaq Trader symbol census. Set the GitHub Actions repository secret `MASSIVE_API_KEY` to a valid API key with entitlement to the grouped daily bars endpoint. Never paste keys into source files or chats. Without this secret, a `PRICE_FEED_BLOCKED` receipt is created and the workflow continues. Even with a key, `state/price_receipt_*.json` must demonstrate actual matched symbol counts and missing symbols; daily grouped bars are **not** intraday or hourly price updates. Verify the subscription covers the requested endpoint before purchasing.
+
 ## Engineering constraints and remaining work
 
 - **SEC filing coverage:** SEC daily indexes are not live event streams. Access can fail or be delayed. The index parser was corrected; success must be confirmed in the next run.
