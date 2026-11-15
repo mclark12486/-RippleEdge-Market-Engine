@@ -5,6 +5,8 @@ on:
     paths:
       - 'omega_historical_import.py'
       - 'test_omega_historical_import.py'
+      - 'omega_sharadar_adapter.py'
+      - 'test_omega_sharadar_adapter.py'
       - '.github/workflows/omega-historical-import-test.yml'
 permissions:
   contents: read
@@ -17,4 +19,4 @@ jobs:
         with:
           python-version: '3.12'
       - name: Test historical ingestion integrity
-        run: python -m unittest -v test_omega_historical_import.py test_omega_data_audit.py test_omega_walkforward.py
+        run: python -m unittest -v test_omega_historical_import.py test_omega_sharadar_adapter.py test_omega_data_audit.py test_omega_walkforward.py
