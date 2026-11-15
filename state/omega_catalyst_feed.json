@@ -1,0 +1,119 @@
+{
+  "catalyst_coverage": {
+    "categories": {
+      "construction_permits": {
+        "other_sources": [
+          "Chicago_permits",
+          "NYC_permits"
+        ],
+        "sec_forms": [],
+        "status": "TWO_MUNICIPAL_FEEDS_ONLY"
+      },
+      "earnings_guidance": {
+        "other_sources": [
+          "issuer_ir"
+        ],
+        "sec_forms": [
+          "8-K",
+          "10-Q",
+          "10-K",
+          "6-K"
+        ],
+        "status": "SEC_FORM_SCREEN_ONLY"
+      },
+      "financing_capital": {
+        "other_sources": [],
+        "sec_forms": [
+          "8-K",
+          "S-3",
+          "424B5",
+          "SC 13G"
+        ],
+        "status": "SEC_FORM_SCREEN_ONLY"
+      },
+      "government_contracts": {
+        "other_sources": [
+          "USAspending",
+          "SAM.gov"
+        ],
+        "sec_forms": [
+          "8-K"
+        ],
+        "status": "PARTIAL_NAME_SEARCH"
+      },
+      "legal_litigation": {
+        "other_sources": [
+          "PACER",
+          "CourtListener",
+          "state_courts"
+        ],
+        "sec_forms": [
+          "8-K",
+          "10-K",
+          "10-Q"
+        ],
+        "status": "NOT_CONNECTED"
+      },
+      "management_hiring_firing": {
+        "other_sources": [
+          "company_careers",
+          "job_boards"
+        ],
+        "sec_forms": [
+          "8-K",
+          "8-K/A",
+          "DEF 14A"
+        ],
+        "status": "SEC_FORM_SCREEN_ONLY"
+      },
+      "mergers_acquisitions": {
+        "other_sources": [
+          "FTC",
+          "DOJ"
+        ],
+        "sec_forms": [
+          "8-K",
+          "8-K/A",
+          "S-4",
+          "DEFM14A",
+          "SC TO-T",
+          "SC 13D"
+        ],
+        "status": "SEC_FORM_SCREEN_ONLY"
+      },
+      "patents_ip": {
+        "other_sources": [
+          "USPTO",
+          "WIPO",
+          "EPO"
+        ],
+        "sec_forms": [
+          "10-K",
+          "8-K"
+        ],
+        "status": "NOT_CONNECTED"
+      },
+      "research_developments": {
+        "other_sources": [
+          "ClinicalTrials.gov",
+          "Europe_PMC",
+          "PubMed"
+        ],
+        "sec_forms": [
+          "8-K",
+          "10-Q"
+        ],
+        "status": "PARTIAL_NAME_SEARCH"
+      }
+    },
+    "checked_at": "2026-11-15T16:57:23.471207+00:00",
+    "marketwide_all_categories_verified": false,
+    "note": "No connector provides complete real-time coverage of every company or every event."
+  },
+  "checked_at": "2026-11-15T16:57:23.471177+00:00",
+  "error": "TimeoutError:The read operation timed out",
+  "previous_successful_checkpoint": null,
+  "seen_ids": [],
+  "status": "SOURCE_FAILED",
+  "trade_eligible": false
+}
