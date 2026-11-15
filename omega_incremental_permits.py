@@ -36,7 +36,7 @@ def mentions(record,index):
      "status":"UNVERIFIED_NAME_MENTION","ownership_verified":False,
      "subsidiary_relationship_verified":False,"trade_eligible":False})
  return hits
-def ingest(prior,index,jurisdictions=None,fetch=fetch_json,limit=25,seen_limit=30000,overlap=10,reconcile_every=48):
+def ingest(prior,index,jurisdictions=None,fetch=fetch_json,limit=25,seen_limit=30000,overlap=0,reconcile_every=48):
  if not 1<=limit<=100 or not 0<=overlap<limit or reconcile_every<1:raise ValueError("invalid scan parameters")
  selected=jurisdictions or list(JURISDICTIONS)
  now=dt.datetime.now(dt.timezone.utc).isoformat()
@@ -98,9 +98,11 @@ def main():
  a.add_argument("--directory",default="state/omega_sec_company_directory.csv")
  a.add_argument("--state",default="state/omega_incremental_permits.json")
  a.add_argument("--limit",type=int,default=25)
+ a.add_argument("--overlap",type=int,default=10)
+ a.add_argument("--reconcile-every",type=int,default=48)
  args=a.parse_args()
  path=Path(args.state);prior=json.loads(path.read_text()) if path.exists() else None
- result=ingest(prior,directory(args.directory),limit=args.limit)
+ result=ingest(prior,directory(args.directory),limit=args.limit,overlap=args.overlap,reconcile_every=args.reconcile_every)
  path.parent.mkdir(parents=True,exist_ok=True)
  path.write_text(json.dumps(result,indent=2,sort_keys=True)+"\n")
  print(json.dumps({k:v for k,v in result.items() if k not in ("sources","results")},indent=2))
