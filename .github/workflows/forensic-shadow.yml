@@ -1,0 +1,44 @@
+name: RippleEdge forensic shadow intake
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '17 * * * *'
+permissions:
+  contents: write
+concurrency:
+  group: rippleedge-forensic-shadow
+  cancel-in-progress: false
+jobs:
+  forensic:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Validate upstream census and run bounded primary-source research
+        env:
+          SEC_USER_AGENT: ${{ secrets.SEC_USER_AGENT }}
+          FORENSIC_BATCH_SIZE: '8'
+        run: python forensic_shadow.py
+      - name: Persist shadow state and immutable receipts
+        run: |
+          set -e
+          git config user.name rippleedge-bot
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add state/forensic_shadow.sqlite state/forensic_shadow_receipt_*.json
+          git commit -m "RippleEdge shadow forensic intake $(date -u +%Y%m%dT%H%M%SZ)"
+          git pull --rebase
+          git push
+      - name: Upload shadow research receipts
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: rippleedge-forensic-shadow-${{ github.run_id }}
+          path: |
+            state/forensic_shadow.sqlite
+            state/forensic_shadow_receipt_*.json
+          retention-days: 90
