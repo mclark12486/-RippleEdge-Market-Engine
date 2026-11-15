@@ -8,6 +8,7 @@ on:
       - 'marketwide.py'
       - 'price_scan.py'
       - 'breadth_scan.py'
+      - 'history_backfill.py'
       - '.github/workflows/marketwide.yml'
 permissions:
   contents: write
@@ -33,6 +34,10 @@ jobs:
         env:
           MASSIVE_API_KEY: ${{ secrets.MASSIVE_API_KEY }}
         run: python price_scan.py
+      - name: Incrementally backfill bulk market history
+        env:
+          MASSIVE_API_KEY: ${{ secrets.MASSIVE_API_KEY }}
+        run: python history_backfill.py
       - name: Screen all available market-wide daily bars
         run: python breadth_scan.py
       - name: Persist small database and immutable receipt
@@ -40,7 +45,7 @@ jobs:
           set -e
           git config user.name rippleedge-bot
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add state/marketwide.sqlite state/marketwide_initialized state/marketwide_receipt_*.json state/price_receipt_*.json state/breadth_receipt_*.json
+          git add state/marketwide.sqlite state/marketwide_initialized state/marketwide_receipt_*.json state/price_receipt_*.json state/breadth_receipt_*.json state/history_receipt_*.json
           git commit -m "RippleEdge marketwide census $(date -u +%Y%m%dT%H%M%SZ)"
           git pull --rebase
           git push
@@ -54,4 +59,5 @@ jobs:
             state/marketwide_receipt_*.json
             state/price_receipt_*.json
             state/breadth_receipt_*.json
+            state/history_receipt_*.json
           retention-days: 90
