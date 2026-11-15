@@ -93,3 +93,13 @@ def score_frozen_forecast(forecast, observations):
   net=gross-cost/10000
   return {"status":"SCORED","horizon_date":point["date"],"gross_return":gross,"net_return":net,"benchmark_return":benchmark_return,"excess_return":net-benchmark_return,"exit_price":exit_price,"price_source":point["price_source"],"benchmark_source":point["benchmark_source"],"warning":"Requires independent verification of actual tradability, entry fill, corporate actions and borrow costs"}
  except (ValueError,TypeError,OverflowError) as exc:return {"status":"UNSCORABLE","reason":str(exc)}
+
+def verify_catalyst_evidence(event):
+ """A filing index hit is not proof of a material catalyst."""
+ required=("primary_document_url","document_retrieved_at","document_sha256","source_date","issuer","event_description","quoted_evidence")
+ missing=[k for k in required if not event.get(k)]
+ if event.get("source_class")!="primary_fulltext":missing.append("primary_fulltext")
+ if not event.get("economic_impact_quantified"):missing.append("economic_impact_quantified")
+ if not event.get("future_effective_date"):missing.append("future_effective_date")
+ if event.get("contradiction"):return {"status":"CONTRADICTED","missing":sorted(set(missing)),"verified_positive_catalyst":False}
+ return {"status":"DOCUMENTED_REVIEW_REQUIRED" if not missing else "DISCOVERY_ONLY","missing":sorted(set(missing)),"verified_positive_catalyst":False}
