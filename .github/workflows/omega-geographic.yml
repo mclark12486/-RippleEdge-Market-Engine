@@ -1,0 +1,38 @@
+name: Omega geographic permit intelligence
+on:
+  workflow_dispatch:
+    inputs:
+      company:
+        description: Company or subsidiary search phrase
+        required: false
+        default: Eli Lilly
+  schedule:
+    - cron: '23 */3 * * *'
+  push:
+    paths:
+      - 'omega_geographic_records.py'
+      - 'omega_entity_resolution.py'
+      - 'test_omega_geographic_records.py'
+      - '.github/workflows/omega-geographic.yml'
+permissions:
+  contents: read
+jobs:
+  scan:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python -m unittest -v test_omega_geographic_records.py
+      - name: Search public municipal permit datasets
+        env:
+          COMPANY_QUERY: ${{ inputs.company || 'Eli Lilly' }}
+        run: python omega_geographic_records.py --query "$COMPANY_QUERY"
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: omega-geographic-${{ github.run_id }}
+          path: state/omega_geographic_latest.json
+          retention-days: 30
