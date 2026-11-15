@@ -9,9 +9,9 @@ on:
       - 'price_scan.py'
       - 'breadth_scan.py'
       - 'forecast_loop.py'
+      - 'performance_report.py'
       - 'forecast_ledger.py'
       - 'test_forecast_loop.py'
-      - 'performance_report.py'
       - 'history_backfill.py'
       - '.github/workflows/marketwide.yml'
 permissions:
@@ -67,7 +67,7 @@ jobs:
             generated_commit=$(git rev-parse HEAD)
             git reset --hard origin/main
             git restore --source="$generated_commit" --staged --worktree -- state/marketwide.sqlite state/marketwide_initialized
-            git diff-tree --no-commit-id --name-only -r "$generated_commit" | grep -E '^state/(marketwide_receipt_|price_receipt_|breadth_receipt_|history_receipt_|forecast_receipt_|performance_receipt_).*\\.json
+            git diff-tree --no-commit-id --name-only -r "$generated_commit" | grep -E '^state/(marketwide_receipt_|price_receipt_|breadth_receipt_|history_receipt_|forecast_receipt_|performance_receipt_).*\.json$' > /tmp/rippleedge-generated-paths || true
             while IFS= read -r generated_path; do
               [ -z "$generated_path" ] || git restore --source="$generated_commit" --staged --worktree -- "$generated_path"
             done < /tmp/rippleedge-generated-paths
@@ -87,24 +87,4 @@ jobs:
             state/history_receipt_*.json
             state/forecast_receipt_*.json
             state/performance_receipt_*.json
-          retention-days: 90
- > /tmp/rippleedge-generated-paths || true
-            while IFS= read -r generated_path; do
-              [ -z "$generated_path" ] || git restore --source="$generated_commit" --staged --worktree -- "$generated_path"
-            done < /tmp/rippleedge-generated-paths
-            git commit -m "RippleEdge marketwide census (state-only)"
-          fi
-          git push origin HEAD:main
-      - name: Upload evidence artifact
-        if: always()
-        uses: actions/upload-artifact@v4
-        with:
-          name: rippleedge-marketwide-${{ github.run_id }}
-          path: |
-            state/marketwide.sqlite
-            state/marketwide_receipt_*.json
-            state/price_receipt_*.json
-            state/breadth_receipt_*.json
-            state/history_receipt_*.json
-            state/forecast_receipt_*.json
           retention-days: 90
