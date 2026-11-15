@@ -18,7 +18,7 @@ concurrency:
 jobs:
   forensic:
     runs-on: ubuntu-latest
-    timeout-minutes: 15
+    timeout-minutes: 45
     steps:
       - uses: actions/checkout@v4
         with:
@@ -36,7 +36,7 @@ jobs:
       - name: Analyze multi-year SEC cash flow (shadow only)
         env:
           SEC_USER_AGENT: ${{ secrets.SEC_USER_AGENT }}
-          ANALYSIS_BATCH_SIZE: '4'
+          ANALYSIS_BATCH_SIZE: '150'
         run: python analyze_shadow.py
       - name: Persist shadow state and immutable receipts
         run: |
