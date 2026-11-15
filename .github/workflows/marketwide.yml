@@ -15,6 +15,8 @@ on:
       - 'test_omega_replay.py'
       - 'omega_portfolio.py'
       - 'test_omega_portfolio.py'
+      - 'omega_walkforward.py'
+      - 'test_omega_walkforward.py'
       - 'test_risk_metrics.py'
       - 'forecast_ledger.py'
       - 'test_forecast_loop.py'
@@ -56,7 +58,7 @@ jobs:
       - name: Screen all available market-wide daily bars
         run: python breadth_scan.py
       - name: Verify prospective forecast loop tests
-        run: python -m unittest -v test_research_models.py test_forecast_ledger.py test_forecast_loop.py test_risk_metrics.py test_omega_replay.py test_omega_portfolio.py
+        run: python -m unittest -v test_research_models.py test_forecast_ledger.py test_forecast_loop.py test_risk_metrics.py test_omega_replay.py test_omega_portfolio.py test_omega_walkforward.py
       - name: Freeze and score prospective shadow forecasts
         run: python forecast_loop.py
       - name: Publish prospective performance cohort audit
