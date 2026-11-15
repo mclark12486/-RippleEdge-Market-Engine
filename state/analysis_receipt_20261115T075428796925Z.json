@@ -1,0 +1,19 @@
+{
+  "run_id": "20261115T075428796925Z",
+  "parent_run_id": "20261115T011724642791Z",
+  "attempted": 150,
+  "verified": 149,
+  "errors": [
+    {
+      "symbol": "ACV",
+      "error": "HTTP Error 404: Not Found"
+    }
+  ],
+  "analysis_rows_before": 16,
+  "analysis_rows_after": 165,
+  "completed_equity_valuations": 0,
+  "verified_positive_catalysts": 0,
+  "status": "PARTIAL_ANALYSIS",
+  "sqlite_integrity": "ok",
+  "db_sha256": "9dd0b2b97571dcb9fbcefb5e1d6f4f86cebdb11c7a189813ac26a1ae0ff9b2c6"
+}
