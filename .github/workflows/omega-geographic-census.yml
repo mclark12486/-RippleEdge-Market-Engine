@@ -30,17 +30,26 @@ jobs:
           if [ ! -s state/omega_sec_company_directory.csv ] || [ "$(python -c 'import json,pathlib; p=pathlib.Path("state/omega_sec_company_directory_receipt.json"); print(json.loads(p.read_text()).get("retrieved_at", "")[:10] if p.exists() else "")')" != "$(date -u +%F)" ]; then
             python omega_market_directory.py
           fi
-      - run: python omega_geographic_census.py --batch-size 4
+      - name: Synchronize current research cursor
+        run: |
+          git fetch origin main
+          git reset --hard origin/main
+          python omega_geographic_census.py --batch-size 4
       - name: Persist geographic coverage and research receipts
         run: |
           git config user.name "omega-geographic-bot"
           git config user.email "omega-geographic-bot@users.noreply.github.com"
-          git add state/omega_geographic_census.json state/omega_sec_company_directory.csv state/omega_sec_company_directory_receipt.json
-          if ! git diff --cached --quiet; then
+          for attempt in 1 2 3; do
+            git add state/omega_geographic_census.json state/omega_sec_company_directory.csv state/omega_sec_company_directory_receipt.json
+            if git diff --cached --quiet; then exit 0; fi
             git commit -m "Omega geographic census receipt [skip ci]"
-            git pull --rebase origin main
-            git push origin HEAD:main
-          fi
+            if git push origin HEAD:main; then exit 0; fi
+            git fetch origin main
+            git reset --hard origin/main
+            python omega_geographic_census.py --batch-size 4
+          done
+          echo "Failed to persist geographic census after three conflict retries"
+          exit 1
       - uses: actions/upload-artifact@v4
         if: always()
         with:
