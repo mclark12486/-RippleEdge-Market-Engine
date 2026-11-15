@@ -1,5 +1,5 @@
 import unittest
-from research_models import reconcile_balance,cash_flow,dcf_scenarios,catalyst_score,fund_gate,forecast_eligibility,valuation_evidence_gate,period_consistency
+from research_models import reconcile_balance,cash_flow,dcf_scenarios,catalyst_score,fund_gate,forecast_eligibility,valuation_evidence_gate,period_consistency,score_frozen_forecast
 class ResearchModelsTests(unittest.TestCase):
  def test_balance(self):
   self.assertEqual(reconcile_balance(100,60,40)["status"],"PASS")
@@ -28,6 +28,14 @@ class ResearchModelsTests(unittest.TestCase):
   a={"fiscal_year":2025,"period_end":"2025-12-31","filed":"2026-02-01","value":100}
   b=dict(a,value=105,filed="2026-04-01")
   self.assertEqual(period_consistency([a,b])["status"],"REVIEW_REQUIRED")
+ def test_prospective_scoring(self):
+  f={"frozen_at":"2026-11-10T15:00:00Z","evidence_cutoff":"2026-11-10T14:00:00Z","direction":"LONG","entry_price":100,"horizon_sessions":2,"benchmark":"SPY","cost_bps":10}
+  bars=[{"date":"2026-11-11","close":102,"benchmark_return":.01,"price_source":"exchange","benchmark_source":"exchange"},{"date":"2026-11-12","close":110,"benchmark_return":.03,"price_source":"exchange","benchmark_source":"exchange"}]
+  self.assertEqual(score_frozen_forecast(f,bars[:1])["status"],"PENDING_HORIZON")
+  x=score_frozen_forecast(f,bars)
+  self.assertEqual(x["status"],"SCORED")
+  self.assertAlmostEqual(x["net_return"],.099)
+  self.assertEqual(score_frozen_forecast(f,[dict(bars[0]),dict(bars[1],price_source="")])["status"],"UNSCORABLE")
  def test_forecast(self):
   self.assertEqual(forecast_eligibility({})["status"],"RESEARCH_ONLY")
 if __name__=="__main__":unittest.main()
