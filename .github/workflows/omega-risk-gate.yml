@@ -1,0 +1,19 @@
+name: Omega risk gate verification
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - 'omega_risk_gate.py'
+      - 'test_omega_risk_gate.py'
+      - '.github/workflows/omega-risk-gate.yml'
+permissions:
+  contents: read
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python -m unittest -v test_omega_risk_gate.py
