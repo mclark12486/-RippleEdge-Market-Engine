@@ -1,0 +1,28 @@
+{
+  "benchmark_sessions": {
+    "SPY": 0,
+    "VOO": 0
+  },
+  "corporate_actions_verified": false,
+  "delisting_returns_verified": false,
+  "historical_sessions": 0,
+  "limitations": [
+    "Full 2015-2025 daily history not present",
+    "security_universe_verified missing independently verified evidence",
+    "point_in_time_fundamentals_verified missing independently verified evidence",
+    "corporate_actions_verified missing independently verified evidence",
+    "delisting_returns_verified missing independently verified evidence",
+    "price_total_returns_verified missing independently verified evidence",
+    "Exchange-calendar completeness and source authenticity require independent validation"
+  ],
+  "missing_benchmark_sessions": 0,
+  "period": [
+    "2015-01-01",
+    "2025-12-31"
+  ],
+  "point_in_time_fundamentals_verified": false,
+  "price_total_returns_verified": false,
+  "security_universe_verified": false,
+  "status": "BLOCKED_UNVERIFIED_DATA",
+  "strategy_results": null
+}

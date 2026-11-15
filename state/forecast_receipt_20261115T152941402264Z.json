@@ -1,0 +1,14 @@
+{
+  "blocked": 0,
+  "checked_at": "2026-11-15T15:29:41.402264Z",
+  "latest_price_run": "2026-11-13",
+  "new_forecasts": 0,
+  "outcomes_scored": 0,
+  "pending": 4,
+  "sqlite_integrity": "ok",
+  "status": "SHADOW_ACTIVE",
+  "summary": {
+    "scored": 0,
+    "status": "NO_VERIFIED_OUTCOMES"
+  }
+}
