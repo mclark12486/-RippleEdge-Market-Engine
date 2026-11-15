@@ -20,7 +20,18 @@ def main():
  census={r[0] for r in db.execute("SELECT symbol FROM securities WHERE last_seen=(SELECT MAX(last_seen) FROM securities)")}
  if not census:raise SystemExit("CENSUS_BLOCKED")
  session=db.execute("SELECT MAX(session) FROM daily_bars WHERE provider='Massive/Polygon'").fetchone()[0]
- if not session:raise SystemExit("BULK_PRICE_BLOCKED: no grouped daily bars")
+ if not session:
+  receipt={"run_id":rid,"checked_at":observed,"session":None,"census":len(census),
+   "bulk_bar_matched":0,"missing":len(census),"coverage_pct":0,"signal_count":0,
+   "status":"BULK_PRICE_BLOCKED","reason":"No licensed daily bars; no signals generated"}
+  db.execute("INSERT INTO breadth_runs VALUES(?,?,?,?,?,?,?,?)",(rid,observed,None,len(census),0,len(census),0,json.dumps(receipt,sort_keys=True)))
+  db.commit()
+  receipt["sqlite_integrity"]=db.execute("PRAGMA integrity_check").fetchone()[0]
+  db.close()
+  receipt["db_sha256"]=hashlib.sha256(path.read_bytes()).hexdigest()
+  (root/("breadth_receipt_"+rid+".json")).write_text(json.dumps(receipt,indent=2))
+  print(json.dumps(receipt,indent=2))
+  return
  rows=db.execute("""SELECT symbol,close,volume,high,low FROM daily_bars WHERE session=? AND provider='Massive/Polygon'""",(session,)).fetchall()
  matched=set();signals=0
  for symbol,close,volume,high,low in rows:
