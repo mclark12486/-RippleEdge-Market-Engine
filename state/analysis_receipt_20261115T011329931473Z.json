@@ -1,0 +1,14 @@
+{
+  "run_id": "20261115T011329931473Z",
+  "parent_run_id": "20261115T011059278528Z",
+  "attempted": 4,
+  "verified": 4,
+  "errors": [],
+  "analysis_rows_before": 4,
+  "analysis_rows_after": 8,
+  "completed_equity_valuations": 0,
+  "verified_positive_catalysts": 0,
+  "status": "PARTIAL_ANALYSIS",
+  "sqlite_integrity": "ok",
+  "db_sha256": "74b03574b849cc7c8f5043da6dd2a0a285732ed62de7b4f0d73234dd0cec9201"
+}
