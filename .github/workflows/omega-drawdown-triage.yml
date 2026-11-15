@@ -1,0 +1,19 @@
+name: Omega portfolio drawdown triage verification
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - 'omega_drawdown_triage.py'
+      - 'test_omega_drawdown_triage.py'
+      - '.github/workflows/omega-drawdown-triage.yml'
+permissions:
+  contents: read
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python -m unittest -v test_omega_drawdown_triage.py test_omega_risk_gate.py
