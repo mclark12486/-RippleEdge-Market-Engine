@@ -6,6 +6,8 @@ on:
       - 'analyze_shadow.py'
       - 'research_models.py'
       - 'test_research_models.py'
+      - 'forecast_ledger.py'
+      - 'test_forecast_ledger.py'
       - 'forensic_shadow.py'
       - '.github/workflows/forensic-shadow.yml'
   schedule:
@@ -27,7 +29,7 @@ jobs:
         with:
           python-version: '3.12'
       - name: Test shadow analytical primitives
-        run: python -m unittest -v test_research_models.py
+        run: python -m unittest -v test_research_models.py test_forecast_ledger.py
       - name: Validate upstream census and run bounded primary-source research
         env:
           SEC_USER_AGENT: ${{ secrets.SEC_USER_AGENT }}
