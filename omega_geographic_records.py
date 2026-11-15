@@ -4,7 +4,7 @@ Socrata catalog-backed adapters. Data availability, licensing and update
 frequency vary by jurisdiction. A permit search hit is NOT a verified
 relationship to any stock, parent company or subsidiary.
 """
-import datetime as dt,hashlib,json,urllib.parse,urllib.request
+import datetime as dt,hashlib,json,urllib.parse,urllib.request,urllib.error,os,time,random
 from pathlib import Path
 JURISDICTIONS={
  "chicago_building_permits":{"city":"Chicago","state":"IL","type":"building_permits",
@@ -25,7 +25,18 @@ def socrata_url(config,query,limit=20):
  return "https://"+config["host"]+"/resource/"+config["dataset"]+".json?"+params
 def fetch_json(url):
  req=urllib.request.Request(url,headers={"User-Agent":"RippleEdgeOmega/0.1 public research","Accept":"application/json"})
- with urllib.request.urlopen(req,timeout=20) as resp:return json.load(resp)
+ timeout=float(os.environ.get("OMEGA_GEO_HTTP_TIMEOUT","7"))
+ attempts=int(os.environ.get("OMEGA_GEO_HTTP_ATTEMPTS","2"))
+ if not 1<=attempts<=3:raise ValueError("invalid retry count")
+ last=None
+ for i in range(attempts):
+  try:
+   with urllib.request.urlopen(req,timeout=timeout) as resp:return json.load(resp)
+  except (TimeoutError,urllib.error.URLError,urllib.error.HTTPError) as e:
+   last=e
+   if isinstance(e,urllib.error.HTTPError) and e.code not in (429,500,502,503,504):raise
+   if i+1<attempts:time.sleep(min(1.5,0.4*(i+1)+random.random()*0.2))
+ raise last
 def scan(query,jurisdictions=None,fetch=fetch_json):
  selected=jurisdictions or list(JURISDICTIONS)
  report={"query":query,"checked_at":dt.datetime.now(dt.timezone.utc).isoformat(),
