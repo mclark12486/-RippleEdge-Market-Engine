@@ -25,6 +25,24 @@ class IncrementalTests(unittest.TestCase):
   self.assertEqual(b["sources"]["chicago_building_permits"]["offset"],0)
   c=ingest(b,INDEX,["chicago_building_permits"],fetch=fetch,limit=2)
   self.assertEqual(c["new_records_this_run"],0)
+ def test_overlap_detects_modified_record(self):
+  pages=[
+   [{"id":"one","owner":"Acme Industrial"},{"id":"two","owner":"Other"}],
+   [{"id":"two","owner":"Acme Industrial revised"}]]
+  def fetch(url):return pages[0] if "%24offset=0" in url else pages[1]
+  a=ingest(None,INDEX,["chicago_building_permits"],fetch=fetch,limit=2,overlap=1)
+  b=ingest(a,INDEX,["chicago_building_permits"],fetch=fetch,limit=2,overlap=1)
+  self.assertEqual(b["modified_records_this_run"],1)
+  self.assertEqual(b["new_records_this_run"],0)
+ def test_reconciliation_resets_offset(self):
+  calls=[]
+  def fetch(url):
+   calls.append(url)
+   return [{"id":"one"},{"id":"two"}]
+  a=ingest(None,INDEX,["chicago_building_permits"],fetch=fetch,limit=2,reconcile_every=1)
+  b=ingest(a,INDEX,["chicago_building_permits"],fetch=fetch,limit=2,reconcile_every=1)
+  self.assertIn("%24offset=0",calls[-1])
+  self.assertEqual(b["reconciliations_started_this_run"],1)
  def test_failure_keeps_cursor(self):
   a=ingest(None,INDEX,["chicago_building_permits"],fetch=lambda url:(_ for _ in ()).throw(TimeoutError()),limit=2)
   self.assertEqual(a["source_failures"],1)
