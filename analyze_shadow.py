@@ -81,7 +81,7 @@ def main():
  if after<before:raise SystemExit("CONTINUITY_BLOCKED: analysis evidence regressed")
  db.execute("INSERT INTO analysis_runs VALUES(?,?,?,?,?,?,?)",(rid,parent[0] if parent else None,started,now(),attempted,verified,json.dumps(errors)))
  db.commit();integrity=db.execute("PRAGMA integrity_check").fetchone()[0];db.close()
- receipt={"run_id":rid,"parent_run_id":parent[0] if parent else None,"attempted":attempted,"research_rows_appended":verified,"primary_xbrl_retrieved":primary_verified,"funds_deferred_no_primary":deferred_funds,"failed":len(errors),"errors":errors,"analysis_rows_before":before,"analysis_rows_after":after,"completed_equity_valuations":0,"verified_positive_catalysts":0,"coverage_denominator":db_count,"primary_xbrl_coverage_pct":round(100*primary_verified/max(1,db_count),4),"status":"PARTIAL_ANALYSIS","sqlite_integrity":integrity,"db_sha256":hashlib.sha256(path.read_bytes()).hexdigest()}
+ receipt={"run_id":rid,"parent_run_id":parent[0] if parent else None,"attempted":attempted,"research_rows_appended":verified,"primary_xbrl_retrieved":primary_verified,"funds_deferred_no_primary":deferred_funds,"failed":len(errors),"errors":errors,"analysis_rows_before":before,"analysis_rows_after":after,"completed_equity_valuations":0,"verified_positive_catalysts":0,"coverage_denominator":db_count,"run_primary_xbrl_fraction_of_universe_pct":round(100*primary_verified/max(1,db_count),4),"status":"PARTIAL_ANALYSIS","sqlite_integrity":integrity,"db_sha256":hashlib.sha256(path.read_bytes()).hexdigest()}
  (root/("analysis_receipt_"+rid+".json")).write_text(json.dumps(receipt,indent=2))
  print(json.dumps(receipt,indent=2))
 if __name__=="__main__":main()
