@@ -25,6 +25,8 @@ def main():
  except Exception as e:
   r={"checked_at":dt.datetime.now(dt.timezone.utc).isoformat(),
     "status":"SOURCE_FAILED","error":type(e).__name__+":"+str(e)[:160],
+    "seen_ids":(prior or {}).get("seen_ids",[]),
+    "previous_successful_checkpoint":(prior or {}).get("checked_at"),
     "catalyst_coverage":coverage(),"trade_eligible":False}
  path.parent.mkdir(parents=True,exist_ok=True)
  path.write_text(json.dumps(r,indent=2,sort_keys=True)+"\n")
