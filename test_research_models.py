@@ -1,4 +1,5 @@
 import unittest
+import sqlite3
 from research_models import reconcile_balance,cash_flow,dcf_scenarios,catalyst_score,fund_gate,forecast_eligibility,valuation_evidence_gate,period_consistency,score_frozen_forecast,verify_catalyst_evidence
 class ResearchModelsTests(unittest.TestCase):
  def test_balance(self):
@@ -41,6 +42,12 @@ class ResearchModelsTests(unittest.TestCase):
   e={"source_class":"primary_fulltext","primary_document_url":"https://sec.gov/example","document_retrieved_at":"2026-11-10","document_sha256":"abc","source_date":"2026-11-09","issuer":"Example","event_description":"Contract","quoted_evidence":"Signed","economic_impact_quantified":True,"future_effective_date":"2027-01-01"}
   self.assertEqual(verify_catalyst_evidence(e)["status"],"DOCUMENTED_REVIEW_REQUIRED")
   self.assertEqual(verify_catalyst_evidence(dict(e,contradiction=True))["status"],"CONTRADICTED")
+ def test_append_only_refresh_queue_order(self):
+  db=sqlite3.connect(":memory:")
+  db.executescript("CREATE TABLE queue(symbol TEXT,etf TEXT); CREATE TABLE analysis_evidence(id INTEGER PRIMARY KEY,symbol TEXT,observed_at TEXT,classification TEXT); INSERT INTO queue VALUES('NEW','N'),('STALE','N'),('RECENT','N'); INSERT INTO analysis_evidence(symbol,observed_at,classification) VALUES('STALE','2025-01-01','INSUFFICIENT_EVIDENCE'),('RECENT','2026-11-15','INSUFFICIENT_EVIDENCE');")
+  rows=db.execute("""SELECT q.symbol,MAX(a.observed_at) FROM queue q LEFT JOIN analysis_evidence a ON a.symbol=q.symbol GROUP BY q.symbol ORDER BY CASE WHEN MAX(a.observed_at) IS NULL THEN 0 ELSE 1 END,MAX(a.observed_at),q.symbol""").fetchall()
+  self.assertEqual([r[0] for r in rows if r[1] is None or r[1]<'2026-10-15'],['NEW','STALE'])
+  self.assertEqual(db.execute("SELECT COUNT(*) FROM analysis_evidence").fetchone()[0],2)
  def test_forecast(self):
   self.assertEqual(forecast_eligibility({})["status"],"RESEARCH_ONLY")
 if __name__=="__main__":unittest.main()
