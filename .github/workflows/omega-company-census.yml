@@ -1,0 +1,44 @@
+name: Omega rotating company intelligence census
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '7,37 * * * *'
+  push:
+    paths:
+      - 'omega_company_census.py'
+      - 'omega_evidence_graph.py'
+      - 'omega_company_universe.csv'
+      - 'test_omega_company_census.py'
+      - '.github/workflows/omega-company-census.yml'
+permissions:
+  contents: write
+concurrency:
+  group: omega-company-census
+  cancel-in-progress: false
+jobs:
+  scan:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python -m unittest -v test_omega_company_census.py test_omega_multisource_discovery.py
+      - run: python omega_company_census.py --batch-size 3
+      - name: Persist isolated research cursor and evidence receipts
+        run: |
+          git config user.name "omega-research-bot"
+          git config user.email "omega-research-bot@users.noreply.github.com"
+          git add state/omega_company_census.json
+          if ! git diff --cached --quiet; then
+            git commit -m "Omega research census receipt [skip ci]"
+            git pull --rebase origin main
+            git push origin HEAD:main
+          fi
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: omega-company-census-${{ github.run_id }}
+          path: state/omega_company_census.json
+          retention-days: 30
