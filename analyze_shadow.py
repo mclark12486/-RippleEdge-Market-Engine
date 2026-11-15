@@ -50,13 +50,14 @@ def main():
  WHERE NOT EXISTS(SELECT 1 FROM analysis_evidence a WHERE a.symbol=q.symbol)
  ORDER BY q.symbol""").fetchall()
  rows=[(symbol,etf,ciks.get(symbol)) for symbol,etf in rows if symbol in ciks or etf=="Y"][:limit]
- attempted=verified=0;errors=[]
+ attempted=verified=primary_verified=deferred_funds=0;errors=[]
  for symbol,etf,cik in rows:
   attempted+=1
   url=f"https://data.sec.gov/api/xbrl/companyfacts/CIK{cik}.json" if cik else ""
   observed=now()
   try:
    if etf=="Y":
+    deferred_funds+=1
     result={"asset_type":"FUND","classification":"INSUFFICIENT_EVIDENCE","missing":["official dated holdings","NAV and premium/discount","expense ratio","flows","tracking error","look-through valuations"],"source_class":"UNVERIFIED"}
    elif not cik:
     result={"classification":"INSUFFICIENT_EVIDENCE","missing":["verified SEC CIK mapping"],"source_class":"UNVERIFIED"}
@@ -71,14 +72,16 @@ def main():
    db.execute("INSERT INTO analysis_evidence(symbol,run_id,observed_at,source_url,payload_json,classification) VALUES(?,?,?,?,?,?)",(symbol,rid,observed,url,json.dumps(result,sort_keys=True),"INSUFFICIENT_EVIDENCE"))
    db.execute("INSERT INTO evidence_followups(symbol,run_id,created_at,missing_evidence,next_source,state) VALUES(?,?,?,?,?,?)",(symbol,rid,now(),json.dumps(result.get("missing",["Issuer-specific debt, diluted shares, maintenance capex, full filings and catalyst verification"])),"SEC full-text filings / issuer IR / fund sponsor disclosures","OPEN"))
    verified+=1
+   if result.get("source_class")=="SEC_PRIMARY_XBRL":primary_verified+=1
   except Exception as exc:errors.append({"symbol":symbol,"error":str(exc)[:150]})
   db.commit()
   time.sleep(.22)  # Bound request rate below SEC fair-access ceiling.
+ db_count=db.execute("SELECT COUNT(*) FROM queue").fetchone()[0]
  after=db.execute("SELECT COUNT(*) FROM analysis_evidence").fetchone()[0]
  if after<before:raise SystemExit("CONTINUITY_BLOCKED: analysis evidence regressed")
  db.execute("INSERT INTO analysis_runs VALUES(?,?,?,?,?,?,?)",(rid,parent[0] if parent else None,started,now(),attempted,verified,json.dumps(errors)))
  db.commit();integrity=db.execute("PRAGMA integrity_check").fetchone()[0];db.close()
- receipt={"run_id":rid,"parent_run_id":parent[0] if parent else None,"attempted":attempted,"verified":verified,"errors":errors,"analysis_rows_before":before,"analysis_rows_after":after,"completed_equity_valuations":0,"verified_positive_catalysts":0,"status":"PARTIAL_ANALYSIS","sqlite_integrity":integrity,"db_sha256":hashlib.sha256(path.read_bytes()).hexdigest()}
+ receipt={"run_id":rid,"parent_run_id":parent[0] if parent else None,"attempted":attempted,"research_rows_appended":verified,"primary_xbrl_retrieved":primary_verified,"funds_deferred_no_primary":deferred_funds,"failed":len(errors),"errors":errors,"analysis_rows_before":before,"analysis_rows_after":after,"completed_equity_valuations":0,"verified_positive_catalysts":0,"coverage_denominator":db_count,"primary_xbrl_coverage_pct":round(100*primary_verified/max(1,db_count),4),"status":"PARTIAL_ANALYSIS","sqlite_integrity":integrity,"db_sha256":hashlib.sha256(path.read_bytes()).hexdigest()}
  (root/("analysis_receipt_"+rid+".json")).write_text(json.dumps(receipt,indent=2))
  print(json.dumps(receipt,indent=2))
 if __name__=="__main__":main()
