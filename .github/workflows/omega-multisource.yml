@@ -1,0 +1,37 @@
+name: Omega multi-source event discovery
+on:
+  workflow_dispatch:
+    inputs:
+      company:
+        description: Company name for public-record research
+        required: false
+        default: Eli Lilly
+  schedule:
+    - cron: '17 * * * *'
+  push:
+    paths:
+      - 'omega_multisource_discovery.py'
+      - 'test_omega_multisource_discovery.py'
+      - '.github/workflows/omega-multisource.yml'
+permissions:
+  contents: read
+jobs:
+  scan:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python -m unittest -v test_omega_multisource_discovery.py
+      - name: Search four public evidence sources
+        env:
+          OMEGA_COMPANY: ${{ inputs.company || 'Eli Lilly' }}
+        run: python omega_multisource_discovery.py --company "$OMEGA_COMPANY"
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: omega-multisource-${{ github.run_id }}
+          path: state/omega_multisource_latest.json
+          retention-days: 30
