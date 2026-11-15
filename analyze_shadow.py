@@ -46,10 +46,26 @@ def main():
  # SEC ticker-to-CIK mapping covers all mapped census companies, not just eight intake names.
  mapping=get("https://www.sec.gov/files/company_tickers.json",agent)
  ciks={str(v.get("ticker","")).upper():str(v["cik_str"]).zfill(10) for v in mapping.values() if v.get("ticker") and v.get("cik_str")}
- rows=db.execute("""SELECT q.symbol,q.etf FROM queue q
- WHERE NOT EXISTS(SELECT 1 FROM analysis_evidence a WHERE a.symbol=q.symbol)
- ORDER BY q.symbol""").fetchall()
- rows=[(symbol,etf,ciks.get(symbol)) for symbol,etf in rows if symbol in ciks or etf=="Y"][:limit]
+ # Fresh, never-researched symbols first. Once exhausted, revisit stale SEC
+ # company observations without modifying or deleting their prior evidence.
+ # Missing-source and fund records require a separate remediation pipeline.
+ refresh_days=max(1,int(os.getenv("ANALYSIS_REFRESH_DAYS","30")))
+ cutoff=(dt.datetime.now(UTC)-dt.timedelta(days=refresh_days)).isoformat()
+ rows=db.execute("""SELECT q.symbol,q.etf,MAX(a.observed_at) AS last_researched,
+  (SELECT classification FROM analysis_evidence z WHERE z.symbol=q.symbol ORDER BY z.id DESC LIMIT 1) AS latest_classification
+ FROM queue q LEFT JOIN analysis_evidence a ON a.symbol=q.symbol
+ GROUP BY q.symbol,q.etf
+ ORDER BY CASE WHEN MAX(a.observed_at) IS NULL THEN 0 ELSE 1 END,
+ MAX(a.observed_at) ASC,q.symbol""").fetchall()
+ candidates=[]
+ for symbol,etf,last_researched,classification in rows:
+  if symbol not in ciks and etf!="Y":continue
+  if last_researched is not None:
+   if etf=="Y" or classification=="PRIMARY_SOURCE_NOT_FOUND":continue
+   if last_researched>=cutoff:continue
+  candidates.append((symbol,etf,ciks.get(symbol)))
+  if len(candidates)>=limit:break
+ rows=candidates
  attempted=verified=primary_verified=deferred_funds=0;errors=[]
  for symbol,etf,cik in rows:
   attempted+=1
@@ -89,7 +105,7 @@ def main():
  if after<before:raise SystemExit("CONTINUITY_BLOCKED: analysis evidence regressed")
  db.execute("INSERT INTO analysis_runs VALUES(?,?,?,?,?,?,?)",(rid,parent[0] if parent else None,started,now(),attempted,verified,json.dumps(errors)))
  db.commit();integrity=db.execute("PRAGMA integrity_check").fetchone()[0];db.close()
- receipt={"run_id":rid,"parent_run_id":parent[0] if parent else None,"attempted":attempted,"research_rows_appended":verified,"primary_xbrl_retrieved":primary_verified,"funds_deferred_no_primary":deferred_funds,"failed":len(errors),"errors":errors,"analysis_rows_before":before,"analysis_rows_after":after,"completed_equity_valuations":0,"verified_positive_catalysts":0,"coverage_denominator":db_count,"run_primary_xbrl_fraction_of_universe_pct":round(100*primary_verified/max(1,db_count),4),"status":"PARTIAL_ANALYSIS","sqlite_integrity":integrity,"db_sha256":hashlib.sha256(path.read_bytes()).hexdigest()}
+ receipt={"run_id":rid,"parent_run_id":parent[0] if parent else None,"attempted":attempted,"research_rows_appended":verified,"primary_xbrl_retrieved":primary_verified,"funds_deferred_no_primary":deferred_funds,"failed":len(errors),"errors":errors,"analysis_rows_before":before,"analysis_rows_after":after,"refresh_interval_days":refresh_days,"queue_policy":"new_issuers_first_then_stale_company_records; append_only","completed_equity_valuations":0,"verified_positive_catalysts":0,"coverage_denominator":db_count,"run_primary_xbrl_fraction_of_universe_pct":round(100*primary_verified/max(1,db_count),4),"status":"PARTIAL_ANALYSIS","sqlite_integrity":integrity,"db_sha256":hashlib.sha256(path.read_bytes()).hexdigest()}
  (root/("analysis_receipt_"+rid+".json")).write_text(json.dumps(receipt,indent=2))
  print(json.dumps(receipt,indent=2))
 if __name__=="__main__":main()
