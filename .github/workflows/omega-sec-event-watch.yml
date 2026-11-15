@@ -1,0 +1,45 @@
+name: Omega SEC event watcher
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '*/5 * * * *'
+  push:
+    paths:
+      - 'omega_sec_event_watch.py'
+      - 'test_omega_sec_event_watch.py'
+      - '.github/workflows/omega-sec-event-watch.yml'
+permissions:
+  contents: write
+concurrency:
+  group: omega-sec-event-watch
+  cancel-in-progress: false
+jobs:
+  poll:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python -m unittest -v test_omega_sec_event_watch.py
+      - name: Poll SEC current filing arrivals
+        env:
+          SEC_USER_AGENT: ${{ secrets.SEC_USER_AGENT }}
+        run: python omega_sec_event_watch.py
+      - name: Preserve event receipt
+        run: |
+          git config user.name "omega-event-bot"
+          git config user.email "omega-event-bot@users.noreply.github.com"
+          git add state/omega_sec_event_watch.json
+          if ! git diff --cached --quiet; then
+            git commit -m "Omega SEC event watcher receipt [skip ci]"
+            git pull --rebase origin main
+            git push origin HEAD:main
+          fi
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: omega-sec-watch-${{ github.run_id }}
+          path: state/omega_sec_event_watch.json
+          retention-days: 30
