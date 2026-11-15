@@ -1,0 +1,36 @@
+{
+  "run_id": "20261115T140315251974Z",
+  "parent_run_id": "20261115T135940095414Z",
+  "attempted": 150,
+  "research_rows_appended": 146,
+  "primary_xbrl_retrieved": 93,
+  "funds_deferred_no_primary": 53,
+  "failed": 4,
+  "errors": [
+    {
+      "symbol": "ACV",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "symbol": "AEF",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "symbol": "AFB",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "symbol": "AIO",
+      "error": "HTTP Error 404: Not Found"
+    }
+  ],
+  "analysis_rows_before": 312,
+  "analysis_rows_after": 458,
+  "completed_equity_valuations": 0,
+  "verified_positive_catalysts": 0,
+  "coverage_denominator": 13248,
+  "run_primary_xbrl_fraction_of_universe_pct": 0.702,
+  "status": "PARTIAL_ANALYSIS",
+  "sqlite_integrity": "ok",
+  "db_sha256": "cc7beb0bdbafd73830cee4b3886325f95a94f575e8191c0875bda473ccaadaad"
+}
