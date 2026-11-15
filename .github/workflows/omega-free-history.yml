@@ -1,0 +1,32 @@
+name: Omega free historical benchmark trial
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - 'omega_free_benchmarks.py'
+      - 'test_omega_free_benchmarks.py'
+      - '.github/workflows/omega-free-history.yml'
+permissions:
+  contents: read
+jobs:
+  benchmark:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Test no invented strategy results
+        run: python -m unittest -v test_omega_free_benchmarks.py
+      - name: Install public research library
+        run: python -m pip install 'yfinance>=0.2.65,<2'
+      - name: Fetch real 2015-2025 adjusted benchmark histories
+        run: python omega_free_benchmarks.py
+      - name: Preserve receipt
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: omega-free-benchmarks-${{ github.run_id }}
+          path: state/omega_free_benchmarks_2015_2025.json
+          retention-days: 30
