@@ -82,6 +82,7 @@ def ingest(prior,index,jurisdictions=None,fetch=fetch_json,limit=25,seen_limit=3
     "successful_pages":run_count+1,
     "rows_fetched":int(old.get("rows_fetched",0))+len(rows),
     "unique_records_seen_in_window":len(known),
+    "cumulative_unique_records_lower_bound":max(int(old.get("cumulative_unique_records_lower_bound",0)),len(known)),
     "recent_ids":ids[-seen_limit:],
     "recent_fingerprints":{k:fingerprints[k] for k in ids[-seen_limit:] if k in fingerprints},
     "last_success":now,"overlap_rows":overlap,
