@@ -25,7 +25,7 @@ jobs:
       - run: python -m unittest -v test_omega_geographic_census.py test_omega_geographic_records.py test_omega_market_directory.py
       - name: Refresh SEC company directory
         env:
-          SEC_USER_AGENT: \${{ secrets.SEC_USER_AGENT }}
+          SEC_USER_AGENT: ${{ secrets.SEC_USER_AGENT }}
         run: |
           if [ ! -s state/omega_sec_company_directory.csv ] || [ "$(python -c 'import json,pathlib; p=pathlib.Path("state/omega_sec_company_directory_receipt.json"); print(json.loads(p.read_text()).get("retrieved_at", "")[:10] if p.exists() else "")')" != "$(date -u +%F)" ]; then
             python omega_market_directory.py
