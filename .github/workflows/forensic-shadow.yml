@@ -1,6 +1,12 @@
 name: RippleEdge forensic shadow intake
 on:
   workflow_dispatch:
+  push:
+    paths:
+      - 'research_models.py'
+      - 'test_research_models.py'
+      - 'forensic_shadow.py'
+      - '.github/workflows/forensic-shadow.yml'
   schedule:
     - cron: '17 * * * *'
 permissions:
@@ -19,6 +25,8 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
+      - name: Test shadow analytical primitives
+        run: python -m unittest -v test_research_models.py
       - name: Validate upstream census and run bounded primary-source research
         env:
           SEC_USER_AGENT: ${{ secrets.SEC_USER_AGENT }}
