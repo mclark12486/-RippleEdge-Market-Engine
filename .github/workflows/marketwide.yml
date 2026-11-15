@@ -17,6 +17,8 @@ on:
       - 'test_omega_portfolio.py'
       - 'omega_walkforward.py'
       - 'test_omega_walkforward.py'
+      - 'omega_data_audit.py'
+      - 'test_omega_data_audit.py'
       - 'test_risk_metrics.py'
       - 'forecast_ledger.py'
       - 'test_forecast_loop.py'
@@ -58,7 +60,9 @@ jobs:
       - name: Screen all available market-wide daily bars
         run: python breadth_scan.py
       - name: Verify prospective forecast loop tests
-        run: python -m unittest -v test_research_models.py test_forecast_ledger.py test_forecast_loop.py test_risk_metrics.py test_omega_replay.py test_omega_portfolio.py test_omega_walkforward.py
+        run: python -m unittest -v test_research_models.py test_forecast_ledger.py test_forecast_loop.py test_risk_metrics.py test_omega_replay.py test_omega_portfolio.py test_omega_walkforward.py test_omega_data_audit.py
+      - name: Audit full-cycle historical data readiness (fail closed)
+        run: python omega_data_audit.py
       - name: Freeze and score prospective shadow forecasts
         run: python forecast_loop.py
       - name: Publish prospective performance cohort audit
@@ -68,7 +72,7 @@ jobs:
           set -e
           git config user.name rippleedge-bot
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add state/marketwide.sqlite state/marketwide_initialized state/marketwide_receipt_*.json state/price_receipt_*.json state/breadth_receipt_*.json state/history_receipt_*.json state/forecast_receipt_*.json state/performance_receipt_*.json
+          git add state/marketwide.sqlite state/marketwide_initialized state/marketwide_receipt_*.json state/price_receipt_*.json state/breadth_receipt_*.json state/history_receipt_*.json state/forecast_receipt_*.json state/performance_receipt_*.json state/omega_2015_2025_readiness.json
           git commit -m "RippleEdge marketwide census $(date -u +%Y%m%dT%H%M%SZ)"
           git fetch origin main
           base=$(git rev-parse HEAD^)
