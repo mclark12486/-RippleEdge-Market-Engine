@@ -29,7 +29,7 @@ jobs:
           set -e
           git config user.name rippleedge-bot
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add state/forensic_shadow.sqlite state/forensic_shadow_receipt_*.json
+          git add state/forensic_shadow.sqlite state/forensic_shadow_initialized state/forensic_shadow_receipt_*.json
           git commit -m "RippleEdge shadow forensic intake $(date -u +%Y%m%dT%H%M%SZ)"
           git pull --rebase
           git push
@@ -40,5 +40,6 @@ jobs:
           name: rippleedge-forensic-shadow-${{ github.run_id }}
           path: |
             state/forensic_shadow.sqlite
+            state/forensic_shadow_initialized
             state/forensic_shadow_receipt_*.json
           retention-days: 90
