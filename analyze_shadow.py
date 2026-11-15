@@ -48,7 +48,7 @@ def main():
  ciks={str(v.get("ticker","")).upper():str(v["cik_str"]).zfill(10) for v in mapping.values() if v.get("ticker") and v.get("cik_str")}
  rows=db.execute("""SELECT q.symbol,q.etf FROM queue q
  WHERE NOT EXISTS(SELECT 1 FROM analysis_evidence a WHERE a.symbol=q.symbol)
- ORDER BY q.symbol LIMIT ?""",(limit*10,)).fetchall()
+ ORDER BY q.symbol""").fetchall()
  rows=[(symbol,etf,ciks.get(symbol)) for symbol,etf in rows if symbol in ciks or etf=="Y"][:limit]
  attempted=verified=0;errors=[]
  for symbol,etf,cik in rows:
