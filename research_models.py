@@ -43,3 +43,30 @@ def forecast_eligibility(record):
  required=("frozen_at","evidence_cutoff","direction","entry_band","invalidation","horizon","benchmark","costs","source_receipts")
  missing=[k for k in required if not record.get(k)]
  return {"status":"ELIGIBLE_SHADOW" if not missing else "RESEARCH_ONLY","missing":missing}
+
+def valuation_evidence_gate(facts):
+ """Prevent illustrative DCFs from being advertised as independently verified equity fair values."""
+ required=("cash_flow_source","cash_flow_period","maintenance_capex_source","diluted_shares_source","diluted_shares_asof","cash_source","debt_source","assumption_rationale","filing_accession")
+ missing=[k for k in required if not facts.get(k)]
+ checks={}
+ for k in ("normalized_fcf","diluted_shares","cash","debt","discount_rate","terminal_growth"):
+  try:
+   v=float(facts[k]);checks[k]=math.isfinite(v)
+  except (KeyError,TypeError,ValueError,OverflowError):checks[k]=False
+ if checks.get("diluted_shares") and float(facts["diluted_shares"])<=0:checks["diluted_shares"]=False
+ if checks.get("discount_rate") and checks.get("terminal_growth") and float(facts["discount_rate"])<=float(facts["terminal_growth"]):checks["discount_rate"]=False
+ missing += [k for k,ok in checks.items() if not ok]
+ return {"status":"EVIDENCE_READY_FOR_REVIEW" if not missing else "BLOCKED_MISSING_EVIDENCE","missing":sorted(set(missing)),"automatically_verified_fair_value":False}
+
+def period_consistency(observations):
+ """Check filing period consistency and point to discrepancies; do not resolve them silently."""
+ if not observations:return {"status":"INSUFFICIENT_EVIDENCE","issues":["no observations"]}
+ issues=[];seen={}
+ for x in observations:
+  year=x.get("fiscal_year");period=x.get("period_end");filed=x.get("filed");value=x.get("value")
+  if not year or not period or not filed or not isinstance(value,(int,float)) or not math.isfinite(value):
+   issues.append({"record":x,"issue":"incomplete or invalid filing observation"});continue
+  key=(year,period)
+  if key in seen and seen[key]!=value:issues.append({"fiscal_year":year,"period_end":period,"issue":"conflicting reported values; restatement review required"})
+  seen[key]=value
+ return {"status":"REVIEW_REQUIRED" if issues else "CONSISTENT_OBSERVATIONS","issues":issues}
