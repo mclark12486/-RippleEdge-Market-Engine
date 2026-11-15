@@ -5,7 +5,7 @@ Does not promote name matches into verified corporate relationships or trades.
 """
 import argparse,csv,datetime as dt,json
 from pathlib import Path
-from omega_geographic_records import JURISDICTIONS,scan
+from omega_geographic_records import JURISDICTIONS,scan,health_url,fetch_json
 from omega_entity_resolution import enrich
 def load_universe(path):
  with open(path,newline="",encoding="utf-8") as f:rows=list(csv.DictReader(f))
@@ -67,6 +67,7 @@ def checkpoint(companies,jurisdictions=None,prior=None,batch_size=4,scanner=scan
   "last_success_by_pair":succeeded,"cursor":(start+len(tasks))%total,
   "unique_pairs_attempted":len(seen),"configured_pair_attempt_coverage":len(seen)/total,
   "last_attempt_by_pair":seen,"results":results,
+  "failed_or_skipped_pairs_to_retry":[x["symbol"]+"|"+x["jurisdiction"] for x in results if x["status"] in ("BLOCKED","SKIPPED_SOURCE_CIRCUIT_OPEN")],
   "marketwide_coverage":"NOT_ESTABLISHED","all_us_jurisdictions_coverage":"NOT_ESTABLISHED",
   "company_relationships_verified":0,"trade_eligible":False}
 def main():
