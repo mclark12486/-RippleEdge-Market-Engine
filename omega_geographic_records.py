@@ -21,10 +21,10 @@ def stable_id(jurisdiction,row):
 def socrata_url(config,query,limit=20):
  if not 1<=limit<=100:raise ValueError("limit")
  if not 3<=len(query.strip())<=100:raise ValueError("query")
- params=urllib.parse.urlencode({"$q":query.strip(),"$limit":limit,"$select":"*"})
+ params=urllib.parse.urlencode({"$q":query.strip(),"$limit":limit})
  return "https://"+config["host"]+"/resource/"+config["dataset"]+".json?"+params
 def health_url(config):
- return "https://"+config["host"]+"/resource/"+config["dataset"]+".json?"+urllib.parse.urlencode({"$select":"count(*)","$limit":1})
+ return "https://"+config["host"]+"/resource/"+config["dataset"]+".json?"+urllib.parse.urlencode({"$limit":1})
 def fetch_json(url):
  req=urllib.request.Request(url,headers={"User-Agent":"RippleEdgeOmega/0.1 public research","Accept":"application/json"})
  timeout=float(os.environ.get("OMEGA_GEO_HTTP_TIMEOUT","7"))
