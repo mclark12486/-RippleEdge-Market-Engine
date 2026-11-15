@@ -70,3 +70,26 @@ def period_consistency(observations):
   if key in seen and seen[key]!=value:issues.append({"fiscal_year":year,"period_end":period,"issue":"conflicting reported values; restatement review required"})
   seen[key]=value
  return {"status":"REVIEW_REQUIRED" if issues else "CONSISTENT_OBSERVATIONS","issues":issues}
+
+def score_frozen_forecast(forecast, observations):
+ """Score only after a frozen forecast's dated horizon using observed prices.
+ No backfill of predictions or invented fills. Prices are supplied with provenance.
+ """
+ needed=("frozen_at","evidence_cutoff","direction","entry_price","horizon_sessions","benchmark","cost_bps")
+ missing=[k for k in needed if forecast.get(k) is None]
+ if missing:return {"status":"UNSCORABLE","missing":missing}
+ try:
+  entry=float(forecast["entry_price"]);n=int(forecast["horizon_sessions"]);cost=float(forecast["cost_bps"])
+  if not math.isfinite(entry) or entry<=0 or n<=0 or cost<0 or not math.isfinite(cost):raise ValueError("invalid forecast parameters")
+  if forecast["direction"] not in ("LONG","SHORT"):raise ValueError("unsupported direction")
+  if forecast["evidence_cutoff"]>forecast["frozen_at"]:raise ValueError("evidence cutoff after forecast freeze")
+  eligible=[x for x in observations if x.get("date") and x["date"]>forecast["frozen_at"][:10]]
+  eligible.sort(key=lambda x:x["date"])
+  if len(eligible)<n:return {"status":"PENDING_HORIZON","observed_sessions":len(eligible),"required_sessions":n}
+  point=eligible[n-1]
+  exit_price=float(point["close"]);benchmark_return=float(point["benchmark_return"])
+  if exit_price<=0 or not math.isfinite(exit_price) or not math.isfinite(benchmark_return) or not point.get("price_source") or not point.get("benchmark_source"):raise ValueError("missing verified exit evidence")
+  gross=(exit_price/entry-1)*(1 if forecast["direction"]=="LONG" else -1)
+  net=gross-cost/10000
+  return {"status":"SCORED","horizon_date":point["date"],"gross_return":gross,"net_return":net,"benchmark_return":benchmark_return,"excess_return":net-benchmark_return,"exit_price":exit_price,"price_source":point["price_source"],"benchmark_source":point["benchmark_source"],"warning":"Requires independent verification of actual tradability, entry fill, corporate actions and borrow costs"}
+ except (ValueError,TypeError,OverflowError) as exc:return {"status":"UNSCORABLE","reason":str(exc)}
