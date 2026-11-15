@@ -1,0 +1,19 @@
+name: Omega integrated paper engine verification
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - 'omega_paper_engine.py'
+      - 'test_omega_paper_engine.py'
+      - '.github/workflows/omega-paper-engine.yml'
+permissions:
+  contents: read
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python -m unittest -v test_omega_paper_engine.py test_omega_drawdown_triage.py test_omega_risk_gate.py test_omega_portfolio_monitor.py test_omega_risk_simulation.py
