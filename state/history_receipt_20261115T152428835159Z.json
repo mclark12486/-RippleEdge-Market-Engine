@@ -1,0 +1,40 @@
+{
+  "run_id": "20261115T152428835159Z",
+  "checked_at": "2026-11-15T15:24:31.944159+00:00",
+  "latest_session": "2026-11-13",
+  "attempted_dates": [
+    "2026-10-01",
+    "2026-09-30",
+    "2026-09-29"
+  ],
+  "successful_dates": [
+    {
+      "session": "2026-10-01",
+      "provider_returned": 12569,
+      "matched": 11962,
+      "inserted": 11962,
+      "missing": 1286
+    },
+    {
+      "session": "2026-09-30",
+      "provider_returned": 12587,
+      "matched": 11967,
+      "inserted": 11967,
+      "missing": 1281
+    },
+    {
+      "session": "2026-09-29",
+      "provider_returned": 12579,
+      "matched": 11961,
+      "inserted": 11961,
+      "missing": 1287
+    }
+  ],
+  "errors": [],
+  "census": 13248,
+  "historical_sessions_available": 34,
+  "status": "BACKFILL_PROGRESS",
+  "scope": "Historical grouped daily bars, not intraday or forensic valuations",
+  "sqlite_integrity": "ok",
+  "db_sha256": "6e300a0629f434f3c345c1ee96a898f2979c362ad64a3e3bcdf8c69a3b5524cc"
+}
