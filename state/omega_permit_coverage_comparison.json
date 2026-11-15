@@ -1,10 +1,10 @@
 {
-  "checked_at": "2026-11-15T16:51:53.985560+00:00",
+  "checked_at": "2026-11-15T16:52:38.607716+00:00",
   "sources": {
     "chicago_building_permits": {
       "provider_rows": 853103,
-      "ingested_unique_lower_bound": 100,
-      "observed_fraction_lower_bound": 0.00011722,
+      "ingested_unique_lower_bound": 115,
+      "observed_fraction_lower_bound": 0.0001348,
       "provider_count_verified": true,
       "unique_count_is_exact": false,
       "historical_completeness_verified": false,
@@ -12,8 +12,8 @@
     },
     "nyc_dob_permits": {
       "provider_rows": 3991389,
-      "ingested_unique_lower_bound": 95,
-      "observed_fraction_lower_bound": 2.38e-05,
+      "ingested_unique_lower_bound": 120,
+      "observed_fraction_lower_bound": 3.006e-05,
       "provider_count_verified": true,
       "unique_count_is_exact": false,
       "historical_completeness_verified": false,
