@@ -22,6 +22,16 @@ class CensusTests(unittest.TestCase):
   self.assertEqual(x["failed_queries_this_run"],1)
   self.assertEqual(x["successful_queries_this_run"],0)
   self.assertEqual(x["unique_pairs_attempted"],1)
+ def test_circuit_breaker_skips_repeated_failed_source(self):
+  calls=[]
+  def blocked(name,jurisdictions):
+   calls.append(jurisdictions[0])
+   return {"jurisdictions":{jurisdictions[0]:{"status":"BLOCKED","error":"timeout"}},"records":[]}
+  x=checkpoint(C,batch_size=4,scanner=blocked)
+  self.assertEqual(len(calls),2)
+  self.assertEqual(x["skipped_circuit_open_this_run"],2)
+  self.assertEqual(x["unique_pairs_attempted"],2)
+  self.assertEqual(x["successful_pairs_ever"],0)
  def test_invalid_jurisdiction_rejected(self):
   with self.assertRaises(ValueError):checkpoint(C,["imaginary"],scanner=scanner)
 if __name__=="__main__":unittest.main()
