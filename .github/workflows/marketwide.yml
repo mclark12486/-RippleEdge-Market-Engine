@@ -11,6 +11,7 @@ on:
       - 'forecast_loop.py'
       - 'forecast_ledger.py'
       - 'test_forecast_loop.py'
+      - 'performance_report.py'
       - 'history_backfill.py'
       - '.github/workflows/marketwide.yml'
 permissions:
@@ -47,12 +48,14 @@ jobs:
         run: python -m unittest -v test_research_models.py test_forecast_ledger.py test_forecast_loop.py
       - name: Freeze and score prospective shadow forecasts
         run: python forecast_loop.py
+      - name: Publish prospective performance cohort audit
+        run: python performance_report.py
       - name: Persist small database and immutable receipt
         run: |
           set -e
           git config user.name rippleedge-bot
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add state/marketwide.sqlite state/marketwide_initialized state/marketwide_receipt_*.json state/price_receipt_*.json state/breadth_receipt_*.json state/history_receipt_*.json state/forecast_receipt_*.json
+          git add state/marketwide.sqlite state/marketwide_initialized state/marketwide_receipt_*.json state/price_receipt_*.json state/breadth_receipt_*.json state/history_receipt_*.json state/forecast_receipt_*.json state/performance_receipt_*.json
           git commit -m "RippleEdge marketwide census $(date -u +%Y%m%dT%H%M%SZ)"
           git fetch origin main
           base=$(git rev-parse HEAD^)
@@ -64,7 +67,7 @@ jobs:
             generated_commit=$(git rev-parse HEAD)
             git reset --hard origin/main
             git restore --source="$generated_commit" --staged --worktree -- state/marketwide.sqlite state/marketwide_initialized
-            git diff-tree --no-commit-id --name-only -r "$generated_commit" | grep -E '^state/(marketwide_receipt_|price_receipt_|breadth_receipt_|history_receipt_|forecast_receipt_).*\\.json
+            git diff-tree --no-commit-id --name-only -r "$generated_commit" | grep -E '^state/(marketwide_receipt_|price_receipt_|breadth_receipt_|history_receipt_|forecast_receipt_|performance_receipt_).*\\.json
             while IFS= read -r generated_path; do
               [ -z "$generated_path" ] || git restore --source="$generated_commit" --staged --worktree -- "$generated_path"
             done < /tmp/rippleedge-generated-paths
@@ -83,6 +86,7 @@ jobs:
             state/breadth_receipt_*.json
             state/history_receipt_*.json
             state/forecast_receipt_*.json
+            state/performance_receipt_*.json
           retention-days: 90
  > /tmp/rippleedge-generated-paths || true
             while IFS= read -r generated_path; do
