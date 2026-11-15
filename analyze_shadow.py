@@ -1,7 +1,7 @@
 """Run bounded SEC-backed analysis of existing forensic queue in shadow mode.
 All values are raw observations or conditional illustrations, never completed valuations.
 """
-import datetime as dt,hashlib,json,os,sqlite3,urllib.request
+import datetime as dt,hashlib,json,os,sqlite3,time,urllib.request
 from pathlib import Path
 from research_models import cash_flow,dcf_scenarios,reconcile_balance,catalyst_score
 UTC=dt.timezone.utc
@@ -42,11 +42,14 @@ def main():
  parent=db.execute("SELECT run_id FROM analysis_runs ORDER BY started DESC LIMIT 1").fetchone()
  before=db.execute("SELECT COUNT(*) FROM analysis_evidence").fetchone()[0]
  rid=dt.datetime.now(UTC).strftime("%Y%m%dT%H%M%S%fZ");started=now()
- limit=max(1,min(int(os.getenv("ANALYSIS_BATCH_SIZE","4")),12))
- rows=db.execute("""SELECT q.symbol,q.etf,json_extract(e.findings_json,'$.cik') FROM queue q
- JOIN evidence e ON e.id=(SELECT MAX(id) FROM evidence WHERE symbol=q.symbol)
+ limit=max(1,min(int(os.getenv("ANALYSIS_BATCH_SIZE","150")),500))
+ # SEC ticker-to-CIK mapping covers all mapped census companies, not just eight intake names.
+ mapping=get("https://www.sec.gov/files/company_tickers.json",agent)
+ ciks={str(v.get("ticker","")).upper():str(v["cik_str"]).zfill(10) for v in mapping.values() if v.get("ticker") and v.get("cik_str")}
+ rows=db.execute("""SELECT q.symbol,q.etf FROM queue q
  WHERE NOT EXISTS(SELECT 1 FROM analysis_evidence a WHERE a.symbol=q.symbol)
- ORDER BY e.id LIMIT ?""",(limit,)).fetchall()
+ ORDER BY q.symbol LIMIT ?""",(limit*10,)).fetchall()
+ rows=[(symbol,etf,ciks.get(symbol)) for symbol,etf in rows if symbol in ciks or etf=="Y"][:limit]
  attempted=verified=0;errors=[]
  for symbol,etf,cik in rows:
   attempted+=1
@@ -70,6 +73,7 @@ def main():
    verified+=1
   except Exception as exc:errors.append({"symbol":symbol,"error":str(exc)[:150]})
   db.commit()
+  time.sleep(.22)  # Bound request rate below SEC fair-access ceiling.
  after=db.execute("SELECT COUNT(*) FROM analysis_evidence").fetchone()[0]
  if after<before:raise SystemExit("CONTINUITY_BLOCKED: analysis evidence regressed")
  db.execute("INSERT INTO analysis_runs VALUES(?,?,?,?,?,?,?)",(rid,parent[0] if parent else None,started,now(),attempted,verified,json.dumps(errors)))
