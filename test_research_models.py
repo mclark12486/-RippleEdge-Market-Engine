@@ -1,5 +1,5 @@
 import unittest
-from research_models import reconcile_balance,cash_flow,dcf_scenarios,catalyst_score,fund_gate,forecast_eligibility,valuation_evidence_gate,period_consistency,score_frozen_forecast
+from research_models import reconcile_balance,cash_flow,dcf_scenarios,catalyst_score,fund_gate,forecast_eligibility,valuation_evidence_gate,period_consistency,score_frozen_forecast,verify_catalyst_evidence
 class ResearchModelsTests(unittest.TestCase):
  def test_balance(self):
   self.assertEqual(reconcile_balance(100,60,40)["status"],"PASS")
@@ -36,6 +36,11 @@ class ResearchModelsTests(unittest.TestCase):
   self.assertEqual(x["status"],"SCORED")
   self.assertAlmostEqual(x["net_return"],.099)
   self.assertEqual(score_frozen_forecast(f,[dict(bars[0]),dict(bars[1],price_source="")])["status"],"UNSCORABLE")
+ def test_catalyst_evidence(self):
+  self.assertEqual(verify_catalyst_evidence({"source_class":"primary_metadata"})["status"],"DISCOVERY_ONLY")
+  e={"source_class":"primary_fulltext","primary_document_url":"https://sec.gov/example","document_retrieved_at":"2026-11-10","document_sha256":"abc","source_date":"2026-11-09","issuer":"Example","event_description":"Contract","quoted_evidence":"Signed","economic_impact_quantified":True,"future_effective_date":"2027-01-01"}
+  self.assertEqual(verify_catalyst_evidence(e)["status"],"DOCUMENTED_REVIEW_REQUIRED")
+  self.assertEqual(verify_catalyst_evidence(dict(e,contradiction=True))["status"],"CONTRADICTED")
  def test_forecast(self):
   self.assertEqual(forecast_eligibility({})["status"],"RESEARCH_ONLY")
 if __name__=="__main__":unittest.main()
