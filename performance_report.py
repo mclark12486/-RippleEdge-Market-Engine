@@ -4,6 +4,7 @@ import hashlib
 import json
 import sqlite3
 from pathlib import Path
+from risk_metrics import trade_risk
 
 def report(db):
  forecasts=db.execute("SELECT forecast_id,symbol,frozen_at,record_json,record_sha256 FROM shadow_forecasts ORDER BY frozen_at,forecast_id").fetchall()
@@ -36,6 +37,7 @@ def report(db):
   "mean_excess_return_vs_voo":sum(x["excess_vs_voo"] for x in scored if "excess_vs_voo" in x)/sum("excess_vs_voo" in x for x in scored) if any("excess_vs_voo" in x for x in scored) else None,
   "fraction_beating_both":sum(x["beat_both"] for x in scored if "beat_both" in x)/sum("beat_both" in x for x in scored) if any("beat_both" in x for x in scored) else None,
   "cohorts":cohorts,
+  "risk_diagnostics":trade_risk(scored),
   "forecasts":[{"id":fid,"symbol":sym,"frozen_at":frozen,"sha256":digest,"scored":fid in by_id} for fid,sym,frozen,raw,digest in forecasts],
   "caveat":"Shadow hypotheses use indicative prior closes, not executable fills. Small samples are not proof of predictive edge."}
 
