@@ -27,12 +27,19 @@ def checkpoint(companies,jurisdictions=None,prior=None,batch_size=4,scanner=scan
   company=companies[idx//len(jurisdictions)]
   jurisdiction=jurisdictions[idx%len(jurisdictions)]
   tasks.append((company,jurisdiction))
- results=[];ok=0;failed=0
+ results=[];ok=0;failed=0;skipped=0;blocked_sources=set()
  for company,jurisdiction in tasks:
+  if jurisdiction in blocked_sources:
+   skipped+=1
+   results.append({"symbol":company["symbol"],"jurisdiction":jurisdiction,
+    "status":"SKIPPED_SOURCE_CIRCUIT_OPEN","trade_eligible":False})
+   continue
   try:
    r=scanner(company["name"],[jurisdiction])
    source=r["jurisdictions"][jurisdiction]
-   if source["status"]=="BLOCKED":failed+=1
+   if source["status"]=="BLOCKED":
+    failed+=1
+    blocked_sources.add(jurisdiction)
    else:ok+=1
    records=enrich(r["records"],{company["symbol"]:[company["name"]]})
    results.append({"symbol":company["symbol"],"company":company["name"],
@@ -40,15 +47,24 @@ def checkpoint(companies,jurisdictions=None,prior=None,batch_size=4,scanner=scan
      "records":records[:30],"trade_eligible":False})
   except Exception as e:
    failed+=1
+   blocked_sources.add(jurisdiction)
    results.append({"symbol":company["symbol"],"jurisdiction":jurisdiction,
     "status":"BLOCKED","error":type(e).__name__+":"+str(e)[:150]})
  seen=dict((prior or {}).get("last_attempt_by_pair",{}))
+ succeeded=dict((prior or {}).get("last_success_by_pair",{}))
  now=dt.datetime.now(dt.timezone.utc).isoformat()
- for item in results:seen[item["symbol"]+"|"+item["jurisdiction"]]=now
+ for item in results:
+  if item["status"]=="SKIPPED_SOURCE_CIRCUIT_OPEN":continue
+  key=item["symbol"]+"|"+item["jurisdiction"]
+  seen[key]=now
+  if item["status"]!="BLOCKED":succeeded[key]=now
  return {"checked_at":now,"configured_companies":len(companies),
   "configured_jurisdictions":len(jurisdictions),"configured_pairs":total,
   "attempted_pairs_this_run":len(tasks),"successful_queries_this_run":ok,
-  "failed_queries_this_run":failed,"cursor":(start+len(tasks))%total,
+  "failed_queries_this_run":failed,"skipped_circuit_open_this_run":skipped,
+  "successful_pairs_ever":len(succeeded),
+  "configured_pair_success_coverage":len(succeeded)/total,
+  "last_success_by_pair":succeeded,"cursor":(start+len(tasks))%total,
   "unique_pairs_attempted":len(seen),"configured_pair_attempt_coverage":len(seen)/total,
   "last_attempt_by_pair":seen,"results":results,
   "marketwide_coverage":"NOT_ESTABLISHED","all_us_jurisdictions_coverage":"NOT_ESTABLISHED",
