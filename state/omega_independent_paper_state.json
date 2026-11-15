@@ -1,0 +1,20 @@
+{
+  "cash": 10000.0,
+  "equity": 10000.0,
+  "last_session": "2026-11-13",
+  "ledger": [
+    {
+      "cash": 10000.0,
+      "day_return": 0.0,
+      "equity": 10000.0,
+      "execution": "SIMULATED_CLOSE_ONLY_NOT_LIVE",
+      "paper_orders": [],
+      "risk": "HOLD_OR_RESEARCH",
+      "session": "2026-11-13",
+      "sha256": "c011b82bf44cf969e912e1778d67e699076632bfcfaa273b61dee2ba6065f289"
+    }
+  ],
+  "peak": 10000.0,
+  "positions": {},
+  "previous_equity": 10000.0
+}
