@@ -81,10 +81,16 @@ def main():
     data=get(url,agent);us=data.get("facts",{}).get("us-gaap",{})
     tags={"revenue":["RevenueFromContractWithCustomerExcludingAssessedTax","Revenues","SalesRevenueNet"],"cfo":["NetCashProvidedByUsedInOperatingActivities"],"capex":["PaymentsToAcquirePropertyPlantAndEquipment"],"net_income":["NetIncomeLoss"],"sbc":["ShareBasedCompensation"]}
     series={k:select(us,v) for k,v in tags.items()}
+    # CFO and capex must describe the identical fiscal start/end interval.
+    # A matching calendar year alone is insufficient for a defensible FCF proxy.
     years=sorted(set(series["cfo"]["observations"]) & set(series["capex"]["observations"]))
-    fcf={y:cash_flow(series["cfo"]["observations"][y]["val"],series["capex"]["observations"][y]["val"])["fcf"] for y in years}
+    matched=[y for y in years if
+      series["cfo"]["observations"][y].get("start")==series["capex"]["observations"][y].get("start")
+      and series["cfo"]["observations"][y].get("end")==series["capex"]["observations"][y].get("end")]
+    mismatched=[y for y in years if y not in matched]
+    fcf={y:cash_flow(series["cfo"]["observations"][y]["val"],series["capex"]["observations"][y]["val"])["fcf"] for y in matched}
     last=sorted(fcf)[-3:];normalized=sum(fcf[y] for y in last)/len(last) if len(last)>=2 else None
-    result={"asset_type":"COMPANY","classification":"INSUFFICIENT_EVIDENCE","entity":data.get("entityName"),"source_class":"SEC_PRIMARY_XBRL","series":{k:{"tag":v["tag"],"annual":{y:{"value":x["val"],"filed":x.get("filed"),"accession":x.get("accn"),"end":x["end"]} for y,x in v["observations"].items()}} for k,v in series.items()},"annual_fcf_proxy":fcf,"normalized_fcf_proxy":normalized,"valuation_evidence_gate":valuation_evidence_gate({"normalized_fcf":normalized}),"scenario_status":"NOT_CALCULATED","reason":"Verified diluted shares, net debt, company-specific discount rates and maintenance capex are required before equity DCF","verified_equity_fair_value":None,"catalyst_rank":catalyst_score({"source_class":"primary_metadata"}),"setup":"NOT_VERIFIED"}
+    result={"asset_type":"COMPANY","classification":"INSUFFICIENT_EVIDENCE","entity":data.get("entityName"),"source_class":"SEC_PRIMARY_XBRL","series":{k:{"tag":v["tag"],"annual":{y:{"value":x["val"],"filed":x.get("filed"),"accession":x.get("accn"),"end":x["end"]} for y,x in v["observations"].items()}} for k,v in series.items()},"annual_fcf_proxy":fcf,"fcf_period_mismatch_years":mismatched,"normalized_fcf_proxy":normalized,"valuation_evidence_gate":valuation_evidence_gate({"normalized_fcf":normalized}),"scenario_status":"NOT_CALCULATED","reason":"Verified diluted shares, net debt, company-specific discount rates and maintenance capex are required before equity DCF","verified_equity_fair_value":None,"catalyst_rank":catalyst_score({"source_class":"primary_metadata"}),"setup":"NOT_VERIFIED"}
    db.execute("INSERT INTO analysis_evidence(symbol,run_id,observed_at,source_url,payload_json,classification) VALUES(?,?,?,?,?,?)",(symbol,rid,observed,url,json.dumps(result,sort_keys=True),"INSUFFICIENT_EVIDENCE"))
    db.execute("INSERT INTO evidence_followups(symbol,run_id,created_at,missing_evidence,next_source,state) VALUES(?,?,?,?,?,?)",(symbol,rid,now(),json.dumps(result.get("missing",["Issuer-specific debt, diluted shares, maintenance capex, full filings and catalyst verification"])),"SEC full-text filings / issuer IR / fund sponsor disclosures","OPEN"))
    verified+=1
