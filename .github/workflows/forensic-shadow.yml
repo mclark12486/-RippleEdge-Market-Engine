@@ -13,7 +13,7 @@ on:
 permissions:
   contents: write
 concurrency:
-  group: rippleedge-forensic-shadow
+  group: rippleedge-state-writer
   cancel-in-progress: false
 jobs:
   forensic:
