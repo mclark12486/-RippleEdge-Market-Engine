@@ -9,7 +9,7 @@ on:
       - 'forensic_shadow.py'
       - '.github/workflows/forensic-shadow.yml'
   schedule:
-    - cron: '17 * * * *'
+    - cron: '27 * * * *'
 permissions:
   contents: write
 concurrency:
