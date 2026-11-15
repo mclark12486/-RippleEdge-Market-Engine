@@ -88,6 +88,8 @@ def ingest(prior,index,jurisdictions=None,fetch=fetch_json,limit=25,seen_limit=3
     "last_success":now,"overlap_rows":overlap,
     "reconciliation_interval_pages":reconcile_every,
     "sweep_complete":len(rows)<limit,
+    "full_traversal_ever_completed":bool(old.get("full_traversal_ever_completed",False) or len(rows)<limit),
+    "last_full_traversal_at":now if len(rows)<limit else old.get("last_full_traversal_at"),
     "completeness_verified":False,"provider_update_watermark_verified":False}
   except Exception as e:
    state["source_failures"]+=1
