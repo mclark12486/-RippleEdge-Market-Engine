@@ -70,6 +70,7 @@ def run(db, current, max_candidates=15):
    WHERE x.symbol=? AND x.provider=? AND x.session>? ORDER BY x.session""",
    (PROVIDER,f["symbol"],PROVIDER,start)).fetchall()
   for day,close,spy in data:
+   if day>current.date().isoformat():continue
    if not close or not spy or close<=0 or spy<=0:continue
    obs.append({"date":day,"close":close,"benchmark_return":spy/base[0]-1,
                "price_source":f"{PROVIDER}:{f['symbol']}:{day}",
