@@ -18,7 +18,7 @@ def checkpoint(fetcher,state_path=STATE,receipt_path=RECEIPT):
  if not isinstance(session,str) or len(session)!=10:return {"status":"DATA_BLOCKED","reason":"BAD_SESSION"}
  if not isinstance(raw["prices"],dict) or "SPY" not in raw["prices"]:
   return {"status":"DATA_BLOCKED","reason":"NO_SPY_PRICE"}
- state=json.loads(state_path.read_text()) if state_path.exists() else initial()
+ state=json.loads(state_path.read_text()) if state_path.exists() else initial(100)
  if state["last_session"] and session<=state["last_session"]:
   return {"status":"NO_NEW_SESSION","last_session":state["last_session"]}
  # No generated buy signals: evidence verification and point-in-time
