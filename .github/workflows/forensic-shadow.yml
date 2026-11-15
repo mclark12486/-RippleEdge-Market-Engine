@@ -3,6 +3,7 @@ on:
   workflow_dispatch:
   push:
     paths:
+      - 'analyze_shadow.py'
       - 'research_models.py'
       - 'test_research_models.py'
       - 'forensic_shadow.py'
@@ -32,12 +33,17 @@ jobs:
           SEC_USER_AGENT: ${{ secrets.SEC_USER_AGENT }}
           FORENSIC_BATCH_SIZE: '8'
         run: python forensic_shadow.py
+      - name: Analyze multi-year SEC cash flow (shadow only)
+        env:
+          SEC_USER_AGENT: ${{ secrets.SEC_USER_AGENT }}
+          ANALYSIS_BATCH_SIZE: '4'
+        run: python analyze_shadow.py
       - name: Persist shadow state and immutable receipts
         run: |
           set -e
           git config user.name rippleedge-bot
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add state/forensic_shadow.sqlite state/forensic_shadow_initialized state/forensic_shadow_receipt_*.json
+          git add state/forensic_shadow.sqlite state/forensic_shadow_initialized state/forensic_shadow_receipt_*.json state/analysis_receipt_*.json
           git commit -m "RippleEdge shadow forensic intake $(date -u +%Y%m%dT%H%M%SZ)"
           git pull --rebase
           git push
@@ -50,4 +56,5 @@ jobs:
             state/forensic_shadow.sqlite
             state/forensic_shadow_initialized
             state/forensic_shadow_receipt_*.json
+            state/analysis_receipt_*.json
           retention-days: 90
