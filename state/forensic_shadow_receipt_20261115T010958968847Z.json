@@ -1,0 +1,28 @@
+{
+  "run_id": "20261115T010958968847Z",
+  "parent_run_id": "20261115T010548591612Z",
+  "prior_evidence_rows": 16,
+  "evidence_rows_after": 24,
+  "started": "2026-11-15T01:09:58.968827+00:00",
+  "ended": "2026-11-15T01:10:02.170218+00:00",
+  "execution": "GitHub Actions shadow",
+  "census": 13248,
+  "queued_total": 13248,
+  "attempted": 8,
+  "primary_verified": 8,
+  "failed": 0,
+  "deferred": 13240,
+  "states": {
+    "PARTIAL": 24,
+    "QUEUED": 13224
+  },
+  "source_mapping": "https://www.sec.gov/files/company_tickers.json",
+  "mapping_count": 10404,
+  "errors": [],
+  "valuation_completed": 0,
+  "forecast_scored": 0,
+  "status": "PARTIAL_RESEARCH_ONLY",
+  "warning": "SEC XBRL tag presence is not a forensic audit or catalyst scan",
+  "sqlite_integrity": "ok",
+  "db_sha256": "a388c060b575307d5209f9329f3f6eb0c53b4297df83fcdedc89041d868c4be2"
+}
