@@ -1,0 +1,42 @@
+name: Omega rotating geographic intelligence census
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '11,41 * * * *'
+  push:
+    paths:
+      - 'omega_geographic_census.py'
+      - 'test_omega_geographic_census.py'
+      - '.github/workflows/omega-geographic-census.yml'
+permissions:
+  contents: write
+concurrency:
+  group: omega-geographic-census
+  cancel-in-progress: false
+jobs:
+  scan:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python -m unittest -v test_omega_geographic_census.py test_omega_geographic_records.py
+      - run: python omega_geographic_census.py --batch-size 4
+      - name: Persist geographic coverage and research receipts
+        run: |
+          git config user.name "omega-geographic-bot"
+          git config user.email "omega-geographic-bot@users.noreply.github.com"
+          git add state/omega_geographic_census.json
+          if ! git diff --cached --quiet; then
+            git commit -m "Omega geographic census receipt [skip ci]"
+            git pull --rebase origin main
+            git push origin HEAD:main
+          fi
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: omega-geographic-census-${{ github.run_id }}
+          path: state/omega_geographic_census.json
+          retention-days: 30
