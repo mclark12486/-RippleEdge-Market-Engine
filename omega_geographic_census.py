@@ -55,7 +55,7 @@ def checkpoint(companies,jurisdictions=None,prior=None,batch_size=4,scanner=scan
   "company_relationships_verified":0,"trade_eligible":False}
 def main():
  a=argparse.ArgumentParser()
- a.add_argument("--universe",default="omega_company_universe.csv")
+ a.add_argument("--universe",default="state/omega_sec_company_directory.csv")
  a.add_argument("--state",default="state/omega_geographic_census.json")
  a.add_argument("--batch-size",type=int,default=4)
  args=a.parse_args()
