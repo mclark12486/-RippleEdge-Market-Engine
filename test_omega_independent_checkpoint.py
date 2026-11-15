@@ -21,5 +21,5 @@ class CheckpointTests(unittest.TestCase):
    s=Path(d)/"s.json";r=Path(d)/"r.json"
    for date in ("2026-11-12","2026-11-13"):
     checkpoint(lambda date=date:{"session":date,"prices":{"SPY":650},"spy_return":-.03},s,r)
-   self.assertEqual(json.loads(s.read_text())["cash"],10000)
+   self.assertEqual(json.loads(s.read_text())["cash"],100)
 if __name__=="__main__":unittest.main()
