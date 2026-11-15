@@ -1,0 +1,29 @@
+name: Omega free historical strategy pilot
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - 'omega_free_strategy_pilot.py'
+      - 'test_omega_free_strategy_pilot.py'
+      - '.github/workflows/omega-free-strategy.yml'
+permissions:
+  contents: read
+jobs:
+  pilot:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python -m unittest -v test_omega_free_strategy_pilot.py test_omega_walkforward.py
+      - run: python -m pip install 'yfinance>=0.2.65,<2'
+      - name: Execute real free-data historical pilot
+        run: python omega_free_strategy_pilot.py
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: omega-free-strategy-${{ github.run_id }}
+          path: state/omega_free_strategy_pilot.json
+          retention-days: 60
