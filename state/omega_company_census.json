@@ -1,0 +1,4647 @@
+{
+  "batch_attempted": 3,
+  "batch_checked": 3,
+  "batch_coverage": 0.3,
+  "checked_at": "2026-11-15T16:24:25.207974+00:00",
+  "cursor": 3,
+  "limitations": "Rotating name-based search, not full-universe real-time or verified corporate linkage",
+  "records": [
+    {
+      "graph": {
+        "company_query": "Eli Lilly and Company",
+        "edges": [
+          {
+            "confidence": "UNVERIFIED",
+            "evidence_source": "clinical_trials",
+            "from": "786bdc14601340b8c0d4",
+            "relation": "SEARCH_RESULT_POSSIBLY_RELEVANT",
+            "to": "8b849b62b03739d0bae7"
+          },
+          {
+            "confidence": "UNVERIFIED",
+            "evidence_source": "clinical_trials",
+            "from": "786bdc14601340b8c0d4",
+            "relation": "SEARCH_RESULT_POSSIBLY_RELEVANT",
+            "to": "abdb3adefd3ec10d5779"
+          },
+          {
+            "confidence": "UNVERIFIED",
+            "evidence_source": "clinical_trials",
+            "from": "786bdc14601340b8c0d4",
+            "relation": "SEARCH_RESULT_POSSIBLY_RELEVANT",
+            "to": "71ccab147f1d2dfd0524"
+          },
+          {
+            "confidence": "UNVERIFIED",
+            "evidence_source": "clinical_trials",
+            "from": "786bdc14601340b8c0d4",
+            "relation": "SEARCH_RESULT_POSSIBLY_RELEVANT",
+            "to": "be820acae28d3f3aab2a"
+          },
+          {
+            "confidence": "UNVERIFIED",
+            "evidence_source": "clinical_trials",
+            "from": "786bdc14601340b8c0d4",
+            "relation": "SEARCH_RESULT_POSSIBLY_RELEVANT",
+            "to": "114e8db290ddf406e3ac"
+          },
+          {
+            "confidence": "UNVERIFIED",
+            "evidence_source": "clinical_trials",
+            "from": "786bdc14601340b8c0d4",
+            "relation": "SEARCH_RESULT_POSSIBLY_RELEVANT",
+            "to": "52bfbdf9684e272c318d"
+          },
+          {
+            "confidence": "UNVERIFIED",
+            "evidence_source": "clinical_trials",
+            "from": "786bdc14601340b8c0d4",
+            "relation": "SEARCH_RESULT_POSSIBLY_RELEVANT",
+            "to": "b77e0c5f1ec1d6ccf372"
+          },
+          {
+            "confidence": "UNVERIFIED",
+            "evidence_source": "clinical_trials",
+            "from": "786bdc14601340b8c0d4",
+            "relation": "SEARCH_RESULT_POSSIBLY_RELEVANT",
+            "to": "afe9329e8fef57db384d"
+          },
+          {
+            "confidence": "UNVERIFIED",
+            "evidence_source": "clinical_trials",
+            "from": "786bdc14601340b8c0d4",
+            "relation": "SEARCH_RESULT_POSSIBLY_RELEVANT",
+            "to": "c06e8cabd2b82735e0d9"
+          },
+          {
+            "confidence": "UNVERIFIED",
+            "evidence_source": "clinical_trials",
+            "from": "786bdc14601340b8c0d4",
+            "relation": "SEARCH_RESULT_POSSIBLY_RELEVANT",
+            "to": "e95f0f6b10e45291d032"
+          },
+          {
+            "confidence": "UNVERIFIED",
+            "evidence_source": "clinical_trials",
+            "from": "786bdc14601340b8c0d4",
+            "relation": "SEARCH_RESULT_POSSIBLY_RELEVANT",
+            "to": "86a0a269eecdb2cfbba1"
+          },
+          {
+            "confidence": "UNVERIFIED",
+            "evidence_source": "clinical_trials",
+            "from": "786bdc14601340b8c0d4",
+            "relation": "SEARCH_RESULT_POSSIBLY_RELEVANT",
+            "to": "c6c9d6f2f6992431bebb"
+          },
+          {
+            "confidence": "UNVERIFIED",
+            "evidence_source": "clinical_trials",
+            "from": "786bdc14601340b8c0d4",
+            "relation": "SEARCH_RESULT_POSSIBLY_RELEVANT",
+            "to": "315c9aba39cdcc566666"
+          },
+          {
+            "confidence": "UNVERIFIED",
+            "evidence_source": "clinical_trials",
+            "from": "786bdc14601340b8c0d4",
+            "relation": "SEARCH_RESULT_POSSIBLY_RELEVANT",
+            "to": "b5445fa6cfa85c1c198a"
+          },
+          {
+            "confidence": "UNVERIFIED",
+            "evidence_source": "clinical_trials",
+            "from": "786bdc14601340b8c0d4",
+            "relation": "SEARCH_RESULT_POSSIBLY_RELEVANT",
+            "to": "6f3a0463e44c45c8dfb7"
+          },
+          {
+            "confidence": "UNVERIFIED",
+            "evidence_source": "clinical_trials",
+            "from": "786bdc14601340b8c0d4",
+            "relation": "SEARCH_RESULT_POSSIBLY_RELEVANT",
+            "to": "5f387cd5afcd16cd6805"
+          },
+          {
+            "confidence": "UNVERIFIED",
+            "evidence_source": "clinical_trials",
+            "from": "786bdc14601340b8c0d4",
+            "relation": "SEARCH_RESULT_POSSIBLY_RELEVANT",
+            "to": "92db5fe7ce099dd76c77"
+          },
+          {
+            "confidence": "UNVERIFIED",
+            "evidence_source": "clinical_trials",
+            "from": "786bdc14601340b8c0d4",
+            "relation": "SEARCH_RESULT_POSSIBLY_RELEVANT",
+            "to": "af395b13dc437257093b"
+          },
+          {
+            "confidence": "UNVERIFIED",
+            "evidence_source": "clinical_trials",
+            "from": "786bdc14601340b8c0d4",
+            "relation": "SEARCH_RESULT_POSSIBLY_RELEVANT",
+            "to": "9644d33faeec57a18643"
+          },
+          {
+            "confidence": "UNVERIFIED",
+            "evidence_source": "clinical_trials",
+            "from": "786bdc14601340b8c0d4",
+            "relation": "SEARCH_RESULT_POSSIBLY_RELEVANT",
+            "to": "ea6b4c20a181057915da"
+          },
+          {
+            "confidence": "UNVERIFIED",
+            "evidence_source": "federal_register",
+            "from": "786bdc14601340b8c0d4",
+            "relation": "SEARCH_RESULT_POSSIBLY_RELEVANT",
+            "to": "eae6b2822b3e994d4f90"
+          },
+          {
+            "confidence": "UNVERIFIED",
+            "evidence_source": "federal_register",
+            "from": "786bdc14601340b8c0d4",
+            "relation": "SEARCH_RESULT_POSSIBLY_RELEVANT",
+            "to": "05fd3c468f373f27d52e"
+          },
+          {
+            "confidence": "UNVERIFIED",
+            "evidence_source": "federal_register",
+            "from": "786bdc14601340b8c0d4",
+            "relation": "SEARCH_RESULT_POSSIBLY_RELEVANT",
+            "to": "c1ed4acbd6e63d8891d9"
+          },
+          {
+            "confidence": "UNVERIFIED",
+            "evidence_source": "federal_register",
+            "from": "786bdc14601340b8c0d4",
+            "relation": "SEARCH_RESULT_POSSIBLY_RELEVANT",
+            "to": "7632076c34ea39d14085"
+          },
+          {
+            "confidence": "UNVERIFIED",
+            "evidence_source": "federal_register",
+            "from": "786bdc14601340b8c0d4",
+            "relation": "SEARCH_RESULT_POSSIBLY_RELEVANT",
+            "to": "907f893513a4e0c4aa60"
+          },
+          {
+            "confidence": "UNVERIFIED",
+            "evidence_source": "federal_register",
+            "from": "786bdc14601340b8c0d4",
+            "relation": "SEARCH_RESULT_POSSIBLY_RELEVANT",
+            "to": "fc9eafccb7a3fea1a4d7"
+          },
+          {
+            "confidence": "UNVERIFIED",
+            "evidence_source": "federal_register",
+            "from": "786bdc14601340b8c0d4",
+            "relation": "SEARCH_RESULT_POSSIBLY_RELEVANT",
+            "to": "4cb89fd8b0921e9d5baa"
+          },
+          {
+            "confidence": "UNVERIFIED",
+            "evidence_source": "federal_register",
+            "from": "786bdc14601340b8c0d4",
+            "relation": "SEARCH_RESULT_POSSIBLY_RELEVANT",
+            "to": "5e5569387653bb518e08"
+          },
+          {
+            "confidence": "UNVERIFIED",
+            "evidence_source": "federal_register",
+            "from": "786bdc14601340b8c0d4",
+            "relation": "SEARCH_RESULT_POSSIBLY_RELEVANT",
+            "to": "00d96073485c61090831"
+          },
+          {
+            "confidence": "UNVERIFIED",
+            "evidence_source": "federal_register",
+            "from": "786bdc14601340b8c0d4",
+            "relation": "SEARCH_RESULT_POSSIBLY_RELEVANT",
+            "to": "aad2c9ea3646c9242073"
+          },
+          {
+            "confidence": "UNVERIFIED",
+            "evidence_source": "federal_register",
+            "from": "786bdc14601340b8c0d4",
+            "relation": "SEARCH_RESULT_POSSIBLY_RELEVANT",
+            "to": "6c391cad2ce183ece0de"
+          },
+          {
+            "confidence": "UNVERIFIED",
+            "evidence_source": "federal_register",
+            "from": "786bdc14601340b8c0d4",
+            "relation": "SEARCH_RESULT_POSSIBLY_RELEVANT",
+            "to": "db621eadabdc5620bb1b"
+          },
+          {
+            "confidence": "UNVERIFIED",
+            "evidence_source": "federal_register",
+            "from": "786bdc14601340b8c0d4",
+            "relation": "SEARCH_RESULT_POSSIBLY_RELEVANT",
+            "to": "937e53ee4e8658b1872c"
+          },
+          {
+            "confidence": "UNVERIFIED",
+            "evidence_source": "federal_register",
+            "from": "786bdc14601340b8c0d4",
+            "relation": "SEARCH_RESULT_POSSIBLY_RELEVANT",
+            "to": "872f2eeab1734dce3f99"
+          },
+          {
+            "confidence": "UNVERIFIED",
+            "evidence_source": "federal_register",
+            "from": "786bdc14601340b8c0d4",
+            "relation": "SEARCH_RESULT_POSSIBLY_RELEVANT",
+            "to": "bf22b57bd5dffc9d3aa5"
+          },
+          {
+            "confidence": "UNVERIFIED",
+            "evidence_source": "federal_register",
+            "from": "786bdc14601340b8c0d4",
+            "relation": "SEARCH_RESULT_POSSIBLY_RELEVANT",
+            "to": "ae280827bb4c0d4af83b"
+          },
+          {
+            "confidence": "UNVERIFIED",
+            "evidence_source": "federal_register",
+            "from": "786bdc14601340b8c0d4",
+            "relation": "SEARCH_RESULT_POSSIBLY_RELEVANT",
+            "to": "472f37b867c6dd088ea1"
+          },
+          {
+            "confidence": "UNVERIFIED",
+            "evidence_source": "federal_register",
+            "from": "786bdc14601340b8c0d4",
+            "relation": "SEARCH_RESULT_POSSIBLY_RELEVANT",
+            "to": "c5911d05062aedcd8fc2"
+          },
+          {
+            "confidence": "UNVERIFIED",
+            "evidence_source": "federal_register",
+            "from": "786bdc14601340b8c0d4",
+            "relation": "SEARCH_RESULT_POSSIBLY_RELEVANT",
+            "to": "e411ab90e60cf009f050"
+          },
+          {
+            "confidence": "UNVERIFIED",
+            "evidence_source": "federal_register",
+            "from": "786bdc14601340b8c0d4",
+            "relation": "SEARCH_RESULT_POSSIBLY_RELEVANT",
+            "to": "1775679e2fb41eafe1fe"
+          },
+          {
+            "confidence": "UNVERIFIED",
+            "evidence_source": "research",
+            "from": "786bdc14601340b8c0d4",
+            "relation": "SEARCH_RESULT_POSSIBLY_RELEVANT",
+            "to": "22ccc7c2decab3ee8d3a"
+          },
+          {
+            "confidence": "UNVERIFIED",
+            "evidence_source": "research",
+            "from": "786bdc14601340b8c0d4",
+            "relation": "SEARCH_RESULT_POSSIBLY_RELEVANT",
+            "to": "217cf59dbef34c79d456"
+          },
+          {
+            "confidence": "UNVERIFIED",
+            "evidence_source": "research",
+            "from": "786bdc14601340b8c0d4",
+            "relation": "SEARCH_RESULT_POSSIBLY_RELEVANT",
+            "to": "b4837ef228b3a81c8a5d"
+          },
+          {
+            "confidence": "UNVERIFIED",
+            "evidence_source": "research",
+            "from": "786bdc14601340b8c0d4",
+            "relation": "SEARCH_RESULT_POSSIBLY_RELEVANT",
+            "to": "c92516530b72dd83cd75"
+          },
+          {
+            "confidence": "UNVERIFIED",
+            "evidence_source": "research",
+            "from": "786bdc14601340b8c0d4",
+            "relation": "SEARCH_RESULT_POSSIBLY_RELEVANT",
+            "to": "14285b8d8c6b86f9654b"
+          },
+          {
+            "confidence": "UNVERIFIED",
+            "evidence_source": "research",
+            "from": "786bdc14601340b8c0d4",
+            "relation": "SEARCH_RESULT_POSSIBLY_RELEVANT",
+            "to": "bb41eeb52db4dfcdcc11"
+          },
+          {
+            "confidence": "UNVERIFIED",
+            "evidence_source": "research",
+            "from": "786bdc14601340b8c0d4",
+            "relation": "SEARCH_RESULT_POSSIBLY_RELEVANT",
+            "to": "6ed4c19d9291d89acb24"
+          },
+          {
+            "confidence": "UNVERIFIED",
+            "evidence_source": "research",
+            "from": "786bdc14601340b8c0d4",
+            "relation": "SEARCH_RESULT_POSSIBLY_RELEVANT",
+            "to": "db8a93352df7465fdc73"
+          },
+          {
+            "confidence": "UNVERIFIED",
+            "evidence_source": "research",
+            "from": "786bdc14601340b8c0d4",
+            "relation": "SEARCH_RESULT_POSSIBLY_RELEVANT",
+            "to": "a1edd1ec489868d66271"
+          },
+          {
+            "confidence": "UNVERIFIED",
+            "evidence_source": "research",
+            "from": "786bdc14601340b8c0d4",
+            "relation": "SEARCH_RESULT_POSSIBLY_RELEVANT",
+            "to": "35fe0f981ae56f4b43b1"
+          },
+          {
+            "confidence": "UNVERIFIED",
+            "evidence_source": "research",
+            "from": "786bdc14601340b8c0d4",
+            "relation": "SEARCH_RESULT_POSSIBLY_RELEVANT",
+            "to": "cd14e8678ac0549cad2f"
+          },
+          {
+            "confidence": "UNVERIFIED",
+            "evidence_source": "research",
+            "from": "786bdc14601340b8c0d4",
+            "relation": "SEARCH_RESULT_POSSIBLY_RELEVANT",
+            "to": "206390257c0fac4afb2a"
+          },
+          {
+            "confidence": "UNVERIFIED",
+            "evidence_source": "research",
+            "from": "786bdc14601340b8c0d4",
+            "relation": "SEARCH_RESULT_POSSIBLY_RELEVANT",
+            "to": "f4d841cbb8d2d2cde6c0"
+          },
+          {
+            "confidence": "UNVERIFIED",
+            "evidence_source": "research",
+            "from": "786bdc14601340b8c0d4",
+            "relation": "SEARCH_RESULT_POSSIBLY_RELEVANT",
+            "to": "426cb14d05d7f26cbe4e"
+          },
+          {
+            "confidence": "UNVERIFIED",
+            "evidence_source": "research",
+            "from": "786bdc14601340b8c0d4",
+            "relation": "SEARCH_RESULT_POSSIBLY_RELEVANT",
+            "to": "022719e5e630e817fe89"
+          },
+          {
+            "confidence": "UNVERIFIED",
+            "evidence_source": "research",
+            "from": "786bdc14601340b8c0d4",
+            "relation": "SEARCH_RESULT_POSSIBLY_RELEVANT",
+            "to": "37f699ed94d179682ccf"
+          },
+          {
+            "confidence": "UNVERIFIED",
+            "evidence_source": "research",
+            "from": "786bdc14601340b8c0d4",
+            "relation": "SEARCH_RESULT_POSSIBLY_RELEVANT",
+            "to": "87326cb959b8bc3c7cd0"
+          },
+          {
+            "confidence": "UNVERIFIED",
+            "evidence_source": "research",
+            "from": "786bdc14601340b8c0d4",
+            "relation": "SEARCH_RESULT_POSSIBLY_RELEVANT",
+            "to": "2485dc56fb75eca55ae8"
+          },
+          {
+            "confidence": "UNVERIFIED",
+            "evidence_source": "research",
+            "from": "786bdc14601340b8c0d4",
+            "relation": "SEARCH_RESULT_POSSIBLY_RELEVANT",
+            "to": "3e651f08be8aba9e51cb"
+          },
+          {
+            "confidence": "UNVERIFIED",
+            "evidence_source": "research",
+            "from": "786bdc14601340b8c0d4",
+            "relation": "SEARCH_RESULT_POSSIBLY_RELEVANT",
+            "to": "19de6944aaa5da7dce82"
+          },
+          {
+            "confidence": "UNVERIFIED",
+            "evidence_source": "federal_awards",
+            "from": "786bdc14601340b8c0d4",
+            "relation": "SEARCH_RESULT_POSSIBLY_RELEVANT",
+            "to": "18fc9bb38ecbbea58f47"
+          },
+          {
+            "confidence": "UNVERIFIED",
+            "evidence_source": "federal_awards",
+            "from": "786bdc14601340b8c0d4",
+            "relation": "SEARCH_RESULT_POSSIBLY_RELEVANT",
+            "to": "c9ab9ab38ff4f459b38d"
+          },
+          {
+            "confidence": "UNVERIFIED",
+            "evidence_source": "federal_awards",
+            "from": "786bdc14601340b8c0d4",
+            "relation": "SEARCH_RESULT_POSSIBLY_RELEVANT",
+            "to": "9eea238c11ed400a845e"
+          },
+          {
+            "confidence": "UNVERIFIED",
+            "evidence_source": "federal_awards",
+            "from": "786bdc14601340b8c0d4",
+            "relation": "SEARCH_RESULT_POSSIBLY_RELEVANT",
+            "to": "29f1878ad418c83992a4"
+          },
+          {
+            "confidence": "UNVERIFIED",
+            "evidence_source": "federal_awards",
+            "from": "786bdc14601340b8c0d4",
+            "relation": "SEARCH_RESULT_POSSIBLY_RELEVANT",
+            "to": "d024124f3a3c56bc265b"
+          },
+          {
+            "confidence": "UNVERIFIED",
+            "evidence_source": "federal_awards",
+            "from": "786bdc14601340b8c0d4",
+            "relation": "SEARCH_RESULT_POSSIBLY_RELEVANT",
+            "to": "ac32c4d54a9b480eab6c"
+          },
+          {
+            "confidence": "UNVERIFIED",
+            "evidence_source": "federal_awards",
+            "from": "786bdc14601340b8c0d4",
+            "relation": "SEARCH_RESULT_POSSIBLY_RELEVANT",
+            "to": "44856e30f0913a6e43ee"
+          },
+          {
+            "confidence": "UNVERIFIED",
+            "evidence_source": "federal_awards",
+            "from": "786bdc14601340b8c0d4",
+            "relation": "SEARCH_RESULT_POSSIBLY_RELEVANT",
+            "to": "117f2e78b0305ef77e3b"
+          },
+          {
+            "confidence": "UNVERIFIED",
+            "evidence_source": "federal_awards",
+            "from": "786bdc14601340b8c0d4",
+            "relation": "SEARCH_RESULT_POSSIBLY_RELEVANT",
+            "to": "42cba96d9b3685bc5ffc"
+          },
+          {
+            "confidence": "UNVERIFIED",
+            "evidence_source": "federal_awards",
+            "from": "786bdc14601340b8c0d4",
+            "relation": "SEARCH_RESULT_POSSIBLY_RELEVANT",
+            "to": "3269a710756a8395d0d4"
+          },
+          {
+            "confidence": "UNVERIFIED",
+            "evidence_source": "federal_awards",
+            "from": "786bdc14601340b8c0d4",
+            "relation": "SEARCH_RESULT_POSSIBLY_RELEVANT",
+            "to": "4fcae4ed4c55b0da5f1b"
+          },
+          {
+            "confidence": "UNVERIFIED",
+            "evidence_source": "federal_awards",
+            "from": "786bdc14601340b8c0d4",
+            "relation": "SEARCH_RESULT_POSSIBLY_RELEVANT",
+            "to": "9793d560d2bd898d0c6b"
+          },
+          {
+            "confidence": "UNVERIFIED",
+            "evidence_source": "federal_awards",
+            "from": "786bdc14601340b8c0d4",
+            "relation": "SEARCH_RESULT_POSSIBLY_RELEVANT",
+            "to": "2c73ba138b6f46be5c5f"
+          }
+        ],
+        "nodes": [
+          {
+            "id": "786bdc14601340b8c0d4",
+            "name": "Eli Lilly and Company",
+            "type": "company_query",
+            "verification": "UNVERIFIED"
+          },
+          {
+            "doi": null,
+            "id": "8b849b62b03739d0bae7",
+            "source": "clinical_trials",
+            "source_id": "NCT00044863",
+            "title": "Study of Erbitux (Cetuximab) in Patients With Metastatic Colorectal Carcinoma",
+            "type": "source_record",
+            "updated": "2002-09-09",
+            "url": null,
+            "verification": "UNVERIFIED_NAME_SEARCH"
+          },
+          {
+            "doi": null,
+            "id": "abdb3adefd3ec10d5779",
+            "source": "clinical_trials",
+            "source_id": "NCT00869726",
+            "title": "A Study for Patients With Secondary Progressive Multiple Sclerosis",
+            "type": "source_record",
+            "updated": "2009-03-26",
+            "url": null,
+            "verification": "UNVERIFIED_NAME_SEARCH"
+          },
+          {
+            "doi": null,
+            "id": "71ccab147f1d2dfd0524",
+            "source": "clinical_trials",
+            "source_id": "NCT00568893",
+            "title": "An Open Label Study of Severe Sepsis in Adults",
+            "type": "source_record",
+            "updated": "2007-12-06",
+            "url": null,
+            "verification": "UNVERIFIED_NAME_SEARCH"
+          },
+          {
+            "doi": null,
+            "id": "be820acae28d3f3aab2a",
+            "source": "clinical_trials",
+            "source_id": "NCT00497484",
+            "title": "Evaluation of rhGH Replacement Therapy in Patients With Pseudohypoparathyroidism Type Ia (PHP Ia)",
+            "type": "source_record",
+            "updated": "2007-07-06",
+            "url": null,
+            "verification": "UNVERIFIED_NAME_SEARCH"
+          },
+          {
+            "doi": null,
+            "id": "114e8db290ddf406e3ac",
+            "source": "clinical_trials",
+            "source_id": "NCT06644378",
+            "title": "A Study of [14C]-LY3866288 in Healthy Participants",
+            "type": "source_record",
+            "updated": "2024-10-16",
+            "url": null,
+            "verification": "UNVERIFIED_NAME_SEARCH"
+          },
+          {
+            "doi": null,
+            "id": "52bfbdf9684e272c318d",
+            "source": "clinical_trials",
+            "source_id": "NCT01913314",
+            "title": "A Study of Carbon-14-Labeled LY2835219 ([^14C]-LY2835219) in Healthy Participants",
+            "type": "source_record",
+            "updated": "2013-08-01",
+            "url": null,
+            "verification": "UNVERIFIED_NAME_SEARCH"
+          },
+          {
+            "doi": null,
+            "id": "b77e0c5f1ec1d6ccf372",
+            "source": "clinical_trials",
+            "source_id": "NCT07174336",
+            "title": "A Study of Tersolisib (LY4064809/STX-478) With Other Anti-Cancer Treatments in Participants With Advanced Breast Cancer With a Genetic Change (PIK3CA)",
+            "type": "source_record",
+            "updated": "2025-09-15",
+            "url": null,
+            "verification": "UNVERIFIED_NAME_SEARCH"
+          },
+          {
+            "doi": null,
+            "id": "afe9329e8fef57db384d",
+            "source": "clinical_trials",
+            "source_id": "NCT03363906",
+            "title": "A Study of Dulaglutide in Healthy Participants",
+            "type": "source_record",
+            "updated": "2017-12-06",
+            "url": null,
+            "verification": "UNVERIFIED_NAME_SEARCH"
+          },
+          {
+            "doi": null,
+            "id": "c06e8cabd2b82735e0d9",
+            "source": "clinical_trials",
+            "source_id": "NCT00781911",
+            "title": "A Study of Cixutumumab (IMC-A12) in Islet Cell Cancer",
+            "type": "source_record",
+            "updated": "2008-10-29",
+            "url": null,
+            "verification": "UNVERIFIED_NAME_SEARCH"
+          },
+          {
+            "doi": null,
+            "id": "e95f0f6b10e45291d032",
+            "source": "clinical_trials",
+            "source_id": "NCT03363464",
+            "title": "Comparative Effectiveness of Empagliflozin in the US",
+            "type": "source_record",
+            "updated": "2017-12-06",
+            "url": null,
+            "verification": "UNVERIFIED_NAME_SEARCH"
+          },
+          {
+            "doi": null,
+            "id": "86a0a269eecdb2cfbba1",
+            "source": "clinical_trials",
+            "source_id": "NCT01697514",
+            "title": "A Study of LY2940680 in Pediatric Medulloblastoma or Rhabdomyosarcoma",
+            "type": "source_record",
+            "updated": "2012-10-02",
+            "url": null,
+            "verification": "UNVERIFIED_NAME_SEARCH"
+          },
+          {
+            "doi": null,
+            "id": "c6c9d6f2f6992431bebb",
+            "source": "clinical_trials",
+            "source_id": "NCT07056309",
+            "title": "A Study of Remternetug (LY3372993) in Healthy Participants",
+            "type": "source_record",
+            "updated": "2025-07-09",
+            "url": null,
+            "verification": "UNVERIFIED_NAME_SEARCH"
+          },
+          {
+            "doi": null,
+            "id": "315c9aba39cdcc566666",
+            "source": "clinical_trials",
+            "source_id": "NCT01148498",
+            "title": "A Biomarker Study of Solanezumab in Patients With and Without Alzheimer's",
+            "type": "source_record",
+            "updated": "2010-06-22",
+            "url": null,
+            "verification": "UNVERIFIED_NAME_SEARCH"
+          },
+          {
+            "doi": null,
+            "id": "b5445fa6cfa85c1c198a",
+            "source": "clinical_trials",
+            "source_id": "NCT05217446",
+            "title": "A Study of Encorafenib Plus Cetuximab Taken Together With Pembrolizumab Compared to Pembrolizumab Alone in People With Previously Untreated Metastatic Colorectal Cancer",
+            "type": "source_record",
+            "updated": "2022-02-01",
+            "url": null,
+            "verification": "UNVERIFIED_NAME_SEARCH"
+          },
+          {
+            "doi": null,
+            "id": "6f3a0463e44c45c8dfb7",
+            "source": "clinical_trials",
+            "source_id": "NCT02603861",
+            "title": "A Study of LY3154207 on Sleep in Healthy Male Participants",
+            "type": "source_record",
+            "updated": "2015-11-13",
+            "url": null,
+            "verification": "UNVERIFIED_NAME_SEARCH"
+          },
+          {
+            "doi": null,
+            "id": "5f387cd5afcd16cd6805",
+            "source": "clinical_trials",
+            "source_id": "NCT00176241",
+            "title": "Phase I Trial of Biweekly Gemcitabine & Paclitaxel & Low-Dose Radiation for Metastatic or Recurrent Head & Neck Cancer",
+            "type": "source_record",
+            "updated": "2005-09-15",
+            "url": null,
+            "verification": "UNVERIFIED_NAME_SEARCH"
+          },
+          {
+            "doi": null,
+            "id": "92db5fe7ce099dd76c77",
+            "source": "clinical_trials",
+            "source_id": "NCT05914688",
+            "title": "A Study to Compare Two Formulations of LY3209590 in Healthy Participants",
+            "type": "source_record",
+            "updated": "2023-06-22",
+            "url": null,
+            "verification": "UNVERIFIED_NAME_SEARCH"
+          },
+          {
+            "doi": null,
+            "id": "af395b13dc437257093b",
+            "source": "clinical_trials",
+            "source_id": "NCT00543023",
+            "title": "A Study of the Treatment of Postmenopausal Women With Osteoporosis",
+            "type": "source_record",
+            "updated": "2007-10-12",
+            "url": null,
+            "verification": "UNVERIFIED_NAME_SEARCH"
+          },
+          {
+            "doi": null,
+            "id": "9644d33faeec57a18643",
+            "source": "clinical_trials",
+            "source_id": "NCT00805441",
+            "title": "A Study in the Treatment of Alcohol Dependence.",
+            "type": "source_record",
+            "updated": "2008-12-09",
+            "url": null,
+            "verification": "UNVERIFIED_NAME_SEARCH"
+          },
+          {
+            "doi": null,
+            "id": "ea6b4c20a181057915da",
+            "source": "clinical_trials",
+            "source_id": "NCT04498910",
+            "title": "A Study of LY3451838 in Participants With Migraine",
+            "type": "source_record",
+            "updated": "2020-08-05",
+            "url": null,
+            "verification": "UNVERIFIED_NAME_SEARCH"
+          },
+          {
+            "doi": null,
+            "id": "eae6b2822b3e994d4f90",
+            "source": "federal_register",
+            "source_id": "2026-22303",
+            "title": "Foreign-Trade Zone 72; Application for Subzone Expansion; Eli Lilly and Company; Brownsburg, Lebanon, and Whitestown, Indiana",
+            "type": "source_record",
+            "updated": "2026-11-02",
+            "url": "https://www.federalregister.gov/documents/2026/11/02/2026-22303/foreign-trade-zone-72-application-for-subzone-expansion-eli-lilly-and-company-brownsburg-lebanon-and",
+            "verification": "UNVERIFIED_NAME_SEARCH"
+          },
+          {
+            "doi": null,
+            "id": "05fd3c468f373f27d52e",
+            "source": "federal_register",
+            "source_id": "2026-07322",
+            "title": "Granting of Requests for Early Termination of the Waiting Period Under the Premerger Notification Rules",
+            "type": "source_record",
+            "updated": "2026-04-15",
+            "url": "https://www.federalregister.gov/documents/2026/04/15/2026-07322/granting-of-requests-for-early-termination-of-the-waiting-period-under-the-premerger-notification",
+            "verification": "UNVERIFIED_NAME_SEARCH"
+          },
+          {
+            "doi": null,
+            "id": "c1ed4acbd6e63d8891d9",
+            "source": "federal_register",
+            "source_id": "2026-19699",
+            "title": "Foreign-Trade Zone (FTZ) 57, Notification of Proposed Production Activity; Eli Lilly and Company; (Drug Products); Concord, North Carolina",
+            "type": "source_record",
+            "updated": "2026-09-25",
+            "url": "https://www.federalregister.gov/documents/2026/09/25/2026-19699/foreign-trade-zone-ftz-57-notification-of-proposed-production-activity-eli-lilly-and-company-drug",
+            "verification": "UNVERIFIED_NAME_SEARCH"
+          },
+          {
+            "doi": null,
+            "id": "7632076c34ea39d14085",
+            "source": "federal_register",
+            "source_id": "2026-19698",
+            "title": "Foreign-Trade Zone (FTZ) 93, Notification of Proposed Production Activity; Eli Lilly and Company; (Drug Products); Durham, North Carolina",
+            "type": "source_record",
+            "updated": "2026-09-25",
+            "url": "https://www.federalregister.gov/documents/2026/09/25/2026-19698/foreign-trade-zone-ftz-93-notification-of-proposed-production-activity-eli-lilly-and-company-drug",
+            "verification": "UNVERIFIED_NAME_SEARCH"
+          },
+          {
+            "doi": null,
+            "id": "907f893513a4e0c4aa60",
+            "source": "federal_register",
+            "source_id": "2026-04542",
+            "title": "Granting of Requests for Early Termination of the Waiting Period Under the Premerger Notification Rules",
+            "type": "source_record",
+            "updated": "2026-03-09",
+            "url": "https://www.federalregister.gov/documents/2026/03/09/2026-04542/granting-of-requests-for-early-termination-of-the-waiting-period-under-the-premerger-notification",
+            "verification": "UNVERIFIED_NAME_SEARCH"
+          },
+          {
+            "doi": null,
+            "id": "fc9eafccb7a3fea1a4d7",
+            "source": "federal_register",
+            "source_id": "2026-14664",
+            "title": "Granting of Requests for Early Termination of the Waiting Period Under the Premerger Notification Rules",
+            "type": "source_record",
+            "updated": "2026-07-21",
+            "url": "https://www.federalregister.gov/documents/2026/07/21/2026-14664/granting-of-requests-for-early-termination-of-the-waiting-period-under-the-premerger-notification",
+            "verification": "UNVERIFIED_NAME_SEARCH"
+          },
+          {
+            "doi": null,
+            "id": "4cb89fd8b0921e9d5baa",
+            "source": "federal_register",
+            "source_id": "2025-14233",
+            "title": "Revocation of Emergency Use of a Drug Product During the COVID-19 Pandemic; Availability",
+            "type": "source_record",
+            "updated": "2025-07-29",
+            "url": "https://www.federalregister.gov/documents/2025/07/29/2025-14233/revocation-of-emergency-use-of-a-drug-product-during-the-covid-19-pandemic-availability",
+            "verification": "UNVERIFIED_NAME_SEARCH"
+          },
+          {
+            "doi": null,
+            "id": "5e5569387653bb518e08",
+            "source": "federal_register",
+            "source_id": "2026-19024",
+            "title": "Granting of Requests for Early Termination of the Waiting Period Under the Premerger Notification Rules",
+            "type": "source_record",
+            "updated": "2026-09-17",
+            "url": "https://www.federalregister.gov/documents/2026/09/17/2026-19024/granting-of-requests-for-early-termination-of-the-waiting-period-under-the-premerger-notification",
+            "verification": "UNVERIFIED_NAME_SEARCH"
+          },
+          {
+            "doi": null,
+            "id": "00d96073485c61090831",
+            "source": "federal_register",
+            "source_id": "2026-06661",
+            "title": "Determination That STRATTERA (Atomoxetine Hydrochloride) Capsules 5 Milligrams, 10 Milligrams, 18 Milligrams, 25 Milligrams, 40 Milligrams, 60 Milligrams, 80 Milligrams, and 100 Milligrams, Were Not Withdrawn From Sale for Reasons of Safety or Effectiveness",
+            "type": "source_record",
+            "updated": "2026-04-06",
+            "url": "https://www.federalregister.gov/documents/2026/04/06/2026-06661/determination-that-strattera-atomoxetine-hydrochloride-capsules-5-milligrams-10-milligrams-18",
+            "verification": "UNVERIFIED_NAME_SEARCH"
+          },
+          {
+            "doi": null,
+            "id": "aad2c9ea3646c9242073",
+            "source": "federal_register",
+            "source_id": "2025-17535",
+            "title": "Granting of Requests for Early Termination of the Waiting Period Under the Premerger Notification Rules",
+            "type": "source_record",
+            "updated": "2025-09-11",
+            "url": "https://www.federalregister.gov/documents/2025/09/11/2025-17535/granting-of-requests-for-early-termination-of-the-waiting-period-under-the-premerger-notification",
+            "verification": "UNVERIFIED_NAME_SEARCH"
+          },
+          {
+            "doi": null,
+            "id": "6c391cad2ce183ece0de",
+            "source": "federal_register",
+            "source_id": "2026-13616",
+            "title": "Endo Operations Limited, et al.; Withdrawal of Approval of 34 New Drug Applications",
+            "type": "source_record",
+            "updated": "2026-07-06",
+            "url": "https://www.federalregister.gov/documents/2026/07/06/2026-13616/endo-operations-limited-et-al-withdrawal-of-approval-of-34-new-drug-applications",
+            "verification": "UNVERIFIED_NAME_SEARCH"
+          },
+          {
+            "doi": null,
+            "id": "db621eadabdc5620bb1b",
+            "source": "federal_register",
+            "source_id": "2026-03244",
+            "title": "Granting of Requests for Early Termination of the Waiting Period Under the Premerger Notification Rules",
+            "type": "source_record",
+            "updated": "2026-02-19",
+            "url": "https://www.federalregister.gov/documents/2026/02/19/2026-03244/granting-of-requests-for-early-termination-of-the-waiting-period-under-the-premerger-notification",
+            "verification": "UNVERIFIED_NAME_SEARCH"
+          },
+          {
+            "doi": null,
+            "id": "937e53ee4e8658b1872c",
+            "source": "federal_register",
+            "source_id": "2025-13044",
+            "title": "Determination of Regulatory Review Period for Purposes of Patent Extension; KISUNLA",
+            "type": "source_record",
+            "updated": "2025-07-14",
+            "url": "https://www.federalregister.gov/documents/2025/07/14/2025-13044/determination-of-regulatory-review-period-for-purposes-of-patent-extension-kisunla",
+            "verification": "UNVERIFIED_NAME_SEARCH"
+          },
+          {
+            "doi": null,
+            "id": "872f2eeab1734dce3f99",
+            "source": "federal_register",
+            "source_id": "2025-06352",
+            "title": "Certain Products Containing Tirzepatide and Products Purporting To Contain Tirzepatide; Notice of Issuance of a General Exclusion Order, a Limited Exclusion Order, and Cease and Desist Orders; Termination of the Investigation",
+            "type": "source_record",
+            "updated": "2025-04-15",
+            "url": "https://www.federalregister.gov/documents/2025/04/15/2025-06352/certain-products-containing-tirzepatide-and-products-purporting-to-contain-tirzepatide-notice-of",
+            "verification": "UNVERIFIED_NAME_SEARCH"
+          },
+          {
+            "doi": null,
+            "id": "bf22b57bd5dffc9d3aa5",
+            "source": "federal_register",
+            "source_id": "2024-28433",
+            "title": "Determination That Bentyl Preservative Free (Dicyclomine Hydrochloride) Injection, 10 Milligrams/Milliliters, and Other Drug Products Were Not Withdrawn From Sale for Reasons of Safety or Effectiveness",
+            "type": "source_record",
+            "updated": "2024-12-05",
+            "url": "https://www.federalregister.gov/documents/2024/12/05/2024-28433/determination-that-bentyl-preservative-free-dicyclomine-hydrochloride-injection-10",
+            "verification": "UNVERIFIED_NAME_SEARCH"
+          },
+          {
+            "doi": null,
+            "id": "ae280827bb4c0d4af83b",
+            "source": "federal_register",
+            "source_id": "2025-01785",
+            "title": "Certain Products Containing Tirzepatide and Products Purporting To Contain Tirzepatide; Notice of a Commission Determination Not To Review an Initial Determination Finding Respondents in Violation of Section 337; Request for Written Submissions on Remedy, the Public Interest, and Bonding",
+            "type": "source_record",
+            "updated": "2025-01-28",
+            "url": "https://www.federalregister.gov/documents/2025/01/28/2025-01785/certain-products-containing-tirzepatide-and-products-purporting-to-contain-tirzepatide-notice-of-a",
+            "verification": "UNVERIFIED_NAME_SEARCH"
+          },
+          {
+            "doi": null,
+            "id": "472f37b867c6dd088ea1",
+            "source": "federal_register",
+            "source_id": "2024-13370",
+            "title": "Certain Products Containing Tirzepatide and Products Purporting To Contain Tirzepatide; Notice of a Commission Determination Not To Review an Initial Determination Granting a Motion To Amend the Complaint and Notice of Investigation",
+            "type": "source_record",
+            "updated": "2024-06-18",
+            "url": "https://www.federalregister.gov/documents/2024/06/18/2024-13370/certain-products-containing-tirzepatide-and-products-purporting-to-contain-tirzepatide-notice-of-a",
+            "verification": "UNVERIFIED_NAME_SEARCH"
+          },
+          {
+            "doi": null,
+            "id": "c5911d05062aedcd8fc2",
+            "source": "federal_register",
+            "source_id": "2024-07988",
+            "title": "Notice Pursuant to the National Cooperative Research and Production Act of 1993-Subcutaneous Drug Development & Delivery Consortium, Inc.",
+            "type": "source_record",
+            "updated": "2024-04-16",
+            "url": "https://www.federalregister.gov/documents/2024/04/16/2024-07988/notice-pursuant-to-the-national-cooperative-research-and-production-act-of-1993-subcutaneous-drug",
+            "verification": "UNVERIFIED_NAME_SEARCH"
+          },
+          {
+            "doi": null,
+            "id": "e411ab90e60cf009f050",
+            "source": "federal_register",
+            "source_id": "2024-11534",
+            "title": "Certain Products Containing Tirzepatide and Products Purporting To Contain Tirzepatide; Notice of a Commission Determination Not To Review an Initial Determination Granting-in-Part Motion To Amend the Complaint and Notice of Investigation",
+            "type": "source_record",
+            "updated": "2024-05-28",
+            "url": "https://www.federalregister.gov/documents/2024/05/28/2024-11534/certain-products-containing-tirzepatide-and-products-purporting-to-contain-tirzepatide-notice-of-a",
+            "verification": "UNVERIFIED_NAME_SEARCH"
+          },
+          {
+            "doi": null,
+            "id": "1775679e2fb41eafe1fe",
+            "source": "federal_register",
+            "source_id": "2024-12065",
+            "title": "Pfizer, Inc., et al.; Withdrawal of Approval of 23 New Drug Applications",
+            "type": "source_record",
+            "updated": "2024-06-03",
+            "url": "https://www.federalregister.gov/documents/2024/06/03/2024-12065/pfizer-inc-et-al-withdrawal-of-approval-of-23-new-drug-applications",
+            "verification": "UNVERIFIED_NAME_SEARCH"
+          },
+          {
+            "doi": "10.2533/chimia.2023.319",
+            "id": "22ccc7c2decab3ee8d3a",
+            "source": "research",
+            "source_id": "38047828",
+            "title": "The History of Flow Chemistry at Eli Lilly and Company.",
+            "type": "source_record",
+            "updated": "2023-05-31",
+            "url": null,
+            "verification": "UNVERIFIED_NAME_SEARCH"
+          },
+          {
+            "doi": "10.17458/per.vol17.2020.jjh.elilillycompanyinsulin",
+            "id": "217cf59dbef34c79d456",
+            "source": "research",
+            "source_id": "32208559",
+            "title": "Eli Lilly and Company Insulins - A Century of Innovation.",
+            "type": "source_record",
+            "updated": "2020-03-01",
+            "url": null,
+            "verification": "UNVERIFIED_NAME_SEARCH"
+          },
+          {
+            "doi": "10.1159/000513139",
+            "id": "b4837ef228b3a81c8a5d",
+            "source": "research",
+            "source_id": "34720809",
+            "title": "Patient Preferences: Results of a German Adaptive Choice-Based Conjoint Analysis (Market Research Study Sponsored by Eli Lilly and Company) in Patients on Palliative Treatment for Advanced Breast Cancer.",
+            "type": "source_record",
+            "updated": "2021-01-25",
+            "url": null,
+            "verification": "UNVERIFIED_NAME_SEARCH"
+          },
+          {
+            "doi": "10.1021/jasms.6c00127",
+            "id": "c92516530b72dd83cd75",
+            "source": "research",
+            "source_id": "42980286",
+            "title": "Mechanistic Studies of the Gas-Phase Cornforth Rearrangement Using Collision-Induced Dissociation and Density Functional Theory.",
+            "type": "source_record",
+            "updated": "2026-11-01",
+            "url": null,
+            "verification": "UNVERIFIED_NAME_SEARCH"
+          },
+          {
+            "doi": "10.2337/dc26-0298",
+            "id": "14285b8d8c6b86f9654b",
+            "source": "research",
+            "source_id": "41940793",
+            "title": "Estimating the True MACE Benefits From Tirzepatide in SURPASS-CVOT Using an Imputed Placebo Analysis of REWIND.",
+            "type": "source_record",
+            "updated": "2026-10-01",
+            "url": null,
+            "verification": "UNVERIFIED_NAME_SEARCH"
+          },
+          {
+            "doi": "10.1111/dom.71480",
+            "id": "bb41eeb52db4dfcdcc11",
+            "source": "research",
+            "source_id": "42951303",
+            "title": "Tirzepatide Use Resulted in Clinically Meaningful Weight Reduction in Individuals With Obesity or Overweight: 12-Month Real-World Results.",
+            "type": "source_record",
+            "updated": "2026-10-28",
+            "url": null,
+            "verification": "UNVERIFIED_NAME_SEARCH"
+          },
+          {
+            "doi": "10.1016/j.esmoop.2026.108549",
+            "id": "6ed4c19d9291d89acb24",
+            "source": "research",
+            "source_id": "42815408",
+            "title": "Abemaciclib plus endocrine therapy in HR-positive, HER2-negative high-risk early breast cancer: efficacy in nodal subgroups.",
+            "type": "source_record",
+            "updated": "2026-09-30",
+            "url": null,
+            "verification": "UNVERIFIED_NAME_SEARCH"
+          },
+          {
+            "doi": "10.1007/s13555-026-01967-9",
+            "id": "db8a93352df7465fdc73",
+            "source": "research",
+            "source_id": "42957861",
+            "title": "How Patients with Atopic Dermatitis Experience Topical Therapy: A Real-World Analysis of Impact, Treatment Satisfaction, and HCP Communication.",
+            "type": "source_record",
+            "updated": "2026-10-30",
+            "url": null,
+            "verification": "UNVERIFIED_NAME_SEARCH"
+          },
+          {
+            "doi": "10.1007/s40259-026-00810-z",
+            "id": "a1edd1ec489868d66271",
+            "source": "research",
+            "source_id": "42946942",
+            "title": "Sustained Efficacy and Safety of Mirikizumab Through 152 Weeks in Chinese Patients with Moderately to Severely Active Crohn's Disease: A Subpopulation Analysis of the VIVID-1 and VIVID-2 Phase 3 Trials.",
+            "type": "source_record",
+            "updated": "2026-10-28",
+            "url": null,
+            "verification": "UNVERIFIED_NAME_SEARCH"
+          },
+          {
+            "doi": "10.1002/art.70375",
+            "id": "35fe0f981ae56f4b43b1",
+            "source": "research",
+            "source_id": "43012507",
+            "title": "Durable and Additive Disease Control at 52 Weeks With Ixekizumab Plus Tirzepatide Versus Ixekizumab Alone in Adults With Psoriatic Arthritis and Obesity or Overweight: Additional Results From a Randomized Clinical Trial.",
+            "type": "source_record",
+            "updated": "2026-11-11",
+            "url": null,
+            "verification": "UNVERIFIED_NAME_SEARCH"
+          },
+          {
+            "doi": "10.1016/j.drudis.2026.104767",
+            "id": "cd14e8678ac0549cad2f",
+            "source": "research",
+            "source_id": "42600735",
+            "title": "Model Gateway: Management platform for model-driven drug discovery.",
+            "type": "source_record",
+            "updated": "2026-08-14",
+            "url": null,
+            "verification": "UNVERIFIED_NAME_SEARCH"
+          },
+          {
+            "doi": "10.1111/dom.71526",
+            "id": "206390257c0fac4afb2a",
+            "source": "research",
+            "source_id": "43003414",
+            "title": "Screening for Nutritional Risk in Adults Receiving Obesity Treatment: A Systematic Literature Review of Available Tools and Identification of Conceptual Gaps.",
+            "type": "source_record",
+            "updated": "2026-11-09",
+            "url": null,
+            "verification": "UNVERIFIED_NAME_SEARCH"
+          },
+          {
+            "doi": "10.1007/s13555-026-01886-9",
+            "id": "f4d841cbb8d2d2cde6c0",
+            "source": "research",
+            "source_id": "42825995",
+            "title": "Baricitinib Efficacy Through 4 Years in Responders and Safety up to 5 Years in Adults with Severe Alopecia Areata: Final Results from BRAVE-AA1 and BRAVE-AA2.",
+            "type": "source_record",
+            "updated": "2026-10-02",
+            "url": null,
+            "verification": "UNVERIFIED_NAME_SEARCH"
+          },
+          {
+            "doi": "10.1021/acs.jpcb.6c04611",
+            "id": "426cb14d05d7f26cbe4e",
+            "source": "research",
+            "source_id": "42954643",
+            "title": "Simulating the Permeation of a Therapeutic Peptide through a Phospholipid Membrane.",
+            "type": "source_record",
+            "updated": "2026-10-01",
+            "url": null,
+            "verification": "UNVERIFIED_NAME_SEARCH"
+          },
+          {
+            "doi": "10.1002/jssc.70547",
+            "id": "022719e5e630e817fe89",
+            "source": "research",
+            "source_id": "42856022",
+            "title": "Evaluation of a Hydrophilic Interaction Liquid Chromatography Design Space for Amino Acids.",
+            "type": "source_record",
+            "updated": "2026-10-01",
+            "url": null,
+            "verification": "UNVERIFIED_NAME_SEARCH"
+          },
+          {
+            "doi": "10.1007/s44470-026-00162-z",
+            "id": "37f699ed94d179682ccf",
+            "source": "research",
+            "source_id": "42675225",
+            "title": "Association of tirzepatide with changes in OSA-related measures based on baseline characteristics - post hoc analyses of SURMOUNT-OSA.",
+            "type": "source_record",
+            "updated": "2026-08-31",
+            "url": null,
+            "verification": "UNVERIFIED_NAME_SEARCH"
+          },
+          {
+            "doi": "10.1016/j.ijpharm.2026.127459",
+            "id": "87326cb959b8bc3c7cd0",
+            "source": "research",
+            "source_id": "42777896",
+            "title": "Revisiting punch sticking in tablet compression: what do we really know?",
+            "type": "source_record",
+            "updated": "2026-09-23",
+            "url": null,
+            "verification": "UNVERIFIED_NAME_SEARCH"
+          },
+          {
+            "doi": "10.1007/s13555-026-01852-5",
+            "id": "2485dc56fb75eca55ae8",
+            "source": "research",
+            "source_id": "42533210",
+            "title": "AD-REAL: A Prospective, Multinational, Observational Cohort Study of Clinical Effectiveness and Treatment Discontinuation of Oral Systemics for Moderate-to-Severe Atopic Dermatitis.",
+            "type": "source_record",
+            "updated": "2026-07-30",
+            "url": null,
+            "verification": "UNVERIFIED_NAME_SEARCH"
+          },
+          {
+            "doi": "10.1016/j.lungcan.2026.109586",
+            "id": "3e651f08be8aba9e51cb",
+            "source": "research",
+            "source_id": "42636546",
+            "title": "Therapeutic evolution: Adoption of newly approved systemic therapies in resected stage IB-IIIA NSCLC in the United States.",
+            "type": "source_record",
+            "updated": "2026-08-20",
+            "url": null,
+            "verification": "UNVERIFIED_NAME_SEARCH"
+          },
+          {
+            "doi": "10.1208/s12249-026-03504-5",
+            "id": "19de6944aaa5da7dce82",
+            "source": "research",
+            "source_id": "42711605",
+            "title": "Correction: Use of Incurred Sample Reproducibility Data to Support Long Term Stability of Therapeutic Antibodies in Clinical Bioanalytical Methods.",
+            "type": "source_record",
+            "updated": "2026-09-08",
+            "url": null,
+            "verification": "UNVERIFIED_NAME_SEARCH"
+          },
+          {
+            "doi": null,
+            "id": "18fc9bb38ecbbea58f47",
+            "source": "federal_awards",
+            "source_id": "W58P0522C0012",
+            "title": "LYCOV1404 BEBTELOVIMAB",
+            "type": "source_record",
+            "updated": null,
+            "url": null,
+            "verification": "UNVERIFIED_NAME_SEARCH"
+          },
+          {
+            "doi": null,
+            "id": "c9ab9ab38ff4f459b38d",
+            "source": "federal_awards",
+            "source_id": "W911QY21C0016",
+            "title": "MONOCLONAL ANTIBODY LY-COV555",
+            "type": "source_record",
+            "updated": null,
+            "url": null,
+            "verification": "UNVERIFIED_NAME_SEARCH"
+          },
+          {
+            "doi": null,
+            "id": "9eea238c11ed400a845e",
+            "source": "federal_awards",
+            "source_id": "W58P0522F0001",
+            "title": "PURCHASE OF A TOTAL OF 614,000 DOSES OF COMBINATION MONOCLONAL ANTIBODY.",
+            "type": "source_record",
+            "updated": null,
+            "url": null,
+            "verification": "UNVERIFIED_NAME_SEARCH"
+          },
+          {
+            "doi": null,
+            "id": "29f1878ad418c83992a4",
+            "source": "federal_awards",
+            "source_id": "W58P0521F0002",
+            "title": "PURCHASE OF 388,000 DOSES OF MONOCLONAL ANTIBODY LY-COV016.",
+            "type": "source_record",
+            "updated": null,
+            "url": null,
+            "verification": "UNVERIFIED_NAME_SEARCH"
+          },
+          {
+            "doi": null,
+            "id": "d024124f3a3c56bc265b",
+            "source": "federal_awards",
+            "source_id": "W911QY21F0167",
+            "title": "COMBINATION MONOCLONAL ANTIBODY - DELIVERY ORDER FOR 100,000 DOSES.",
+            "type": "source_record",
+            "updated": null,
+            "url": null,
+            "verification": "UNVERIFIED_NAME_SEARCH"
+          },
+          {
+            "doi": null,
+            "id": "ac32c4d54a9b480eab6c",
+            "source": "federal_awards",
+            "source_id": "36C25026N0080",
+            "title": "AMYVID RADIOPHARMACEUTICAL 10 MCI FLORBETAPIR F-18 INJ,SOLN",
+            "type": "source_record",
+            "updated": null,
+            "url": null,
+            "verification": "UNVERIFIED_NAME_SEARCH"
+          },
+          {
+            "doi": null,
+            "id": "44856e30f0913a6e43ee",
+            "source": "federal_awards",
+            "source_id": "V255PROSFY08006421325",
+            "title": "PROSTHETICS EXPRESS REPORT FY 08",
+            "type": "source_record",
+            "updated": null,
+            "url": null,
+            "verification": "UNVERIFIED_NAME_SEARCH"
+          },
+          {
+            "doi": null,
+            "id": "117f2e78b0305ef77e3b",
+            "source": "federal_awards",
+            "source_id": "36C26226N0579",
+            "title": "F-18 AMYVID B+4",
+            "type": "source_record",
+            "updated": null,
+            "url": null,
+            "verification": "UNVERIFIED_NAME_SEARCH"
+          },
+          {
+            "doi": null,
+            "id": "42cba96d9b3685bc5ffc",
+            "source": "federal_awards",
+            "source_id": "V255GUIDANT121EXPRESSREPORT",
+            "title": "EXPRESS REPORT FOR PROSTHETICS ORDERS  657-2P3216 657-2P3226",
+            "type": "source_record",
+            "updated": null,
+            "url": null,
+            "verification": "UNVERIFIED_NAME_SEARCH"
+          },
+          {
+            "doi": null,
+            "id": "3269a710756a8395d0d4",
+            "source": "federal_awards",
+            "source_id": "DOCSB134110SE0413",
+            "title": "TO PERFORM ON-SITE ASSESSMENTS OF OAK RIDGE METROLOGY CENTER, OAK RIDGE TN, NVLAP LAB CODE 105000-0; INSTRON CALIBRATION LABORATORY, NORWOOD MA, NVLAP LAB CODE 200301-0; ELI LILLY AND COMPANY CORPORATE STANDARDS, INDIANAPOLIS IN, NVLAP LAB CODE 200717-0.",
+            "type": "source_record",
+            "updated": null,
+            "url": null,
+            "verification": "UNVERIFIED_NAME_SEARCH"
+          },
+          {
+            "doi": null,
+            "id": "4fcae4ed4c55b0da5f1b",
+            "source": "federal_awards",
+            "source_id": "36C25226F0408",
+            "title": "AMYVID_BETA AMYLOID IMAGING",
+            "type": "source_record",
+            "updated": null,
+            "url": null,
+            "verification": "UNVERIFIED_NAME_SEARCH"
+          },
+          {
+            "doi": null,
+            "id": "9793d560d2bd898d0c6b",
+            "source": "federal_awards",
+            "source_id": "V6571PU096",
+            "title": "PROSTHETICS ORDER",
+            "type": "source_record",
+            "updated": null,
+            "url": null,
+            "verification": "UNVERIFIED_NAME_SEARCH"
+          },
+          {
+            "doi": null,
+            "id": "2c73ba138b6f46be5c5f",
+            "source": "federal_awards",
+            "source_id": "V657P84927",
+            "title": "INTRODUCER 9F",
+            "type": "source_record",
+            "updated": null,
+            "url": null,
+            "verification": "UNVERIFIED_NAME_SEARCH"
+          }
+        ],
+        "schema_version": 1,
+        "trade_eligible": false,
+        "verified_company_relationships": 0,
+        "warning": "No evidence of ownership, contract, subsidiary, causality or materiality established"
+      },
+      "name": "Eli Lilly and Company",
+      "research_queue": [
+        {
+          "priority": 4,
+          "source": "clinical_trials",
+          "source_id": "NCT00044863",
+          "status": "NEEDS_ENTITY_AND_MATERIALITY_VERIFICATION",
+          "title": "Study of Erbitux (Cetuximab) in Patients With Metastatic Colorectal Carcinoma"
+        },
+        {
+          "priority": 4,
+          "source": "clinical_trials",
+          "source_id": "NCT00176241",
+          "status": "NEEDS_ENTITY_AND_MATERIALITY_VERIFICATION",
+          "title": "Phase I Trial of Biweekly Gemcitabine & Paclitaxel & Low-Dose Radiation for Metastatic or Recurrent Head & Neck Cancer"
+        },
+        {
+          "priority": 4,
+          "source": "clinical_trials",
+          "source_id": "NCT00497484",
+          "status": "NEEDS_ENTITY_AND_MATERIALITY_VERIFICATION",
+          "title": "Evaluation of rhGH Replacement Therapy in Patients With Pseudohypoparathyroidism Type Ia (PHP Ia)"
+        },
+        {
+          "priority": 4,
+          "source": "clinical_trials",
+          "source_id": "NCT00543023",
+          "status": "NEEDS_ENTITY_AND_MATERIALITY_VERIFICATION",
+          "title": "A Study of the Treatment of Postmenopausal Women With Osteoporosis"
+        },
+        {
+          "priority": 4,
+          "source": "clinical_trials",
+          "source_id": "NCT00568893",
+          "status": "NEEDS_ENTITY_AND_MATERIALITY_VERIFICATION",
+          "title": "An Open Label Study of Severe Sepsis in Adults"
+        },
+        {
+          "priority": 4,
+          "source": "clinical_trials",
+          "source_id": "NCT00781911",
+          "status": "NEEDS_ENTITY_AND_MATERIALITY_VERIFICATION",
+          "title": "A Study of Cixutumumab (IMC-A12) in Islet Cell Cancer"
+        },
+        {
+          "priority": 4,
+          "source": "clinical_trials",
+          "source_id": "NCT00805441",
+          "status": "NEEDS_ENTITY_AND_MATERIALITY_VERIFICATION",
+          "title": "A Study in the Treatment of Alcohol Dependence."
+        },
+        {
+          "priority": 4,
+          "source": "clinical_trials",
+          "source_id": "NCT00869726",
+          "status": "NEEDS_ENTITY_AND_MATERIALITY_VERIFICATION",
+          "title": "A Study for Patients With Secondary Progressive Multiple Sclerosis"
+        },
+        {
+          "priority": 4,
+          "source": "clinical_trials",
+          "source_id": "NCT01148498",
+          "status": "NEEDS_ENTITY_AND_MATERIALITY_VERIFICATION",
+          "title": "A Biomarker Study of Solanezumab in Patients With and Without Alzheimer's"
+        },
+        {
+          "priority": 4,
+          "source": "clinical_trials",
+          "source_id": "NCT01697514",
+          "status": "NEEDS_ENTITY_AND_MATERIALITY_VERIFICATION",
+          "title": "A Study of LY2940680 in Pediatric Medulloblastoma or Rhabdomyosarcoma"
+        },
+        {
+          "priority": 4,
+          "source": "clinical_trials",
+          "source_id": "NCT01913314",
+          "status": "NEEDS_ENTITY_AND_MATERIALITY_VERIFICATION",
+          "title": "A Study of Carbon-14-Labeled LY2835219 ([^14C]-LY2835219) in Healthy Participants"
+        },
+        {
+          "priority": 4,
+          "source": "clinical_trials",
+          "source_id": "NCT02603861",
+          "status": "NEEDS_ENTITY_AND_MATERIALITY_VERIFICATION",
+          "title": "A Study of LY3154207 on Sleep in Healthy Male Participants"
+        },
+        {
+          "priority": 4,
+          "source": "clinical_trials",
+          "source_id": "NCT03363464",
+          "status": "NEEDS_ENTITY_AND_MATERIALITY_VERIFICATION",
+          "title": "Comparative Effectiveness of Empagliflozin in the US"
+        },
+        {
+          "priority": 4,
+          "source": "clinical_trials",
+          "source_id": "NCT03363906",
+          "status": "NEEDS_ENTITY_AND_MATERIALITY_VERIFICATION",
+          "title": "A Study of Dulaglutide in Healthy Participants"
+        },
+        {
+          "priority": 4,
+          "source": "clinical_trials",
+          "source_id": "NCT04498910",
+          "status": "NEEDS_ENTITY_AND_MATERIALITY_VERIFICATION",
+          "title": "A Study of LY3451838 in Participants With Migraine"
+        }
+      ],
+      "sources": {
+        "clinical_trials": {
+          "results": 20,
+          "status": "SEARCH_OK_NOT_ENTITY_VERIFIED"
+        },
+        "federal_awards": {
+          "results": 13,
+          "status": "SEARCH_OK_NOT_ENTITY_VERIFIED"
+        },
+        "federal_register": {
+          "results": 20,
+          "status": "SEARCH_OK_NOT_ENTITY_VERIFIED"
+        },
+        "research": {
+          "results": 20,
+          "status": "SEARCH_OK_NOT_ENTITY_VERIFIED"
+        }
+      },
+      "status": "SEARCH_COMPLETE_ENTITY_UNVERIFIED",
+      "symbol": "LLY"
+    },
+    {
+      "graph": {
+        "company_query": "Pfizer Inc.",
+        "edges": [
+          {
+            "confidence": "UNVERIFIED",
+            "evidence_source": "clinical_trials",
+            "from": "8e98790a3c01c6f87b5f",
+            "relation": "SEARCH_RESULT_POSSIBLY_RELEVANT",
+            "to": "d66a4e73730096f9798a"
+          },
+          {
+            "confidence": "UNVERIFIED",
+            "evidence_source": "clinical_trials",
+            "from": "8e98790a3c01c6f87b5f",
+            "relation": "SEARCH_RESULT_POSSIBLY_RELEVANT",
+            "to": "1d963bb99844cef6135c"
+          },
+          {
+            "confidence": "UNVERIFIED",
+            "evidence_source": "clinical_trials",
+            "from": "8e98790a3c01c6f87b5f",
+            "relation": "SEARCH_RESULT_POSSIBLY_RELEVANT",
+            "to": "975c9c06ffc989a63faa"
+          },
+          {
+            "confidence": "UNVERIFIED",
+            "evidence_source": "clinical_trials",
+            "from": "8e98790a3c01c6f87b5f",
+            "relation": "SEARCH_RESULT_POSSIBLY_RELEVANT",
+            "to": "b77e0c5f1ec1d6ccf372"
+          },
+          {
+            "confidence": "UNVERIFIED",
+            "evidence_source": "clinical_trials",
+            "from": "8e98790a3c01c6f87b5f",
+            "relation": "SEARCH_RESULT_POSSIBLY_RELEVANT",
+            "to": "c7d327741624b1f760a7"
+          },
+          {
+            "confidence": "UNVERIFIED",
+            "evidence_source": "clinical_trials",
+            "from": "8e98790a3c01c6f87b5f",
+            "relation": "SEARCH_RESULT_POSSIBLY_RELEVANT",
+            "to": "a97e0abd43507c52dd23"
+          },
+          {
+            "confidence": "UNVERIFIED",
+            "evidence_source": "clinical_trials",
+            "from": "8e98790a3c01c6f87b5f",
+            "relation": "SEARCH_RESULT_POSSIBLY_RELEVANT",
+            "to": "d7ae9ba240546d8a8833"
+          },
+          {
+            "confidence": "UNVERIFIED",
+            "evidence_source": "clinical_trials",
+            "from": "8e98790a3c01c6f87b5f",
+            "relation": "SEARCH_RESULT_POSSIBLY_RELEVANT",
+            "to": "3c733f951323eebce916"
+          },
+          {
+            "confidence": "UNVERIFIED",
+            "evidence_source": "clinical_trials",
+            "from": "8e98790a3c01c6f87b5f",
+            "relation": "SEARCH_RESULT_POSSIBLY_RELEVANT",
+            "to": "2c34591a7eb3a645ed39"
+          },
+          {
+            "confidence": "UNVERIFIED",
+            "evidence_source": "clinical_trials",
+            "from": "8e98790a3c01c6f87b5f",
+            "relation": "SEARCH_RESULT_POSSIBLY_RELEVANT",
+            "to": "7c6588f31498a4f75c93"
+          },
+          {
+            "confidence": "UNVERIFIED",
+            "evidence_source": "clinical_trials",
+            "from": "8e98790a3c01c6f87b5f",
+            "relation": "SEARCH_RESULT_POSSIBLY_RELEVANT",
+            "to": "c3077dd003be09a4eef6"
+          },
+          {
+            "confidence": "UNVERIFIED",
+            "evidence_source": "clinical_trials",
+            "from": "8e98790a3c01c6f87b5f",
+            "relation": "SEARCH_RESULT_POSSIBLY_RELEVANT",
+            "to": "07cdaf86524aa314bbaa"
+          },
+          {
+            "confidence": "UNVERIFIED",
+            "evidence_source": "clinical_trials",
+            "from": "8e98790a3c01c6f87b5f",
+            "relation": "SEARCH_RESULT_POSSIBLY_RELEVANT",
+            "to": "5507b493f2e85fb87271"
+          },
+          {
+            "confidence": "UNVERIFIED",
+            "evidence_source": "clinical_trials",
+            "from": "8e98790a3c01c6f87b5f",
+            "relation": "SEARCH_RESULT_POSSIBLY_RELEVANT",
+            "to": "232e6fcb9b5ffa1a69e8"
+          },
+          {
+            "confidence": "UNVERIFIED",
+            "evidence_source": "clinical_trials",
+            "from": "8e98790a3c01c6f87b5f",
+            "relation": "SEARCH_RESULT_POSSIBLY_RELEVANT",
+            "to": "8ce985f3338f8627d62f"
+          },
+          {
+            "confidence": "UNVERIFIED",
+            "evidence_source": "clinical_trials",
+            "from": "8e98790a3c01c6f87b5f",
+            "relation": "SEARCH_RESULT_POSSIBLY_RELEVANT",
+            "to": "43a064f33393ebd13ac1"
+          },
+          {
+            "confidence": "UNVERIFIED",
+            "evidence_source": "clinical_trials",
+            "from": "8e98790a3c01c6f87b5f",
+            "relation": "SEARCH_RESULT_POSSIBLY_RELEVANT",
+            "to": "012b282ba3e5e31086b8"
+          },
+          {
+            "confidence": "UNVERIFIED",
+            "evidence_source": "clinical_trials",
+            "from": "8e98790a3c01c6f87b5f",
+            "relation": "SEARCH_RESULT_POSSIBLY_RELEVANT",
+            "to": "6c9631d523a109e4be63"
+          },
+          {
+            "confidence": "UNVERIFIED",
+            "evidence_source": "clinical_trials",
+            "from": "8e98790a3c01c6f87b5f",
+            "relation": "SEARCH_RESULT_POSSIBLY_RELEVANT",
+            "to": "cf55b97e10330f819cd2"
+          },
+          {
+            "confidence": "UNVERIFIED",
+            "evidence_source": "clinical_trials",
+            "from": "8e98790a3c01c6f87b5f",
+            "relation": "SEARCH_RESULT_POSSIBLY_RELEVANT",
+            "to": "00c7a5086898f8a27fdf"
+          },
+          {
+            "confidence": "UNVERIFIED",
+            "evidence_source": "federal_register",
+            "from": "8e98790a3c01c6f87b5f",
+            "relation": "SEARCH_RESULT_POSSIBLY_RELEVANT",
+            "to": "8d1b6968840e4efa46b9"
+          },
+          {
+            "confidence": "UNVERIFIED",
+            "evidence_source": "federal_register",
+            "from": "8e98790a3c01c6f87b5f",
+            "relation": "SEARCH_RESULT_POSSIBLY_RELEVANT",
+            "to": "c5bb12fb0b417de1d789"
+          },
+          {
+            "confidence": "UNVERIFIED",
+            "evidence_source": "federal_register",
+            "from": "8e98790a3c01c6f87b5f",
+            "relation": "SEARCH_RESULT_POSSIBLY_RELEVANT",
+            "to": "2baa021f001812e25f3f"
+          },
+          {
+            "confidence": "UNVERIFIED",
+            "evidence_source": "federal_register",
+            "from": "8e98790a3c01c6f87b5f",
+            "relation": "SEARCH_RESULT_POSSIBLY_RELEVANT",
+            "to": "5aade63d86a6cd92d506"
+          },
+          {
+            "confidence": "UNVERIFIED",
+            "evidence_source": "federal_register",
+            "from": "8e98790a3c01c6f87b5f",
+            "relation": "SEARCH_RESULT_POSSIBLY_RELEVANT",
+            "to": "912002b08a7be261a252"
+          },
+          {
+            "confidence": "UNVERIFIED",
+            "evidence_source": "federal_register",
+            "from": "8e98790a3c01c6f87b5f",
+            "relation": "SEARCH_RESULT_POSSIBLY_RELEVANT",
+            "to": "6c391cad2ce183ece0de"
+          },
+          {
+            "confidence": "UNVERIFIED",
+            "evidence_source": "federal_register",
+            "from": "8e98790a3c01c6f87b5f",
+            "relation": "SEARCH_RESULT_POSSIBLY_RELEVANT",
+            "to": "65e3f9b25d6e4ad24aa4"
+          },
+          {
+            "confidence": "UNVERIFIED",
+            "evidence_source": "federal_register",
+            "from": "8e98790a3c01c6f87b5f",
+            "relation": "SEARCH_RESULT_POSSIBLY_RELEVANT",
+            "to": "32a6900b170232a0a899"
+          },
+          {
+            "confidence": "UNVERIFIED",
+            "evidence_source": "federal_register",
+            "from": "8e98790a3c01c6f87b5f",
+            "relation": "SEARCH_RESULT_POSSIBLY_RELEVANT",
+            "to": "1d21e0c522abe1561068"
+          },
+          {
+            "confidence": "UNVERIFIED",
+            "evidence_source": "federal_register",
+            "from": "8e98790a3c01c6f87b5f",
+            "relation": "SEARCH_RESULT_POSSIBLY_RELEVANT",
+            "to": "bd650340c016e89c34a6"
+          },
+          {
+            "confidence": "UNVERIFIED",
+            "evidence_source": "federal_register",
+            "from": "8e98790a3c01c6f87b5f",
+            "relation": "SEARCH_RESULT_POSSIBLY_RELEVANT",
+            "to": "95a812f7af3f6f967506"
+          },
+          {
+            "confidence": "UNVERIFIED",
+            "evidence_source": "federal_register",
+            "from": "8e98790a3c01c6f87b5f",
+            "relation": "SEARCH_RESULT_POSSIBLY_RELEVANT",
+            "to": "ad04a64cfebfb62144ee"
+          },
+          {
+            "confidence": "UNVERIFIED",
+            "evidence_source": "federal_register",
+            "from": "8e98790a3c01c6f87b5f",
+            "relation": "SEARCH_RESULT_POSSIBLY_RELEVANT",
+            "to": "9f30715c50888919b4ed"
+          },
+          {
+            "confidence": "UNVERIFIED",
+            "evidence_source": "federal_register",
+            "from": "8e98790a3c01c6f87b5f",
+            "relation": "SEARCH_RESULT_POSSIBLY_RELEVANT",
+            "to": "fabeb5fba67c3cec40cd"
+          },
+          {
+            "confidence": "UNVERIFIED",
+            "evidence_source": "federal_register",
+            "from": "8e98790a3c01c6f87b5f",
+            "relation": "SEARCH_RESULT_POSSIBLY_RELEVANT",
+            "to": "db621eadabdc5620bb1b"
+          },
+          {
+            "confidence": "UNVERIFIED",
+            "evidence_source": "federal_register",
+            "from": "8e98790a3c01c6f87b5f",
+            "relation": "SEARCH_RESULT_POSSIBLY_RELEVANT",
+            "to": "89fdd8924bdc96024165"
+          },
+          {
+            "confidence": "UNVERIFIED",
+            "evidence_source": "federal_register",
+            "from": "8e98790a3c01c6f87b5f",
+            "relation": "SEARCH_RESULT_POSSIBLY_RELEVANT",
+            "to": "dbbd304f2953afdac52e"
+          },
+          {
+            "confidence": "UNVERIFIED",
+            "evidence_source": "federal_register",
+            "from": "8e98790a3c01c6f87b5f",
+            "relation": "SEARCH_RESULT_POSSIBLY_RELEVANT",
+            "to": "fed7b7efbd8f33c4c68e"
+          },
+          {
+            "confidence": "UNVERIFIED",
+            "evidence_source": "federal_register",
+            "from": "8e98790a3c01c6f87b5f",
+            "relation": "SEARCH_RESULT_POSSIBLY_RELEVANT",
+            "to": "64aafb310f0bbdfa1130"
+          },
+          {
+            "confidence": "UNVERIFIED",
+            "evidence_source": "federal_register",
+            "from": "8e98790a3c01c6f87b5f",
+            "relation": "SEARCH_RESULT_POSSIBLY_RELEVANT",
+            "to": "e50a2cb4e4217f7a7e8e"
+          },
+          {
+            "confidence": "UNVERIFIED",
+            "evidence_source": "research",
+            "from": "8e98790a3c01c6f87b5f",
+            "relation": "SEARCH_RESULT_POSSIBLY_RELEVANT",
+            "to": "ebb85c948f8d65bf180b"
+          },
+          {
+            "confidence": "UNVERIFIED",
+            "evidence_source": "research",
+            "from": "8e98790a3c01c6f87b5f",
+            "relation": "SEARCH_RESULT_POSSIBLY_RELEVANT",
+            "to": "a31df6525a0a3b04a553"
+          },
+          {
+            "confidence": "UNVERIFIED",
+            "evidence_source": "research",
+            "from": "8e98790a3c01c6f87b5f",
+            "relation": "SEARCH_RESULT_POSSIBLY_RELEVANT",
+            "to": "92df60ed2bb1c1be976c"
+          },
+          {
+            "confidence": "UNVERIFIED",
+            "evidence_source": "research",
+            "from": "8e98790a3c01c6f87b5f",
+            "relation": "SEARCH_RESULT_POSSIBLY_RELEVANT",
+            "to": "d345c7d7da1605c02230"
+          },
+          {
+            "confidence": "UNVERIFIED",
+            "evidence_source": "research",
+            "from": "8e98790a3c01c6f87b5f",
+            "relation": "SEARCH_RESULT_POSSIBLY_RELEVANT",
+            "to": "3a085743a7da198ef6f3"
+          },
+          {
+            "confidence": "UNVERIFIED",
+            "evidence_source": "research",
+            "from": "8e98790a3c01c6f87b5f",
+            "relation": "SEARCH_RESULT_POSSIBLY_RELEVANT",
+            "to": "294e6f712d61bcba644b"
+          },
+          {
+            "confidence": "UNVERIFIED",
+            "evidence_source": "research",
+            "from": "8e98790a3c01c6f87b5f",
+            "relation": "SEARCH_RESULT_POSSIBLY_RELEVANT",
+            "to": "d2b8cba460b0bac00324"
+          },
+          {
+            "confidence": "UNVERIFIED",
+            "evidence_source": "research",
+            "from": "8e98790a3c01c6f87b5f",
+            "relation": "SEARCH_RESULT_POSSIBLY_RELEVANT",
+            "to": "7c4c0ab63b76dce0d331"
+          },
+          {
+            "confidence": "UNVERIFIED",
+            "evidence_source": "research",
+            "from": "8e98790a3c01c6f87b5f",
+            "relation": "SEARCH_RESULT_POSSIBLY_RELEVANT",
+            "to": "ee84c730169a17143063"
+          },
+          {
+            "confidence": "UNVERIFIED",
+            "evidence_source": "research",
+            "from": "8e98790a3c01c6f87b5f",
+            "relation": "SEARCH_RESULT_POSSIBLY_RELEVANT",
+            "to": "7933dd564793d082cd4b"
+          },
+          {
+            "confidence": "UNVERIFIED",
+            "evidence_source": "research",
+            "from": "8e98790a3c01c6f87b5f",
+            "relation": "SEARCH_RESULT_POSSIBLY_RELEVANT",
+            "to": "515b050ad596346f4f5b"
+          },
+          {
+            "confidence": "UNVERIFIED",
+            "evidence_source": "research",
+            "from": "8e98790a3c01c6f87b5f",
+            "relation": "SEARCH_RESULT_POSSIBLY_RELEVANT",
+            "to": "c621298f44a6b2b4eb5d"
+          },
+          {
+            "confidence": "UNVERIFIED",
+            "evidence_source": "research",
+            "from": "8e98790a3c01c6f87b5f",
+            "relation": "SEARCH_RESULT_POSSIBLY_RELEVANT",
+            "to": "67c643ba81a5138925eb"
+          },
+          {
+            "confidence": "UNVERIFIED",
+            "evidence_source": "research",
+            "from": "8e98790a3c01c6f87b5f",
+            "relation": "SEARCH_RESULT_POSSIBLY_RELEVANT",
+            "to": "78686d6e6a6a84fbe350"
+          },
+          {
+            "confidence": "UNVERIFIED",
+            "evidence_source": "research",
+            "from": "8e98790a3c01c6f87b5f",
+            "relation": "SEARCH_RESULT_POSSIBLY_RELEVANT",
+            "to": "1f67dd8bbaea16483b65"
+          },
+          {
+            "confidence": "UNVERIFIED",
+            "evidence_source": "research",
+            "from": "8e98790a3c01c6f87b5f",
+            "relation": "SEARCH_RESULT_POSSIBLY_RELEVANT",
+            "to": "d40223a369c0718e6774"
+          },
+          {
+            "confidence": "UNVERIFIED",
+            "evidence_source": "research",
+            "from": "8e98790a3c01c6f87b5f",
+            "relation": "SEARCH_RESULT_POSSIBLY_RELEVANT",
+            "to": "89ee62c8d4f2e94c06c0"
+          },
+          {
+            "confidence": "UNVERIFIED",
+            "evidence_source": "research",
+            "from": "8e98790a3c01c6f87b5f",
+            "relation": "SEARCH_RESULT_POSSIBLY_RELEVANT",
+            "to": "61da67c8fd4c2428a56d"
+          },
+          {
+            "confidence": "UNVERIFIED",
+            "evidence_source": "research",
+            "from": "8e98790a3c01c6f87b5f",
+            "relation": "SEARCH_RESULT_POSSIBLY_RELEVANT",
+            "to": "95065d8f7cf72cc2b7c1"
+          },
+          {
+            "confidence": "UNVERIFIED",
+            "evidence_source": "research",
+            "from": "8e98790a3c01c6f87b5f",
+            "relation": "SEARCH_RESULT_POSSIBLY_RELEVANT",
+            "to": "6ed4c19d9291d89acb24"
+          },
+          {
+            "confidence": "UNVERIFIED",
+            "evidence_source": "federal_awards",
+            "from": "8e98790a3c01c6f87b5f",
+            "relation": "SEARCH_RESULT_POSSIBLY_RELEVANT",
+            "to": "a879fc3c36dbc62cf498"
+          },
+          {
+            "confidence": "UNVERIFIED",
+            "evidence_source": "federal_awards",
+            "from": "8e98790a3c01c6f87b5f",
+            "relation": "SEARCH_RESULT_POSSIBLY_RELEVANT",
+            "to": "9d6f42addd28c61c9063"
+          },
+          {
+            "confidence": "UNVERIFIED",
+            "evidence_source": "federal_awards",
+            "from": "8e98790a3c01c6f87b5f",
+            "relation": "SEARCH_RESULT_POSSIBLY_RELEVANT",
+            "to": "b6ac8b8659b7ba1a62fc"
+          },
+          {
+            "confidence": "UNVERIFIED",
+            "evidence_source": "federal_awards",
+            "from": "8e98790a3c01c6f87b5f",
+            "relation": "SEARCH_RESULT_POSSIBLY_RELEVANT",
+            "to": "ae7bbf1ae2d7b46eba58"
+          },
+          {
+            "confidence": "UNVERIFIED",
+            "evidence_source": "federal_awards",
+            "from": "8e98790a3c01c6f87b5f",
+            "relation": "SEARCH_RESULT_POSSIBLY_RELEVANT",
+            "to": "e450348963f0fa9eb5dc"
+          },
+          {
+            "confidence": "UNVERIFIED",
+            "evidence_source": "federal_awards",
+            "from": "8e98790a3c01c6f87b5f",
+            "relation": "SEARCH_RESULT_POSSIBLY_RELEVANT",
+            "to": "af83f2a2f0fda61cfc95"
+          },
+          {
+            "confidence": "UNVERIFIED",
+            "evidence_source": "federal_awards",
+            "from": "8e98790a3c01c6f87b5f",
+            "relation": "SEARCH_RESULT_POSSIBLY_RELEVANT",
+            "to": "2aedc24b79cd634b0b08"
+          },
+          {
+            "confidence": "UNVERIFIED",
+            "evidence_source": "federal_awards",
+            "from": "8e98790a3c01c6f87b5f",
+            "relation": "SEARCH_RESULT_POSSIBLY_RELEVANT",
+            "to": "b9f071c7cfb214fd2fa1"
+          },
+          {
+            "confidence": "UNVERIFIED",
+            "evidence_source": "federal_awards",
+            "from": "8e98790a3c01c6f87b5f",
+            "relation": "SEARCH_RESULT_POSSIBLY_RELEVANT",
+            "to": "a5613f7e86f8cffb44be"
+          },
+          {
+            "confidence": "UNVERIFIED",
+            "evidence_source": "federal_awards",
+            "from": "8e98790a3c01c6f87b5f",
+            "relation": "SEARCH_RESULT_POSSIBLY_RELEVANT",
+            "to": "8dd13381cdd66a512770"
+          },
+          {
+            "confidence": "UNVERIFIED",
+            "evidence_source": "federal_awards",
+            "from": "8e98790a3c01c6f87b5f",
+            "relation": "SEARCH_RESULT_POSSIBLY_RELEVANT",
+            "to": "1f08c44e25820e203346"
+          },
+          {
+            "confidence": "UNVERIFIED",
+            "evidence_source": "federal_awards",
+            "from": "8e98790a3c01c6f87b5f",
+            "relation": "SEARCH_RESULT_POSSIBLY_RELEVANT",
+            "to": "b7e0522182343782c84b"
+          },
+          {
+            "confidence": "UNVERIFIED",
+            "evidence_source": "federal_awards",
+            "from": "8e98790a3c01c6f87b5f",
+            "relation": "SEARCH_RESULT_POSSIBLY_RELEVANT",
+            "to": "98c0f983e399fc0298d7"
+          },
+          {
+            "confidence": "UNVERIFIED",
+            "evidence_source": "federal_awards",
+            "from": "8e98790a3c01c6f87b5f",
+            "relation": "SEARCH_RESULT_POSSIBLY_RELEVANT",
+            "to": "42fc52393ce7a1252c12"
+          },
+          {
+            "confidence": "UNVERIFIED",
+            "evidence_source": "federal_awards",
+            "from": "8e98790a3c01c6f87b5f",
+            "relation": "SEARCH_RESULT_POSSIBLY_RELEVANT",
+            "to": "0599c1166f69d161782e"
+          },
+          {
+            "confidence": "UNVERIFIED",
+            "evidence_source": "federal_awards",
+            "from": "8e98790a3c01c6f87b5f",
+            "relation": "SEARCH_RESULT_POSSIBLY_RELEVANT",
+            "to": "067d74ae65f9a11ffcfb"
+          },
+          {
+            "confidence": "UNVERIFIED",
+            "evidence_source": "federal_awards",
+            "from": "8e98790a3c01c6f87b5f",
+            "relation": "SEARCH_RESULT_POSSIBLY_RELEVANT",
+            "to": "8ef9d8bda825bcec7e9f"
+          },
+          {
+            "confidence": "UNVERIFIED",
+            "evidence_source": "federal_awards",
+            "from": "8e98790a3c01c6f87b5f",
+            "relation": "SEARCH_RESULT_POSSIBLY_RELEVANT",
+            "to": "fa82e2c4945b1ca48d7f"
+          },
+          {
+            "confidence": "UNVERIFIED",
+            "evidence_source": "federal_awards",
+            "from": "8e98790a3c01c6f87b5f",
+            "relation": "SEARCH_RESULT_POSSIBLY_RELEVANT",
+            "to": "1bdd1ab481c600492603"
+          },
+          {
+            "confidence": "UNVERIFIED",
+            "evidence_source": "federal_awards",
+            "from": "8e98790a3c01c6f87b5f",
+            "relation": "SEARCH_RESULT_POSSIBLY_RELEVANT",
+            "to": "f00d2c6a2d62e0d17e62"
+          }
+        ],
+        "nodes": [
+          {
+            "id": "8e98790a3c01c6f87b5f",
+            "name": "Pfizer Inc.",
+            "type": "company_query",
+            "verification": "UNVERIFIED"
+          },
+          {
+            "doi": null,
+            "id": "d66a4e73730096f9798a",
+            "source": "clinical_trials",
+            "source_id": "NCT01078298",
+            "title": "Safety And Efficacy Of 12 Weeks Of Varenicline For Smoking Cessation In Smokers With Depression",
+            "type": "source_record",
+            "updated": "2010-03-02",
+            "url": null,
+            "verification": "UNVERIFIED_NAME_SEARCH"
+          },
+          {
+            "doi": null,
+            "id": "1d963bb99844cef6135c",
+            "source": "clinical_trials",
+            "source_id": "NCT01017926",
+            "title": "Triazolam Trial In Healthy Subjects To Compare Bioavailability Between Formulations Of Triazolam To Determine Their Bioequivalence In Terms Of Rate And Magnitude Of Absorption",
+            "type": "source_record",
+            "updated": "2009-11-23",
+            "url": null,
+            "verification": "UNVERIFIED_NAME_SEARCH"
+          },
+          {
+            "doi": null,
+            "id": "975c9c06ffc989a63faa",
+            "source": "clinical_trials",
+            "source_id": "NCT00902187",
+            "title": "A Bioequivalence Study Of 4 Mg Fesoterodine Extended-Release Tablets (Toviaz\u2122) In Healthy Subjects",
+            "type": "source_record",
+            "updated": "2009-05-15",
+            "url": null,
+            "verification": "UNVERIFIED_NAME_SEARCH"
+          },
+          {
+            "doi": null,
+            "id": "b77e0c5f1ec1d6ccf372",
+            "source": "clinical_trials",
+            "source_id": "NCT07174336",
+            "title": "A Study of Tersolisib (LY4064809/STX-478) With Other Anti-Cancer Treatments in Participants With Advanced Breast Cancer With a Genetic Change (PIK3CA)",
+            "type": "source_record",
+            "updated": "2025-09-15",
+            "url": null,
+            "verification": "UNVERIFIED_NAME_SEARCH"
+          },
+          {
+            "doi": null,
+            "id": "c7d327741624b1f760a7",
+            "source": "clinical_trials",
+            "source_id": "NCT00150384",
+            "title": "Clinical Utility of Caduet in Achieving Blood Pressure and Lipid Endpoints in a Specific Patient Population",
+            "type": "source_record",
+            "updated": "2005-09-08",
+            "url": null,
+            "verification": "UNVERIFIED_NAME_SEARCH"
+          },
+          {
+            "doi": null,
+            "id": "a97e0abd43507c52dd23",
+            "source": "clinical_trials",
+            "source_id": "NCT01185184",
+            "title": "Pharmacokinetics And Safety Study Of Two CP-690,550 Controlled Release Formulation Following Single Dose In Healthy Volunteers",
+            "type": "source_record",
+            "updated": "2010-08-19",
+            "url": null,
+            "verification": "UNVERIFIED_NAME_SEARCH"
+          },
+          {
+            "doi": null,
+            "id": "d7ae9ba240546d8a8833",
+            "source": "clinical_trials",
+            "source_id": "NCT01002963",
+            "title": "A Study To Investigate The Safety And Toleration Of A Single Dose Of PF-04418948 In Healthy Volunteers",
+            "type": "source_record",
+            "updated": "2009-10-28",
+            "url": null,
+            "verification": "UNVERIFIED_NAME_SEARCH"
+          },
+          {
+            "doi": null,
+            "id": "3c733f951323eebce916",
+            "source": "clinical_trials",
+            "source_id": "NCT00741884",
+            "title": "A Study to Evaluate the Safety and Efficacy of Three Doses of a Controlled Release Formulation of Varenicline for Smoking Cessation",
+            "type": "source_record",
+            "updated": "2008-08-26",
+            "url": null,
+            "verification": "UNVERIFIED_NAME_SEARCH"
+          },
+          {
+            "doi": null,
+            "id": "2c34591a7eb3a645ed39",
+            "source": "clinical_trials",
+            "source_id": "NCT01737203",
+            "title": "Bioequivalence Study For Orally-Disintegrating Tablet Of Sildenafil",
+            "type": "source_record",
+            "updated": "2012-11-29",
+            "url": null,
+            "verification": "UNVERIFIED_NAME_SEARCH"
+          },
+          {
+            "doi": null,
+            "id": "7c6588f31498a4f75c93",
+            "source": "clinical_trials",
+            "source_id": "NCT01058642",
+            "title": "Study to Assess the Efficacy, Safety, and Tolerability of ADL5747 in Participants With Postherpetic Neuralgia",
+            "type": "source_record",
+            "updated": "2010-01-29",
+            "url": null,
+            "verification": "UNVERIFIED_NAME_SEARCH"
+          },
+          {
+            "doi": null,
+            "id": "c3077dd003be09a4eef6",
+            "source": "clinical_trials",
+            "source_id": "NCT05895786",
+            "title": "A Study to Understand How the Study Medicine (PF-06823859) Works in People With Active Idiopathic Inflammatory Myopathies [Dermatomyositis (DM) and Polymyositis (PM)]",
+            "type": "source_record",
+            "updated": "2023-06-09",
+            "url": null,
+            "verification": "UNVERIFIED_NAME_SEARCH"
+          },
+          {
+            "doi": null,
+            "id": "07cdaf86524aa314bbaa",
+            "source": "clinical_trials",
+            "source_id": "NCT00866983",
+            "title": "Local Open-Label Access Study For Patients Who Completed A1481244 Study In Brazil",
+            "type": "source_record",
+            "updated": "2009-03-23",
+            "url": null,
+            "verification": "UNVERIFIED_NAME_SEARCH"
+          },
+          {
+            "doi": null,
+            "id": "5507b493f2e85fb87271",
+            "source": "clinical_trials",
+            "source_id": "NCT00147654",
+            "title": "Effect and Safety Of Detrol LA In Men With Overactive Bladder Symptoms With Or Without Bladder Outlet Obstruction",
+            "type": "source_record",
+            "updated": "2005-09-07",
+            "url": null,
+            "verification": "UNVERIFIED_NAME_SEARCH"
+          },
+          {
+            "doi": null,
+            "id": "232e6fcb9b5ffa1a69e8",
+            "source": "clinical_trials",
+            "source_id": "NCT01254396",
+            "title": "Pharmacokinetics Of Sildenafil Orally Disintegrating Tablet Formulation Given With Or Without Food.",
+            "type": "source_record",
+            "updated": "2010-12-06",
+            "url": null,
+            "verification": "UNVERIFIED_NAME_SEARCH"
+          },
+          {
+            "doi": null,
+            "id": "8ce985f3338f8627d62f",
+            "source": "clinical_trials",
+            "source_id": "NCT00116727",
+            "title": "Rheumatoid Arthritis DMARD Intervention and UtilizationStudy",
+            "type": "source_record",
+            "updated": "2005-07-01",
+            "url": null,
+            "verification": "UNVERIFIED_NAME_SEARCH"
+          },
+          {
+            "doi": null,
+            "id": "43a064f33393ebd13ac1",
+            "source": "clinical_trials",
+            "source_id": "NCT02324270",
+            "title": "Safety and Efficacy of Generic Diclofenac Epolamine Acute Pain Due to Minor Ankle Sprain",
+            "type": "source_record",
+            "updated": "2014-12-24",
+            "url": null,
+            "verification": "UNVERIFIED_NAME_SEARCH"
+          },
+          {
+            "doi": null,
+            "id": "012b282ba3e5e31086b8",
+            "source": "clinical_trials",
+            "source_id": "NCT00640146",
+            "title": "Study of Subcutaneous Methylnaltrexone (MNTX) in the Treatment of Opioid-Induced Constipation During Rehabilitation After Orthopedic Procedures",
+            "type": "source_record",
+            "updated": "2008-03-21",
+            "url": null,
+            "verification": "UNVERIFIED_NAME_SEARCH"
+          },
+          {
+            "doi": null,
+            "id": "6c9631d523a109e4be63",
+            "source": "clinical_trials",
+            "source_id": "NCT01131923",
+            "title": "Bioequivalency Study of Amlodipine Besylate Tablets, 10 mg of Dr. Reddy's Under Fasting Conditions",
+            "type": "source_record",
+            "updated": "2010-05-27",
+            "url": null,
+            "verification": "UNVERIFIED_NAME_SEARCH"
+          },
+          {
+            "doi": null,
+            "id": "cf55b97e10330f819cd2",
+            "source": "clinical_trials",
+            "source_id": "NCT00143403",
+            "title": "Comparing Irinotecan and 5 FU/FA To 5-FU/FA After Resection Of Liver Metastases For Colorectal Cancer",
+            "type": "source_record",
+            "updated": "2005-09-02",
+            "url": null,
+            "verification": "UNVERIFIED_NAME_SEARCH"
+          },
+          {
+            "doi": null,
+            "id": "00c7a5086898f8a27fdf",
+            "source": "clinical_trials",
+            "source_id": "NCT01712061",
+            "title": "A Phase 2 Multi-Center Study To Evaluate The Efficacy And Safety Of A Chemokine CCR2/5 Receptor Antagonist In Adults With Type 2 Diabetes And Overt Nephropathy",
+            "type": "source_record",
+            "updated": "2012-10-23",
+            "url": null,
+            "verification": "UNVERIFIED_NAME_SEARCH"
+          },
+          {
+            "doi": null,
+            "id": "8d1b6968840e4efa46b9",
+            "source": "federal_register",
+            "source_id": "2025-24155",
+            "title": "Revocation of Two Authorizations of Emergency Use of In Vitro Diagnostic Devices for Detection and/or Diagnosis of COVID-19; Availability",
+            "type": "source_record",
+            "updated": "2026-01-02",
+            "url": "https://www.federalregister.gov/documents/2026/01/02/2025-24155/revocation-of-two-authorizations-of-emergency-use-of-in-vitro-diagnostic-devices-for-detection-andor",
+            "verification": "UNVERIFIED_NAME_SEARCH"
+          },
+          {
+            "doi": null,
+            "id": "c5bb12fb0b417de1d789",
+            "source": "federal_register",
+            "source_id": "2026-04546",
+            "title": "Aspen Global Inc. c/o Lachman Consultant Services, Inc., et al.; Withdrawal of Approval of 46 New Drug Applications",
+            "type": "source_record",
+            "updated": "2026-03-09",
+            "url": "https://www.federalregister.gov/documents/2026/03/09/2026-04546/aspen-global-inc-co-lachman-consultant-services-inc-et-al-withdrawal-of-approval-of-46-new-drug",
+            "verification": "UNVERIFIED_NAME_SEARCH"
+          },
+          {
+            "doi": null,
+            "id": "2baa021f001812e25f3f",
+            "source": "federal_register",
+            "source_id": "2025-22683",
+            "title": "Pfizer Inc., U.S. Agent for King Pharmaceuticals LLC, et al.; Withdrawal of Approval of 20 Abbreviated New Drug Applications",
+            "type": "source_record",
+            "updated": "2025-12-12",
+            "url": "https://www.federalregister.gov/documents/2025/12/12/2025-22683/pfizer-inc-us-agent-for-king-pharmaceuticals-llc-et-al-withdrawal-of-approval-of-20-abbreviated-new",
+            "verification": "UNVERIFIED_NAME_SEARCH"
+          },
+          {
+            "doi": null,
+            "id": "5aade63d86a6cd92d506",
+            "source": "federal_register",
+            "source_id": "2025-09678",
+            "title": "Revocation of Four Authorizations of Emergency Use of In Vitro Diagnostic Devices for Detection and/or Diagnosis of COVID-19; Availability",
+            "type": "source_record",
+            "updated": "2025-05-29",
+            "url": "https://www.federalregister.gov/documents/2025/05/29/2025-09678/revocation-of-four-authorizations-of-emergency-use-of-in-vitro-diagnostic-devices-for-detection",
+            "verification": "UNVERIFIED_NAME_SEARCH"
+          },
+          {
+            "doi": null,
+            "id": "912002b08a7be261a252",
+            "source": "federal_register",
+            "source_id": "2025-19272",
+            "title": "Revocation of Emergency Use of Three Biological Products; Availability",
+            "type": "source_record",
+            "updated": "2025-10-02",
+            "url": "https://www.federalregister.gov/documents/2025/10/02/2025-19272/revocation-of-emergency-use-of-three-biological-products-availability",
+            "verification": "UNVERIFIED_NAME_SEARCH"
+          },
+          {
+            "doi": null,
+            "id": "6c391cad2ce183ece0de",
+            "source": "federal_register",
+            "source_id": "2026-13616",
+            "title": "Endo Operations Limited, et al.; Withdrawal of Approval of 34 New Drug Applications",
+            "type": "source_record",
+            "updated": "2026-07-06",
+            "url": "https://www.federalregister.gov/documents/2026/07/06/2026-13616/endo-operations-limited-et-al-withdrawal-of-approval-of-34-new-drug-applications",
+            "verification": "UNVERIFIED_NAME_SEARCH"
+          },
+          {
+            "doi": null,
+            "id": "65e3f9b25d6e4ad24aa4",
+            "source": "federal_register",
+            "source_id": "2026-14572",
+            "title": "Foreign-Trade Zone (FTZ) 43, Notification of Proposed Production Activity; Pfizer Inc.; (Pharmaceutical Products); Kalamazoo and Portage, Michigan",
+            "type": "source_record",
+            "updated": "2026-07-20",
+            "url": "https://www.federalregister.gov/documents/2026/07/20/2026-14572/foreign-trade-zone-ftz-43-notification-of-proposed-production-activity-pfizer-inc-pharmaceutical",
+            "verification": "UNVERIFIED_NAME_SEARCH"
+          },
+          {
+            "doi": null,
+            "id": "32a6900b170232a0a899",
+            "source": "federal_register",
+            "source_id": "2026-11429",
+            "title": "Determination That Protamine Sulfate (Protamine Sulfate) Intravenous; Solution, 50 Milligrams/5 Milliliters, and Other Drug Products Were Not Withdrawn From Sale for Reasons of Safety or Effectiveness",
+            "type": "source_record",
+            "updated": "2026-06-08",
+            "url": "https://www.federalregister.gov/documents/2026/06/08/2026-11429/determination-that-protamine-sulfate-protamine-sulfate-intravenous-solution-50-milligrams5",
+            "verification": "UNVERIFIED_NAME_SEARCH"
+          },
+          {
+            "doi": null,
+            "id": "1d21e0c522abe1561068",
+            "source": "federal_register",
+            "source_id": "2025-21263",
+            "title": "Foreign-Trade Zone (FTZ) 43; Authorization of Limited Production Activity; Pfizer, Inc.; (Pharmaceutical Intermediate Product); Kalamazoo, Michigan",
+            "type": "source_record",
+            "updated": "2025-11-26",
+            "url": "https://www.federalregister.gov/documents/2025/11/26/2025-21263/foreign-trade-zone-ftz-43-authorization-of-limited-production-activity-pfizer-inc-pharmaceutical",
+            "verification": "UNVERIFIED_NAME_SEARCH"
+          },
+          {
+            "doi": null,
+            "id": "bd650340c016e89c34a6",
+            "source": "federal_register",
+            "source_id": "2026-23141",
+            "title": "Determination That DIBENZYLINE (Phenoxybenzamine Hydrochloride) Oral Capsule, 10 Milligrams, and Other Drug Products Were Not Withdrawn From Sale for Reasons of Safety or Effectiveness",
+            "type": "source_record",
+            "updated": "2026-11-13",
+            "url": "https://www.federalregister.gov/documents/2026/11/13/2026-23141/determination-that-dibenzyline-phenoxybenzamine-hydrochloride-oral-capsule-10-milligrams-and-other",
+            "verification": "UNVERIFIED_NAME_SEARCH"
+          },
+          {
+            "doi": null,
+            "id": "95a812f7af3f6f967506",
+            "source": "federal_register",
+            "source_id": "2025-14683",
+            "title": "Teva Branded Pharmaceutical Products R&D, Inc., et al.; Withdrawal of Approval of 39 New Drug Applications",
+            "type": "source_record",
+            "updated": "2025-08-04",
+            "url": "https://www.federalregister.gov/documents/2025/08/04/2025-14683/teva-branded-pharmaceutical-products-randd-inc-et-al-withdrawal-of-approval-of-39-new-drug",
+            "verification": "UNVERIFIED_NAME_SEARCH"
+          },
+          {
+            "doi": null,
+            "id": "ad04a64cfebfb62144ee",
+            "source": "federal_register",
+            "source_id": "2025-18835",
+            "title": "Combined Notice of Filings",
+            "type": "source_record",
+            "updated": "2025-09-29",
+            "url": "https://www.federalregister.gov/documents/2025/09/29/2025-18835/combined-notice-of-filings",
+            "verification": "UNVERIFIED_NAME_SEARCH"
+          },
+          {
+            "doi": null,
+            "id": "9f30715c50888919b4ed",
+            "source": "federal_register",
+            "source_id": "2025-04257",
+            "title": "Foreign-Trade Zone (FTZ) 43, Notification of Proposed Production Activity; Pfizer, Inc.; (Pharmaceutical Intermediate Product); Kalamazoo, Michigan",
+            "type": "source_record",
+            "updated": "2025-03-17",
+            "url": "https://www.federalregister.gov/documents/2025/03/17/2025-04257/foreign-trade-zone-ftz-43-notification-of-proposed-production-activity-pfizer-inc-pharmaceutical",
+            "verification": "UNVERIFIED_NAME_SEARCH"
+          },
+          {
+            "doi": null,
+            "id": "fabeb5fba67c3cec40cd",
+            "source": "federal_register",
+            "source_id": "2024-26913",
+            "title": "Pfizer, Inc., et al.; Withdrawal of Approval of 26 New Drug Applications",
+            "type": "source_record",
+            "updated": "2024-11-19",
+            "url": "https://www.federalregister.gov/documents/2024/11/19/2024-26913/pfizer-inc-et-al-withdrawal-of-approval-of-26-new-drug-applications",
+            "verification": "UNVERIFIED_NAME_SEARCH"
+          },
+          {
+            "doi": null,
+            "id": "db621eadabdc5620bb1b",
+            "source": "federal_register",
+            "source_id": "2026-03244",
+            "title": "Granting of Requests for Early Termination of the Waiting Period Under the Premerger Notification Rules",
+            "type": "source_record",
+            "updated": "2026-02-19",
+            "url": "https://www.federalregister.gov/documents/2026/02/19/2026-03244/granting-of-requests-for-early-termination-of-the-waiting-period-under-the-premerger-notification",
+            "verification": "UNVERIFIED_NAME_SEARCH"
+          },
+          {
+            "doi": null,
+            "id": "89fdd8924bdc96024165",
+            "source": "federal_register",
+            "source_id": "2026-06481",
+            "title": "Determination of Regulatory Review Period for Purposes of Patent Extension; HYMPAVZI",
+            "type": "source_record",
+            "updated": "2026-04-03",
+            "url": "https://www.federalregister.gov/documents/2026/04/03/2026-06481/determination-of-regulatory-review-period-for-purposes-of-patent-extension-hympavzi",
+            "verification": "UNVERIFIED_NAME_SEARCH"
+          },
+          {
+            "doi": null,
+            "id": "dbbd304f2953afdac52e",
+            "source": "federal_register",
+            "source_id": "2026-03848",
+            "title": "Determination of Regulatory Review Period for Purposes of Patent Extension; ORLYNVAH",
+            "type": "source_record",
+            "updated": "2026-02-26",
+            "url": "https://www.federalregister.gov/documents/2026/02/26/2026-03848/determination-of-regulatory-review-period-for-purposes-of-patent-extension-orlynvah",
+            "verification": "UNVERIFIED_NAME_SEARCH"
+          },
+          {
+            "doi": null,
+            "id": "fed7b7efbd8f33c4c68e",
+            "source": "federal_register",
+            "source_id": "2024-03709",
+            "title": "Importer of Controlled Substances Application: Pfizer, Inc.",
+            "type": "source_record",
+            "updated": "2024-02-23",
+            "url": "https://www.federalregister.gov/documents/2024/02/23/2024-03709/importer-of-controlled-substances-application-pfizer-inc",
+            "verification": "UNVERIFIED_NAME_SEARCH"
+          },
+          {
+            "doi": null,
+            "id": "64aafb310f0bbdfa1130",
+            "source": "federal_register",
+            "source_id": "2025-06045",
+            "title": "GE HealthCare, et al.; Withdrawal of Approval of 18 New Drug Applications",
+            "type": "source_record",
+            "updated": "2025-04-09",
+            "url": "https://www.federalregister.gov/documents/2025/04/09/2025-06045/ge-healthcare-et-al-withdrawal-of-approval-of-18-new-drug-applications",
+            "verification": "UNVERIFIED_NAME_SEARCH"
+          },
+          {
+            "doi": null,
+            "id": "e50a2cb4e4217f7a7e8e",
+            "source": "federal_register",
+            "source_id": "2025-06053",
+            "title": "Determination That VIBRAMYCIN (Doxycycline) for Oral Suspension, Equivalent 25 Milligrams Base/5 Milliliter, Was Not Withdrawn From Sale for Reasons of Safety or Effectiveness",
+            "type": "source_record",
+            "updated": "2025-04-09",
+            "url": "https://www.federalregister.gov/documents/2025/04/09/2025-06053/determination-that-vibramycin-doxycycline-for-oral-suspension-equivalent-25-milligrams-base5",
+            "verification": "UNVERIFIED_NAME_SEARCH"
+          },
+          {
+            "doi": "10.1017/cts.2022.16",
+            "id": "ebb85c948f8d65bf180b",
+            "source": "research",
+            "source_id": "35836787",
+            "title": "A conversation with Dr. William Gruber, Pfizer Inc.",
+            "type": "source_record",
+            "updated": "2022-02-10",
+            "url": null,
+            "verification": "UNVERIFIED_NAME_SEARCH"
+          },
+          {
+            "doi": "10.1007/s40121-026-01456-8",
+            "id": "a31df6525a0a3b04a553",
+            "source": "research",
+            "source_id": "43020992",
+            "title": "Efficacy of Nirmatrelvir/Ritonavir in High-Risk Adults with Preexisting SARS-CoV-2 Immunity: A Pooled Analysis of Two Randomized Controlled Trials.",
+            "type": "source_record",
+            "updated": "2026-11-12",
+            "url": null,
+            "verification": "UNVERIFIED_NAME_SEARCH"
+          },
+          {
+            "doi": "10.1080/01612840802634441",
+            "id": "92df60ed2bb1c1be976c",
+            "source": "research",
+            "source_id": "19212874",
+            "title": "Pregabalin (Lyrica, Pfizer, Inc.).",
+            "type": "source_record",
+            "updated": "2009-02-01",
+            "url": null,
+            "verification": "UNVERIFIED_NAME_SEARCH"
+          },
+          {
+            "doi": "10.1016/j.annonc.2026.10.095",
+            "id": "d345c7d7da1605c02230",
+            "source": "research",
+            "source_id": "42933636",
+            "title": "Extended follow-up of tarlatamab in patients with small-cell lung cancer after platinum-based chemotherapy in the randomized phase III DeLLphi-304 study.",
+            "type": "source_record",
+            "updated": "2026-10-26",
+            "url": null,
+            "verification": "UNVERIFIED_NAME_SEARCH"
+          },
+          {
+            "doi": "10.1038/s41434-026-00648-8",
+            "id": "3a085743a7da198ef6f3",
+            "source": "research",
+            "source_id": "42892632",
+            "title": "Statistical correlation between strength and mini-dystrophin expression in skeletal muscle after an rAAV9-mini-dystrophin gene therapy candidate in DMD&lt;sup&gt;mdx&lt;/sup&gt; rats.",
+            "type": "source_record",
+            "updated": "2026-10-17",
+            "url": null,
+            "verification": "UNVERIFIED_NAME_SEARCH"
+          },
+          {
+            "doi": "10.1007/s40121-026-01468-4",
+            "id": "294e6f712d61bcba644b",
+            "source": "research",
+            "source_id": "42981012",
+            "title": "Comparison of Respiratory Syncytial Virus Versus Influenza-Associated Acute Respiratory Illness Hospitalizations Among Adults in North America.",
+            "type": "source_record",
+            "updated": "2026-11-03",
+            "url": null,
+            "verification": "UNVERIFIED_NAME_SEARCH"
+          },
+          {
+            "doi": "10.1007/s40257-026-01070-x",
+            "id": "d2b8cba460b0bac00324",
+            "source": "research",
+            "source_id": "42789172",
+            "title": "Correction: Integrated Safety Analysis of Ritlecitinib, an Oral JAK3/TEC Family Kinase Inhibitor, for the Treatment of Alopecia Areata from the ALLEGRO Clinical Trial Program.",
+            "type": "source_record",
+            "updated": "2026-11-01",
+            "url": null,
+            "verification": "UNVERIFIED_NAME_SEARCH"
+          },
+          {
+            "doi": "10.1002/btpr.88556",
+            "id": "7c4c0ab63b76dce0d331",
+            "source": "research",
+            "source_id": "42745426",
+            "title": "BioOps: Enabling MLOps for scalable and flexible model-centric process control in biopharmaceutical development.",
+            "type": "source_record",
+            "updated": "2026-09-15",
+            "url": null,
+            "verification": "UNVERIFIED_NAME_SEARCH"
+          },
+          {
+            "doi": "10.1016/j.vaccine.2026.129346",
+            "id": "ee84c730169a17143063",
+            "source": "research",
+            "source_id": "43019902",
+            "title": "Trends in all-cause hospitalized pneumonia episodes and costs in the United States before and after PCV13 introduction: a retrospective claims-based analysis.",
+            "type": "source_record",
+            "updated": "2026-11-12",
+            "url": null,
+            "verification": "UNVERIFIED_NAME_SEARCH"
+          },
+          {
+            "doi": "10.1093/aje/kwag264",
+            "id": "7933dd564793d082cd4b",
+            "source": "research",
+            "source_id": "42905950",
+            "title": "Quantifying lifetime risk of Lyme disease: a population-based modelling study in the United States.",
+            "type": "source_record",
+            "updated": "2026-10-21",
+            "url": null,
+            "verification": "UNVERIFIED_NAME_SEARCH"
+          },
+          {
+            "doi": "10.1093/ecco-jcc/jjag159",
+            "id": "515b050ad596346f4f5b",
+            "source": "research",
+            "source_id": "42864953",
+            "title": "Etrasimod reduces circulating and mucosal inflammatory lymphocyte populations and alters innate immune and non-immune cell signatures in intestinal mucosa: ELEVATE UC phase 3 clinical data.",
+            "type": "source_record",
+            "updated": "2026-10-01",
+            "url": null,
+            "verification": "UNVERIFIED_NAME_SEARCH"
+          },
+          {
+            "doi": "10.14309/ctg.0000000000001124",
+            "id": "c621298f44a6b2b4eb5d",
+            "source": "research",
+            "source_id": "43019553",
+            "title": "Benefit-risk trade-offs among patients and providers selecting advanced therapy for moderate-to-severe ulcerative colitis.",
+            "type": "source_record",
+            "updated": "2026-11-12",
+            "url": null,
+            "verification": "UNVERIFIED_NAME_SEARCH"
+          },
+          {
+            "doi": "10.1016/j.lanepe.2026.101907",
+            "id": "67c643ba81a5138925eb",
+            "source": "research",
+            "source_id": "42990948",
+            "title": "Incidence of medically attended Lyme borreliosis across endemic regions of six European countries (BOLD): a prospective multicentre active surveillance study.",
+            "type": "source_record",
+            "updated": "2026-10-26",
+            "url": null,
+            "verification": "UNVERIFIED_NAME_SEARCH"
+          },
+          {
+            "doi": "10.1007/s13555-026-01937-1",
+            "id": "78686d6e6a6a84fbe350",
+            "source": "research",
+            "source_id": "42844558",
+            "title": "Does Baseline Severity of Atopic Dermatitis Impact the Long-Term Efficacy of Abrocitinib? Post-hoc Analysis of Two Randomized Trials.",
+            "type": "source_record",
+            "updated": "2026-10-08",
+            "url": null,
+            "verification": "UNVERIFIED_NAME_SEARCH"
+          },
+          {
+            "doi": "10.1007/s40744-026-00882-x",
+            "id": "1f67dd8bbaea16483b65",
+            "source": "research",
+            "source_id": "42879079",
+            "title": "Effectiveness of Newly Initiated Tofacitinib and Biologic DMARDs in Patients with Rheumatoid Arthritis.",
+            "type": "source_record",
+            "updated": "2026-10-15",
+            "url": null,
+            "verification": "UNVERIFIED_NAME_SEARCH"
+          },
+          {
+            "doi": "10.1111/1346-8138.70533",
+            "id": "d40223a369c0718e6774",
+            "source": "research",
+            "source_id": "42897809",
+            "title": "Response to \"Psychological Distress in Vitiligo Requires an Action-Linked Pathway Beyond HADS Classification\".",
+            "type": "source_record",
+            "updated": "2026-10-19",
+            "url": null,
+            "verification": "UNVERIFIED_NAME_SEARCH"
+          },
+          {
+            "doi": "10.1016/j.annonc.2026.10.1282",
+            "id": "89ee62c8d4f2e94c06c0",
+            "source": "research",
+            "source_id": "42926110",
+            "title": "Atirmociclib and fulvestrant for patients with HR-positive/HER2-negative advanced or metastatic breast cancer who progressed on a prior cyclin-dependent kinase 4/6 inhibitor: primary analysis of the randomized FourLight-1 trial.",
+            "type": "source_record",
+            "updated": "2026-10-24",
+            "url": null,
+            "verification": "UNVERIFIED_NAME_SEARCH"
+          },
+          {
+            "doi": "10.1007/s40121-026-01414-4",
+            "id": "61da67c8fd4c2428a56d",
+            "source": "research",
+            "source_id": "42645688",
+            "title": "Correction: Budget Impact of Strategies Involving RSVpreF and Nirsevimab to Protect Infants in Saudi Arabia Against Respiratory Syncytial Virus.",
+            "type": "source_record",
+            "updated": "2026-11-01",
+            "url": null,
+            "verification": "UNVERIFIED_NAME_SEARCH"
+          },
+          {
+            "doi": "10.1007/s11523-026-01245-w",
+            "id": "95065d8f7cf72cc2b7c1",
+            "source": "research",
+            "source_id": "42762393",
+            "title": "Summary of Research: HER2CLIMB-05: A Phase III Study of Tucatinib Versus Placebo in Combination with Trastuzumab and Pertuzumab as First-Line Maintenance Therapy for HER2+ Metastatic Breast Cancer.",
+            "type": "source_record",
+            "updated": "2026-09-19",
+            "url": null,
+            "verification": "UNVERIFIED_NAME_SEARCH"
+          },
+          {
+            "doi": "10.1016/j.esmoop.2026.108549",
+            "id": "6ed4c19d9291d89acb24",
+            "source": "research",
+            "source_id": "42815408",
+            "title": "Abemaciclib plus endocrine therapy in HR-positive, HER2-negative high-risk early breast cancer: efficacy in nodal subgroups.",
+            "type": "source_record",
+            "updated": "2026-09-30",
+            "url": null,
+            "verification": "UNVERIFIED_NAME_SEARCH"
+          },
+          {
+            "doi": null,
+            "id": "a879fc3c36dbc62cf498",
+            "source": "federal_awards",
+            "source_id": "W58P0522C0001",
+            "title": "AWARD OF 10M TREATMENT COURSES OF ORAL PROTEASE INHIBITOR PF-07321332",
+            "type": "source_record",
+            "updated": null,
+            "url": null,
+            "verification": "UNVERIFIED_NAME_SEARCH"
+          },
+          {
+            "doi": null,
+            "id": "9d6f42addd28c61c9063",
+            "source": "federal_awards",
+            "source_id": "W15QKN21C0012",
+            "title": "COVID-19 VACCINE PRODUCTION",
+            "type": "source_record",
+            "updated": null,
+            "url": null,
+            "verification": "UNVERIFIED_NAME_SEARCH"
+          },
+          {
+            "doi": null,
+            "id": "b6ac8b8659b7ba1a62fc",
+            "source": "federal_awards",
+            "source_id": "W58P0521C0002",
+            "title": "COVID-19 VACCINES FOR INTERNATIONAL DONATION",
+            "type": "source_record",
+            "updated": null,
+            "url": null,
+            "verification": "UNVERIFIED_NAME_SEARCH"
+          },
+          {
+            "doi": null,
+            "id": "ae7bbf1ae2d7b46eba58",
+            "source": "federal_awards",
+            "source_id": "W58P0522C0016",
+            "title": "COVID-19 ADULT MDV VACCINE",
+            "type": "source_record",
+            "updated": null,
+            "url": null,
+            "verification": "UNVERIFIED_NAME_SEARCH"
+          },
+          {
+            "doi": null,
+            "id": "e450348963f0fa9eb5dc",
+            "source": "federal_awards",
+            "source_id": "HHSD200201033943C",
+            "title": "TAS::75 0512::TAS 00HCVGBC-2010-82344 - WYETH PEDIATRIC VACCINE CONTRACT",
+            "type": "source_record",
+            "updated": null,
+            "url": null,
+            "verification": "UNVERIFIED_NAME_SEARCH"
+          },
+          {
+            "doi": null,
+            "id": "af83f2a2f0fda61cfc95",
+            "source": "federal_awards",
+            "source_id": "HHSD200201138203C",
+            "title": "VACCINE FOR CHILDREN 2011",
+            "type": "source_record",
+            "updated": null,
+            "url": null,
+            "verification": "UNVERIFIED_NAME_SEARCH"
+          },
+          {
+            "doi": null,
+            "id": "2aedc24b79cd634b0b08",
+            "source": "federal_awards",
+            "source_id": "HHSD200201458152C",
+            "title": "VACCINE FOR CHILDREN (VFC) 2014",
+            "type": "source_record",
+            "updated": null,
+            "url": null,
+            "verification": "UNVERIFIED_NAME_SEARCH"
+          },
+          {
+            "doi": null,
+            "id": "b9f071c7cfb214fd2fa1",
+            "source": "federal_awards",
+            "source_id": "HHSD200201793274C",
+            "title": "IGF::OT::IGF 2017 VACCINES FOR CHILDREN",
+            "type": "source_record",
+            "updated": null,
+            "url": null,
+            "verification": "UNVERIFIED_NAME_SEARCH"
+          },
+          {
+            "doi": null,
+            "id": "a5613f7e86f8cffb44be",
+            "source": "federal_awards",
+            "source_id": "HHSD200201250135C",
+            "title": "VFC 2012",
+            "type": "source_record",
+            "updated": null,
+            "url": null,
+            "verification": "UNVERIFIED_NAME_SEARCH"
+          },
+          {
+            "doi": null,
+            "id": "8dd13381cdd66a512770",
+            "source": "federal_awards",
+            "source_id": "HHSD200201354508C",
+            "title": "VACCINE FOR CHILDREN 2013",
+            "type": "source_record",
+            "updated": null,
+            "url": null,
+            "verification": "UNVERIFIED_NAME_SEARCH"
+          },
+          {
+            "doi": null,
+            "id": "1f08c44e25820e203346",
+            "source": "federal_awards",
+            "source_id": "HHSD200200824715C",
+            "title": "VACCINE FOR CHILDREN (VFC) 2008.",
+            "type": "source_record",
+            "updated": null,
+            "url": null,
+            "verification": "UNVERIFIED_NAME_SEARCH"
+          },
+          {
+            "doi": null,
+            "id": "b7e0522182343782c84b",
+            "source": "federal_awards",
+            "source_id": "HHSD200200929373C",
+            "title": "00HCVGBC-2009-68755 - WYETH VFC PEDIATRIC VACCINE CONTRACT",
+            "type": "source_record",
+            "updated": null,
+            "url": null,
+            "verification": "UNVERIFIED_NAME_SEARCH"
+          },
+          {
+            "doi": null,
+            "id": "98c0f983e399fc0298d7",
+            "source": "federal_awards",
+            "source_id": "HHSD200200720305C",
+            "title": "VACCINE FOR CHILDREN TAS::75 0512::TAS",
+            "type": "source_record",
+            "updated": null,
+            "url": null,
+            "verification": "UNVERIFIED_NAME_SEARCH"
+          },
+          {
+            "doi": null,
+            "id": "42fc52393ce7a1252c12",
+            "source": "federal_awards",
+            "source_id": "HHSD200200615820C",
+            "title": "VFC 2006",
+            "type": "source_record",
+            "updated": null,
+            "url": null,
+            "verification": "UNVERIFIED_NAME_SEARCH"
+          },
+          {
+            "doi": null,
+            "id": "0599c1166f69d161782e",
+            "source": "federal_awards",
+            "source_id": "AIDGPOC000400025",
+            "title": "DEPO-PROVERA CONTRACEPTIVE INJECTION KITS",
+            "type": "source_record",
+            "updated": null,
+            "url": null,
+            "verification": "UNVERIFIED_NAME_SEARCH"
+          },
+          {
+            "doi": null,
+            "id": "067d74ae65f9a11ffcfb",
+            "source": "federal_awards",
+            "source_id": "HHSO100201500029C",
+            "title": "IGF::OT::IGF",
+            "type": "source_record",
+            "updated": null,
+            "url": null,
+            "verification": "UNVERIFIED_NAME_SEARCH"
+          },
+          {
+            "doi": null,
+            "id": "8ef9d8bda825bcec7e9f",
+            "source": "federal_awards",
+            "source_id": "AIDGPHC000200013",
+            "title": "PRH/CSL - WYETH (PUBLIC SECTOR) W/N YR OPTION/ADDRS",
+            "type": "source_record",
+            "updated": null,
+            "url": null,
+            "verification": "UNVERIFIED_NAME_SEARCH"
+          },
+          {
+            "doi": null,
+            "id": "fa82e2c4945b1ca48d7f",
+            "source": "federal_awards",
+            "source_id": "HHSD2002003011230001",
+            "title": "VFC 2003",
+            "type": "source_record",
+            "updated": null,
+            "url": null,
+            "verification": "UNVERIFIED_NAME_SEARCH"
+          },
+          {
+            "doi": null,
+            "id": "1bdd1ab481c600492603",
+            "source": "federal_awards",
+            "source_id": "75A50120C00194",
+            "title": "TRAUNCHE 2 PHARMACEUTICALS",
+            "type": "source_record",
+            "updated": null,
+            "url": null,
+            "verification": "UNVERIFIED_NAME_SEARCH"
+          },
+          {
+            "doi": null,
+            "id": "f00d2c6a2d62e0d17e62",
+            "source": "federal_awards",
+            "source_id": "75A50120C00143",
+            "title": "PFIZER PHARMACEUTICALS PROPOFOL AND FENTANYL",
+            "type": "source_record",
+            "updated": null,
+            "url": null,
+            "verification": "UNVERIFIED_NAME_SEARCH"
+          }
+        ],
+        "schema_version": 1,
+        "trade_eligible": false,
+        "verified_company_relationships": 0,
+        "warning": "No evidence of ownership, contract, subsidiary, causality or materiality established"
+      },
+      "name": "Pfizer Inc.",
+      "research_queue": [
+        {
+          "priority": 4,
+          "source": "clinical_trials",
+          "source_id": "NCT00116727",
+          "status": "NEEDS_ENTITY_AND_MATERIALITY_VERIFICATION",
+          "title": "Rheumatoid Arthritis DMARD Intervention and UtilizationStudy"
+        },
+        {
+          "priority": 4,
+          "source": "clinical_trials",
+          "source_id": "NCT00143403",
+          "status": "NEEDS_ENTITY_AND_MATERIALITY_VERIFICATION",
+          "title": "Comparing Irinotecan and 5 FU/FA To 5-FU/FA After Resection Of Liver Metastases For Colorectal Cancer"
+        },
+        {
+          "priority": 4,
+          "source": "clinical_trials",
+          "source_id": "NCT00147654",
+          "status": "NEEDS_ENTITY_AND_MATERIALITY_VERIFICATION",
+          "title": "Effect and Safety Of Detrol LA In Men With Overactive Bladder Symptoms With Or Without Bladder Outlet Obstruction"
+        },
+        {
+          "priority": 4,
+          "source": "clinical_trials",
+          "source_id": "NCT00150384",
+          "status": "NEEDS_ENTITY_AND_MATERIALITY_VERIFICATION",
+          "title": "Clinical Utility of Caduet in Achieving Blood Pressure and Lipid Endpoints in a Specific Patient Population"
+        },
+        {
+          "priority": 4,
+          "source": "clinical_trials",
+          "source_id": "NCT00640146",
+          "status": "NEEDS_ENTITY_AND_MATERIALITY_VERIFICATION",
+          "title": "Study of Subcutaneous Methylnaltrexone (MNTX) in the Treatment of Opioid-Induced Constipation During Rehabilitation After Orthopedic Procedures"
+        },
+        {
+          "priority": 4,
+          "source": "clinical_trials",
+          "source_id": "NCT00741884",
+          "status": "NEEDS_ENTITY_AND_MATERIALITY_VERIFICATION",
+          "title": "A Study to Evaluate the Safety and Efficacy of Three Doses of a Controlled Release Formulation of Varenicline for Smoking Cessation"
+        },
+        {
+          "priority": 4,
+          "source": "clinical_trials",
+          "source_id": "NCT00866983",
+          "status": "NEEDS_ENTITY_AND_MATERIALITY_VERIFICATION",
+          "title": "Local Open-Label Access Study For Patients Who Completed A1481244 Study In Brazil"
+        },
+        {
+          "priority": 4,
+          "source": "clinical_trials",
+          "source_id": "NCT00902187",
+          "status": "NEEDS_ENTITY_AND_MATERIALITY_VERIFICATION",
+          "title": "A Bioequivalence Study Of 4 Mg Fesoterodine Extended-Release Tablets (Toviaz\u2122) In Healthy Subjects"
+        },
+        {
+          "priority": 4,
+          "source": "clinical_trials",
+          "source_id": "NCT01002963",
+          "status": "NEEDS_ENTITY_AND_MATERIALITY_VERIFICATION",
+          "title": "A Study To Investigate The Safety And Toleration Of A Single Dose Of PF-04418948 In Healthy Volunteers"
+        },
+        {
+          "priority": 4,
+          "source": "clinical_trials",
+          "source_id": "NCT01017926",
+          "status": "NEEDS_ENTITY_AND_MATERIALITY_VERIFICATION",
+          "title": "Triazolam Trial In Healthy Subjects To Compare Bioavailability Between Formulations Of Triazolam To Determine Their Bioequivalence In Terms Of Rate And Magnitude Of Absorption"
+        },
+        {
+          "priority": 4,
+          "source": "clinical_trials",
+          "source_id": "NCT01058642",
+          "status": "NEEDS_ENTITY_AND_MATERIALITY_VERIFICATION",
+          "title": "Study to Assess the Efficacy, Safety, and Tolerability of ADL5747 in Participants With Postherpetic Neuralgia"
+        },
+        {
+          "priority": 4,
+          "source": "clinical_trials",
+          "source_id": "NCT01078298",
+          "status": "NEEDS_ENTITY_AND_MATERIALITY_VERIFICATION",
+          "title": "Safety And Efficacy Of 12 Weeks Of Varenicline For Smoking Cessation In Smokers With Depression"
+        },
+        {
+          "priority": 4,
+          "source": "clinical_trials",
+          "source_id": "NCT01131923",
+          "status": "NEEDS_ENTITY_AND_MATERIALITY_VERIFICATION",
+          "title": "Bioequivalency Study of Amlodipine Besylate Tablets, 10 mg of Dr. Reddy's Under Fasting Conditions"
+        },
+        {
+          "priority": 4,
+          "source": "clinical_trials",
+          "source_id": "NCT01185184",
+          "status": "NEEDS_ENTITY_AND_MATERIALITY_VERIFICATION",
+          "title": "Pharmacokinetics And Safety Study Of Two CP-690,550 Controlled Release Formulation Following Single Dose In Healthy Volunteers"
+        },
+        {
+          "priority": 4,
+          "source": "clinical_trials",
+          "source_id": "NCT01254396",
+          "status": "NEEDS_ENTITY_AND_MATERIALITY_VERIFICATION",
+          "title": "Pharmacokinetics Of Sildenafil Orally Disintegrating Tablet Formulation Given With Or Without Food."
+        }
+      ],
+      "sources": {
+        "clinical_trials": {
+          "results": 20,
+          "status": "SEARCH_OK_NOT_ENTITY_VERIFIED"
+        },
+        "federal_awards": {
+          "results": 20,
+          "status": "SEARCH_OK_NOT_ENTITY_VERIFIED"
+        },
+        "federal_register": {
+          "results": 20,
+          "status": "SEARCH_OK_NOT_ENTITY_VERIFIED"
+        },
+        "research": {
+          "results": 20,
+          "status": "SEARCH_OK_NOT_ENTITY_VERIFIED"
+        }
+      },
+      "status": "SEARCH_COMPLETE_ENTITY_UNVERIFIED",
+      "symbol": "PFE"
+    },
+    {
+      "graph": {
+        "company_query": "Merck & Co. Inc.",
+        "edges": [
+          {
+            "confidence": "UNVERIFIED",
+            "evidence_source": "clinical_trials",
+            "from": "846256a6b6eab448c645",
+            "relation": "SEARCH_RESULT_POSSIBLY_RELEVANT",
+            "to": "2326e3f645d03ea0c85f"
+          },
+          {
+            "confidence": "UNVERIFIED",
+            "evidence_source": "clinical_trials",
+            "from": "846256a6b6eab448c645",
+            "relation": "SEARCH_RESULT_POSSIBLY_RELEVANT",
+            "to": "837f43936b89002f4df1"
+          },
+          {
+            "confidence": "UNVERIFIED",
+            "evidence_source": "clinical_trials",
+            "from": "846256a6b6eab448c645",
+            "relation": "SEARCH_RESULT_POSSIBLY_RELEVANT",
+            "to": "9201cf1ecc073d9f0858"
+          },
+          {
+            "confidence": "UNVERIFIED",
+            "evidence_source": "clinical_trials",
+            "from": "846256a6b6eab448c645",
+            "relation": "SEARCH_RESULT_POSSIBLY_RELEVANT",
+            "to": "68064224aff5b4e79eb7"
+          },
+          {
+            "confidence": "UNVERIFIED",
+            "evidence_source": "clinical_trials",
+            "from": "846256a6b6eab448c645",
+            "relation": "SEARCH_RESULT_POSSIBLY_RELEVANT",
+            "to": "7c6588f31498a4f75c93"
+          },
+          {
+            "confidence": "UNVERIFIED",
+            "evidence_source": "clinical_trials",
+            "from": "846256a6b6eab448c645",
+            "relation": "SEARCH_RESULT_POSSIBLY_RELEVANT",
+            "to": "263fc301ec5f76055f3f"
+          },
+          {
+            "confidence": "UNVERIFIED",
+            "evidence_source": "clinical_trials",
+            "from": "846256a6b6eab448c645",
+            "relation": "SEARCH_RESULT_POSSIBLY_RELEVANT",
+            "to": "f2e29a7c7a4e9ef1dcce"
+          },
+          {
+            "confidence": "UNVERIFIED",
+            "evidence_source": "clinical_trials",
+            "from": "846256a6b6eab448c645",
+            "relation": "SEARCH_RESULT_POSSIBLY_RELEVANT",
+            "to": "3f183721a327c856fe27"
+          },
+          {
+            "confidence": "UNVERIFIED",
+            "evidence_source": "clinical_trials",
+            "from": "846256a6b6eab448c645",
+            "relation": "SEARCH_RESULT_POSSIBLY_RELEVANT",
+            "to": "0d5246d5d689afa8fbc9"
+          },
+          {
+            "confidence": "UNVERIFIED",
+            "evidence_source": "clinical_trials",
+            "from": "846256a6b6eab448c645",
+            "relation": "SEARCH_RESULT_POSSIBLY_RELEVANT",
+            "to": "5f87740443ee875ee860"
+          },
+          {
+            "confidence": "UNVERIFIED",
+            "evidence_source": "clinical_trials",
+            "from": "846256a6b6eab448c645",
+            "relation": "SEARCH_RESULT_POSSIBLY_RELEVANT",
+            "to": "93ceb497f19d94ab3c15"
+          },
+          {
+            "confidence": "UNVERIFIED",
+            "evidence_source": "clinical_trials",
+            "from": "846256a6b6eab448c645",
+            "relation": "SEARCH_RESULT_POSSIBLY_RELEVANT",
+            "to": "726a6dded9c736ed1bd3"
+          },
+          {
+            "confidence": "UNVERIFIED",
+            "evidence_source": "clinical_trials",
+            "from": "846256a6b6eab448c645",
+            "relation": "SEARCH_RESULT_POSSIBLY_RELEVANT",
+            "to": "9af78d6693bf89004b16"
+          },
+          {
+            "confidence": "UNVERIFIED",
+            "evidence_source": "clinical_trials",
+            "from": "846256a6b6eab448c645",
+            "relation": "SEARCH_RESULT_POSSIBLY_RELEVANT",
+            "to": "d6cd21f9bbb9dd51bb2c"
+          },
+          {
+            "confidence": "UNVERIFIED",
+            "evidence_source": "clinical_trials",
+            "from": "846256a6b6eab448c645",
+            "relation": "SEARCH_RESULT_POSSIBLY_RELEVANT",
+            "to": "f622f1e9b5954a8bd08b"
+          },
+          {
+            "confidence": "UNVERIFIED",
+            "evidence_source": "clinical_trials",
+            "from": "846256a6b6eab448c645",
+            "relation": "SEARCH_RESULT_POSSIBLY_RELEVANT",
+            "to": "05060ac48f30bdffadaa"
+          },
+          {
+            "confidence": "UNVERIFIED",
+            "evidence_source": "clinical_trials",
+            "from": "846256a6b6eab448c645",
+            "relation": "SEARCH_RESULT_POSSIBLY_RELEVANT",
+            "to": "091afe196142d2880cf8"
+          },
+          {
+            "confidence": "UNVERIFIED",
+            "evidence_source": "clinical_trials",
+            "from": "846256a6b6eab448c645",
+            "relation": "SEARCH_RESULT_POSSIBLY_RELEVANT",
+            "to": "00329c21ee5606f81e4d"
+          },
+          {
+            "confidence": "UNVERIFIED",
+            "evidence_source": "clinical_trials",
+            "from": "846256a6b6eab448c645",
+            "relation": "SEARCH_RESULT_POSSIBLY_RELEVANT",
+            "to": "acc577f4d8fb14c95faf"
+          },
+          {
+            "confidence": "UNVERIFIED",
+            "evidence_source": "clinical_trials",
+            "from": "846256a6b6eab448c645",
+            "relation": "SEARCH_RESULT_POSSIBLY_RELEVANT",
+            "to": "49a63377c624afa7e10a"
+          },
+          {
+            "confidence": "UNVERIFIED",
+            "evidence_source": "federal_register",
+            "from": "846256a6b6eab448c645",
+            "relation": "SEARCH_RESULT_POSSIBLY_RELEVANT",
+            "to": "398a7132d8465f622844"
+          },
+          {
+            "confidence": "UNVERIFIED",
+            "evidence_source": "federal_register",
+            "from": "846256a6b6eab448c645",
+            "relation": "SEARCH_RESULT_POSSIBLY_RELEVANT",
+            "to": "5e5569387653bb518e08"
+          },
+          {
+            "confidence": "UNVERIFIED",
+            "evidence_source": "federal_register",
+            "from": "846256a6b6eab448c645",
+            "relation": "SEARCH_RESULT_POSSIBLY_RELEVANT",
+            "to": "db621eadabdc5620bb1b"
+          },
+          {
+            "confidence": "UNVERIFIED",
+            "evidence_source": "federal_register",
+            "from": "846256a6b6eab448c645",
+            "relation": "SEARCH_RESULT_POSSIBLY_RELEVANT",
+            "to": "32a6900b170232a0a899"
+          },
+          {
+            "confidence": "UNVERIFIED",
+            "evidence_source": "federal_register",
+            "from": "846256a6b6eab448c645",
+            "relation": "SEARCH_RESULT_POSSIBLY_RELEVANT",
+            "to": "8781f614e96d3e8eb2d7"
+          },
+          {
+            "confidence": "UNVERIFIED",
+            "evidence_source": "federal_register",
+            "from": "846256a6b6eab448c645",
+            "relation": "SEARCH_RESULT_POSSIBLY_RELEVANT",
+            "to": "dd47949f291f60d31b0b"
+          },
+          {
+            "confidence": "UNVERIFIED",
+            "evidence_source": "federal_register",
+            "from": "846256a6b6eab448c645",
+            "relation": "SEARCH_RESULT_POSSIBLY_RELEVANT",
+            "to": "20795750941f135a92f8"
+          },
+          {
+            "confidence": "UNVERIFIED",
+            "evidence_source": "federal_register",
+            "from": "846256a6b6eab448c645",
+            "relation": "SEARCH_RESULT_POSSIBLY_RELEVANT",
+            "to": "f36c0c34e2c56ffb7947"
+          },
+          {
+            "confidence": "UNVERIFIED",
+            "evidence_source": "federal_register",
+            "from": "846256a6b6eab448c645",
+            "relation": "SEARCH_RESULT_POSSIBLY_RELEVANT",
+            "to": "e8d079f1130a4b364c39"
+          },
+          {
+            "confidence": "UNVERIFIED",
+            "evidence_source": "federal_register",
+            "from": "846256a6b6eab448c645",
+            "relation": "SEARCH_RESULT_POSSIBLY_RELEVANT",
+            "to": "18725fb672056c1eb8d6"
+          },
+          {
+            "confidence": "UNVERIFIED",
+            "evidence_source": "federal_register",
+            "from": "846256a6b6eab448c645",
+            "relation": "SEARCH_RESULT_POSSIBLY_RELEVANT",
+            "to": "1795ca699a3dc4487ee0"
+          },
+          {
+            "confidence": "UNVERIFIED",
+            "evidence_source": "federal_register",
+            "from": "846256a6b6eab448c645",
+            "relation": "SEARCH_RESULT_POSSIBLY_RELEVANT",
+            "to": "2db4bd17319b1b838cbf"
+          },
+          {
+            "confidence": "UNVERIFIED",
+            "evidence_source": "federal_register",
+            "from": "846256a6b6eab448c645",
+            "relation": "SEARCH_RESULT_POSSIBLY_RELEVANT",
+            "to": "efe343be615d32b0ec1a"
+          },
+          {
+            "confidence": "UNVERIFIED",
+            "evidence_source": "federal_register",
+            "from": "846256a6b6eab448c645",
+            "relation": "SEARCH_RESULT_POSSIBLY_RELEVANT",
+            "to": "38a4c6f433aa49616a64"
+          },
+          {
+            "confidence": "UNVERIFIED",
+            "evidence_source": "federal_register",
+            "from": "846256a6b6eab448c645",
+            "relation": "SEARCH_RESULT_POSSIBLY_RELEVANT",
+            "to": "2d7bac3848935aa2e0b3"
+          },
+          {
+            "confidence": "UNVERIFIED",
+            "evidence_source": "federal_register",
+            "from": "846256a6b6eab448c645",
+            "relation": "SEARCH_RESULT_POSSIBLY_RELEVANT",
+            "to": "a8b44154de9cc9601e7e"
+          },
+          {
+            "confidence": "UNVERIFIED",
+            "evidence_source": "federal_register",
+            "from": "846256a6b6eab448c645",
+            "relation": "SEARCH_RESULT_POSSIBLY_RELEVANT",
+            "to": "385489465f587c18014c"
+          },
+          {
+            "confidence": "UNVERIFIED",
+            "evidence_source": "federal_register",
+            "from": "846256a6b6eab448c645",
+            "relation": "SEARCH_RESULT_POSSIBLY_RELEVANT",
+            "to": "6e41be80a61fb211748e"
+          },
+          {
+            "confidence": "UNVERIFIED",
+            "evidence_source": "federal_register",
+            "from": "846256a6b6eab448c645",
+            "relation": "SEARCH_RESULT_POSSIBLY_RELEVANT",
+            "to": "b8304f0573ce2578d237"
+          },
+          {
+            "confidence": "UNVERIFIED",
+            "evidence_source": "federal_register",
+            "from": "846256a6b6eab448c645",
+            "relation": "SEARCH_RESULT_POSSIBLY_RELEVANT",
+            "to": "ee42a17dd55c6ce14ed8"
+          },
+          {
+            "confidence": "UNVERIFIED",
+            "evidence_source": "research",
+            "from": "846256a6b6eab448c645",
+            "relation": "SEARCH_RESULT_POSSIBLY_RELEVANT",
+            "to": "95fce28b136413eac4fe"
+          },
+          {
+            "confidence": "UNVERIFIED",
+            "evidence_source": "research",
+            "from": "846256a6b6eab448c645",
+            "relation": "SEARCH_RESULT_POSSIBLY_RELEVANT",
+            "to": "f93981a82f2481f56dad"
+          },
+          {
+            "confidence": "UNVERIFIED",
+            "evidence_source": "research",
+            "from": "846256a6b6eab448c645",
+            "relation": "SEARCH_RESULT_POSSIBLY_RELEVANT",
+            "to": "98407da4281baf13a9bb"
+          },
+          {
+            "confidence": "UNVERIFIED",
+            "evidence_source": "research",
+            "from": "846256a6b6eab448c645",
+            "relation": "SEARCH_RESULT_POSSIBLY_RELEVANT",
+            "to": "6e6ec778a117a35121c6"
+          },
+          {
+            "confidence": "UNVERIFIED",
+            "evidence_source": "research",
+            "from": "846256a6b6eab448c645",
+            "relation": "SEARCH_RESULT_POSSIBLY_RELEVANT",
+            "to": "bda01f9945b996f3f2d7"
+          },
+          {
+            "confidence": "UNVERIFIED",
+            "evidence_source": "research",
+            "from": "846256a6b6eab448c645",
+            "relation": "SEARCH_RESULT_POSSIBLY_RELEVANT",
+            "to": "57ffd5375f42cfec245a"
+          },
+          {
+            "confidence": "UNVERIFIED",
+            "evidence_source": "research",
+            "from": "846256a6b6eab448c645",
+            "relation": "SEARCH_RESULT_POSSIBLY_RELEVANT",
+            "to": "889362c9d5830c29ed1f"
+          },
+          {
+            "confidence": "UNVERIFIED",
+            "evidence_source": "research",
+            "from": "846256a6b6eab448c645",
+            "relation": "SEARCH_RESULT_POSSIBLY_RELEVANT",
+            "to": "cadc5897c0a13a3a7c12"
+          },
+          {
+            "confidence": "UNVERIFIED",
+            "evidence_source": "research",
+            "from": "846256a6b6eab448c645",
+            "relation": "SEARCH_RESULT_POSSIBLY_RELEVANT",
+            "to": "9ec4c8c902bdc6b48506"
+          },
+          {
+            "confidence": "UNVERIFIED",
+            "evidence_source": "research",
+            "from": "846256a6b6eab448c645",
+            "relation": "SEARCH_RESULT_POSSIBLY_RELEVANT",
+            "to": "2e7f6f3433f4fb13216e"
+          },
+          {
+            "confidence": "UNVERIFIED",
+            "evidence_source": "research",
+            "from": "846256a6b6eab448c645",
+            "relation": "SEARCH_RESULT_POSSIBLY_RELEVANT",
+            "to": "0eeb396d187dd9db37c2"
+          },
+          {
+            "confidence": "UNVERIFIED",
+            "evidence_source": "research",
+            "from": "846256a6b6eab448c645",
+            "relation": "SEARCH_RESULT_POSSIBLY_RELEVANT",
+            "to": "c3afc85cfb7684fdfd02"
+          },
+          {
+            "confidence": "UNVERIFIED",
+            "evidence_source": "research",
+            "from": "846256a6b6eab448c645",
+            "relation": "SEARCH_RESULT_POSSIBLY_RELEVANT",
+            "to": "6c0eccca9ee560d6e882"
+          },
+          {
+            "confidence": "UNVERIFIED",
+            "evidence_source": "research",
+            "from": "846256a6b6eab448c645",
+            "relation": "SEARCH_RESULT_POSSIBLY_RELEVANT",
+            "to": "d2b6586be2c6f87dce82"
+          },
+          {
+            "confidence": "UNVERIFIED",
+            "evidence_source": "research",
+            "from": "846256a6b6eab448c645",
+            "relation": "SEARCH_RESULT_POSSIBLY_RELEVANT",
+            "to": "ce91a97bb196f46a0c22"
+          },
+          {
+            "confidence": "UNVERIFIED",
+            "evidence_source": "research",
+            "from": "846256a6b6eab448c645",
+            "relation": "SEARCH_RESULT_POSSIBLY_RELEVANT",
+            "to": "efa53a5e4e88f5b53b55"
+          },
+          {
+            "confidence": "UNVERIFIED",
+            "evidence_source": "research",
+            "from": "846256a6b6eab448c645",
+            "relation": "SEARCH_RESULT_POSSIBLY_RELEVANT",
+            "to": "52f055248eedb8a391aa"
+          },
+          {
+            "confidence": "UNVERIFIED",
+            "evidence_source": "research",
+            "from": "846256a6b6eab448c645",
+            "relation": "SEARCH_RESULT_POSSIBLY_RELEVANT",
+            "to": "ec267741023ed91916dd"
+          },
+          {
+            "confidence": "UNVERIFIED",
+            "evidence_source": "research",
+            "from": "846256a6b6eab448c645",
+            "relation": "SEARCH_RESULT_POSSIBLY_RELEVANT",
+            "to": "dffd86f6fdb63c1a2d20"
+          },
+          {
+            "confidence": "UNVERIFIED",
+            "evidence_source": "research",
+            "from": "846256a6b6eab448c645",
+            "relation": "SEARCH_RESULT_POSSIBLY_RELEVANT",
+            "to": "6b41a7cefa01c16be1bc"
+          },
+          {
+            "confidence": "UNVERIFIED",
+            "evidence_source": "federal_awards",
+            "from": "846256a6b6eab448c645",
+            "relation": "SEARCH_RESULT_POSSIBLY_RELEVANT",
+            "to": "da601c154e4c17d3bf8d"
+          },
+          {
+            "confidence": "UNVERIFIED",
+            "evidence_source": "federal_awards",
+            "from": "846256a6b6eab448c645",
+            "relation": "SEARCH_RESULT_POSSIBLY_RELEVANT",
+            "to": "b9522e0aaf602eeb0c55"
+          },
+          {
+            "confidence": "UNVERIFIED",
+            "evidence_source": "federal_awards",
+            "from": "846256a6b6eab448c645",
+            "relation": "SEARCH_RESULT_POSSIBLY_RELEVANT",
+            "to": "a6ad21cba92c8447f5ad"
+          },
+          {
+            "confidence": "UNVERIFIED",
+            "evidence_source": "federal_awards",
+            "from": "846256a6b6eab448c645",
+            "relation": "SEARCH_RESULT_POSSIBLY_RELEVANT",
+            "to": "03d6703b4e518b8a0ba6"
+          },
+          {
+            "confidence": "UNVERIFIED",
+            "evidence_source": "federal_awards",
+            "from": "846256a6b6eab448c645",
+            "relation": "SEARCH_RESULT_POSSIBLY_RELEVANT",
+            "to": "26eefe9a4e64437980db"
+          },
+          {
+            "confidence": "UNVERIFIED",
+            "evidence_source": "federal_awards",
+            "from": "846256a6b6eab448c645",
+            "relation": "SEARCH_RESULT_POSSIBLY_RELEVANT",
+            "to": "8b5dc7b96599669e29e3"
+          },
+          {
+            "confidence": "UNVERIFIED",
+            "evidence_source": "federal_awards",
+            "from": "846256a6b6eab448c645",
+            "relation": "SEARCH_RESULT_POSSIBLY_RELEVANT",
+            "to": "7472f1d1d9d7baf78964"
+          },
+          {
+            "confidence": "UNVERIFIED",
+            "evidence_source": "federal_awards",
+            "from": "846256a6b6eab448c645",
+            "relation": "SEARCH_RESULT_POSSIBLY_RELEVANT",
+            "to": "518c2b7fba01e371b0d9"
+          },
+          {
+            "confidence": "UNVERIFIED",
+            "evidence_source": "federal_awards",
+            "from": "846256a6b6eab448c645",
+            "relation": "SEARCH_RESULT_POSSIBLY_RELEVANT",
+            "to": "85708d535763cb72949c"
+          },
+          {
+            "confidence": "UNVERIFIED",
+            "evidence_source": "federal_awards",
+            "from": "846256a6b6eab448c645",
+            "relation": "SEARCH_RESULT_POSSIBLY_RELEVANT",
+            "to": "39af3d4248914dd46fa2"
+          },
+          {
+            "confidence": "UNVERIFIED",
+            "evidence_source": "federal_awards",
+            "from": "846256a6b6eab448c645",
+            "relation": "SEARCH_RESULT_POSSIBLY_RELEVANT",
+            "to": "171c685bbe112cc5ba26"
+          },
+          {
+            "confidence": "UNVERIFIED",
+            "evidence_source": "federal_awards",
+            "from": "846256a6b6eab448c645",
+            "relation": "SEARCH_RESULT_POSSIBLY_RELEVANT",
+            "to": "0f8c75381d824b439db8"
+          },
+          {
+            "confidence": "UNVERIFIED",
+            "evidence_source": "federal_awards",
+            "from": "846256a6b6eab448c645",
+            "relation": "SEARCH_RESULT_POSSIBLY_RELEVANT",
+            "to": "553b3ee32457e881b3bb"
+          },
+          {
+            "confidence": "UNVERIFIED",
+            "evidence_source": "federal_awards",
+            "from": "846256a6b6eab448c645",
+            "relation": "SEARCH_RESULT_POSSIBLY_RELEVANT",
+            "to": "e7228763241f320468d1"
+          },
+          {
+            "confidence": "UNVERIFIED",
+            "evidence_source": "federal_awards",
+            "from": "846256a6b6eab448c645",
+            "relation": "SEARCH_RESULT_POSSIBLY_RELEVANT",
+            "to": "20157dead8599248a89a"
+          },
+          {
+            "confidence": "UNVERIFIED",
+            "evidence_source": "federal_awards",
+            "from": "846256a6b6eab448c645",
+            "relation": "SEARCH_RESULT_POSSIBLY_RELEVANT",
+            "to": "510d1d4aef875745e1a1"
+          },
+          {
+            "confidence": "UNVERIFIED",
+            "evidence_source": "federal_awards",
+            "from": "846256a6b6eab448c645",
+            "relation": "SEARCH_RESULT_POSSIBLY_RELEVANT",
+            "to": "0239cff9b8b1d2c1f543"
+          },
+          {
+            "confidence": "UNVERIFIED",
+            "evidence_source": "federal_awards",
+            "from": "846256a6b6eab448c645",
+            "relation": "SEARCH_RESULT_POSSIBLY_RELEVANT",
+            "to": "94767a4129f04d142fbf"
+          },
+          {
+            "confidence": "UNVERIFIED",
+            "evidence_source": "federal_awards",
+            "from": "846256a6b6eab448c645",
+            "relation": "SEARCH_RESULT_POSSIBLY_RELEVANT",
+            "to": "98067080c52ce64c8bbe"
+          },
+          {
+            "confidence": "UNVERIFIED",
+            "evidence_source": "federal_awards",
+            "from": "846256a6b6eab448c645",
+            "relation": "SEARCH_RESULT_POSSIBLY_RELEVANT",
+            "to": "82e8d06d6c0d6b437e65"
+          }
+        ],
+        "nodes": [
+          {
+            "id": "846256a6b6eab448c645",
+            "name": "Merck & Co. Inc.",
+            "type": "company_query",
+            "verification": "UNVERIFIED"
+          },
+          {
+            "doi": null,
+            "id": "2326e3f645d03ea0c85f",
+            "source": "clinical_trials",
+            "source_id": "NCT00888355",
+            "title": "MK0954 Versus Placebo for Treatment of Mild to Moderate Hypertension",
+            "type": "source_record",
+            "updated": "2009-04-27",
+            "url": null,
+            "verification": "UNVERIFIED_NAME_SEARCH"
+          },
+          {
+            "doi": null,
+            "id": "837f43936b89002f4df1",
+            "source": "clinical_trials",
+            "source_id": "NCT03834493",
+            "title": "Study of Pembrolizumab (MK-3475) Plus Enzalutamide Versus Placebo Plus Enzalutamide in Participants With Metastatic Castration-resistant Prostate Cancer (mCRPC) (MK-3475-641/KEYNOTE-641)",
+            "type": "source_record",
+            "updated": "2019-02-08",
+            "url": null,
+            "verification": "UNVERIFIED_NAME_SEARCH"
+          },
+          {
+            "doi": null,
+            "id": "9201cf1ecc073d9f0858",
+            "source": "clinical_trials",
+            "source_id": "NCT00055198",
+            "title": "Daptomycin for the Treatment of Infections Due to Gram-Positive Bacteria",
+            "type": "source_record",
+            "updated": "2003-02-21",
+            "url": null,
+            "verification": "UNVERIFIED_NAME_SEARCH"
+          },
+          {
+            "doi": null,
+            "id": "68064224aff5b4e79eb7",
+            "source": "clinical_trials",
+            "source_id": "NCT05656534",
+            "title": "Orexin Receptor Antagonists as Modulators of Threat Sensitivity in Individuals With Alcohol Use Disorder",
+            "type": "source_record",
+            "updated": "2022-12-19",
+            "url": null,
+            "verification": "UNVERIFIED_NAME_SEARCH"
+          },
+          {
+            "doi": null,
+            "id": "7c6588f31498a4f75c93",
+            "source": "clinical_trials",
+            "source_id": "NCT01058642",
+            "title": "Study to Assess the Efficacy, Safety, and Tolerability of ADL5747 in Participants With Postherpetic Neuralgia",
+            "type": "source_record",
+            "updated": "2010-01-29",
+            "url": null,
+            "verification": "UNVERIFIED_NAME_SEARCH"
+          },
+          {
+            "doi": null,
+            "id": "263fc301ec5f76055f3f",
+            "source": "clinical_trials",
+            "source_id": "NCT02083627",
+            "title": "A Study to Assess the Effects of Multiple Doses of Fidaxomicin on a Single Dose of Rosuvastatin in Healthy Male Subjects",
+            "type": "source_record",
+            "updated": "2014-03-11",
+            "url": null,
+            "verification": "UNVERIFIED_NAME_SEARCH"
+          },
+          {
+            "doi": null,
+            "id": "f2e29a7c7a4e9ef1dcce",
+            "source": "clinical_trials",
+            "source_id": "NCT07487441",
+            "title": "Reverse Remodeling of the Pulmonary Vasculature: a Longitudinal, Investigational Study of the Effects of Sotatercept.",
+            "type": "source_record",
+            "updated": "2026-03-23",
+            "url": null,
+            "verification": "UNVERIFIED_NAME_SEARCH"
+          },
+          {
+            "doi": null,
+            "id": "3f183721a327c856fe27",
+            "source": "clinical_trials",
+            "source_id": "NCT04787042",
+            "title": "Phase 1a and Phase 2 Study for Safety, Preliminary Efficacy, PK and PD of ST-067",
+            "type": "source_record",
+            "updated": "2021-03-08",
+            "url": null,
+            "verification": "UNVERIFIED_NAME_SEARCH"
+          },
+          {
+            "doi": null,
+            "id": "0d5246d5d689afa8fbc9",
+            "source": "clinical_trials",
+            "source_id": "NCT00671359",
+            "title": "Food Effects of Single Oral Dose of 600mg TR-701",
+            "type": "source_record",
+            "updated": "2008-05-05",
+            "url": null,
+            "verification": "UNVERIFIED_NAME_SEARCH"
+          },
+          {
+            "doi": null,
+            "id": "5f87740443ee875ee860",
+            "source": "clinical_trials",
+            "source_id": "NCT01597505",
+            "title": "Study of CB-183,315 in Participants With Clostridium Difficile Associated Diarrhea (MK-4261-005)",
+            "type": "source_record",
+            "updated": "2012-05-14",
+            "url": null,
+            "verification": "UNVERIFIED_NAME_SEARCH"
+          },
+          {
+            "doi": null,
+            "id": "93ceb497f19d94ab3c15",
+            "source": "clinical_trials",
+            "source_id": "NCT05158140",
+            "title": "Safety, Tolerability, and Immunogenicity of V110 or V114 Co-administered With a Booster Dose of mRNA-1273 in Healthy Adults (V110-911)",
+            "type": "source_record",
+            "updated": "2021-12-15",
+            "url": null,
+            "verification": "UNVERIFIED_NAME_SEARCH"
+          },
+          {
+            "doi": null,
+            "id": "726a6dded9c736ed1bd3",
+            "source": "clinical_trials",
+            "source_id": "NCT02019420",
+            "title": "Tedizolid Phosphate (TR-701 FA, MK-1986) vs Linezolid for the Treatment of Nosocomial Pneumonia (MK-1986-002)",
+            "type": "source_record",
+            "updated": "2013-12-24",
+            "url": null,
+            "verification": "UNVERIFIED_NAME_SEARCH"
+          },
+          {
+            "doi": null,
+            "id": "9af78d6693bf89004b16",
+            "source": "clinical_trials",
+            "source_id": "NCT00870480",
+            "title": "A Relative Bioavailability Study of Finasteride 5 mg Tablets Under Fasting Conditions",
+            "type": "source_record",
+            "updated": "2009-03-27",
+            "url": null,
+            "verification": "UNVERIFIED_NAME_SEARCH"
+          },
+          {
+            "doi": null,
+            "id": "d6cd21f9bbb9dd51bb2c",
+            "source": "clinical_trials",
+            "source_id": "NCT02501473",
+            "title": "Study of Intratumoral G100 With Or Without Pembrolizumab or Rituximab In Participants With Follicular Non-Hodgkin's Lymphoma (MK-3475-174/IMDZ-G142)",
+            "type": "source_record",
+            "updated": "2015-07-17",
+            "url": null,
+            "verification": "UNVERIFIED_NAME_SEARCH"
+          },
+          {
+            "doi": null,
+            "id": "f622f1e9b5954a8bd08b",
+            "source": "clinical_trials",
+            "source_id": "NCT01713582",
+            "title": "A Dose-finding Study of the Bromodomain (Brd) Inhibitor OTX015/ Birabresib (MK-8628) in Hematologic Malignancies (MK-8628-001)",
+            "type": "source_record",
+            "updated": "2012-10-24",
+            "url": null,
+            "verification": "UNVERIFIED_NAME_SEARCH"
+          },
+          {
+            "doi": null,
+            "id": "05060ac48f30bdffadaa",
+            "source": "clinical_trials",
+            "source_id": "NCT00701636",
+            "title": "Pharmacokinetics of Daptomycin During Cardiopulmonary Bypass Surgery",
+            "type": "source_record",
+            "updated": "2008-06-19",
+            "url": null,
+            "verification": "UNVERIFIED_NAME_SEARCH"
+          },
+          {
+            "doi": null,
+            "id": "091afe196142d2880cf8",
+            "source": "clinical_trials",
+            "source_id": "NCT01432730",
+            "title": "A Study to Assess the Efficacy of Gefapixant (MK-7264/AF-219), in Participants With Chronic Cough (MK-7264-006)",
+            "type": "source_record",
+            "updated": "2011-09-13",
+            "url": null,
+            "verification": "UNVERIFIED_NAME_SEARCH"
+          },
+          {
+            "doi": null,
+            "id": "00329c21ee5606f81e4d",
+            "source": "clinical_trials",
+            "source_id": "NCT00921024",
+            "title": "Safety and Efficacy of IV CXA-101 and IV Ceftazidime in Patients With Complicated Urinary Tract Infections",
+            "type": "source_record",
+            "updated": "2009-06-16",
+            "url": null,
+            "verification": "UNVERIFIED_NAME_SEARCH"
+          },
+          {
+            "doi": null,
+            "id": "acc577f4d8fb14c95faf",
+            "source": "clinical_trials",
+            "source_id": "NCT02421120",
+            "title": "Population Pharmacokinetics and Safety of Intravenous Ceftolozane/Tazobactam in Adult Cystic Fibrosis Patients",
+            "type": "source_record",
+            "updated": "2015-04-20",
+            "url": null,
+            "verification": "UNVERIFIED_NAME_SEARCH"
+          },
+          {
+            "doi": null,
+            "id": "49a63377c624afa7e10a",
+            "source": "clinical_trials",
+            "source_id": "NCT05223920",
+            "title": "An Extension Study of Bomedemstat (IMG-7289/MK-3543) in Participants With Myeloproliferative Neoplasms (IMG-7289-CTP-202/MK-3543-005)",
+            "type": "source_record",
+            "updated": "2022-02-04",
+            "url": null,
+            "verification": "UNVERIFIED_NAME_SEARCH"
+          },
+          {
+            "doi": null,
+            "id": "398a7132d8465f622844",
+            "source": "federal_register",
+            "source_id": "2026-21897",
+            "title": "Determination That PEPCID RPD (Famotidine) Orally Disintegrating Tablets, 20 Milligrams and 40 Milligrams Were Not Withdrawn From Sale for Reasons of Safety or Effectiveness",
+            "type": "source_record",
+            "updated": "2026-10-27",
+            "url": "https://www.federalregister.gov/documents/2026/10/27/2026-21897/determination-that-pepcid-rpd-famotidine-orally-disintegrating-tablets-20-milligrams-and-40",
+            "verification": "UNVERIFIED_NAME_SEARCH"
+          },
+          {
+            "doi": null,
+            "id": "5e5569387653bb518e08",
+            "source": "federal_register",
+            "source_id": "2026-19024",
+            "title": "Granting of Requests for Early Termination of the Waiting Period Under the Premerger Notification Rules",
+            "type": "source_record",
+            "updated": "2026-09-17",
+            "url": "https://www.federalregister.gov/documents/2026/09/17/2026-19024/granting-of-requests-for-early-termination-of-the-waiting-period-under-the-premerger-notification",
+            "verification": "UNVERIFIED_NAME_SEARCH"
+          },
+          {
+            "doi": null,
+            "id": "db621eadabdc5620bb1b",
+            "source": "federal_register",
+            "source_id": "2026-03244",
+            "title": "Granting of Requests for Early Termination of the Waiting Period Under the Premerger Notification Rules",
+            "type": "source_record",
+            "updated": "2026-02-19",
+            "url": "https://www.federalregister.gov/documents/2026/02/19/2026-03244/granting-of-requests-for-early-termination-of-the-waiting-period-under-the-premerger-notification",
+            "verification": "UNVERIFIED_NAME_SEARCH"
+          },
+          {
+            "doi": null,
+            "id": "32a6900b170232a0a899",
+            "source": "federal_register",
+            "source_id": "2026-11429",
+            "title": "Determination That Protamine Sulfate (Protamine Sulfate) Intravenous; Solution, 50 Milligrams/5 Milliliters, and Other Drug Products Were Not Withdrawn From Sale for Reasons of Safety or Effectiveness",
+            "type": "source_record",
+            "updated": "2026-06-08",
+            "url": "https://www.federalregister.gov/documents/2026/06/08/2026-11429/determination-that-protamine-sulfate-protamine-sulfate-intravenous-solution-50-milligrams5",
+            "verification": "UNVERIFIED_NAME_SEARCH"
+          },
+          {
+            "doi": null,
+            "id": "8781f614e96d3e8eb2d7",
+            "source": "federal_register",
+            "source_id": "2026-14809",
+            "title": "Notice Pursuant to the National Cooperative Research and Production Act of 1993-The Open Group, L.L.C.",
+            "type": "source_record",
+            "updated": "2026-07-22",
+            "url": "https://www.federalregister.gov/documents/2026/07/22/2026-14809/notice-pursuant-to-the-national-cooperative-research-and-production-act-of-1993-the-open-group-llc",
+            "verification": "UNVERIFIED_NAME_SEARCH"
+          },
+          {
+            "doi": null,
+            "id": "dd47949f291f60d31b0b",
+            "source": "federal_register",
+            "source_id": "2024-26916",
+            "title": "Determination That HYDROCORTONE (Hydrocortisone Sodium Phosphate) Injection, Equivalent to 50 Milligrams Base/Milliliter, Was Not Withdrawn From Sale for Reasons of Safety or Effectiveness",
+            "type": "source_record",
+            "updated": "2024-11-19",
+            "url": "https://www.federalregister.gov/documents/2024/11/19/2024-26916/determination-that-hydrocortone-hydrocortisone-sodium-phosphate-injection-equivalent-to-50",
+            "verification": "UNVERIFIED_NAME_SEARCH"
+          },
+          {
+            "doi": null,
+            "id": "20795750941f135a92f8",
+            "source": "federal_register",
+            "source_id": "2025-06046",
+            "title": "Determination That DECADRON (Dexamethasone Sodium Phosphate) Solution/Drops, Equivalent to 0.1 Percent Phosphate, Was Not Withdrawn From Sale for Reasons of Safety or Effectiveness",
+            "type": "source_record",
+            "updated": "2025-04-09",
+            "url": "https://www.federalregister.gov/documents/2025/04/09/2025-06046/determination-that-decadron-dexamethasone-sodium-phosphate-solutiondrops-equivalent-to-01-percent",
+            "verification": "UNVERIFIED_NAME_SEARCH"
+          },
+          {
+            "doi": null,
+            "id": "f36c0c34e2c56ffb7947",
+            "source": "federal_register",
+            "source_id": "2024-18970",
+            "title": "Oncologic Drugs Advisory Committee; Notice of Meeting; Establishment of a Public Docket; Request for Comments-Immune Checkpoint Inhibitors in Patients With Unresectable or Metastatic Gastric and Gastroesophageal Junction Adenocarcinoma and Esophageal Squamous Cell Carcinoma",
+            "type": "source_record",
+            "updated": "2024-08-23",
+            "url": "https://www.federalregister.gov/documents/2024/08/23/2024-18970/oncologic-drugs-advisory-committee-notice-of-meeting-establishment-of-a-public-docket-request-for",
+            "verification": "UNVERIFIED_NAME_SEARCH"
+          },
+          {
+            "doi": null,
+            "id": "e8d079f1130a4b364c39",
+            "source": "federal_register",
+            "source_id": "2023-19013",
+            "title": "Merck Sharp & Dohme LLC, et al.; Withdrawal of Approval of 35 New Drug Applications",
+            "type": "source_record",
+            "updated": "2023-09-05",
+            "url": "https://www.federalregister.gov/documents/2023/09/05/2023-19013/merck-sharp-and-dohme-llc-et-al-withdrawal-of-approval-of-35-new-drug-applications",
+            "verification": "UNVERIFIED_NAME_SEARCH"
+          },
+          {
+            "doi": null,
+            "id": "18725fb672056c1eb8d6",
+            "source": "federal_register",
+            "source_id": "2022-19740",
+            "title": "Merck Sharp & Dohme Corp.; Withdrawal of Approval of New Drug Applications for VIOXX (Rofecoxib) Tablets and Suspension",
+            "type": "source_record",
+            "updated": "2022-09-13",
+            "url": "https://www.federalregister.gov/documents/2022/09/13/2022-19740/merck-sharp-and-dohme-corp-withdrawal-of-approval-of-new-drug-applications-for-vioxx-rofecoxib",
+            "verification": "UNVERIFIED_NAME_SEARCH"
+          },
+          {
+            "doi": null,
+            "id": "1795ca699a3dc4487ee0",
+            "source": "federal_register",
+            "source_id": "2023-12504",
+            "title": "Notice Pursuant to the National Cooperative Research and Production Act of 1993-Medical CBRN Defense Consortium",
+            "type": "source_record",
+            "updated": "2023-06-12",
+            "url": "https://www.federalregister.gov/documents/2023/06/12/2023-12504/notice-pursuant-to-the-national-cooperative-research-and-production-act-of-1993-medical-cbrn-defense",
+            "verification": "UNVERIFIED_NAME_SEARCH"
+          },
+          {
+            "doi": null,
+            "id": "2db4bd17319b1b838cbf",
+            "source": "federal_register",
+            "source_id": "2024-01530",
+            "title": "Expedited Approval of Alternative Test Procedures for the Analysis of Contaminants Under the Safe Drinking Water Act; Analysis and Sampling Procedures",
+            "type": "source_record",
+            "updated": "2024-01-30",
+            "url": "https://www.federalregister.gov/documents/2024/01/30/2024-01530/expedited-approval-of-alternative-test-procedures-for-the-analysis-of-contaminants-under-the-safe",
+            "verification": "UNVERIFIED_NAME_SEARCH"
+          },
+          {
+            "doi": null,
+            "id": "efe343be615d32b0ec1a",
+            "source": "federal_register",
+            "source_id": "2022-26661",
+            "title": "Teva Branded Pharmaceutical Products R and D, Inc., et al.; Withdrawal of Approval of 35 New Drug Applications",
+            "type": "source_record",
+            "updated": "2022-12-08",
+            "url": "https://www.federalregister.gov/documents/2022/12/08/2022-26661/teva-branded-pharmaceutical-products-r-and-d-inc-et-al-withdrawal-of-approval-of-35-new-drug",
+            "verification": "UNVERIFIED_NAME_SEARCH"
+          },
+          {
+            "doi": null,
+            "id": "38a4c6f433aa49616a64",
+            "source": "federal_register",
+            "source_id": "2024-07404",
+            "title": "All-In Pricing for Cable and Satellite Television Service",
+            "type": "source_record",
+            "updated": "2024-04-19",
+            "url": "https://www.federalregister.gov/documents/2024/04/19/2024-07404/all-in-pricing-for-cable-and-satellite-television-service",
+            "verification": "UNVERIFIED_NAME_SEARCH"
+          },
+          {
+            "doi": null,
+            "id": "2d7bac3848935aa2e0b3",
+            "source": "federal_register",
+            "source_id": "2022-17534",
+            "title": "AbbVie Inc., et al.; Withdrawal of Approval of 30 New Drug Applications",
+            "type": "source_record",
+            "updated": "2022-08-16",
+            "url": "https://www.federalregister.gov/documents/2022/08/16/2022-17534/abbvie-inc-et-al-withdrawal-of-approval-of-30-new-drug-applications",
+            "verification": "UNVERIFIED_NAME_SEARCH"
+          },
+          {
+            "doi": null,
+            "id": "a8b44154de9cc9601e7e",
+            "source": "federal_register",
+            "source_id": "2023-02442",
+            "title": "Determination That TRIAMCINOLONE ACETONIDE (Triamcinolone Acetonide) Topical Cream, 0.025% and 0.1%, and Other Drug Products Were Not Withdrawn From Sale for Reasons of Safety or Effectiveness",
+            "type": "source_record",
+            "updated": "2023-02-06",
+            "url": "https://www.federalregister.gov/documents/2023/02/06/2023-02442/determination-that-triamcinolone-acetonide-triamcinolone-acetonide-topical-cream-0025-and-01-and",
+            "verification": "UNVERIFIED_NAME_SEARCH"
+          },
+          {
+            "doi": null,
+            "id": "385489465f587c18014c",
+            "source": "federal_register",
+            "source_id": "2021-21641",
+            "title": "Petition for Exemption; Summary of Petition Received; Merck & Co., Inc.",
+            "type": "source_record",
+            "updated": "2021-10-05",
+            "url": "https://www.federalregister.gov/documents/2021/10/05/2021-21641/petition-for-exemption-summary-of-petition-received-merck-and-co-inc",
+            "verification": "UNVERIFIED_NAME_SEARCH"
+          },
+          {
+            "doi": null,
+            "id": "6e41be80a61fb211748e",
+            "source": "federal_register",
+            "source_id": "2022-02359",
+            "title": "Authorizations of Emergency Use of Certain Drugs and Biological Products During the COVID-19 Pandemic; Availability",
+            "type": "source_record",
+            "updated": "2022-02-04",
+            "url": "https://www.federalregister.gov/documents/2022/02/04/2022-02359/authorizations-of-emergency-use-of-certain-drugs-and-biological-products-during-the-covid-19",
+            "verification": "UNVERIFIED_NAME_SEARCH"
+          },
+          {
+            "doi": null,
+            "id": "b8304f0573ce2578d237",
+            "source": "federal_register",
+            "source_id": "2024-07527",
+            "title": "Implementation of the Pregnant Workers Fairness Act",
+            "type": "source_record",
+            "updated": "2024-04-19",
+            "url": "https://www.federalregister.gov/documents/2024/04/19/2024-07527/implementation-of-the-pregnant-workers-fairness-act",
+            "verification": "UNVERIFIED_NAME_SEARCH"
+          },
+          {
+            "doi": null,
+            "id": "ee42a17dd55c6ce14ed8",
+            "source": "federal_register",
+            "source_id": "2022-17056",
+            "title": "Determination That AVC (Sulfanilamide) Vaginal Cream, 15%, and Other Drug Products Were Not Withdrawn From Sale for Reasons of Safety or Effectiveness",
+            "type": "source_record",
+            "updated": "2022-08-09",
+            "url": "https://www.federalregister.gov/documents/2022/08/09/2022-17056/determination-that-avc-sulfanilamide-vaginal-cream-15-and-other-drug-products-were-not-withdrawn",
+            "verification": "UNVERIFIED_NAME_SEARCH"
+          },
+          {
+            "doi": null,
+            "id": "95fce28b136413eac4fe",
+            "source": "research",
+            "source_id": "23310977",
+            "title": "Ablynx announce Nanobody(\u00ae) deal with Merck & Co., Inc.",
+            "type": "source_record",
+            "updated": "2012-11-01",
+            "url": null,
+            "verification": "UNVERIFIED_NAME_SEARCH"
+          },
+          {
+            "doi": "10.1016/j.vaccine.2026.129272",
+            "id": "f93981a82f2481f56dad",
+            "source": "research",
+            "source_id": "42933242",
+            "title": "mRNA encoding norovirus VP1 produces antigenically functional virus-like particles in vitro.",
+            "type": "source_record",
+            "updated": "2026-10-26",
+            "url": null,
+            "verification": "UNVERIFIED_NAME_SEARCH"
+          },
+          {
+            "doi": "10.1161/circulationaha.126.083993",
+            "id": "98407da4281baf13a9bb",
+            "source": "research",
+            "source_id": "42999959",
+            "title": "Effects of Sotatercept on Cardiac Structure and Function in Combined Post- and Precapillary Pulmonary Hypertension in Heart Failure With Preserved Ejection Fraction: Analysis of the CADENCE Study.",
+            "type": "source_record",
+            "updated": "2026-11-08",
+            "url": null,
+            "verification": "UNVERIFIED_NAME_SEARCH"
+          },
+          {
+            "doi": "10.1021/jacs.6c07049",
+            "id": "6e6ec778a117a35121c6",
+            "source": "research",
+            "source_id": "42984023",
+            "title": "SuFEx Cyclization Enables DNA-Encoded Macrocyclic Peptide Libraries for Drug Discovery.",
+            "type": "source_record",
+            "updated": "2026-11-01",
+            "url": null,
+            "verification": "UNVERIFIED_NAME_SEARCH"
+          },
+          {
+            "doi": "10.1016/j.ijpharm.2026.127588",
+            "id": "bda01f9945b996f3f2d7",
+            "source": "research",
+            "source_id": "42933517",
+            "title": "Microstructure-driven opacity of semi-permeable membranes in push-pull osmotic tablets and its impact on manufacturability and drug release.",
+            "type": "source_record",
+            "updated": "2026-10-26",
+            "url": null,
+            "verification": "UNVERIFIED_NAME_SEARCH"
+          },
+          {
+            "doi": "10.3389/fonc.2026.1915652",
+            "id": "57ffd5375f42cfec245a",
+            "source": "research",
+            "source_id": "42877637",
+            "title": "Multi-parameter optimization of a novel anti-TROP2 MMAE antibody-drug-conjugate for solid tumor therapy.",
+            "type": "source_record",
+            "updated": "2026-09-30",
+            "url": null,
+            "verification": "UNVERIFIED_NAME_SEARCH"
+          },
+          {
+            "doi": "10.2337/db26-0108",
+            "id": "889362c9d5830c29ed1f",
+            "source": "research",
+            "source_id": "42900750",
+            "title": "Disrupting the PNPLA3-ABHD5 Interaction Stimulates Lipolysis and Improves PNPLA3-I148M-Associated Hepatic Steatosis.",
+            "type": "source_record",
+            "updated": "2026-10-20",
+            "url": null,
+            "verification": "UNVERIFIED_NAME_SEARCH"
+          },
+          {
+            "doi": "10.1128/jvi.01128-26",
+            "id": "cadc5897c0a13a3a7c12",
+            "source": "research",
+            "source_id": "42954484",
+            "title": "A seven-valent norovirus mRNA vaccine elicits robust humoral responses in preclinical models.",
+            "type": "source_record",
+            "updated": "2026-10-29",
+            "url": null,
+            "verification": "UNVERIFIED_NAME_SEARCH"
+          },
+          {
+            "doi": "10.1093/jnci/djag213",
+            "id": "9ec4c8c902bdc6b48506",
+            "source": "research",
+            "source_id": "42381339",
+            "title": "Response to Yu, Wang, and Ge.",
+            "type": "source_record",
+            "updated": "2026-10-01",
+            "url": null,
+            "verification": "UNVERIFIED_NAME_SEARCH"
+          },
+          {
+            "doi": "10.1016/j.chroma.2026.467562",
+            "id": "2e7f6f3433f4fb13216e",
+            "source": "research",
+            "source_id": "42925827",
+            "title": "Development of a multi-detector asymmetric flow field-flow fractionation method for characterization of a protein nanoparticle antigen co-formulated with a squalene-based nanoemulsion adjuvant.",
+            "type": "source_record",
+            "updated": "2026-10-21",
+            "url": null,
+            "verification": "UNVERIFIED_NAME_SEARCH"
+          },
+          {
+            "doi": "10.1093/cid/ciag349",
+            "id": "0eeb396d187dd9db37c2",
+            "source": "research",
+            "source_id": "42383822",
+            "title": "Safety and Immunogenicity of the Live-Attenuated Quadrivalent Dengue Vaccine V181 Compared With Butantan-DV Among Healthy Adults in Brazil: A Randomized, Double-Blind, Phase 2 Trial.",
+            "type": "source_record",
+            "updated": "2026-10-01",
+            "url": null,
+            "verification": "UNVERIFIED_NAME_SEARCH"
+          },
+          {
+            "doi": "10.1021/acs.jmedchem.6c01318",
+            "id": "c3afc85cfb7684fdfd02",
+            "source": "research",
+            "source_id": "42917916",
+            "title": "Discovery of Novel Oral Covalent Inhibitors Targeting Active GTP-Bound KRASG12C with Potent Antitumor Activity.",
+            "type": "source_record",
+            "updated": "2026-10-01",
+            "url": null,
+            "verification": "UNVERIFIED_NAME_SEARCH"
+          },
+          {
+            "doi": "10.1158/2767-9764.crc-26-0442",
+            "id": "6c0eccca9ee560d6e882",
+            "source": "research",
+            "source_id": "42956318",
+            "title": "A First-in-Human, Phase I Trial of MK-6598, an Inhibitor of the Immune Checkpoint IL4I1, With or Without Pembrolizumab for Advanced Solid Tumors.",
+            "type": "source_record",
+            "updated": "2026-10-29",
+            "url": null,
+            "verification": "UNVERIFIED_NAME_SEARCH"
+          },
+          {
+            "doi": "10.1039/d6md00720a",
+            "id": "d2b6586be2c6f87dce82",
+            "source": "research",
+            "source_id": "42965021",
+            "title": "Discovery of an NRAS isoform and activation-state selective macrocyclic peptide.",
+            "type": "source_record",
+            "updated": "2026-10-22",
+            "url": null,
+            "verification": "UNVERIFIED_NAME_SEARCH"
+          },
+          {
+            "doi": "10.1002/btpr.88566",
+            "id": "ce91a97bb196f46a0c22",
+            "source": "research",
+            "source_id": "42977680",
+            "title": "Rational design of dosage compensated expression vectors for multi-subunit biologics manufacturing.",
+            "type": "source_record",
+            "updated": "2026-11-03",
+            "url": null,
+            "verification": "UNVERIFIED_NAME_SEARCH"
+          },
+          {
+            "doi": "10.1080/14760584.2026.2739087",
+            "id": "efa53a5e4e88f5b53b55",
+            "source": "research",
+            "source_id": "42834615",
+            "title": "Cost-effectiveness analysis of pneumococcal conjugate vaccines, PCV21 vs PCV20, in adults aged\u2009 \u226560\u2009years in Germany.",
+            "type": "source_record",
+            "updated": "2026-10-05",
+            "url": null,
+            "verification": "UNVERIFIED_NAME_SEARCH"
+          },
+          {
+            "doi": "10.3390/biotech15040096",
+            "id": "52f055248eedb8a391aa",
+            "source": "research",
+            "source_id": "42930073",
+            "title": "Cell-Based Assay Development and Standardization for Antibody-Drug Conjugates.",
+            "type": "source_record",
+            "updated": "2026-10-20",
+            "url": null,
+            "verification": "UNVERIFIED_NAME_SEARCH"
+          },
+          {
+            "doi": "10.1002/cncr.70630",
+            "id": "ec267741023ed91916dd",
+            "source": "research",
+            "source_id": "42804616",
+            "title": "Progression-free survival and overall survival in the first-line treatment of BRCA wild-type advanced epithelial ovarian cancer: An analysis of patient-level data pooled from historical clinical trials.",
+            "type": "source_record",
+            "updated": "2026-10-01",
+            "url": null,
+            "verification": "UNVERIFIED_NAME_SEARCH"
+          },
+          {
+            "doi": "10.1080/19420862.2026.2755649",
+            "id": "dffd86f6fdb63c1a2d20",
+            "source": "research",
+            "source_id": "43023544",
+            "title": "High-throughput developability assessment of 181 untagged V&lt;sub&gt;H&lt;/sub&gt;H single-domain antibodies.",
+            "type": "source_record",
+            "updated": "2026-11-13",
+            "url": null,
+            "verification": "UNVERIFIED_NAME_SEARCH"
+          },
+          {
+            "doi": "10.1093/cid/ciag171",
+            "id": "6b41a7cefa01c16be1bc",
+            "source": "research",
+            "source_id": "41830344",
+            "title": "Safety and Tolerability of Oral Islatravir Once Monthly as Pre-exposure Prophylaxis in Cisgender Men and Transgender Women Who Have an Elevated Likelihood of HIV-1 Exposure: Results From the IMPOWER-24 Randomized Phase 3 Study.",
+            "type": "source_record",
+            "updated": "2026-09-01",
+            "url": null,
+            "verification": "UNVERIFIED_NAME_SEARCH"
+          },
+          {
+            "doi": null,
+            "id": "da601c154e4c17d3bf8d",
+            "source": "federal_awards",
+            "source_id": "VA69D556P10133",
+            "title": "IMPLANON IMPLANT.",
+            "type": "source_record",
+            "updated": null,
+            "url": null,
+            "verification": "UNVERIFIED_NAME_SEARCH"
+          },
+          {
+            "doi": null,
+            "id": "b9522e0aaf602eeb0c55",
+            "source": "federal_awards",
+            "source_id": "VA69D12J0067",
+            "title": "NEXPLANON ETONOGESTREL IMPLANT, 68MG",
+            "type": "source_record",
+            "updated": null,
+            "url": null,
+            "verification": "UNVERIFIED_NAME_SEARCH"
+          },
+          {
+            "doi": null,
+            "id": "a6ad21cba92c8447f5ad",
+            "source": "federal_awards",
+            "source_id": "VA69D12J0039",
+            "title": "NEXPLANON 68MG IMPLANT",
+            "type": "source_record",
+            "updated": null,
+            "url": null,
+            "verification": "UNVERIFIED_NAME_SEARCH"
+          },
+          {
+            "doi": null,
+            "id": "03d6703b4e518b8a0ba6",
+            "source": "federal_awards",
+            "source_id": "VA69D556P10098",
+            "title": "ETONOGESTREL 68MG, IMPLENON IMPLANT",
+            "type": "source_record",
+            "updated": null,
+            "url": null,
+            "verification": "UNVERIFIED_NAME_SEARCH"
+          },
+          {
+            "doi": null,
+            "id": "26eefe9a4e64437980db",
+            "source": "federal_awards",
+            "source_id": "V618A10526",
+            "title": "DRUGS&BIOLOGICALS.",
+            "type": "source_record",
+            "updated": null,
+            "url": null,
+            "verification": "UNVERIFIED_NAME_SEARCH"
+          },
+          {
+            "doi": null,
+            "id": "8b5dc7b96599669e29e3",
+            "source": "federal_awards",
+            "source_id": "VA69D12J0487",
+            "title": "NEXPLANON 68 MG",
+            "type": "source_record",
+            "updated": null,
+            "url": null,
+            "verification": "UNVERIFIED_NAME_SEARCH"
+          },
+          {
+            "doi": null,
+            "id": "7472f1d1d9d7baf78964",
+            "source": "federal_awards",
+            "source_id": "HHSI245201101565G",
+            "title": "CCHCF-FY2011 CH-PHARMACY-PRIORITY B-PHARMACEUTICAL-CURASCRIPT",
+            "type": "source_record",
+            "updated": null,
+            "url": null,
+            "verification": "UNVERIFIED_NAME_SEARCH"
+          },
+          {
+            "doi": null,
+            "id": "518c2b7fba01e371b0d9",
+            "source": "federal_awards",
+            "source_id": "HHSI248201200002G",
+            "title": "IMPLANON (BIRTH CONTROL DEVICES)",
+            "type": "source_record",
+            "updated": null,
+            "url": null,
+            "verification": "UNVERIFIED_NAME_SEARCH"
+          },
+          {
+            "doi": null,
+            "id": "85708d535763cb72949c",
+            "source": "federal_awards",
+            "source_id": "HHSI24931004",
+            "title": "IMPLANON IMPLANTS  30 EACH FOR THE SELLS PHARMACY AND 30 EACH FOR SAN XAVIER CLINIC",
+            "type": "source_record",
+            "updated": null,
+            "url": null,
+            "verification": "UNVERIFIED_NAME_SEARCH"
+          },
+          {
+            "doi": null,
+            "id": "39af3d4248914dd46fa2",
+            "source": "federal_awards",
+            "source_id": "N0018310F0093",
+            "title": "00052-0272-01  IMPLANON 68MG",
+            "type": "source_record",
+            "updated": null,
+            "url": null,
+            "verification": "UNVERIFIED_NAME_SEARCH"
+          },
+          {
+            "doi": null,
+            "id": "171c685bbe112cc5ba26",
+            "source": "federal_awards",
+            "source_id": "N0018310P0495",
+            "title": "NDC #00052-0272-01",
+            "type": "source_record",
+            "updated": null,
+            "url": null,
+            "verification": "UNVERIFIED_NAME_SEARCH"
+          },
+          {
+            "doi": null,
+            "id": "0f8c75381d824b439db8",
+            "source": "federal_awards",
+            "source_id": "HHSI248201100004G",
+            "title": "TAS::75 0390::TAS NON-ARRA AWARD:  IMPLANON",
+            "type": "source_record",
+            "updated": null,
+            "url": null,
+            "verification": "UNVERIFIED_NAME_SEARCH"
+          },
+          {
+            "doi": null,
+            "id": "553b3ee32457e881b3bb",
+            "source": "federal_awards",
+            "source_id": "HHSI248201000042G",
+            "title": "IMPLANON PROGESTERONE IMPLANT",
+            "type": "source_record",
+            "updated": null,
+            "url": null,
+            "verification": "UNVERIFIED_NAME_SEARCH"
+          },
+          {
+            "doi": null,
+            "id": "e7228763241f320468d1",
+            "source": "federal_awards",
+            "source_id": "HHSI245201101366G",
+            "title": "CCHCF-FY2011 CH-PHARMACY-PRIORITY B-PHARMACEUTICAL-CURASCRIPT",
+            "type": "source_record",
+            "updated": null,
+            "url": null,
+            "verification": "UNVERIFIED_NAME_SEARCH"
+          },
+          {
+            "doi": null,
+            "id": "20157dead8599248a89a",
+            "source": "federal_awards",
+            "source_id": "HHSI245201100667G",
+            "title": "CCHCF 2011 CH-PHARMACY PRIORITY B -DPC URGENT IMPLANON",
+            "type": "source_record",
+            "updated": null,
+            "url": null,
+            "verification": "UNVERIFIED_NAME_SEARCH"
+          },
+          {
+            "doi": null,
+            "id": "510d1d4aef875745e1a1",
+            "source": "federal_awards",
+            "source_id": "HHSI249201100056G",
+            "title": "DRUGS AND BIOLOGICALS",
+            "type": "source_record",
+            "updated": null,
+            "url": null,
+            "verification": "UNVERIFIED_NAME_SEARCH"
+          },
+          {
+            "doi": null,
+            "id": "0239cff9b8b1d2c1f543",
+            "source": "federal_awards",
+            "source_id": "HHSI24931007",
+            "title": "IGF::OT::IGF IMPLANON FOR SELLS PHARMACY",
+            "type": "source_record",
+            "updated": null,
+            "url": null,
+            "verification": "UNVERIFIED_NAME_SEARCH"
+          },
+          {
+            "doi": null,
+            "id": "94767a4129f04d142fbf",
+            "source": "federal_awards",
+            "source_id": "HHSI24931006",
+            "title": "IGF::OT::IGF IMPLANON PRODUCTS FOR SELLS PHARMACY",
+            "type": "source_record",
+            "updated": null,
+            "url": null,
+            "verification": "UNVERIFIED_NAME_SEARCH"
+          },
+          {
+            "doi": null,
+            "id": "98067080c52ce64c8bbe",
+            "source": "federal_awards",
+            "source_id": "HHSI24931002",
+            "title": "IMPLANTS - OCTOBER  2011",
+            "type": "source_record",
+            "updated": null,
+            "url": null,
+            "verification": "UNVERIFIED_NAME_SEARCH"
+          },
+          {
+            "doi": null,
+            "id": "82e8d06d6c0d6b437e65",
+            "source": "federal_awards",
+            "source_id": "HHSI248201100134G",
+            "title": "IMPLANON (BIRTH CONTROL IMPLANT DEVICES)",
+            "type": "source_record",
+            "updated": null,
+            "url": null,
+            "verification": "UNVERIFIED_NAME_SEARCH"
+          }
+        ],
+        "schema_version": 1,
+        "trade_eligible": false,
+        "verified_company_relationships": 0,
+        "warning": "No evidence of ownership, contract, subsidiary, causality or materiality established"
+      },
+      "name": "Merck & Co. Inc.",
+      "research_queue": [
+        {
+          "priority": 4,
+          "source": "clinical_trials",
+          "source_id": "NCT00055198",
+          "status": "NEEDS_ENTITY_AND_MATERIALITY_VERIFICATION",
+          "title": "Daptomycin for the Treatment of Infections Due to Gram-Positive Bacteria"
+        },
+        {
+          "priority": 4,
+          "source": "clinical_trials",
+          "source_id": "NCT00671359",
+          "status": "NEEDS_ENTITY_AND_MATERIALITY_VERIFICATION",
+          "title": "Food Effects of Single Oral Dose of 600mg TR-701"
+        },
+        {
+          "priority": 4,
+          "source": "clinical_trials",
+          "source_id": "NCT00701636",
+          "status": "NEEDS_ENTITY_AND_MATERIALITY_VERIFICATION",
+          "title": "Pharmacokinetics of Daptomycin During Cardiopulmonary Bypass Surgery"
+        },
+        {
+          "priority": 4,
+          "source": "clinical_trials",
+          "source_id": "NCT00870480",
+          "status": "NEEDS_ENTITY_AND_MATERIALITY_VERIFICATION",
+          "title": "A Relative Bioavailability Study of Finasteride 5 mg Tablets Under Fasting Conditions"
+        },
+        {
+          "priority": 4,
+          "source": "clinical_trials",
+          "source_id": "NCT00888355",
+          "status": "NEEDS_ENTITY_AND_MATERIALITY_VERIFICATION",
+          "title": "MK0954 Versus Placebo for Treatment of Mild to Moderate Hypertension"
+        },
+        {
+          "priority": 4,
+          "source": "clinical_trials",
+          "source_id": "NCT00921024",
+          "status": "NEEDS_ENTITY_AND_MATERIALITY_VERIFICATION",
+          "title": "Safety and Efficacy of IV CXA-101 and IV Ceftazidime in Patients With Complicated Urinary Tract Infections"
+        },
+        {
+          "priority": 4,
+          "source": "clinical_trials",
+          "source_id": "NCT01058642",
+          "status": "NEEDS_ENTITY_AND_MATERIALITY_VERIFICATION",
+          "title": "Study to Assess the Efficacy, Safety, and Tolerability of ADL5747 in Participants With Postherpetic Neuralgia"
+        },
+        {
+          "priority": 4,
+          "source": "clinical_trials",
+          "source_id": "NCT01432730",
+          "status": "NEEDS_ENTITY_AND_MATERIALITY_VERIFICATION",
+          "title": "A Study to Assess the Efficacy of Gefapixant (MK-7264/AF-219), in Participants With Chronic Cough (MK-7264-006)"
+        },
+        {
+          "priority": 4,
+          "source": "clinical_trials",
+          "source_id": "NCT01597505",
+          "status": "NEEDS_ENTITY_AND_MATERIALITY_VERIFICATION",
+          "title": "Study of CB-183,315 in Participants With Clostridium Difficile Associated Diarrhea (MK-4261-005)"
+        },
+        {
+          "priority": 4,
+          "source": "clinical_trials",
+          "source_id": "NCT01713582",
+          "status": "NEEDS_ENTITY_AND_MATERIALITY_VERIFICATION",
+          "title": "A Dose-finding Study of the Bromodomain (Brd) Inhibitor OTX015/ Birabresib (MK-8628) in Hematologic Malignancies (MK-8628-001)"
+        },
+        {
+          "priority": 4,
+          "source": "clinical_trials",
+          "source_id": "NCT02019420",
+          "status": "NEEDS_ENTITY_AND_MATERIALITY_VERIFICATION",
+          "title": "Tedizolid Phosphate (TR-701 FA, MK-1986) vs Linezolid for the Treatment of Nosocomial Pneumonia (MK-1986-002)"
+        },
+        {
+          "priority": 4,
+          "source": "clinical_trials",
+          "source_id": "NCT02083627",
+          "status": "NEEDS_ENTITY_AND_MATERIALITY_VERIFICATION",
+          "title": "A Study to Assess the Effects of Multiple Doses of Fidaxomicin on a Single Dose of Rosuvastatin in Healthy Male Subjects"
+        },
+        {
+          "priority": 4,
+          "source": "clinical_trials",
+          "source_id": "NCT02421120",
+          "status": "NEEDS_ENTITY_AND_MATERIALITY_VERIFICATION",
+          "title": "Population Pharmacokinetics and Safety of Intravenous Ceftolozane/Tazobactam in Adult Cystic Fibrosis Patients"
+        },
+        {
+          "priority": 4,
+          "source": "clinical_trials",
+          "source_id": "NCT02501473",
+          "status": "NEEDS_ENTITY_AND_MATERIALITY_VERIFICATION",
+          "title": "Study of Intratumoral G100 With Or Without Pembrolizumab or Rituximab In Participants With Follicular Non-Hodgkin's Lymphoma (MK-3475-174/IMDZ-G142)"
+        },
+        {
+          "priority": 4,
+          "source": "clinical_trials",
+          "source_id": "NCT03834493",
+          "status": "NEEDS_ENTITY_AND_MATERIALITY_VERIFICATION",
+          "title": "Study of Pembrolizumab (MK-3475) Plus Enzalutamide Versus Placebo Plus Enzalutamide in Participants With Metastatic Castration-resistant Prostate Cancer (mCRPC) (MK-3475-641/KEYNOTE-641)"
+        }
+      ],
+      "sources": {
+        "clinical_trials": {
+          "results": 20,
+          "status": "SEARCH_OK_NOT_ENTITY_VERIFIED"
+        },
+        "federal_awards": {
+          "results": 20,
+          "status": "SEARCH_OK_NOT_ENTITY_VERIFIED"
+        },
+        "federal_register": {
+          "results": 20,
+          "status": "SEARCH_OK_NOT_ENTITY_VERIFIED"
+        },
+        "research": {
+          "results": 20,
+          "status": "SEARCH_OK_NOT_ENTITY_VERIFIED"
+        }
+      },
+      "status": "SEARCH_COMPLETE_ENTITY_UNVERIFIED",
+      "symbol": "MRK"
+    }
+  ],
+  "trade_eligible": false,
+  "universe_size": 10
+}
