@@ -13,20 +13,28 @@ def report(db):
  cohorts={}
  for fid,symbol,frozen,raw,digest in forecasts:
   key=frozen[:10]
-  c=cohorts.setdefault(key,{"frozen":0,"scored":0,"pending":0,"net_returns":[],"excess_returns":[]})
+  c=cohorts.setdefault(key,{"frozen":0,"scored":0,"pending":0,"net_returns":[],"excess_returns":[],"excess_voo":[],"beat_both":[]})
   c["frozen"]+=1
   if fid in by_id:
    c["scored"]+=1;c["net_returns"].append(by_id[fid]["net_return"]);c["excess_returns"].append(by_id[fid]["excess_return"])
+   if "excess_vs_voo" in by_id[fid]:
+    c["excess_voo"].append(by_id[fid]["excess_vs_voo"]);c["beat_both"].append(by_id[fid]["beat_both"])
   else:c["pending"]+=1
  for c in cohorts.values():
-  net=c.pop("net_returns");excess=c.pop("excess_returns")
+  net=c.pop("net_returns");excess=c.pop("excess_returns");voo=c.pop("excess_voo");both=c.pop("beat_both")
   c["mean_net_return"]=sum(net)/len(net) if net else None
   c["mean_excess_return_vs_spy"]=sum(excess)/len(excess) if excess else None
   c["fraction_beating_spy"]=sum(x>0 for x in excess)/len(excess) if excess else None
+  c["mean_excess_return_vs_voo"]=sum(voo)/len(voo) if voo else None
+  c["fraction_beating_both"]=sum(both)/len(both) if both else None
+  c["dual_benchmark_scored"]=len(both)
  return {"forecasts_frozen":len(forecasts),"outcomes_scored":len(outcomes),
   "pending":len(forecasts)-len(outcomes),"mean_net_return":sum(x["net_return"] for x in scored)/len(scored) if scored else None,
   "mean_excess_return_vs_spy":sum(x["excess_return"] for x in scored)/len(scored) if scored else None,
   "fraction_beating_spy":sum(x["excess_return"]>0 for x in scored)/len(scored) if scored else None,
+  "dual_benchmark_scored":sum("beat_both" in x for x in scored),
+  "mean_excess_return_vs_voo":sum(x["excess_vs_voo"] for x in scored if "excess_vs_voo" in x)/sum("excess_vs_voo" in x for x in scored) if any("excess_vs_voo" in x for x in scored) else None,
+  "fraction_beating_both":sum(x["beat_both"] for x in scored if "beat_both" in x)/sum("beat_both" in x for x in scored) if any("beat_both" in x for x in scored) else None,
   "cohorts":cohorts,
   "forecasts":[{"id":fid,"symbol":sym,"frozen_at":frozen,"sha256":digest,"scored":fid in by_id} for fid,sym,frozen,raw,digest in forecasts],
   "caveat":"Shadow hypotheses use indicative prior closes, not executable fills. Small samples are not proof of predictive edge."}
