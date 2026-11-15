@@ -91,7 +91,12 @@ def score_frozen_forecast(forecast, observations):
   if exit_price<=0 or not math.isfinite(exit_price) or not math.isfinite(benchmark_return) or not point.get("price_source") or not point.get("benchmark_source"):raise ValueError("missing verified exit evidence")
   gross=(exit_price/entry-1)*(1 if forecast["direction"]=="LONG" else -1)
   net=gross-cost/10000
-  return {"status":"SCORED","horizon_date":point["date"],"gross_return":gross,"net_return":net,"benchmark_return":benchmark_return,"excess_return":net-benchmark_return,"exit_price":exit_price,"price_source":point["price_source"],"benchmark_source":point["benchmark_source"],"warning":"Requires independent verification of actual tradability, entry fill, corporate actions and borrow costs"}
+  result={"status":"SCORED","horizon_date":point["date"],"gross_return":gross,"net_return":net,"benchmark_return":benchmark_return,"excess_return":net-benchmark_return,"exit_price":exit_price,"price_source":point["price_source"],"benchmark_source":point["benchmark_source"],"warning":"Requires independent verification of actual tradability, entry fill, corporate actions and borrow costs"}
+  if forecast.get("benchmark_pair")=="SPY_VOO":
+   voo=float(point["voo_return"])
+   if not math.isfinite(voo) or not point.get("voo_source"):raise ValueError("missing verified VOO benchmark")
+   result.update(benchmark_spy_return=benchmark_return,benchmark_voo_return=voo,excess_vs_spy=net-benchmark_return,excess_vs_voo=net-voo,beat_both=net>benchmark_return and net>voo,voo_source=point["voo_source"])
+  return result
  except (ValueError,TypeError,OverflowError) as exc:return {"status":"UNSCORABLE","reason":str(exc)}
 
 def verify_catalyst_evidence(event):
