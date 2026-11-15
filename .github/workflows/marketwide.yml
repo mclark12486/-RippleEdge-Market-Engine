@@ -48,9 +48,14 @@ jobs:
           git add state/marketwide.sqlite state/marketwide_initialized state/marketwide_receipt_*.json state/price_receipt_*.json state/breadth_receipt_*.json state/history_receipt_*.json
           git commit -m "RippleEdge marketwide census $(date -u +%Y%m%dT%H%M%SZ)"
           git fetch origin main
-          if [ "$(git rev-parse HEAD^)" != "$(git rev-parse origin/main)" ]; then
-            echo "::error::Concurrent state update detected; retaining workflow artifact, no binary rebase."
-            exit 1
+          base=$(git rev-parse HEAD^)
+          if [ "$base" != "$(git rev-parse origin/main)" ]; then
+            if git diff --name-only "$base" origin/main -- state/marketwide.sqlite state/marketwide_initialized | grep -q .; then
+              echo "::error::Concurrent marketwide database writer; preserve artifact for recovery."
+              exit 1
+            fi
+            git reset --soft origin/main
+            git commit -m "RippleEdge marketwide census (rebased state-only)"
           fi
           git push origin HEAD:main
       - name: Upload evidence artifact
