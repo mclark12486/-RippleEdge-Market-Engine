@@ -22,8 +22,8 @@ def main():
  rid=dt.datetime.now(UTC).strftime("%Y%m%dT%H%M%S%fZ")
  # Work backward from the most recent session; do not repeat previously attempted dates without explicit retry.
  prior=set()
- for (dates,) in db.execute("SELECT attempted_dates FROM history_runs"):
-  prior.update(json.loads(dates))
+ for dates,success in db.execute("SELECT attempted_dates,successful_dates FROM history_runs"):
+  prior.update(x["session"] for x in json.loads(success))
  dates=[];d=dt.date.fromisoformat(latest)-dt.timedelta(days=1)
  while len(dates)<3 and d>=dt.date.fromisoformat(latest)-dt.timedelta(days=45):
   if d.weekday()<5 and str(d) not in prior:dates.append(str(d))
