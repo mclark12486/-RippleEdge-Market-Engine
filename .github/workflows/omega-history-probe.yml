@@ -1,0 +1,32 @@
+name: Omega historical entitlement verification
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - 'omega_entitlement_probe.py'
+      - 'test_omega_entitlement_probe.py'
+      - '.github/workflows/omega-history-probe.yml'
+permissions:
+  contents: read
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Verify entitlement probe tests
+        run: python -m unittest -v test_omega_entitlement_probe.py
+      - name: Check real historical Massive entitlements
+        env:
+          MASSIVE_API_KEY: ${{ secrets.MASSIVE_API_KEY }}
+        run: python omega_entitlement_probe.py
+      - name: Upload historical entitlement evidence
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: omega-historical-entitlements-${{ github.run_id }}
+          path: state/omega_entitlement_receipt.json
+          retention-days: 90
