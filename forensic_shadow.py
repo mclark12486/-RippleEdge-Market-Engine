@@ -15,6 +15,7 @@ def main():
  names=source.execute("SELECT symbol,name,etf,venue FROM securities WHERE last_seen=(SELECT MAX(last_seen) FROM securities) ORDER BY symbol").fetchall()
  source.close()
  if not names:raise SystemExit("CENSUS_BLOCKED")
+ if (root/"forensic_shadow_initialized").exists() and not dbpath.exists():raise SystemExit("CONTINUITY_BLOCKED: forensic state missing")
  db=sqlite3.connect(dbpath)
  db.executescript("""
  CREATE TABLE IF NOT EXISTS queue(symbol TEXT PRIMARY KEY,name TEXT,etf TEXT,venue TEXT,first_seen TEXT,last_seen TEXT,review_state TEXT DEFAULT 'QUEUED',last_review TEXT);
@@ -25,6 +26,9 @@ def main():
  CREATE TRIGGER IF NOT EXISTS runs_no_update BEFORE UPDATE ON runs BEGIN SELECT RAISE(ABORT,'immutable run');END;
  CREATE TRIGGER IF NOT EXISTS runs_no_delete BEFORE DELETE ON runs BEGIN SELECT RAISE(ABORT,'immutable run');END;
  """)
+ previous=db.execute("SELECT run_id,verified FROM runs ORDER BY started DESC LIMIT 1").fetchone()
+ previous_evidence=db.execute("SELECT COUNT(*) FROM evidence").fetchone()[0]
+ if previous and previous_evidence==0 and previous[1]>0:raise SystemExit("CONTINUITY_BLOCKED: historical evidence missing")
  start=stamp();rid=dt.datetime.now(UTC).strftime("%Y%m%dT%H%M%S%fZ")
  for symbol,name,etf,venue in names:
   db.execute("INSERT INTO queue(symbol,name,etf,venue,first_seen,last_seen) VALUES(?,?,?,?,?,?) ON CONFLICT(symbol) DO UPDATE SET name=excluded.name,etf=excluded.etf,venue=excluded.venue,last_seen=excluded.last_seen",(symbol,name,etf,venue,start,start))
@@ -46,17 +50,29 @@ def main():
    facts=fetch(url,agent);us=facts.get("facts",{}).get("us-gaap",{})
    tags=["Revenues","RevenueFromContractWithCustomerExcludingAssessedTax","NetIncomeLoss","NetCashProvidedByUsedInOperatingActivities","PaymentsToAcquirePropertyPlantAndEquipment","Assets","Liabilities","StockholdersEquity","CommonStockSharesOutstanding"]
    observed_tags={k:len(us.get(k,{}).get("units",{})) for k in tags if k in us}
-   finding={"cik":mapped[symbol],"entity":facts.get("entityName"),"present_tags":observed_tags,"tag_count":len(us),"limitations":["Raw XBRL availability only; no reconciled financial statements","No DCF or bear/base/bull valuation","No independently verified forward catalyst","No price-to-value or executable setup"],"classification":"INSUFFICIENT_EVIDENCE"}
+   # Preserve actual latest XBRL observations, including period, filing, unit and form.
+   # These are raw observations, NOT reconciled financials or a valuation.
+   raw_latest={}
+   for tag in tags:
+    for unit,entries in us.get(tag,{}).get("units",{}).items():
+     eligible=[x for x in entries if x.get("filed") and x.get("end") and isinstance(x.get("val"),(int,float))]
+     if eligible:
+      x=max(eligible,key=lambda x:(x.get("filed",""),x.get("end","")))
+      raw_latest[tag]={"value":x["val"],"unit":unit,"start":x.get("start"),"end":x["end"],"filed":x["filed"],"form":x.get("form"),"accession":x.get("accn")}
+      break
+   finding={"cik":mapped[symbol],"entity":facts.get("entityName"),"present_tags":observed_tags,"raw_latest_observations":raw_latest,"tag_count":len(us),"limitations":["Raw XBRL availability only; no reconciled financial statements","No DCF or bear/base/bull valuation","No independently verified forward catalyst","No price-to-value or executable setup"],"classification":"INSUFFICIENT_EVIDENCE"}
    db.execute("INSERT INTO evidence(symbol,run_id,observed_at,source_url,source_class,filing_date,findings_json,review_state) VALUES(?,?,?,?,?,?,?,?)",(symbol,rid,observed,url,"SEC_PRIMARY_XBRL",None,json.dumps(finding,sort_keys=True),"PARTIAL"))
    db.execute("UPDATE queue SET review_state='PARTIAL',last_review=? WHERE symbol=?",(observed,symbol))
    verified+=1
   except Exception as exc:
    failed+=1;errors.append({"symbol":symbol,"source":url,"error":str(exc)[:160]})
   db.commit();time.sleep(.15)
+ if previous and db.execute("SELECT COUNT(*) FROM evidence").fetchone()[0]<previous_evidence:raise SystemExit("CONTINUITY_BLOCKED: evidence count regressed")
  counts=dict(db.execute("SELECT review_state,COUNT(*) FROM queue GROUP BY review_state").fetchall())
- receipt={"run_id":rid,"started":start,"ended":stamp(),"execution":"GitHub Actions shadow","census":len(names),"queued_total":sum(counts.values()),"attempted":attempted,"primary_verified":verified,"failed":failed,"deferred":len(names)-attempted,"states":counts,"source_mapping":mapping_url,"mapping_count":len(mapped),"errors":errors,"valuation_completed":0,"forecast_scored":0,"status":"PARTIAL_RESEARCH_ONLY","warning":"SEC XBRL tag presence is not a forensic audit or catalyst scan"}
+ receipt={"run_id":rid,"parent_run_id":previous[0] if previous else None,"prior_evidence_rows":previous_evidence,"evidence_rows_after":db.execute("SELECT COUNT(*) FROM evidence").fetchone()[0],"started":start,"ended":stamp(),"execution":"GitHub Actions shadow","census":len(names),"queued_total":sum(counts.values()),"attempted":attempted,"primary_verified":verified,"failed":failed,"deferred":len(names)-attempted,"states":counts,"source_mapping":mapping_url,"mapping_count":len(mapped),"errors":errors,"valuation_completed":0,"forecast_scored":0,"status":"PARTIAL_RESEARCH_ONLY","warning":"SEC XBRL tag presence is not a forensic audit or catalyst scan"}
  db.execute("INSERT INTO runs VALUES(?,?,?,?,?,?,?,?,?)",(rid,start,stamp(),len(names),attempted,verified,failed,len(names)-attempted,json.dumps(receipt,sort_keys=True)))
  db.commit();receipt["sqlite_integrity"]=db.execute("PRAGMA integrity_check").fetchone()[0];db.close()
+ (root/"forensic_shadow_initialized").write_text(rid)
  receipt["db_sha256"]=hashlib.sha256(dbpath.read_bytes()).hexdigest()
  (root/("forensic_shadow_receipt_"+rid+".json")).write_text(json.dumps(receipt,indent=2))
  print(json.dumps(receipt,indent=2))
