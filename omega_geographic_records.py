@@ -13,9 +13,18 @@ JURISDICTIONS={
   "host":"data.cityofnewyork.us","dataset":"ipu4-2q9a"},
 }
 def stable_id(jurisdiction,row):
- fields=["id","permit_","permit_number","permit_number_","job__","job_number","application_number"]
- primary=next((str(row[k]) for k in fields if row.get(k) is not None),None)
- if primary:return hashlib.sha256((jurisdiction+"|"+primary).encode()).hexdigest()[:24]
+ # Permit identifiers are source-specific. NYC job numbers are NOT unique
+ # across documents, permit sequences, and issuance events.
+ if jurisdiction=="nyc_dob_permits":
+  keys=("job__","job_doc___","permit_sequence__","permit_si_no")
+  if all(row.get(k) is not None for k in keys):
+   identity="|".join(str(row[k]) for k in keys)
+   return hashlib.sha256((jurisdiction+"|"+identity).encode()).hexdigest()[:24]
+ elif jurisdiction=="chicago_building_permits":
+  if row.get("id") is not None:
+   return hashlib.sha256((jurisdiction+"|"+str(row["id"])).encode()).hexdigest()[:24]
+ # Missing complete natural key: hash the entire row rather than
+ # collapsing distinct permits under a partial identifier.
  raw=json.dumps(row,sort_keys=True,default=str)
  return hashlib.sha256((jurisdiction+"|"+raw).encode()).hexdigest()[:24]
 def socrata_url(config,query,limit=20):
