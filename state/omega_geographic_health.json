@@ -1,0 +1,15 @@
+{
+  "checked_at": "2026-11-15T21:18:19.749023+00:00",
+  "sources": {
+    "chicago_building_permits": {
+      "status": "API_READ_OK",
+      "sample_rows": 1,
+      "company_search_verified": false
+    },
+    "nyc_dob_permits": {
+      "status": "API_READ_OK",
+      "sample_rows": 1,
+      "company_search_verified": false
+    }
+  }
+}
