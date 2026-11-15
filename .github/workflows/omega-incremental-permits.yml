@@ -22,7 +22,7 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
-      - run: python -m unittest -v test_omega_incremental_permits.py test_omega_permit_source_census.py test_omega_permit_coverage_comparison.py
+      - run: python -m unittest -v test_omega_incremental_permits.py test_omega_permit_source_census.py test_omega_permit_coverage_comparison.py test_omega_permit_identity.py
       - name: Refresh state before scanning
         run: |
           git fetch origin main
