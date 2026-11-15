@@ -30,8 +30,9 @@ def run(db, current, max_candidates=15):
  if age<0 or age>5:
   report["reason"]="Market data stale or future dated";return report
  benchmark=db.execute("SELECT close FROM daily_bars WHERE symbol='SPY' AND session=? AND provider=?",(session,PROVIDER)).fetchone()
- if not benchmark or benchmark[0]<=0:
-  report["reason"]="SPY benchmark missing from current provider session";return report
+ voo_base=db.execute("SELECT close FROM daily_bars WHERE symbol='VOO' AND session=? AND provider=?",(session,PROVIDER)).fetchone()
+ if not benchmark or benchmark[0]<=0 or not voo_base or voo_base[0]<=0:
+  report["reason"]="SPY or VOO benchmark missing from current provider session";return report
  # Freeze only signals generated for the latest verified session. Never backdate
  # the freeze timestamp or infer a prediction from a historical price move.
  candidates=db.execute("""SELECT b.symbol,b.signal,b.metric,d.close
@@ -46,7 +47,7 @@ def run(db, current, max_candidates=15):
   record={"symbol":symbol,"frozen_at":frozen_at,"evidence_cutoff":frozen_at,
    "direction":"LONG","entry_price":entry,"entry_band":[entry,entry],
    "invalidation":"Shadow research only; not an executable stop",
-   "horizon":"5 trading sessions","horizon_sessions":5,"benchmark":"SPY",
+   "horizon":"5 trading sessions","horizon_sessions":5,"benchmark":"SPY","benchmark_pair":"SPY_VOO",
    "costs":"20 bps illustrative round-trip","cost_bps":20,
    "source_receipts":[f"Massive/Polygon daily_bars:{symbol}:{session}",f"breadth_signals:{symbol}:{session}:{signal}"],
    "signal_session":session,"signal_type":signal,"signal_metric":metric,
@@ -63,18 +64,25 @@ def run(db, current, max_candidates=15):
   if db.execute("SELECT 1 FROM shadow_outcomes WHERE forecast_id=?",(fid,)).fetchone():continue
   start=f["frozen_at"][:10]
   base=db.execute("SELECT close FROM daily_bars WHERE symbol='SPY' AND session=? AND provider=?",(f.get("signal_session"),PROVIDER)).fetchone()
-  if not base or base[0]<=0:report["blocked"]+=1;continue
+  voo_start=db.execute("SELECT close FROM daily_bars WHERE symbol='VOO' AND session=? AND provider=?",(f.get("signal_session"),PROVIDER)).fetchone()
+  if not base or base[0]<=0 or (f.get("benchmark_pair")=="SPY_VOO" and (not voo_start or voo_start[0]<=0)):
+   report["blocked"]+=1;continue
   obs=[]
-  data=db.execute("""SELECT x.session,x.close,y.close FROM daily_bars x
+  data=db.execute("""SELECT x.session,x.close,y.close,z.close FROM daily_bars x
    LEFT JOIN daily_bars y ON y.symbol='SPY' AND y.session=x.session AND y.provider=?
+   LEFT JOIN daily_bars z ON z.symbol='VOO' AND z.session=x.session AND z.provider=?
    WHERE x.symbol=? AND x.provider=? AND x.session>? ORDER BY x.session""",
-   (PROVIDER,f["symbol"],PROVIDER,start)).fetchall()
-  for day,close,spy in data:
+   (PROVIDER,PROVIDER,f["symbol"],PROVIDER,start)).fetchall()
+  for day,close,spy,voo in data:
    if day>current.date().isoformat():continue
    if not close or not spy or close<=0 or spy<=0:continue
-   obs.append({"date":day,"close":close,"benchmark_return":spy/base[0]-1,
-               "price_source":f"{PROVIDER}:{f['symbol']}:{day}",
-               "benchmark_source":f"{PROVIDER}:SPY:{day}"})
+   if f.get("benchmark_pair")=="SPY_VOO" and (not voo or voo<=0):continue
+   point={"date":day,"close":close,"benchmark_return":spy/base[0]-1,
+          "price_source":f"{PROVIDER}:{f['symbol']}:{day}",
+          "benchmark_source":f"{PROVIDER}:SPY:{day}"}
+   if f.get("benchmark_pair")=="SPY_VOO":
+    point.update(voo_return=voo/voo_start[0]-1,voo_source=f"{PROVIDER}:VOO:{day}")
+   obs.append(point)
   result=score(db,fid,obs,iso(current))
   if result["status"]=="SCORED":report["outcomes_scored"]+=1
   elif result["status"]=="PENDING_HORIZON":report["pending"]+=1
