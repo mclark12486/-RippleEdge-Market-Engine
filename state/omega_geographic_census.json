@@ -1,17 +1,21 @@
 {
   "all_us_jurisdictions_coverage": "NOT_ESTABLISHED",
   "attempted_pairs_this_run": 4,
-  "checked_at": "2026-11-15T16:31:12.960749+00:00",
+  "checked_at": "2026-11-15T16:37:04.434338+00:00",
   "company_relationships_verified": 0,
   "configured_companies": 10403,
   "configured_jurisdictions": 2,
-  "configured_pair_attempt_coverage": 0.00038450446986446215,
+  "configured_pair_attempt_coverage": 0.0005767567047966932,
   "configured_pairs": 20806,
-  "cursor": 8,
-  "failed_queries_this_run": 3,
+  "cursor": 12,
+  "failed_queries_this_run": 4,
   "last_attempt_by_pair": {
     "AAAU|chicago_building_permits": "2026-11-15T16:31:12.960749+00:00",
     "AAAU|nyc_dob_permits": "2026-11-15T16:31:12.960749+00:00",
+    "AAC-UN|chicago_building_permits": "2026-11-15T16:37:04.434338+00:00",
+    "AAC-UN|nyc_dob_permits": "2026-11-15T16:37:04.434338+00:00",
+    "AAC-WT|chicago_building_permits": "2026-11-15T16:37:04.434338+00:00",
+    "AAC-WT|nyc_dob_permits": "2026-11-15T16:37:04.434338+00:00",
     "AAC|chicago_building_permits": "2026-11-15T16:31:12.960749+00:00",
     "AAC|nyc_dob_permits": "2026-11-15T16:31:12.960749+00:00",
     "LLY|chicago_building_permits": "2026-11-15T16:28:31.162398+00:00",
@@ -22,30 +26,6 @@
   "marketwide_coverage": "NOT_ESTABLISHED",
   "results": [
     {
-      "company": "Goldman Sachs Physical Gold ETF",
-      "jurisdiction": "chicago_building_permits",
-      "records": [],
-      "source": {
-        "records": 0,
-        "status": "SEARCH_OK_NOT_COMPLETENESS_VERIFIED"
-      },
-      "status": "SEARCH_OK_NOT_COMPLETENESS_VERIFIED",
-      "symbol": "AAAU",
-      "trade_eligible": false
-    },
-    {
-      "company": "Goldman Sachs Physical Gold ETF",
-      "jurisdiction": "nyc_dob_permits",
-      "records": [],
-      "source": {
-        "error": "TimeoutError:The read operation timed out",
-        "status": "BLOCKED"
-      },
-      "status": "BLOCKED",
-      "symbol": "AAAU",
-      "trade_eligible": false
-    },
-    {
       "company": "Ares Acquisition Corp III",
       "jurisdiction": "chicago_building_permits",
       "records": [],
@@ -54,7 +34,7 @@
         "status": "BLOCKED"
       },
       "status": "BLOCKED",
-      "symbol": "AAC",
+      "symbol": "AAC-UN",
       "trade_eligible": false
     },
     {
@@ -66,11 +46,35 @@
         "status": "BLOCKED"
       },
       "status": "BLOCKED",
-      "symbol": "AAC",
+      "symbol": "AAC-UN",
+      "trade_eligible": false
+    },
+    {
+      "company": "Ares Acquisition Corp III",
+      "jurisdiction": "chicago_building_permits",
+      "records": [],
+      "source": {
+        "error": "TimeoutError:The read operation timed out",
+        "status": "BLOCKED"
+      },
+      "status": "BLOCKED",
+      "symbol": "AAC-WT",
+      "trade_eligible": false
+    },
+    {
+      "company": "Ares Acquisition Corp III",
+      "jurisdiction": "nyc_dob_permits",
+      "records": [],
+      "source": {
+        "error": "TimeoutError:The read operation timed out",
+        "status": "BLOCKED"
+      },
+      "status": "BLOCKED",
+      "symbol": "AAC-WT",
       "trade_eligible": false
     }
   ],
-  "successful_queries_this_run": 1,
+  "successful_queries_this_run": 0,
   "trade_eligible": false,
-  "unique_pairs_attempted": 8
+  "unique_pairs_attempted": 12
 }
