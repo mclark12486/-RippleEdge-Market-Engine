@@ -73,7 +73,15 @@ def main():
    db.execute("INSERT INTO evidence_followups(symbol,run_id,created_at,missing_evidence,next_source,state) VALUES(?,?,?,?,?,?)",(symbol,rid,now(),json.dumps(result.get("missing",["Issuer-specific debt, diluted shares, maintenance capex, full filings and catalyst verification"])),"SEC full-text filings / issuer IR / fund sponsor disclosures","OPEN"))
    verified+=1
    if result.get("source_class")=="SEC_PRIMARY_XBRL":primary_verified+=1
-  except Exception as exc:errors.append({"symbol":symbol,"error":str(exc)[:150]})
+  except Exception as exc:
+   errors.append({"symbol":symbol,"error":str(exc)[:150]})
+   if getattr(exc,"code",None)==404:
+    # Persist an explicit unavailable-source outcome so a permanently missing
+    # companyfacts endpoint cannot starve the queue on every hourly run.
+    blocked={"classification":"PRIMARY_SOURCE_NOT_FOUND","source_class":"SEC_COMPANYFACTS_404","source_url":url,"retrieved_at":now(),"valuation":None,"retry_policy":"RECHECK_AFTER_CIK_MAPPING_REFRESH"}
+    db.execute("INSERT INTO analysis_evidence(symbol,run_id,observed_at,source_url,payload_json,classification) VALUES(?,?,?,?,?,?)",(symbol,rid,observed,url,json.dumps(blocked,sort_keys=True),"PRIMARY_SOURCE_NOT_FOUND"))
+    db.execute("INSERT INTO evidence_followups(symbol,run_id,created_at,missing_evidence,next_source,state) VALUES(?,?,?,?,?,?)",(symbol,rid,now(),json.dumps(["SEC companyfacts returned 404; check CIK and alternative issuer filings"]),"SEC submissions / issuer investor relations","OPEN"))
+    db.commit()
   db.commit()
   time.sleep(.22)  # Bound request rate below SEC fair-access ceiling.
  db_count=db.execute("SELECT COUNT(*) FROM queue").fetchone()[0]
