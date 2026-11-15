@@ -8,6 +8,9 @@ on:
       - 'marketwide.py'
       - 'price_scan.py'
       - 'breadth_scan.py'
+      - 'forecast_loop.py'
+      - 'forecast_ledger.py'
+      - 'test_forecast_loop.py'
       - 'history_backfill.py'
       - '.github/workflows/marketwide.yml'
 permissions:
@@ -40,12 +43,16 @@ jobs:
         run: python history_backfill.py
       - name: Screen all available market-wide daily bars
         run: python breadth_scan.py
+      - name: Verify prospective forecast loop tests
+        run: python -m unittest -v test_research_models.py test_forecast_ledger.py test_forecast_loop.py
+      - name: Freeze and score prospective shadow forecasts
+        run: python forecast_loop.py
       - name: Persist small database and immutable receipt
         run: |
           set -e
           git config user.name rippleedge-bot
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add state/marketwide.sqlite state/marketwide_initialized state/marketwide_receipt_*.json state/price_receipt_*.json state/breadth_receipt_*.json state/history_receipt_*.json
+          git add state/marketwide.sqlite state/marketwide_initialized state/marketwide_receipt_*.json state/price_receipt_*.json state/breadth_receipt_*.json state/history_receipt_*.json state/forecast_receipt_*.json
           git commit -m "RippleEdge marketwide census $(date -u +%Y%m%dT%H%M%SZ)"
           git fetch origin main
           base=$(git rev-parse HEAD^)
@@ -57,7 +64,7 @@ jobs:
             generated_commit=$(git rev-parse HEAD)
             git reset --hard origin/main
             git restore --source="$generated_commit" --staged --worktree -- state/marketwide.sqlite state/marketwide_initialized
-            git diff-tree --no-commit-id --name-only -r "$generated_commit" -- state/marketwide_receipt_ state/price_receipt_ state/breadth_receipt_ state/history_receipt_ > /tmp/rippleedge-generated-paths
+            git diff-tree --no-commit-id --name-only -r "$generated_commit" -- state/marketwide_receipt_ state/price_receipt_ state/breadth_receipt_ state/history_receipt_ state/forecast_receipt_ > /tmp/rippleedge-generated-paths
             while IFS= read -r generated_path; do
               [ -z "$generated_path" ] || git restore --source="$generated_commit" --staged --worktree -- "$generated_path"
             done < /tmp/rippleedge-generated-paths
@@ -75,4 +82,5 @@ jobs:
             state/price_receipt_*.json
             state/breadth_receipt_*.json
             state/history_receipt_*.json
+            state/forecast_receipt_*.json
           retention-days: 90
