@@ -56,8 +56,14 @@ jobs:
             fi
             # Only code/other state changed upstream. Reapply generated forensic
             # state onto current HEAD without merging binary databases.
-            git reset --soft origin/main
-            git commit -m "RippleEdge shadow forensic intake (rebased state-only)"
+            generated_commit=$(git rev-parse HEAD)
+            git reset --hard origin/main
+            git restore --source="$generated_commit" --staged --worktree -- state/forensic_shadow.sqlite state/forensic_shadow_initialized
+            git diff-tree --no-commit-id --name-only -r "$generated_commit" -- state/forensic_shadow_receipt_ state/analysis_receipt_ > /tmp/rippleedge-generated-paths
+            while IFS= read -r generated_path; do
+              [ -z "$generated_path" ] || git restore --source="$generated_commit" --staged --worktree -- "$generated_path"
+            done < /tmp/rippleedge-generated-paths
+            git commit -m "RippleEdge shadow forensic intake (state-only)"
           fi
           git push origin HEAD:main
       - name: Upload shadow research receipts
