@@ -1,8 +1,18 @@
 {
-  "status": "RESET_TO_100_AWAITING_CHECKPOINT",
   "cash": 100,
   "equity": 100,
+  "last_decision": {
+    "cash": 100,
+    "day_return": 0.0,
+    "equity": 100,
+    "execution": "SIMULATED_CLOSE_ONLY_NOT_LIVE",
+    "paper_orders": [],
+    "risk": "HOLD_OR_RESEARCH",
+    "session": "2026-11-13",
+    "sha256": "7beabdaaa0c507f2b415721fd1559f7e4eb9a0e6efadbd0281bd56be7ceb281f"
+  },
+  "limitation": "No verified alpha, no intraday execution, no brokerage access",
   "positions": {},
-  "session": null,
-  "limitation": "No verified alpha; no live broker or intraday execution; previous $10000 run archived"
+  "session": "2026-11-13",
+  "status": "SHADOW_CASH_ONLY"
 }
