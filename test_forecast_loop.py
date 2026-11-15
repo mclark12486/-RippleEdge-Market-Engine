@@ -28,8 +28,11 @@ class ForecastLoopTests(unittest.TestCase):
   for n,day in enumerate(("2026-11-17","2026-11-18","2026-11-19","2026-11-20","2026-11-23"),1):
    for sym,close in (("SPY",600+n),("TEST",100+n)):
     self.db.execute("INSERT INTO daily_bars VALUES(?,?,?,?,?,?,?,?,?)",(sym,day,close,close,close,close,1000,"Massive/Polygon","2026-11-24"))
-  self.assertEqual(run(self.db,self.current)["outcomes_scored"],1)
-  self.assertEqual(run(self.db,self.current)["outcomes_scored"],0)
+  # A later actual run may score only after all five sessions have elapsed.
+  self.db.execute("INSERT INTO price_runs VALUES(?,?,?,?,?,?,?,?,?,?,?)",("r2","2026-11-24T12:00:00Z","Massive/Polygon","2026-11-23",2,2,2,0,0,"DAILY_BAR_CENSUS_MATCHED","{}"))
+  later=dt.datetime(2026,11,24,15,0,tzinfo=dt.timezone.utc)
+  self.assertEqual(run(self.db,later)["outcomes_scored"],1)
+  self.assertEqual(run(self.db,later)["outcomes_scored"],0)
   self.assertEqual(self.db.execute("SELECT COUNT(*) FROM shadow_outcomes").fetchone()[0],1)
  def test_missing_benchmark_blocks(self):
   self.seed()
