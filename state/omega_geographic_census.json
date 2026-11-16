@@ -1,27 +1,27 @@
 {
   "all_us_jurisdictions_coverage": "NOT_ESTABLISHED",
   "attempted_pairs_this_run": 12,
-  "checked_at": "2026-11-16T01:24:35.331028+00:00",
+  "checked_at": "2026-11-16T08:36:46.462655+00:00",
   "company_relationships_verified": 0,
   "configured_companies": 10403,
   "configured_jurisdictions": 2,
-  "configured_pair_attempt_coverage": 0.0007690089397289243,
+  "configured_pair_attempt_coverage": 0.0008651350571950399,
   "configured_pair_success_coverage": 0.0,
   "configured_pairs": 20806,
-  "cursor": 36,
+  "cursor": 48,
   "failed_or_skipped_pairs_to_retry": [
-    "AACOW|chicago_building_permits",
-    "AACOW|nyc_dob_permits",
-    "AACP|chicago_building_permits",
-    "AACP|nyc_dob_permits",
-    "AACPR|chicago_building_permits",
-    "AACPR|nyc_dob_permits",
-    "AACPU|chicago_building_permits",
-    "AACPU|nyc_dob_permits",
-    "AACPW|chicago_building_permits",
-    "AACPW|nyc_dob_permits",
-    "AADX|chicago_building_permits",
-    "AADX|nyc_dob_permits"
+    "AAFRF|chicago_building_permits",
+    "AAFRF|nyc_dob_permits",
+    "AAL|chicago_building_permits",
+    "AAL|nyc_dob_permits",
+    "AAME|chicago_building_permits",
+    "AAME|nyc_dob_permits",
+    "AAMI|chicago_building_permits",
+    "AAMI|nyc_dob_permits",
+    "AAOI|chicago_building_permits",
+    "AAOI|nyc_dob_permits",
+    "AAON|chicago_building_permits",
+    "AAON|nyc_dob_permits"
   ],
   "failed_queries_this_run": 2,
   "last_attempt_by_pair": {
@@ -37,6 +37,8 @@
     "AACOW|nyc_dob_permits": "2026-11-16T01:24:35.331028+00:00",
     "AAC|chicago_building_permits": "2026-11-15T16:31:12.960749+00:00",
     "AAC|nyc_dob_permits": "2026-11-15T16:31:12.960749+00:00",
+    "AAFRF|chicago_building_permits": "2026-11-16T08:36:46.462655+00:00",
+    "AAFRF|nyc_dob_permits": "2026-11-16T08:36:46.462655+00:00",
     "LLY|chicago_building_permits": "2026-11-15T16:28:31.162398+00:00",
     "LLY|nyc_dob_permits": "2026-11-15T16:28:31.162398+00:00",
     "PFE|chicago_building_permits": "2026-11-15T16:28:31.162398+00:00",
@@ -46,19 +48,19 @@
   "marketwide_coverage": "NOT_ESTABLISHED",
   "results": [
     {
-      "company": "Abony Acquisition Corp. I",
+      "company": "Airtel Africa plc/ADR",
       "jurisdiction": "chicago_building_permits",
       "records": [],
       "source": {
-        "error": "URLError:<urlopen error _ssl.c:994: The handshake operation timed out>",
+        "error": "TimeoutError:The read operation timed out",
         "status": "BLOCKED"
       },
       "status": "BLOCKED",
-      "symbol": "AACOW",
+      "symbol": "AAFRF",
       "trade_eligible": false
     },
     {
-      "company": "Abony Acquisition Corp. I",
+      "company": "Airtel Africa plc/ADR",
       "jurisdiction": "nyc_dob_permits",
       "records": [],
       "source": {
@@ -66,67 +68,67 @@
         "status": "BLOCKED"
       },
       "status": "BLOCKED",
-      "symbol": "AACOW",
+      "symbol": "AAFRF",
       "trade_eligible": false
     },
     {
       "jurisdiction": "chicago_building_permits",
       "status": "SKIPPED_SOURCE_CIRCUIT_OPEN",
-      "symbol": "AACP",
+      "symbol": "AAL",
       "trade_eligible": false
     },
     {
       "jurisdiction": "nyc_dob_permits",
       "status": "SKIPPED_SOURCE_CIRCUIT_OPEN",
-      "symbol": "AACP",
+      "symbol": "AAL",
       "trade_eligible": false
     },
     {
       "jurisdiction": "chicago_building_permits",
       "status": "SKIPPED_SOURCE_CIRCUIT_OPEN",
-      "symbol": "AACPR",
+      "symbol": "AAME",
       "trade_eligible": false
     },
     {
       "jurisdiction": "nyc_dob_permits",
       "status": "SKIPPED_SOURCE_CIRCUIT_OPEN",
-      "symbol": "AACPR",
+      "symbol": "AAME",
       "trade_eligible": false
     },
     {
       "jurisdiction": "chicago_building_permits",
       "status": "SKIPPED_SOURCE_CIRCUIT_OPEN",
-      "symbol": "AACPU",
+      "symbol": "AAMI",
       "trade_eligible": false
     },
     {
       "jurisdiction": "nyc_dob_permits",
       "status": "SKIPPED_SOURCE_CIRCUIT_OPEN",
-      "symbol": "AACPU",
+      "symbol": "AAMI",
       "trade_eligible": false
     },
     {
       "jurisdiction": "chicago_building_permits",
       "status": "SKIPPED_SOURCE_CIRCUIT_OPEN",
-      "symbol": "AACPW",
+      "symbol": "AAOI",
       "trade_eligible": false
     },
     {
       "jurisdiction": "nyc_dob_permits",
       "status": "SKIPPED_SOURCE_CIRCUIT_OPEN",
-      "symbol": "AACPW",
+      "symbol": "AAOI",
       "trade_eligible": false
     },
     {
       "jurisdiction": "chicago_building_permits",
       "status": "SKIPPED_SOURCE_CIRCUIT_OPEN",
-      "symbol": "AADX",
+      "symbol": "AAON",
       "trade_eligible": false
     },
     {
       "jurisdiction": "nyc_dob_permits",
       "status": "SKIPPED_SOURCE_CIRCUIT_OPEN",
-      "symbol": "AADX",
+      "symbol": "AAON",
       "trade_eligible": false
     }
   ],
@@ -134,5 +136,5 @@
   "successful_pairs_ever": 0,
   "successful_queries_this_run": 0,
   "trade_eligible": false,
-  "unique_pairs_attempted": 16
+  "unique_pairs_attempted": 18
 }
