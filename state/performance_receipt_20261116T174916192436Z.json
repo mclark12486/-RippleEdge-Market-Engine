@@ -1,0 +1,64 @@
+{
+  "caveat": "Shadow hypotheses use indicative prior closes, not executable fills. Small samples are not proof of predictive edge.",
+  "cohorts": {
+    "2026-11-15": {
+      "dual_benchmark_scored": 0,
+      "fraction_beating_both": null,
+      "fraction_beating_spy": null,
+      "frozen": 4,
+      "mean_excess_return_vs_spy": null,
+      "mean_excess_return_vs_voo": null,
+      "mean_net_return": null,
+      "pending": 4,
+      "scored": 0
+    }
+  },
+  "dual_benchmark_scored": 0,
+  "forecasts": [
+    {
+      "frozen_at": "2026-11-15T15:07:18.358783Z",
+      "id": "8b0c74ed3a745a6da193a8fb",
+      "scored": false,
+      "sha256": "8b0c74ed3a745a6da193a8fbed3d58804b4a6a7574b6d6c3a971779385938503",
+      "symbol": "FCUV"
+    },
+    {
+      "frozen_at": "2026-11-15T15:07:18.358783Z",
+      "id": "cb7fbe5c3dfbc92861d8742f",
+      "scored": false,
+      "sha256": "cb7fbe5c3dfbc92861d8742f06c3ddcb0217f0b1cf1aab993a3839a58914afe2",
+      "symbol": "HWMV"
+    },
+    {
+      "frozen_at": "2026-11-15T15:07:18.358783Z",
+      "id": "d6e5cd4ed582dd1db4a9290d",
+      "scored": false,
+      "sha256": "d6e5cd4ed582dd1db4a9290da003e8f7266195f719b29248d092cba99a26c7bf",
+      "symbol": "QIS"
+    },
+    {
+      "frozen_at": "2026-11-15T15:07:18.358783Z",
+      "id": "d84d083a481af8af3371d5a1",
+      "scored": false,
+      "sha256": "d84d083a481af8af3371d5a129b177e8d8d4c6e46f82e63ec7d2db6daea95f90",
+      "symbol": "ONFO"
+    }
+  ],
+  "forecasts_frozen": 4,
+  "fraction_beating_both": null,
+  "fraction_beating_spy": null,
+  "generated_at": "2026-11-16T17:49:16.192436+00:00",
+  "mean_excess_return_vs_spy": null,
+  "mean_excess_return_vs_voo": null,
+  "mean_net_return": null,
+  "outcomes_scored": 0,
+  "pending": 4,
+  "risk_diagnostics": {
+    "portfolio_annualized_volatility": null,
+    "portfolio_max_drawdown": null,
+    "reason": "No timestamped investable portfolio equity curve, positions or fills",
+    "risk_adjusted_portfolio_alpha": null,
+    "sample_size": 0,
+    "status": "INSUFFICIENT_SAMPLE"
+  }
+}
