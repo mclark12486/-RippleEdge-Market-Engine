@@ -1,0 +1,39 @@
+{
+  "run_id": "20261116T184637644163Z",
+  "parent_run_id": "20261116T081810858980Z",
+  "prior_evidence_rows": 137,
+  "evidence_rows_after": 143,
+  "started": "2026-11-16T18:46:37.644116+00:00",
+  "ended": "2026-11-16T18:46:41.947056+00:00",
+  "execution": "GitHub Actions shadow",
+  "census": 13245,
+  "queued_total": 13254,
+  "attempted": 8,
+  "primary_verified": 6,
+  "failed": 2,
+  "deferred": 13237,
+  "states": {
+    "PARTIAL": 143,
+    "QUEUED": 13111
+  },
+  "source_mapping": "https://www.sec.gov/files/company_tickers.json",
+  "mapping_count": 10404,
+  "errors": [
+    {
+      "symbol": "ACV",
+      "source": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001636289.json",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "symbol": "AEF",
+      "source": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000846676.json",
+      "error": "HTTP Error 404: Not Found"
+    }
+  ],
+  "valuation_completed": 0,
+  "forecast_scored": 0,
+  "status": "PARTIAL_RESEARCH_ONLY",
+  "warning": "SEC XBRL tag presence is not a forensic audit or catalyst scan",
+  "sqlite_integrity": "ok",
+  "db_sha256": "b0ed3ee10eda09c82a1a86cdeed841f62e93c4f18c5464afd1ce3c24e6c9f5ef"
+}
