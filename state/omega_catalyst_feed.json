@@ -106,14 +106,13 @@
         "status": "PARTIAL_NAME_SEARCH"
       }
     },
-    "checked_at": "2026-11-16T07:59:35.877197+00:00",
+    "checked_at": "2026-11-16T17:59:21.217255+00:00",
     "marketwide_all_categories_verified": false,
     "note": "No connector provides complete real-time coverage of every company or every event."
   },
-  "checked_at": "2026-11-16T07:59:35.875537+00:00",
-  "events": [],
-  "feed_entries": 100,
-  "new_filings": 0,
+  "checked_at": "2026-11-16T17:59:21.217224+00:00",
+  "error": "TimeoutError:The read operation timed out",
+  "previous_successful_checkpoint": "2026-11-16T07:59:35.875537+00:00",
   "seen_ids": [
     "urn:tag:sec.gov,2008:accession-number=0001193805-26-001476",
     "urn:tag:sec.gov,2008:accession-number=0001493152-26-051920",
@@ -163,6 +162,6 @@
     "urn:tag:sec.gov,2008:accession-number=0001213900-26-120032",
     "urn:tag:sec.gov,2008:accession-number=0001426012-26-000007"
   ],
-  "status": "SEC_CURRENT_FEED_PARTIAL",
+  "status": "SOURCE_FAILED",
   "trade_eligible": false
 }
