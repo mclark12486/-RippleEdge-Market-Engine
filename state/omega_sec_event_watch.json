@@ -1,653 +1,718 @@
 {
-  "checked_at": "2026-11-17T08:39:58.903245+00:00",
+  "checked_at": "2026-11-17T17:52:52.699075+00:00",
   "events": [
     {
-      "id": "urn:tag:sec.gov,2008:accession-number=0001104659-26-128741",
-      "title": "SCHEDULE 13G - ADAR1 Capital Management, LLC (0001940272) (Filed by)",
-      "updated": "2026-11-16T21:56:34-05:00"
+      "id": "urn:tag:sec.gov,2008:accession-number=0001918704-26-035867",
+      "title": "424B2 - CITIGROUP INC (0000831001) (Filer)",
+      "updated": "2026-11-17T12:52:20-05:00"
     },
     {
-      "id": "urn:tag:sec.gov,2008:accession-number=0001104659-26-128741",
-      "title": "SCHEDULE 13G - Xilio Therapeutics, Inc. (0001840233) (Subject)",
-      "updated": "2026-11-16T21:56:34-05:00"
+      "id": "urn:tag:sec.gov,2008:accession-number=0001918704-26-035867",
+      "title": "424B2 - Citigroup Global Markets Holdings Inc. (0000200245) (Filer)",
+      "updated": "2026-11-17T12:52:20-05:00"
     },
     {
-      "id": "urn:tag:sec.gov,2008:accession-number=0001104659-26-128739",
-      "title": "SCHEDULE 13G/A - ADAR1 Capital Management, LLC (0001940272) (Filed by)",
-      "updated": "2026-11-16T21:55:04-05:00"
+      "id": "urn:tag:sec.gov,2008:accession-number=0001918704-26-035866",
+      "title": "424B2 - BofA Finance LLC (0001682472) (Filer)",
+      "updated": "2026-11-17T12:51:38-05:00"
     },
     {
-      "id": "urn:tag:sec.gov,2008:accession-number=0001104659-26-128739",
-      "title": "SCHEDULE 13G/A - Grace Therapeutics, Inc. (0001444192) (Subject)",
-      "updated": "2026-11-16T21:55:04-05:00"
+      "id": "urn:tag:sec.gov,2008:accession-number=0001918704-26-035866",
+      "title": "424B2 - BANK OF AMERICA CORP /DE/ (0000070858) (Filer)",
+      "updated": "2026-11-17T12:51:38-05:00"
     },
     {
-      "id": "urn:tag:sec.gov,2008:accession-number=0001193125-26-464325",
-      "title": "4 - LEE CHAE (0001548322) (Reporting)",
-      "updated": "2026-11-16T21:54:55-05:00"
+      "id": "urn:tag:sec.gov,2008:accession-number=0001839882-26-056886",
+      "title": "424B2 - BANK OF NOVA SCOTIA (0000009631) (Filer)",
+      "updated": "2026-11-17T12:51:16-05:00"
     },
     {
-      "id": "urn:tag:sec.gov,2008:accession-number=0001193125-26-464325",
-      "title": "4 - MAGNACHIP SEMICONDUCTOR Corp (0001325702) (Issuer)",
-      "updated": "2026-11-16T21:54:55-05:00"
+      "id": "urn:tag:sec.gov,2008:accession-number=0001918704-26-035865",
+      "title": "424B2 - CITIGROUP INC (0000831001) (Filer)",
+      "updated": "2026-11-17T12:50:59-05:00"
     },
     {
-      "id": "urn:tag:sec.gov,2008:accession-number=0001104659-26-128738",
-      "title": "SCHEDULE 13G/A - Freenome, Inc. (0002017526) (Subject)",
-      "updated": "2026-11-16T21:54:27-05:00"
+      "id": "urn:tag:sec.gov,2008:accession-number=0001918704-26-035865",
+      "title": "424B2 - Citigroup Global Markets Holdings Inc. (0000200245) (Filer)",
+      "updated": "2026-11-17T12:50:59-05:00"
     },
     {
-      "id": "urn:tag:sec.gov,2008:accession-number=0001104659-26-128738",
-      "title": "SCHEDULE 13G/A - ADAR1 Capital Management, LLC (0001940272) (Filed by)",
-      "updated": "2026-11-16T21:54:27-05:00"
+      "id": "urn:tag:sec.gov,2008:accession-number=0001918704-26-035864",
+      "title": "424B2 - CITIGROUP INC (0000831001) (Filer)",
+      "updated": "2026-11-17T12:50:50-05:00"
     },
     {
-      "id": "urn:tag:sec.gov,2008:accession-number=0001104659-26-128737",
-      "title": "SCHEDULE 13G - Rainier Acquisition Corp (0002147219) (Subject)",
-      "updated": "2026-11-16T21:54:18-05:00"
+      "id": "urn:tag:sec.gov,2008:accession-number=0001918704-26-035864",
+      "title": "424B2 - Citigroup Global Markets Holdings Inc. (0000200245) (Filer)",
+      "updated": "2026-11-17T12:50:50-05:00"
     },
     {
-      "id": "urn:tag:sec.gov,2008:accession-number=0001104659-26-128737",
-      "title": "SCHEDULE 13G - ADAR1 Capital Management, LLC (0001940272) (Filed by)",
-      "updated": "2026-11-16T21:54:18-05:00"
+      "id": "urn:tag:sec.gov,2008:accession-number=0001839882-26-056885",
+      "title": "424B2 - BANK OF NOVA SCOTIA (0000009631) (Filer)",
+      "updated": "2026-11-17T12:50:26-05:00"
     },
     {
-      "id": "urn:tag:sec.gov,2008:accession-number=0001104659-26-128736",
-      "title": "SCHEDULE 13G/A - ADAR1 Capital Management, LLC (0001940272) (Filed by)",
-      "updated": "2026-11-16T21:53:52-05:00"
+      "id": "urn:tag:sec.gov,2008:accession-number=0001918704-26-035863",
+      "title": "424B2 - CITIGROUP INC (0000831001) (Filer)",
+      "updated": "2026-11-17T12:50:13-05:00"
     },
     {
-      "id": "urn:tag:sec.gov,2008:accession-number=0001104659-26-128736",
-      "title": "SCHEDULE 13G/A - Yarrow Bioscience, Inc. (0001566044) (Subject)",
-      "updated": "2026-11-16T21:53:52-05:00"
+      "id": "urn:tag:sec.gov,2008:accession-number=0001918704-26-035863",
+      "title": "424B2 - Citigroup Global Markets Holdings Inc. (0000200245) (Filer)",
+      "updated": "2026-11-17T12:50:13-05:00"
     },
     {
-      "id": "urn:tag:sec.gov,2008:accession-number=0001104659-26-128735",
-      "title": "SCHEDULE 13G/A - Research Alliance Corp III (0002118032) (Subject)",
-      "updated": "2026-11-16T21:53:12-05:00"
+      "id": "urn:tag:sec.gov,2008:accession-number=0002155245-26-000001",
+      "title": "D - Partners Group DSF Private Credit, L.P. (0002155245) (Filer)",
+      "updated": "2026-11-17T12:50:07-05:00"
     },
     {
-      "id": "urn:tag:sec.gov,2008:accession-number=0001104659-26-128735",
-      "title": "SCHEDULE 13G/A - ADAR1 Capital Management, LLC (0001940272) (Filed by)",
-      "updated": "2026-11-16T21:53:12-05:00"
+      "id": "urn:tag:sec.gov,2008:accession-number=0001918704-26-035862",
+      "title": "424B2 - BofA Finance LLC (0001682472) (Filer)",
+      "updated": "2026-11-17T12:49:39-05:00"
     },
     {
-      "id": "urn:tag:sec.gov,2008:accession-number=0001104659-26-128734",
-      "title": "SCHEDULE 13G/A - ADAR1 Capital Management, LLC (0001940272) (Filed by)",
-      "updated": "2026-11-16T21:53:08-05:00"
+      "id": "urn:tag:sec.gov,2008:accession-number=0001918704-26-035862",
+      "title": "424B2 - BANK OF AMERICA CORP /DE/ (0000070858) (Filer)",
+      "updated": "2026-11-17T12:49:39-05:00"
     },
     {
-      "id": "urn:tag:sec.gov,2008:accession-number=0001104659-26-128734",
-      "title": "SCHEDULE 13G/A - TENAX THERAPEUTICS, INC. (0000034956) (Subject)",
-      "updated": "2026-11-16T21:53:08-05:00"
+      "id": "urn:tag:sec.gov,2008:accession-number=0001918704-26-035861",
+      "title": "424B2 - BARCLAYS BANK PLC (0000312070) (Filer)",
+      "updated": "2026-11-17T12:48:56-05:00"
     },
     {
-      "id": "urn:tag:sec.gov,2008:accession-number=0001753926-26-002162",
-      "title": "SCHEDULE 13D - AQUABOUNTY TECHNOLOGIES INC (0001603978) (Subject)",
-      "updated": "2026-11-16T21:52:53-05:00"
+      "id": "urn:tag:sec.gov,2008:accession-number=0001839882-26-056884",
+      "title": "424B2 - UBS AG (0001114446) (Filer)",
+      "updated": "2026-11-17T12:48:25-05:00"
     },
     {
-      "id": "urn:tag:sec.gov,2008:accession-number=0001753926-26-002162",
-      "title": "SCHEDULE 13D - UNIVEST SECURITIES, LLC (0000920097) (Filed by)",
-      "updated": "2026-11-16T21:52:53-05:00"
+      "id": "urn:tag:sec.gov,2008:accession-number=0002165446-26-000001",
+      "title": "D - Qubit Ventures I LP (0002165446) (Filer)",
+      "updated": "2026-11-17T12:48:07-05:00"
     },
     {
-      "id": "urn:tag:sec.gov,2008:accession-number=0001990865-26-000018",
-      "title": "4 - Ong Chin Yin (0001990865) (Reporting)",
-      "updated": "2026-11-16T21:52:51-05:00"
+      "id": "urn:tag:sec.gov,2008:accession-number=0001918704-26-035860",
+      "title": "424B2 - CITIGROUP INC (0000831001) (Filer)",
+      "updated": "2026-11-17T12:48:07-05:00"
     },
     {
-      "id": "urn:tag:sec.gov,2008:accession-number=0001990865-26-000018",
-      "title": "4 - Grab Holdings Ltd (0001855612) (Issuer)",
-      "updated": "2026-11-16T21:52:51-05:00"
+      "id": "urn:tag:sec.gov,2008:accession-number=0001918704-26-035860",
+      "title": "424B2 - Citigroup Global Markets Holdings Inc. (0000200245) (Filer)",
+      "updated": "2026-11-17T12:48:07-05:00"
     },
     {
-      "id": "urn:tag:sec.gov,2008:accession-number=0001855612-26-000157",
-      "title": "4 - Grab Holdings Ltd (0001855612) (Issuer)",
-      "updated": "2026-11-16T21:52:21-05:00"
+      "id": "urn:tag:sec.gov,2008:accession-number=0001918704-26-035859",
+      "title": "424B2 - CITIGROUP INC (0000831001) (Filer)",
+      "updated": "2026-11-17T12:47:40-05:00"
     },
     {
-      "id": "urn:tag:sec.gov,2008:accession-number=0001855612-26-000157",
-      "title": "4 - Kandal Philipp Wolfgang Josef (0001696555) (Reporting)",
-      "updated": "2026-11-16T21:52:21-05:00"
+      "id": "urn:tag:sec.gov,2008:accession-number=0001918704-26-035859",
+      "title": "424B2 - Citigroup Global Markets Holdings Inc. (0000200245) (Filer)",
+      "updated": "2026-11-17T12:47:40-05:00"
     },
     {
-      "id": "urn:tag:sec.gov,2008:accession-number=0001104659-26-128733",
-      "title": "SCHEDULE 13G/A - JATT II Acquisition Corp. (0002112446) (Subject)",
-      "updated": "2026-11-16T21:52:12-05:00"
+      "id": "urn:tag:sec.gov,2008:accession-number=0001918704-26-035858",
+      "title": "424B2 - CITIGROUP INC (0000831001) (Filer)",
+      "updated": "2026-11-17T12:47:07-05:00"
     },
     {
-      "id": "urn:tag:sec.gov,2008:accession-number=0001104659-26-128733",
-      "title": "SCHEDULE 13G/A - ADAR1 Capital Management, LLC (0001940272) (Filed by)",
-      "updated": "2026-11-16T21:52:12-05:00"
+      "id": "urn:tag:sec.gov,2008:accession-number=0001918704-26-035858",
+      "title": "424B2 - Citigroup Global Markets Holdings Inc. (0000200245) (Filer)",
+      "updated": "2026-11-17T12:47:07-05:00"
     },
     {
-      "id": "urn:tag:sec.gov,2008:accession-number=0001753926-26-002161",
-      "title": "4 - AQUABOUNTY TECHNOLOGIES INC (0001603978) (Issuer)",
-      "updated": "2026-11-16T21:51:21-05:00"
+      "id": "urn:tag:sec.gov,2008:accession-number=0000776867-26-000053",
+      "title": "4 - Carlson Peter M (0001379320) (Reporting)",
+      "updated": "2026-11-17T12:46:23-05:00"
     },
     {
-      "id": "urn:tag:sec.gov,2008:accession-number=0001753926-26-002161",
-      "title": "4 - Guo Yi (0001530048) (Reporting)",
-      "updated": "2026-11-16T21:51:21-05:00"
+      "id": "urn:tag:sec.gov,2008:accession-number=0000776867-26-000053",
+      "title": "4 - WHITE MOUNTAINS INSURANCE GROUP LTD (0000776867) (Issuer)",
+      "updated": "2026-11-17T12:46:23-05:00"
     },
     {
-      "id": "urn:tag:sec.gov,2008:accession-number=0001753926-26-002161",
-      "title": "4 - UNIVEST SECURITIES, LLC (0000920097) (Reporting)",
-      "updated": "2026-11-16T21:51:21-05:00"
+      "id": "urn:tag:sec.gov,2008:accession-number=0001918704-26-035857",
+      "title": "424B2 - CITIGROUP INC (0000831001) (Filer)",
+      "updated": "2026-11-17T12:46:18-05:00"
     },
     {
-      "id": "urn:tag:sec.gov,2008:accession-number=0001753926-26-002160",
-      "title": "3 - AQUABOUNTY TECHNOLOGIES INC (0001603978) (Issuer)",
-      "updated": "2026-11-16T21:49:26-05:00"
+      "id": "urn:tag:sec.gov,2008:accession-number=0001918704-26-035857",
+      "title": "424B2 - Citigroup Global Markets Holdings Inc. (0000200245) (Filer)",
+      "updated": "2026-11-17T12:46:18-05:00"
     },
     {
-      "id": "urn:tag:sec.gov,2008:accession-number=0001753926-26-002160",
-      "title": "3 - Guo Yi (0001530048) (Reporting)",
-      "updated": "2026-11-16T21:49:26-05:00"
+      "id": "urn:tag:sec.gov,2008:accession-number=0001918704-26-035856",
+      "title": "424B2 - CITIGROUP INC (0000831001) (Filer)",
+      "updated": "2026-11-17T12:45:54-05:00"
     },
     {
-      "id": "urn:tag:sec.gov,2008:accession-number=0001753926-26-002160",
-      "title": "3 - UNIVEST SECURITIES, LLC (0000920097) (Reporting)",
-      "updated": "2026-11-16T21:49:26-05:00"
+      "id": "urn:tag:sec.gov,2008:accession-number=0001918704-26-035856",
+      "title": "424B2 - Citigroup Global Markets Holdings Inc. (0000200245) (Filer)",
+      "updated": "2026-11-17T12:45:54-05:00"
     },
     {
-      "id": "urn:tag:sec.gov,2008:accession-number=0001213900-26-121037",
-      "title": "4 - Wanke Dietrich (0002093155) (Reporting)",
-      "updated": "2026-11-16T21:41:40-05:00"
+      "id": "urn:tag:sec.gov,2008:accession-number=0001918704-26-035855",
+      "title": "424B2 - CITIGROUP INC (0000831001) (Filer)",
+      "updated": "2026-11-17T12:45:50-05:00"
     },
     {
-      "id": "urn:tag:sec.gov,2008:accession-number=0001213900-26-121037",
-      "title": "4 - Critical Metals Corp. (0001951089) (Issuer)",
-      "updated": "2026-11-16T21:41:40-05:00"
+      "id": "urn:tag:sec.gov,2008:accession-number=0001918704-26-035855",
+      "title": "424B2 - Citigroup Global Markets Holdings Inc. (0000200245) (Filer)",
+      "updated": "2026-11-17T12:45:50-05:00"
     },
     {
-      "id": "urn:tag:sec.gov,2008:accession-number=0001213900-26-121036",
-      "title": "4 - Thomas John Harper (0002089321) (Reporting)",
-      "updated": "2026-11-16T21:41:27-05:00"
+      "id": "urn:tag:sec.gov,2008:accession-number=0001143313-26-000057",
+      "title": "CERT - Zoar Ltd (0002078148) (Filer)",
+      "updated": "2026-11-17T12:45:25-05:00"
     },
     {
-      "id": "urn:tag:sec.gov,2008:accession-number=0001213900-26-121036",
-      "title": "4 - Critical Metals Corp. (0001951089) (Issuer)",
-      "updated": "2026-11-16T21:41:27-05:00"
+      "id": "urn:tag:sec.gov,2008:accession-number=0001193125-26-465139",
+      "title": "15-15D - Santander Drive Auto Receivables Trust 2022-4 (0001934902) (Filer)",
+      "updated": "2026-11-17T12:45:05-05:00"
     },
     {
-      "id": "urn:tag:sec.gov,2008:accession-number=0001213900-26-121035",
-      "title": "4 - Savchenko Sergey (0002088934) (Reporting)",
-      "updated": "2026-11-16T21:41:12-05:00"
+      "id": "urn:tag:sec.gov,2008:accession-number=0000752642-26-000137",
+      "title": "4 - Mitchell William Edward (0001782938) (Reporting)",
+      "updated": "2026-11-17T12:44:55-05:00"
     },
     {
-      "id": "urn:tag:sec.gov,2008:accession-number=0001213900-26-121035",
-      "title": "4 - Critical Metals Corp. (0001951089) (Issuer)",
-      "updated": "2026-11-16T21:41:12-05:00"
+      "id": "urn:tag:sec.gov,2008:accession-number=0000752642-26-000137",
+      "title": "4 - UMH PROPERTIES, INC. (0000752642) (Issuer)",
+      "updated": "2026-11-17T12:44:55-05:00"
     },
     {
-      "id": "urn:tag:sec.gov,2008:accession-number=0001213900-26-121034",
-      "title": "4 - Sage Antony William Paul (0002119453) (Reporting)",
-      "updated": "2026-11-16T21:40:57-05:00"
+      "id": "urn:tag:sec.gov,2008:accession-number=0001918704-26-035854",
+      "title": "424B2 - BARCLAYS BANK PLC (0000312070) (Filer)",
+      "updated": "2026-11-17T12:44:45-05:00"
     },
     {
-      "id": "urn:tag:sec.gov,2008:accession-number=0001213900-26-121034",
-      "title": "4 - Critical Metals Corp. (0001951089) (Issuer)",
-      "updated": "2026-11-16T21:40:57-05:00"
+      "id": "urn:tag:sec.gov,2008:accession-number=0001918704-26-035853",
+      "title": "424B2 - CITIGROUP INC (0000831001) (Filer)",
+      "updated": "2026-11-17T12:44:04-05:00"
     },
     {
-      "id": "urn:tag:sec.gov,2008:accession-number=0001213900-26-121033",
-      "title": "4 - McNamara Thomas M. (0002094421) (Reporting)",
-      "updated": "2026-11-16T21:40:43-05:00"
+      "id": "urn:tag:sec.gov,2008:accession-number=0001918704-26-035853",
+      "title": "424B2 - Citigroup Global Markets Holdings Inc. (0000200245) (Filer)",
+      "updated": "2026-11-17T12:44:04-05:00"
     },
     {
-      "id": "urn:tag:sec.gov,2008:accession-number=0001213900-26-121033",
-      "title": "4 - Critical Metals Corp. (0001951089) (Issuer)",
-      "updated": "2026-11-16T21:40:43-05:00"
+      "id": "urn:tag:sec.gov,2008:accession-number=0001493152-26-052758",
+      "title": "10-Q - Alpha Star Acquisition Corp (0001865111) (Filer)",
+      "updated": "2026-11-17T12:43:58-05:00"
     },
     {
-      "id": "urn:tag:sec.gov,2008:accession-number=0001104659-26-128729",
-      "title": "SCHEDULE 13G - ADAR1 Capital Management, LLC (0001940272) (Filed by)",
-      "updated": "2026-11-16T21:40:43-05:00"
+      "id": "urn:tag:sec.gov,2008:accession-number=0001493152-26-052759",
+      "title": "F-X - Gunnison Copper Corp. (0001514860) (Subject)",
+      "updated": "2026-11-17T12:43:35-05:00"
     },
     {
-      "id": "urn:tag:sec.gov,2008:accession-number=0001104659-26-128729",
-      "title": "SCHEDULE 13G - ENANTA PHARMACEUTICALS INC (0001177648) (Subject)",
-      "updated": "2026-11-16T21:40:43-05:00"
+      "id": "urn:tag:sec.gov,2008:accession-number=0001918704-26-035852",
+      "title": "424B2 - CITIGROUP INC (0000831001) (Filer)",
+      "updated": "2026-11-17T12:43:35-05:00"
     },
     {
-      "id": "urn:tag:sec.gov,2008:accession-number=0001213900-26-121032",
-      "title": "4 - Day Malcolm Raymond (0002076781) (Reporting)",
-      "updated": "2026-11-16T21:40:29-05:00"
+      "id": "urn:tag:sec.gov,2008:accession-number=0001918704-26-035852",
+      "title": "424B2 - Citigroup Global Markets Holdings Inc. (0000200245) (Filer)",
+      "updated": "2026-11-17T12:43:35-05:00"
     },
     {
-      "id": "urn:tag:sec.gov,2008:accession-number=0001213900-26-121032",
-      "title": "4 - Critical Metals Corp. (0001951089) (Issuer)",
-      "updated": "2026-11-16T21:40:29-05:00"
+      "id": "urn:tag:sec.gov,2008:accession-number=0002150786-26-000002",
+      "title": "D/A - DVC Growth SPV I-C a series of Allocations 2026 Master, LLC (0002150786) (Filer)",
+      "updated": "2026-11-17T12:43:01-05:00"
     },
     {
-      "id": "urn:tag:sec.gov,2008:accession-number=0001104659-26-128728",
-      "title": "SCHEDULE 13G - ADAR1 Capital Management, LLC (0001940272) (Filed by)",
-      "updated": "2026-11-16T21:39:51-05:00"
+      "id": "urn:tag:sec.gov,2008:accession-number=0000752642-26-000136",
+      "title": "4 - Miller Kevin S. (0001559910) (Reporting)",
+      "updated": "2026-11-17T12:42:57-05:00"
     },
     {
-      "id": "urn:tag:sec.gov,2008:accession-number=0001104659-26-128728",
-      "title": "SCHEDULE 13G - Fulcrum Therapeutics, Inc. (0001680581) (Subject)",
-      "updated": "2026-11-16T21:39:51-05:00"
+      "id": "urn:tag:sec.gov,2008:accession-number=0000752642-26-000136",
+      "title": "4 - UMH PROPERTIES, INC. (0000752642) (Issuer)",
+      "updated": "2026-11-17T12:42:57-05:00"
     },
     {
-      "id": "urn:tag:sec.gov,2008:accession-number=0001104659-26-128727",
-      "title": "SCHEDULE 13G - ADAR1 Capital Management, LLC (0001940272) (Filed by)",
-      "updated": "2026-11-16T21:39:09-05:00"
+      "id": "urn:tag:sec.gov,2008:accession-number=0001683168-26-008903",
+      "title": "4 - DAVION HEALTHCARE PLC (0002039072) (Issuer)",
+      "updated": "2026-11-17T12:42:54-05:00"
     },
     {
-      "id": "urn:tag:sec.gov,2008:accession-number=0001104659-26-128727",
-      "title": "SCHEDULE 13G - KAZIA THERAPEUTICS LTD (0001075880) (Subject)",
-      "updated": "2026-11-16T21:39:09-05:00"
+      "id": "urn:tag:sec.gov,2008:accession-number=0001683168-26-008903",
+      "title": "4 - King Susan M (0001599629) (Reporting)",
+      "updated": "2026-11-17T12:42:54-05:00"
     },
     {
-      "id": "urn:tag:sec.gov,2008:accession-number=0001104659-26-128726",
-      "title": "SCHEDULE 13G - TCGX Acquisition Corp. (0002137965) (Subject)",
-      "updated": "2026-11-16T21:38:23-05:00"
+      "id": "urn:tag:sec.gov,2008:accession-number=0001325814-26-000181",
+      "title": "8-K - Federal Home Loan Bank of Des Moines (0001325814) (Filer)",
+      "updated": "2026-11-17T12:42:05-05:00"
     },
     {
-      "id": "urn:tag:sec.gov,2008:accession-number=0001104659-26-128726",
-      "title": "SCHEDULE 13G - ADAR1 Capital Management, LLC (0001940272) (Filed by)",
-      "updated": "2026-11-16T21:38:23-05:00"
+      "id": "urn:tag:sec.gov,2008:accession-number=0001918704-26-035851",
+      "title": "424B2 - CITIGROUP INC (0000831001) (Filer)",
+      "updated": "2026-11-17T12:41:25-05:00"
     },
     {
-      "id": "urn:tag:sec.gov,2008:accession-number=0001104659-26-128725",
-      "title": "SCHEDULE 13G - JATT III Acquisition Corp (0002145659) (Subject)",
-      "updated": "2026-11-16T21:37:29-05:00"
+      "id": "urn:tag:sec.gov,2008:accession-number=0001918704-26-035851",
+      "title": "424B2 - Citigroup Global Markets Holdings Inc. (0000200245) (Filer)",
+      "updated": "2026-11-17T12:41:25-05:00"
     },
     {
-      "id": "urn:tag:sec.gov,2008:accession-number=0001104659-26-128725",
-      "title": "SCHEDULE 13G - ADAR1 Capital Management, LLC (0001940272) (Filed by)",
-      "updated": "2026-11-16T21:37:29-05:00"
+      "id": "urn:tag:sec.gov,2008:accession-number=0001918704-26-035850",
+      "title": "424B2 - CITIGROUP INC (0000831001) (Filer)",
+      "updated": "2026-11-17T12:41:14-05:00"
     },
     {
-      "id": "urn:tag:sec.gov,2008:accession-number=0001754937-26-000002",
-      "title": "144 - MOORE ALISON (0001754937) (Reporting)",
-      "updated": "2026-11-16T21:37:11-05:00"
+      "id": "urn:tag:sec.gov,2008:accession-number=0001918704-26-035850",
+      "title": "424B2 - Citigroup Global Markets Holdings Inc. (0000200245) (Filer)",
+      "updated": "2026-11-17T12:41:14-05:00"
     },
     {
-      "id": "urn:tag:sec.gov,2008:accession-number=0001754937-26-000002",
-      "title": "144 - CODEXIS, INC. (0001200375) (Subject)",
-      "updated": "2026-11-16T21:37:11-05:00"
+      "id": "urn:tag:sec.gov,2008:accession-number=0001918704-26-035849",
+      "title": "424B2 - CITIGROUP INC (0000831001) (Filer)",
+      "updated": "2026-11-17T12:40:27-05:00"
     },
     {
-      "id": "urn:tag:sec.gov,2008:accession-number=0001104659-26-128724",
-      "title": "SCHEDULE 13G - Research Alliance Corp IV (0002137777) (Subject)",
-      "updated": "2026-11-16T21:36:06-05:00"
+      "id": "urn:tag:sec.gov,2008:accession-number=0001918704-26-035849",
+      "title": "424B2 - Citigroup Global Markets Holdings Inc. (0000200245) (Filer)",
+      "updated": "2026-11-17T12:40:27-05:00"
     },
     {
-      "id": "urn:tag:sec.gov,2008:accession-number=0001104659-26-128724",
-      "title": "SCHEDULE 13G - ADAR1 Capital Management, LLC (0001940272) (Filed by)",
-      "updated": "2026-11-16T21:36:06-05:00"
+      "id": "urn:tag:sec.gov,2008:accession-number=0001193125-26-465134",
+      "title": "8-K - Fidelity Private Credit Fund (0001920453) (Filer)",
+      "updated": "2026-11-17T12:40:18-05:00"
     },
     {
-      "id": "urn:tag:sec.gov,2008:accession-number=0001104659-26-128723",
-      "title": "SCHEDULE 13G - ADAR1 Capital Management, LLC (0001940272) (Filed by)",
-      "updated": "2026-11-16T21:33:24-05:00"
+      "id": "urn:tag:sec.gov,2008:accession-number=0001839882-26-056883",
+      "title": "424B2 - Wells Fargo Finance LLC (0001738143) (Filer)",
+      "updated": "2026-11-17T12:40:08-05:00"
     },
     {
-      "id": "urn:tag:sec.gov,2008:accession-number=0001104659-26-128723",
-      "title": "SCHEDULE 13G - Aura Biosciences, Inc. (0001501796) (Subject)",
-      "updated": "2026-11-16T21:33:24-05:00"
+      "id": "urn:tag:sec.gov,2008:accession-number=0001839882-26-056883",
+      "title": "424B2 - WELLS FARGO & COMPANY/MN (0000072971) (Filer)",
+      "updated": "2026-11-17T12:40:08-05:00"
     },
     {
-      "id": "urn:tag:sec.gov,2008:accession-number=0001104659-26-128721",
-      "title": "SCHEDULE 13G - ADAR1 Capital Management, LLC (0001940272) (Filed by)",
-      "updated": "2026-11-16T21:31:49-05:00"
+      "id": "urn:tag:sec.gov,2008:accession-number=0001918704-26-035848",
+      "title": "424B2 - BofA Finance LLC (0001682472) (Filer)",
+      "updated": "2026-11-17T12:40:02-05:00"
     },
     {
-      "id": "urn:tag:sec.gov,2008:accession-number=0001104659-26-128721",
-      "title": "SCHEDULE 13G - INOVIO PHARMACEUTICALS, INC. (0001055726) (Subject)",
-      "updated": "2026-11-16T21:31:49-05:00"
+      "id": "urn:tag:sec.gov,2008:accession-number=0001918704-26-035848",
+      "title": "424B2 - BANK OF AMERICA CORP /DE/ (0000070858) (Filer)",
+      "updated": "2026-11-17T12:40:02-05:00"
     },
     {
-      "id": "urn:tag:sec.gov,2008:accession-number=0001552781-26-000562",
-      "title": "SCHEDULE 13G - Grab Holdings Ltd (0001855612) (Subject)",
-      "updated": "2026-11-16T21:30:12-05:00"
+      "id": "urn:tag:sec.gov,2008:accession-number=0001193125-26-465130",
+      "title": "424B2 - GS Finance Corp. (0001419828) (Filer)",
+      "updated": "2026-11-17T12:39:42-05:00"
     },
     {
-      "id": "urn:tag:sec.gov,2008:accession-number=0001552781-26-000562",
-      "title": "SCHEDULE 13G - Uber Technologies, Inc (0001543151) (Filed by)",
-      "updated": "2026-11-16T21:30:12-05:00"
+      "id": "urn:tag:sec.gov,2008:accession-number=0001193125-26-465130",
+      "title": "424B2 - GOLDMAN SACHS GROUP INC (0000886982) (Filer)",
+      "updated": "2026-11-17T12:39:42-05:00"
     },
     {
-      "id": "urn:tag:sec.gov,2008:accession-number=0001193125-26-464271",
-      "title": "SCHEDULE 13D/A - Madryn Asset Management, LP (0001787423) (Filed by)",
-      "updated": "2026-11-16T21:26:19-05:00"
+      "id": "urn:tag:sec.gov,2008:accession-number=0001918704-26-035847",
+      "title": "424B2 - CITIGROUP INC (0000831001) (Filer)",
+      "updated": "2026-11-17T12:38:47-05:00"
     },
     {
-      "id": "urn:tag:sec.gov,2008:accession-number=0001193125-26-464271",
-      "title": "SCHEDULE 13D/A - Neuronetics, Inc. (0001227636) (Subject)",
-      "updated": "2026-11-16T21:26:19-05:00"
+      "id": "urn:tag:sec.gov,2008:accession-number=0001918704-26-035847",
+      "title": "424B2 - Citigroup Global Markets Holdings Inc. (0000200245) (Filer)",
+      "updated": "2026-11-17T12:38:47-05:00"
     },
     {
-      "id": "urn:tag:sec.gov,2008:accession-number=0000950157-26-001265",
-      "title": "4 - Korsanos Antonia (0001825242) (Reporting)",
-      "updated": "2026-11-16T21:22:26-05:00"
+      "id": "urn:tag:sec.gov,2008:accession-number=0000919574-26-008168",
+      "title": "D - Uno Series SAFE, a Series of Join Odin Master LP (0002165186) (Filer)",
+      "updated": "2026-11-17T12:38:33-05:00"
     },
     {
-      "id": "urn:tag:sec.gov,2008:accession-number=0000950157-26-001265",
-      "title": "4 - Light & Wonder, Inc. (0000750004) (Issuer)",
-      "updated": "2026-11-16T21:22:26-05:00"
+      "id": "urn:tag:sec.gov,2008:accession-number=0001193125-26-465128",
+      "title": "424B2 - GS Finance Corp. (0001419828) (Filer)",
+      "updated": "2026-11-17T12:38:02-05:00"
     },
     {
-      "id": "urn:tag:sec.gov,2008:accession-number=0000950157-26-001264",
-      "title": "4 - Odell Jamie (0001824876) (Reporting)",
-      "updated": "2026-11-16T21:20:03-05:00"
+      "id": "urn:tag:sec.gov,2008:accession-number=0001193125-26-465128",
+      "title": "424B2 - GOLDMAN SACHS GROUP INC (0000886982) (Filer)",
+      "updated": "2026-11-17T12:38:02-05:00"
     },
     {
-      "id": "urn:tag:sec.gov,2008:accession-number=0000950157-26-001264",
-      "title": "4 - Light & Wonder, Inc. (0000750004) (Issuer)",
-      "updated": "2026-11-16T21:20:03-05:00"
+      "id": "urn:tag:sec.gov,2008:accession-number=0001918704-26-035846",
+      "title": "424B2 - CITIGROUP INC (0000831001) (Filer)",
+      "updated": "2026-11-17T12:37:25-05:00"
     },
     {
-      "id": "urn:tag:sec.gov,2008:accession-number=0001213900-26-121005",
-      "title": "SCHEDULE 13G/A - Alumni Capital LP (0001912606) (Filed by)",
-      "updated": "2026-11-16T21:13:03-05:00"
+      "id": "urn:tag:sec.gov,2008:accession-number=0001918704-26-035846",
+      "title": "424B2 - Citigroup Global Markets Holdings Inc. (0000200245) (Filer)",
+      "updated": "2026-11-17T12:37:25-05:00"
     },
     {
-      "id": "urn:tag:sec.gov,2008:accession-number=0001213900-26-121005",
-      "title": "SCHEDULE 13G/A - FEMASYS INC (0001339005) (Subject)",
-      "updated": "2026-11-16T21:13:03-05:00"
+      "id": "urn:tag:sec.gov,2008:accession-number=0001214659-26-014480",
+      "title": "424B2 - BANK OF MONTREAL /CAN/ (0000927971) (Filer)",
+      "updated": "2026-11-17T12:36:49-05:00"
     },
     {
-      "id": "urn:tag:sec.gov,2008:accession-number=0001213900-26-121004",
-      "title": "SCHEDULE 13G/A - Alumni Capital LP (0001912606) (Filed by)",
-      "updated": "2026-11-16T21:11:37-05:00"
+      "id": "urn:tag:sec.gov,2008:accession-number=0001918704-26-035845",
+      "title": "424B2 - CITIGROUP INC (0000831001) (Filer)",
+      "updated": "2026-11-17T12:36:47-05:00"
     },
     {
-      "id": "urn:tag:sec.gov,2008:accession-number=0001213900-26-121004",
-      "title": "SCHEDULE 13G/A - Nexalin Technology, Inc. (0001527352) (Subject)",
-      "updated": "2026-11-16T21:11:37-05:00"
+      "id": "urn:tag:sec.gov,2008:accession-number=0001918704-26-035845",
+      "title": "424B2 - Citigroup Global Markets Holdings Inc. (0000200245) (Filer)",
+      "updated": "2026-11-17T12:36:47-05:00"
     },
     {
-      "id": "urn:tag:sec.gov,2008:accession-number=0000950103-26-017583",
-      "title": "4 - Schlacks Jabbok (0002091677) (Reporting)",
-      "updated": "2026-11-16T21:11:21-05:00"
+      "id": "urn:tag:sec.gov,2008:accession-number=0001671772-26-000008",
+      "title": "4 - Lloyd Brian G. (0001671772) (Reporting)",
+      "updated": "2026-11-17T12:36:41-05:00"
     },
     {
-      "id": "urn:tag:sec.gov,2008:accession-number=0000950103-26-017583",
-      "title": "4 - EquipmentShare.com Inc (0001693736) (Issuer)",
-      "updated": "2026-11-16T21:11:21-05:00"
+      "id": "urn:tag:sec.gov,2008:accession-number=0001671772-26-000008",
+      "title": "4 - MERIT MEDICAL SYSTEMS INC (0000856982) (Issuer)",
+      "updated": "2026-11-17T12:36:41-05:00"
     },
     {
-      "id": "urn:tag:sec.gov,2008:accession-number=0001628280-26-074333",
-      "title": "4 - Freidin Aaron (0002024196) (Reporting)",
-      "updated": "2026-11-16T21:09:55-05:00"
+      "id": "urn:tag:sec.gov,2008:accession-number=0001193125-26-465124",
+      "title": "424B2 - DTE Electric Co (0000028385) (Filer)",
+      "updated": "2026-11-17T12:36:35-05:00"
     },
     {
-      "id": "urn:tag:sec.gov,2008:accession-number=0001628280-26-074333",
-      "title": "4 - GRAIL, Inc. (0001699031) (Issuer)",
-      "updated": "2026-11-16T21:09:55-05:00"
+      "id": "urn:tag:sec.gov,2008:accession-number=0001918704-26-035844",
+      "title": "424B2 - JPMorgan Chase Financial Co. LLC (0001665650) (Filer)",
+      "updated": "2026-11-17T12:35:59-05:00"
     },
     {
-      "id": "urn:tag:sec.gov,2008:accession-number=0001213900-26-121000",
-      "title": "SCHEDULE 13G/A - Alumni Capital LP (0001912606) (Filed by)",
-      "updated": "2026-11-16T21:06:10-05:00"
+      "id": "urn:tag:sec.gov,2008:accession-number=0001918704-26-035844",
+      "title": "424B2 - JPMORGAN CHASE & CO (0000019617) (Filer)",
+      "updated": "2026-11-17T12:35:59-05:00"
     },
     {
-      "id": "urn:tag:sec.gov,2008:accession-number=0001213900-26-121000",
-      "title": "SCHEDULE 13G/A - INVO Fertility, Inc. (0001417926) (Subject)",
-      "updated": "2026-11-16T21:06:10-05:00"
+      "id": "urn:tag:sec.gov,2008:accession-number=0001140361-26-044439",
+      "title": "424B2 - TORONTO DOMINION BANK (0000947263) (Filer)",
+      "updated": "2026-11-17T12:35:14-05:00"
     },
     {
-      "id": "urn:tag:sec.gov,2008:accession-number=0001140361-26-044293",
-      "title": "4 - Guiheen Lawrence P. (0001554353) (Reporting)",
-      "updated": "2026-11-16T21:05:28-05:00"
+      "id": "urn:tag:sec.gov,2008:accession-number=0001193125-26-465119",
+      "title": "DEFA14A - PUTNAM FUNDS TRUST (0001005942) (Filer)",
+      "updated": "2026-11-17T12:34:54-05:00"
     },
     {
-      "id": "urn:tag:sec.gov,2008:accession-number=0001140361-26-044293",
-      "title": "4 - ADMA BIOLOGICS, INC. (0001368514) (Issuer)",
-      "updated": "2026-11-16T21:05:28-05:00"
+      "id": "urn:tag:sec.gov,2008:accession-number=0002071741-26-000001",
+      "title": "D - Rock Solid Capital Investments LLC (0002071741) (Filer)",
+      "updated": "2026-11-17T12:34:50-05:00"
     },
     {
-      "id": "urn:tag:sec.gov,2008:accession-number=0000895345-26-000491",
-      "title": "4 - Skydance Corp (0002041610) (Issuer)",
-      "updated": "2026-11-16T21:04:59-05:00"
+      "id": "urn:tag:sec.gov,2008:accession-number=0001275218-26-000018",
+      "title": "13F-HR - ALGERT GLOBAL LLC (0001275218) (Filer)",
+      "updated": "2026-11-17T12:34:34-05:00"
     },
     {
-      "id": "urn:tag:sec.gov,2008:accession-number=0000895345-26-000491",
-      "title": "4 - Cardinale Gerald J. (0001447258) (Reporting)",
-      "updated": "2026-11-16T21:04:59-05:00"
+      "id": "urn:tag:sec.gov,2008:accession-number=0001177043-26-000007",
+      "title": "13F-NT/A - MENDON CAPITAL ADVISORS CORP (0001177043) (Filer)",
+      "updated": "2026-11-17T12:34:25-05:00"
     },
     {
-      "id": "urn:tag:sec.gov,2008:accession-number=0001140361-26-044291",
-      "title": "4 - Grossman Adam S (0001542517) (Reporting)",
-      "updated": "2026-11-16T21:01:41-05:00"
+      "id": "urn:tag:sec.gov,2008:accession-number=0000950103-26-017619",
+      "title": "424B2 - ROYAL BANK OF CANADA (0001000275) (Filer)",
+      "updated": "2026-11-17T12:33:35-05:00"
     },
     {
-      "id": "urn:tag:sec.gov,2008:accession-number=0001140361-26-044291",
-      "title": "4 - ADMA BIOLOGICS, INC. (0001368514) (Issuer)",
-      "updated": "2026-11-16T21:01:41-05:00"
+      "id": "urn:tag:sec.gov,2008:accession-number=0002165459-26-000001",
+      "title": "D - OnRails Technologies Inc. (0002165459) (Filer)",
+      "updated": "2026-11-17T12:33:00-05:00"
     },
     {
-      "id": "urn:tag:sec.gov,2008:accession-number=0001193125-26-464222",
-      "title": "4 - Gilliam Joseph E (0001705850) (Reporting)",
-      "updated": "2026-11-16T21:00:36-05:00"
+      "id": "urn:tag:sec.gov,2008:accession-number=0000945621-26-001432",
+      "title": "D - Neuberger Enhanced US Equity 150 LP (0002164675) (Filer)",
+      "updated": "2026-11-17T12:31:02-05:00"
     },
     {
-      "id": "urn:tag:sec.gov,2008:accession-number=0001193125-26-464222",
-      "title": "4 - GLAUKOS Corp (0001192448) (Issuer)",
-      "updated": "2026-11-16T21:00:36-05:00"
+      "id": "urn:tag:sec.gov,2008:accession-number=0001918704-26-035843",
+      "title": "424B2 - JPMorgan Chase Financial Co. LLC (0001665650) (Filer)",
+      "updated": "2026-11-17T12:30:34-05:00"
     },
     {
-      "id": "urn:tag:sec.gov,2008:accession-number=0001062993-26-006139",
-      "title": "SCHEDULE 13G/A - Vertical Aerospace Ltd. (0001867102) (Subject)",
-      "updated": "2026-11-16T21:00:17-05:00"
+      "id": "urn:tag:sec.gov,2008:accession-number=0001918704-26-035843",
+      "title": "424B2 - JPMORGAN CHASE & CO (0000019617) (Filer)",
+      "updated": "2026-11-17T12:30:34-05:00"
     },
     {
-      "id": "urn:tag:sec.gov,2008:accession-number=0001062993-26-006139",
-      "title": "SCHEDULE 13G/A - Saba Capital Management, L.P. (0001510281) (Filed by)",
-      "updated": "2026-11-16T21:00:17-05:00"
+      "id": "urn:tag:sec.gov,2008:accession-number=0002163771-26-000002",
+      "title": "SCHEDULE 13G - Baggett Benjamin Matthew Wall (0002163771) (Filed by)",
+      "updated": "2026-11-17T12:30:31-05:00"
     },
     {
-      "id": "urn:tag:sec.gov,2008:accession-number=0001140361-26-044289",
-      "title": "144 - Guiheen Lawrence P. (0001554353) (Reporting)",
-      "updated": "2026-11-16T21:00:07-05:00"
+      "id": "urn:tag:sec.gov,2008:accession-number=0002163771-26-000002",
+      "title": "SCHEDULE 13G - Cadrenal Therapeutics, Inc. (0001937993) (Subject)",
+      "updated": "2026-11-17T12:30:31-05:00"
     },
     {
-      "id": "urn:tag:sec.gov,2008:accession-number=0001140361-26-044289",
-      "title": "144 - ADMA BIOLOGICS, INC. (0001368514) (Subject)",
-      "updated": "2026-11-16T21:00:07-05:00"
+      "id": "urn:tag:sec.gov,2008:accession-number=0001076809-26-000176",
+      "title": "SCHEDULE 13G - Hennessy Capital Investment Corp. VIII (0002099093) (Subject)",
+      "updated": "2026-11-17T12:30:10-05:00"
     },
     {
-      "id": "urn:tag:sec.gov,2008:accession-number=0001193125-26-464221",
-      "title": "4 - Enovis CORP (0001420800) (Issuer)",
-      "updated": "2026-11-16T21:00:04-05:00"
+      "id": "urn:tag:sec.gov,2008:accession-number=0001076809-26-000176",
+      "title": "SCHEDULE 13G - GLAZER CAPITAL, LLC (0001076809) (Filed by)",
+      "updated": "2026-11-17T12:30:10-05:00"
     },
     {
-      "id": "urn:tag:sec.gov,2008:accession-number=0001193125-26-464221",
-      "title": "4 - Lalor Angela S (0001348355) (Reporting)",
-      "updated": "2026-11-16T21:00:04-05:00"
+      "id": "urn:tag:sec.gov,2008:accession-number=0001918704-26-035842",
+      "title": "424B2 - BARCLAYS BANK PLC (0000312070) (Filer)",
+      "updated": "2026-11-17T12:29:49-05:00"
     },
     {
-      "id": "urn:tag:sec.gov,2008:accession-number=0001493152-26-052668",
-      "title": "SCHEDULE 13G/A - Relay Therapeutics, Inc. (0001812364) (Subject)",
-      "updated": "2026-11-16T21:00:00-05:00"
+      "id": "urn:tag:sec.gov,2008:accession-number=0000726865-26-001103",
+      "title": "10-K/A - LINCOLN NATIONAL LIFE INSURANCE CO /IN/ (0000726865) (Filer)",
+      "updated": "2026-11-17T12:29:07-05:00"
     },
     {
-      "id": "urn:tag:sec.gov,2008:accession-number=0001493152-26-052668",
-      "title": "SCHEDULE 13G/A - SB INVESTMENT ADVISERS (UK) LTD (0001731509) (Filed by)",
-      "updated": "2026-11-16T21:00:00-05:00"
+      "id": "urn:tag:sec.gov,2008:accession-number=0001539497-26-003017",
+      "title": "FWP - BANK5 2026-5YR25 (0002159643) (Subject)",
+      "updated": "2026-11-17T12:28:57-05:00"
     },
     {
-      "id": "urn:tag:sec.gov,2008:accession-number=0001778253-26-000015",
-      "title": "SCHEDULE 13G - Ikarian Capital, LLC (0001778253) (Filed by)",
-      "updated": "2026-11-16T20:58:16-05:00"
+      "id": "urn:tag:sec.gov,2008:accession-number=0001539497-26-003017",
+      "title": "FWP - JP MORGAN CHASE COMMERCIAL MORTGAGE SECURITIES CORP (0001013611) (Filed by)",
+      "updated": "2026-11-17T12:28:57-05:00"
     },
     {
-      "id": "urn:tag:sec.gov,2008:accession-number=0001778253-26-000015",
-      "title": "SCHEDULE 13G - PALATIN TECHNOLOGIES INC (0000911216) (Subject)",
-      "updated": "2026-11-16T20:58:16-05:00"
+      "id": "urn:tag:sec.gov,2008:accession-number=0002152109-26-000006",
+      "title": "ABS-EE - Ford Credit Auto Owner Trust 2026-C (0002152109) (Filer)",
+      "updated": "2026-11-17T12:28:26-05:00"
     },
     {
-      "id": "urn:tag:sec.gov,2008:accession-number=0001193125-26-464219",
-      "title": "SCHEDULE 13G/A - BERKSHIRE HATHAWAY INC (0001067983) (Filed by)",
-      "updated": "2026-11-16T20:57:17-05:00"
+      "id": "urn:tag:sec.gov,2008:accession-number=0000950103-26-017618",
+      "title": "424B2 - BARCLAYS BANK PLC (0000312070) (Filer)",
+      "updated": "2026-11-17T12:28:26-05:00"
     },
     {
-      "id": "urn:tag:sec.gov,2008:accession-number=0001193125-26-464219",
-      "title": "SCHEDULE 13G/A - VERISIGN INC/CA (0001014473) (Subject)",
-      "updated": "2026-11-16T20:57:17-05:00"
+      "id": "urn:tag:sec.gov,2008:accession-number=0001316944-26-000189",
+      "title": "8-K - Federal Home Loan Bank of San Francisco (0001316944) (Filer)",
+      "updated": "2026-11-17T12:27:11-05:00"
     },
     {
-      "id": "urn:tag:sec.gov,2008:accession-number=0001193125-26-464218",
-      "title": "SCHEDULE 13G - Bending Spoons S.p.A. (0002004711) (Subject)",
-      "updated": "2026-11-16T20:57:12-05:00"
+      "id": "urn:tag:sec.gov,2008:accession-number=0001193125-26-465099",
+      "title": "424B2 - GS Finance Corp. (0001419828) (Filer)",
+      "updated": "2026-11-17T12:26:40-05:00"
     },
     {
-      "id": "urn:tag:sec.gov,2008:accession-number=0001193125-26-464218",
-      "title": "SCHEDULE 13G - BERKSHIRE HATHAWAY INC (0001067983) (Filed by)",
-      "updated": "2026-11-16T20:57:12-05:00"
+      "id": "urn:tag:sec.gov,2008:accession-number=0001193125-26-465099",
+      "title": "424B2 - GOLDMAN SACHS GROUP INC (0000886982) (Filer)",
+      "updated": "2026-11-17T12:26:40-05:00"
     }
   ],
   "feed_entries": 100,
   "limitations": "SEC current filings Atom feed only; not every filing, press release, patent, permit or market event. Polling can be delayed.",
   "new_entries": 100,
   "seen_ids": [
-    "urn:tag:sec.gov,2008:accession-number=0001104659-26-128741",
-    "urn:tag:sec.gov,2008:accession-number=0001104659-26-128739",
-    "urn:tag:sec.gov,2008:accession-number=0001193125-26-464325",
-    "urn:tag:sec.gov,2008:accession-number=0001104659-26-128738",
-    "urn:tag:sec.gov,2008:accession-number=0001104659-26-128737",
-    "urn:tag:sec.gov,2008:accession-number=0001104659-26-128736",
-    "urn:tag:sec.gov,2008:accession-number=0001104659-26-128735",
-    "urn:tag:sec.gov,2008:accession-number=0001104659-26-128734",
-    "urn:tag:sec.gov,2008:accession-number=0001753926-26-002162",
-    "urn:tag:sec.gov,2008:accession-number=0001990865-26-000018",
-    "urn:tag:sec.gov,2008:accession-number=0001855612-26-000157",
-    "urn:tag:sec.gov,2008:accession-number=0001104659-26-128733",
-    "urn:tag:sec.gov,2008:accession-number=0001753926-26-002161",
-    "urn:tag:sec.gov,2008:accession-number=0001753926-26-002160",
-    "urn:tag:sec.gov,2008:accession-number=0001213900-26-121037",
-    "urn:tag:sec.gov,2008:accession-number=0001213900-26-121036",
-    "urn:tag:sec.gov,2008:accession-number=0001213900-26-121035",
-    "urn:tag:sec.gov,2008:accession-number=0001213900-26-121034",
-    "urn:tag:sec.gov,2008:accession-number=0001213900-26-121033",
-    "urn:tag:sec.gov,2008:accession-number=0001104659-26-128729",
-    "urn:tag:sec.gov,2008:accession-number=0001213900-26-121032",
-    "urn:tag:sec.gov,2008:accession-number=0001104659-26-128728",
-    "urn:tag:sec.gov,2008:accession-number=0001104659-26-128727",
-    "urn:tag:sec.gov,2008:accession-number=0001104659-26-128726",
-    "urn:tag:sec.gov,2008:accession-number=0001104659-26-128725",
-    "urn:tag:sec.gov,2008:accession-number=0001754937-26-000002",
-    "urn:tag:sec.gov,2008:accession-number=0001104659-26-128724",
-    "urn:tag:sec.gov,2008:accession-number=0001104659-26-128723",
-    "urn:tag:sec.gov,2008:accession-number=0001104659-26-128721",
-    "urn:tag:sec.gov,2008:accession-number=0001552781-26-000562",
-    "urn:tag:sec.gov,2008:accession-number=0001193125-26-464271",
-    "urn:tag:sec.gov,2008:accession-number=0000950157-26-001265",
-    "urn:tag:sec.gov,2008:accession-number=0000950157-26-001264",
-    "urn:tag:sec.gov,2008:accession-number=0001213900-26-121005",
-    "urn:tag:sec.gov,2008:accession-number=0001213900-26-121004",
-    "urn:tag:sec.gov,2008:accession-number=0000950103-26-017583",
-    "urn:tag:sec.gov,2008:accession-number=0001628280-26-074333",
-    "urn:tag:sec.gov,2008:accession-number=0001213900-26-121000",
-    "urn:tag:sec.gov,2008:accession-number=0001140361-26-044293",
-    "urn:tag:sec.gov,2008:accession-number=0000895345-26-000491",
-    "urn:tag:sec.gov,2008:accession-number=0001140361-26-044291",
-    "urn:tag:sec.gov,2008:accession-number=0001193125-26-464222",
-    "urn:tag:sec.gov,2008:accession-number=0001062993-26-006139",
-    "urn:tag:sec.gov,2008:accession-number=0001140361-26-044289",
-    "urn:tag:sec.gov,2008:accession-number=0001193125-26-464221",
-    "urn:tag:sec.gov,2008:accession-number=0001493152-26-052668",
-    "urn:tag:sec.gov,2008:accession-number=0001778253-26-000015",
-    "urn:tag:sec.gov,2008:accession-number=0001193125-26-464219",
-    "urn:tag:sec.gov,2008:accession-number=0001193125-26-464218",
-    "urn:tag:sec.gov,2008:accession-number=0000929638-26-004369",
-    "urn:tag:sec.gov,2008:accession-number=0001193125-26-464154",
-    "urn:tag:sec.gov,2008:accession-number=0001193125-26-464152",
-    "urn:tag:sec.gov,2008:accession-number=0001214659-26-014177",
-    "urn:tag:sec.gov,2008:accession-number=0001193805-26-001471",
-    "urn:tag:sec.gov,2008:accession-number=0001193125-26-464153",
-    "urn:tag:sec.gov,2008:accession-number=0000950103-26-017580",
-    "urn:tag:sec.gov,2008:accession-number=0002049662-26-000017",
-    "urn:tag:sec.gov,2008:accession-number=0001213900-26-120034",
-    "urn:tag:sec.gov,2008:accession-number=0001723433-26-000042",
-    "urn:tag:sec.gov,2008:accession-number=0002049662-26-000016",
-    "urn:tag:sec.gov,2008:accession-number=0001214659-26-014179",
-    "urn:tag:sec.gov,2008:accession-number=0001104659-26-127408",
-    "urn:tag:sec.gov,2008:accession-number=0001213900-26-120032",
-    "urn:tag:sec.gov,2008:accession-number=0000905148-26-004998",
-    "urn:tag:sec.gov,2008:accession-number=0000905148-26-004807",
-    "urn:tag:sec.gov,2008:accession-number=0000905148-26-005003",
-    "urn:tag:sec.gov,2008:accession-number=0001193805-26-001475",
-    "urn:tag:sec.gov,2008:accession-number=0000905148-26-004995",
-    "urn:tag:sec.gov,2008:accession-number=0001104659-26-127409",
-    "urn:tag:sec.gov,2008:accession-number=0001683168-26-008883",
-    "urn:tag:sec.gov,2008:accession-number=0001213900-26-120051",
-    "urn:tag:sec.gov,2008:accession-number=0001193125-26-464102",
-    "urn:tag:sec.gov,2008:accession-number=0001193125-26-464151",
-    "urn:tag:sec.gov,2008:accession-number=0001539497-26-002987",
-    "urn:tag:sec.gov,2008:accession-number=0001708055-26-000096",
-    "urn:tag:sec.gov,2008:accession-number=0000905148-26-005001",
-    "urn:tag:sec.gov,2008:accession-number=0001564606-26-000019",
-    "urn:tag:sec.gov,2008:accession-number=0000919574-26-008164",
-    "urn:tag:sec.gov,2008:accession-number=0001708055-26-000099",
-    "urn:tag:sec.gov,2008:accession-number=0001193125-26-461393",
+    "urn:tag:sec.gov,2008:accession-number=0001918704-26-035867",
+    "urn:tag:sec.gov,2008:accession-number=0001918704-26-035866",
+    "urn:tag:sec.gov,2008:accession-number=0001839882-26-056886",
+    "urn:tag:sec.gov,2008:accession-number=0001918704-26-035865",
+    "urn:tag:sec.gov,2008:accession-number=0001918704-26-035864",
+    "urn:tag:sec.gov,2008:accession-number=0001839882-26-056885",
+    "urn:tag:sec.gov,2008:accession-number=0001918704-26-035863",
+    "urn:tag:sec.gov,2008:accession-number=0002155245-26-000001",
+    "urn:tag:sec.gov,2008:accession-number=0001918704-26-035862",
+    "urn:tag:sec.gov,2008:accession-number=0001918704-26-035861",
+    "urn:tag:sec.gov,2008:accession-number=0001839882-26-056884",
+    "urn:tag:sec.gov,2008:accession-number=0002165446-26-000001",
+    "urn:tag:sec.gov,2008:accession-number=0001918704-26-035860",
+    "urn:tag:sec.gov,2008:accession-number=0001918704-26-035859",
+    "urn:tag:sec.gov,2008:accession-number=0001918704-26-035858",
+    "urn:tag:sec.gov,2008:accession-number=0000776867-26-000053",
+    "urn:tag:sec.gov,2008:accession-number=0001918704-26-035857",
+    "urn:tag:sec.gov,2008:accession-number=0001918704-26-035856",
+    "urn:tag:sec.gov,2008:accession-number=0001918704-26-035855",
+    "urn:tag:sec.gov,2008:accession-number=0001143313-26-000057",
+    "urn:tag:sec.gov,2008:accession-number=0001193125-26-465139",
+    "urn:tag:sec.gov,2008:accession-number=0000752642-26-000137",
+    "urn:tag:sec.gov,2008:accession-number=0001918704-26-035854",
+    "urn:tag:sec.gov,2008:accession-number=0001918704-26-035853",
+    "urn:tag:sec.gov,2008:accession-number=0001493152-26-052758",
+    "urn:tag:sec.gov,2008:accession-number=0001493152-26-052759",
+    "urn:tag:sec.gov,2008:accession-number=0001918704-26-035852",
+    "urn:tag:sec.gov,2008:accession-number=0002150786-26-000002",
+    "urn:tag:sec.gov,2008:accession-number=0000752642-26-000136",
+    "urn:tag:sec.gov,2008:accession-number=0001683168-26-008903",
+    "urn:tag:sec.gov,2008:accession-number=0001325814-26-000181",
+    "urn:tag:sec.gov,2008:accession-number=0001918704-26-035851",
+    "urn:tag:sec.gov,2008:accession-number=0001918704-26-035850",
+    "urn:tag:sec.gov,2008:accession-number=0001918704-26-035849",
+    "urn:tag:sec.gov,2008:accession-number=0001193125-26-465134",
+    "urn:tag:sec.gov,2008:accession-number=0001839882-26-056883",
+    "urn:tag:sec.gov,2008:accession-number=0001918704-26-035848",
+    "urn:tag:sec.gov,2008:accession-number=0001193125-26-465130",
+    "urn:tag:sec.gov,2008:accession-number=0001918704-26-035847",
+    "urn:tag:sec.gov,2008:accession-number=0000919574-26-008168",
+    "urn:tag:sec.gov,2008:accession-number=0001193125-26-465128",
+    "urn:tag:sec.gov,2008:accession-number=0001918704-26-035846",
+    "urn:tag:sec.gov,2008:accession-number=0001214659-26-014480",
+    "urn:tag:sec.gov,2008:accession-number=0001918704-26-035845",
+    "urn:tag:sec.gov,2008:accession-number=0001671772-26-000008",
+    "urn:tag:sec.gov,2008:accession-number=0001193125-26-465124",
+    "urn:tag:sec.gov,2008:accession-number=0001918704-26-035844",
+    "urn:tag:sec.gov,2008:accession-number=0001140361-26-044439",
+    "urn:tag:sec.gov,2008:accession-number=0001193125-26-465119",
+    "urn:tag:sec.gov,2008:accession-number=0002071741-26-000001",
+    "urn:tag:sec.gov,2008:accession-number=0001275218-26-000018",
+    "urn:tag:sec.gov,2008:accession-number=0001177043-26-000007",
+    "urn:tag:sec.gov,2008:accession-number=0000950103-26-017619",
+    "urn:tag:sec.gov,2008:accession-number=0002165459-26-000001",
+    "urn:tag:sec.gov,2008:accession-number=0000945621-26-001432",
+    "urn:tag:sec.gov,2008:accession-number=0001918704-26-035843",
+    "urn:tag:sec.gov,2008:accession-number=0002163771-26-000002",
+    "urn:tag:sec.gov,2008:accession-number=0001076809-26-000176",
+    "urn:tag:sec.gov,2008:accession-number=0001918704-26-035842",
+    "urn:tag:sec.gov,2008:accession-number=0000726865-26-001103",
+    "urn:tag:sec.gov,2008:accession-number=0001539497-26-003017",
+    "urn:tag:sec.gov,2008:accession-number=0002152109-26-000006",
+    "urn:tag:sec.gov,2008:accession-number=0000950103-26-017618",
+    "urn:tag:sec.gov,2008:accession-number=0001316944-26-000189",
+    "urn:tag:sec.gov,2008:accession-number=0001193125-26-465099",
     "urn:tag:sec.gov,2008:accession-number=0000905148-26-005002",
-    "urn:tag:sec.gov,2008:accession-number=0001104659-26-127412",
-    "urn:tag:sec.gov,2008:accession-number=0001493152-26-051904",
-    "urn:tag:sec.gov,2008:accession-number=0001493152-26-051920",
-    "urn:tag:sec.gov,2008:accession-number=0001958244-26-000724",
-    "urn:tag:sec.gov,2008:accession-number=0001213900-26-120036",
-    "urn:tag:sec.gov,2008:accession-number=0000950142-26-003080",
-    "urn:tag:sec.gov,2008:accession-number=0001104659-26-127426",
-    "urn:tag:sec.gov,2008:accession-number=0001493152-26-051918",
-    "urn:tag:sec.gov,2008:accession-number=0001493152-26-051919",
-    "urn:tag:sec.gov,2008:accession-number=0001569769-26-000008",
-    "urn:tag:sec.gov,2008:accession-number=0001214659-26-014178",
-    "urn:tag:sec.gov,2008:accession-number=0001510281-26-000436",
-    "urn:tag:sec.gov,2008:accession-number=0001193125-26-461396",
-    "urn:tag:sec.gov,2008:accession-number=0000905148-26-004999",
-    "urn:tag:sec.gov,2008:accession-number=0001753926-26-002139",
-    "urn:tag:sec.gov,2008:accession-number=0000919574-26-008166",
-    "urn:tag:sec.gov,2008:accession-number=0000905148-26-004805",
-    "urn:tag:sec.gov,2008:accession-number=0001193125-26-464139",
-    "urn:tag:sec.gov,2008:accession-number=0001104659-26-127420",
-    "urn:tag:sec.gov,2008:accession-number=0001539497-26-002986",
-    "urn:tag:sec.gov,2008:accession-number=0000905148-26-004993",
-    "urn:tag:sec.gov,2008:accession-number=0002147247-26-000006",
-    "urn:tag:sec.gov,2008:accession-number=0001708055-26-000098",
+    "urn:tag:sec.gov,2008:accession-number=0001193805-26-001472",
+    "urn:tag:sec.gov,2008:accession-number=0001104659-26-128721",
+    "urn:tag:sec.gov,2008:accession-number=0000905148-26-004998",
+    "urn:tag:sec.gov,2008:accession-number=0001193125-26-464271",
     "urn:tag:sec.gov,2008:accession-number=0001213900-26-120038",
     "urn:tag:sec.gov,2008:accession-number=0001493152-26-052654",
-    "urn:tag:sec.gov,2008:accession-number=0001104659-26-127419",
-    "urn:tag:sec.gov,2008:accession-number=0002049662-26-000018",
-    "urn:tag:sec.gov,2008:accession-number=0001426012-26-000007",
-    "urn:tag:sec.gov,2008:accession-number=0000905148-26-004994",
-    "urn:tag:sec.gov,2008:accession-number=0001683168-26-008882",
-    "urn:tag:sec.gov,2008:accession-number=0000905148-26-004996",
-    "urn:tag:sec.gov,2008:accession-number=0001193125-26-464150",
-    "urn:tag:sec.gov,2008:accession-number=0001708055-26-000097",
+    "urn:tag:sec.gov,2008:accession-number=0001104659-26-127412",
+    "urn:tag:sec.gov,2008:accession-number=0001569769-26-000008",
+    "urn:tag:sec.gov,2008:accession-number=0001140361-26-044293",
+    "urn:tag:sec.gov,2008:accession-number=0001193125-26-461416",
+    "urn:tag:sec.gov,2008:accession-number=0002147247-26-000006",
+    "urn:tag:sec.gov,2008:accession-number=0001104659-26-128735",
+    "urn:tag:sec.gov,2008:accession-number=0001539497-26-002986",
     "urn:tag:sec.gov,2008:accession-number=0001193125-26-461389",
-    "urn:tag:sec.gov,2008:accession-number=0001213900-26-120039",
-    "urn:tag:sec.gov,2008:accession-number=0001213900-26-120043",
-    "urn:tag:sec.gov,2008:accession-number=0000905148-26-004997",
-    "urn:tag:sec.gov,2008:accession-number=0001140361-26-043900",
-    "urn:tag:sec.gov,2008:accession-number=0001104659-26-127421",
-    "urn:tag:sec.gov,2008:accession-number=0001213900-26-120035",
-    "urn:tag:sec.gov,2008:accession-number=0001213900-26-120033",
-    "urn:tag:sec.gov,2008:accession-number=0001213900-26-120037",
-    "urn:tag:sec.gov,2008:accession-number=0001104659-26-127416",
-    "urn:tag:sec.gov,2008:accession-number=0000905148-26-004992",
-    "urn:tag:sec.gov,2008:accession-number=0001193805-26-001470",
-    "urn:tag:sec.gov,2008:accession-number=0001193125-26-464126",
-    "urn:tag:sec.gov,2008:accession-number=0001193125-26-461395",
-    "urn:tag:sec.gov,2008:accession-number=0000905148-26-005000",
+    "urn:tag:sec.gov,2008:accession-number=0001539497-26-002987",
+    "urn:tag:sec.gov,2008:accession-number=0002052363-26-000066",
+    "urn:tag:sec.gov,2008:accession-number=0001213900-26-121036",
+    "urn:tag:sec.gov,2008:accession-number=0001683168-26-008883",
+    "urn:tag:sec.gov,2008:accession-number=0001708055-26-000098",
     "urn:tag:sec.gov,2008:accession-number=0001020569-26-000086",
-    "urn:tag:sec.gov,2008:accession-number=0001193125-26-464166",
+    "urn:tag:sec.gov,2008:accession-number=0000950157-26-001265",
+    "urn:tag:sec.gov,2008:accession-number=0001213900-26-120039",
+    "urn:tag:sec.gov,2008:accession-number=0001214659-26-014177",
+    "urn:tag:sec.gov,2008:accession-number=0000905148-26-004807",
+    "urn:tag:sec.gov,2008:accession-number=0001193125-26-464126",
     "urn:tag:sec.gov,2008:accession-number=0001193125-26-464136",
     "urn:tag:sec.gov,2008:accession-number=0001193805-26-001476",
-    "urn:tag:sec.gov,2008:accession-number=0002052363-26-000066",
-    "urn:tag:sec.gov,2008:accession-number=0001193125-26-461416",
-    "urn:tag:sec.gov,2008:accession-number=0000354190-26-000225",
-    "urn:tag:sec.gov,2008:accession-number=0000950103-26-017513",
-    "urn:tag:sec.gov,2008:accession-number=0002049662-26-000015",
-    "urn:tag:sec.gov,2008:accession-number=0001958244-26-000725",
-    "urn:tag:sec.gov,2008:accession-number=0001493152-26-051917",
+    "urn:tag:sec.gov,2008:accession-number=0001104659-26-127426",
+    "urn:tag:sec.gov,2008:accession-number=0001708055-26-000096",
+    "urn:tag:sec.gov,2008:accession-number=0002049662-26-000018",
+    "urn:tag:sec.gov,2008:accession-number=0001754937-26-000002",
+    "urn:tag:sec.gov,2008:accession-number=0001213900-26-121004",
+    "urn:tag:sec.gov,2008:accession-number=0001213900-26-120036",
+    "urn:tag:sec.gov,2008:accession-number=0001753926-26-002162",
+    "urn:tag:sec.gov,2008:accession-number=0001213900-26-121035",
+    "urn:tag:sec.gov,2008:accession-number=0000919574-26-008164",
+    "urn:tag:sec.gov,2008:accession-number=0001140361-26-044289",
+    "urn:tag:sec.gov,2008:accession-number=0001104659-26-127408",
+    "urn:tag:sec.gov,2008:accession-number=0001708055-26-000099",
+    "urn:tag:sec.gov,2008:accession-number=0001990865-26-000018",
+    "urn:tag:sec.gov,2008:accession-number=0000905148-26-004994",
+    "urn:tag:sec.gov,2008:accession-number=0001062993-26-006139",
+    "urn:tag:sec.gov,2008:accession-number=0001104659-26-128727",
+    "urn:tag:sec.gov,2008:accession-number=0001193125-26-464222",
+    "urn:tag:sec.gov,2008:accession-number=0000905148-26-005000",
+    "urn:tag:sec.gov,2008:accession-number=0000905148-26-004997",
+    "urn:tag:sec.gov,2008:accession-number=0001104659-26-128723",
+    "urn:tag:sec.gov,2008:accession-number=0001213900-26-120035",
+    "urn:tag:sec.gov,2008:accession-number=0000905148-26-004805",
+    "urn:tag:sec.gov,2008:accession-number=0001213900-26-121005",
+    "urn:tag:sec.gov,2008:accession-number=0001104659-26-127419",
+    "urn:tag:sec.gov,2008:accession-number=0001104659-26-127421",
+    "urn:tag:sec.gov,2008:accession-number=0001193125-26-464218",
+    "urn:tag:sec.gov,2008:accession-number=0001193125-26-461396",
+    "urn:tag:sec.gov,2008:accession-number=0001213900-26-120051",
+    "urn:tag:sec.gov,2008:accession-number=0001193125-26-464102",
+    "urn:tag:sec.gov,2008:accession-number=0001193125-26-464166",
+    "urn:tag:sec.gov,2008:accession-number=0001104659-26-128733",
+    "urn:tag:sec.gov,2008:accession-number=0001628280-26-074333",
+    "urn:tag:sec.gov,2008:accession-number=0001104659-26-128738",
+    "urn:tag:sec.gov,2008:accession-number=0001193125-26-461393",
     "urn:tag:sec.gov,2008:accession-number=0000912282-26-001509",
-    "urn:tag:sec.gov,2008:accession-number=0001193805-26-001472"
+    "urn:tag:sec.gov,2008:accession-number=0000929638-26-004369",
+    "urn:tag:sec.gov,2008:accession-number=0000950103-26-017583",
+    "urn:tag:sec.gov,2008:accession-number=0001493152-26-051919",
+    "urn:tag:sec.gov,2008:accession-number=0001104659-26-127409",
+    "urn:tag:sec.gov,2008:accession-number=0001493152-26-052668",
+    "urn:tag:sec.gov,2008:accession-number=0001104659-26-128734",
+    "urn:tag:sec.gov,2008:accession-number=0001683168-26-008882",
+    "urn:tag:sec.gov,2008:accession-number=0001214659-26-014178",
+    "urn:tag:sec.gov,2008:accession-number=0001104659-26-128724",
+    "urn:tag:sec.gov,2008:accession-number=0001193125-26-464219",
+    "urn:tag:sec.gov,2008:accession-number=0001958244-26-000725",
+    "urn:tag:sec.gov,2008:accession-number=0001213900-26-120034",
+    "urn:tag:sec.gov,2008:accession-number=0001753926-26-002160",
+    "urn:tag:sec.gov,2008:accession-number=0000895345-26-000491",
+    "urn:tag:sec.gov,2008:accession-number=0001104659-26-127420",
+    "urn:tag:sec.gov,2008:accession-number=0001213900-26-120032",
+    "urn:tag:sec.gov,2008:accession-number=0001193125-26-464154",
+    "urn:tag:sec.gov,2008:accession-number=0001193805-26-001475",
+    "urn:tag:sec.gov,2008:accession-number=0000905148-26-004999",
+    "urn:tag:sec.gov,2008:accession-number=0001753926-26-002161",
+    "urn:tag:sec.gov,2008:accession-number=0000919574-26-008166",
+    "urn:tag:sec.gov,2008:accession-number=0001193125-26-464139",
+    "urn:tag:sec.gov,2008:accession-number=0001193125-26-464153",
+    "urn:tag:sec.gov,2008:accession-number=0000905148-26-004993",
+    "urn:tag:sec.gov,2008:accession-number=0001104659-26-128726",
+    "urn:tag:sec.gov,2008:accession-number=0001104659-26-127416",
+    "urn:tag:sec.gov,2008:accession-number=0001104659-26-128725",
+    "urn:tag:sec.gov,2008:accession-number=0001753926-26-002139",
+    "urn:tag:sec.gov,2008:accession-number=0000905148-26-004995",
+    "urn:tag:sec.gov,2008:accession-number=0000905148-26-005003",
+    "urn:tag:sec.gov,2008:accession-number=0001193125-26-464152",
+    "urn:tag:sec.gov,2008:accession-number=0001958244-26-000724",
+    "urn:tag:sec.gov,2008:accession-number=0001493152-26-051904",
+    "urn:tag:sec.gov,2008:accession-number=0001193125-26-464150",
+    "urn:tag:sec.gov,2008:accession-number=0001193125-26-464221",
+    "urn:tag:sec.gov,2008:accession-number=0002049662-26-000017",
+    "urn:tag:sec.gov,2008:accession-number=0000905148-26-005001",
+    "urn:tag:sec.gov,2008:accession-number=0001193125-26-464325",
+    "urn:tag:sec.gov,2008:accession-number=0001564606-26-000019",
+    "urn:tag:sec.gov,2008:accession-number=0001493152-26-051920",
+    "urn:tag:sec.gov,2008:accession-number=0001104659-26-128729",
+    "urn:tag:sec.gov,2008:accession-number=0001426012-26-000007",
+    "urn:tag:sec.gov,2008:accession-number=0000950103-26-017580",
+    "urn:tag:sec.gov,2008:accession-number=0001510281-26-000436",
+    "urn:tag:sec.gov,2008:accession-number=0001213900-26-120043",
+    "urn:tag:sec.gov,2008:accession-number=0001104659-26-128741",
+    "urn:tag:sec.gov,2008:accession-number=0001104659-26-128736",
+    "urn:tag:sec.gov,2008:accession-number=0000905148-26-004996",
+    "urn:tag:sec.gov,2008:accession-number=0001193125-26-464151",
+    "urn:tag:sec.gov,2008:accession-number=0002049662-26-000015",
+    "urn:tag:sec.gov,2008:accession-number=0001493152-26-051918",
+    "urn:tag:sec.gov,2008:accession-number=0001214659-26-014179",
+    "urn:tag:sec.gov,2008:accession-number=0001493152-26-051917",
+    "urn:tag:sec.gov,2008:accession-number=0001213900-26-121000",
+    "urn:tag:sec.gov,2008:accession-number=0001213900-26-120033",
+    "urn:tag:sec.gov,2008:accession-number=0001140361-26-043900",
+    "urn:tag:sec.gov,2008:accession-number=0000905148-26-004992",
+    "urn:tag:sec.gov,2008:accession-number=0001213900-26-121034",
+    "urn:tag:sec.gov,2008:accession-number=0001708055-26-000097",
+    "urn:tag:sec.gov,2008:accession-number=0001213900-26-121032",
+    "urn:tag:sec.gov,2008:accession-number=0002049662-26-000016",
+    "urn:tag:sec.gov,2008:accession-number=0000950103-26-017513",
+    "urn:tag:sec.gov,2008:accession-number=0001193805-26-001470",
+    "urn:tag:sec.gov,2008:accession-number=0000950157-26-001264",
+    "urn:tag:sec.gov,2008:accession-number=0001855612-26-000157",
+    "urn:tag:sec.gov,2008:accession-number=0001778253-26-000015",
+    "urn:tag:sec.gov,2008:accession-number=0001104659-26-128737",
+    "urn:tag:sec.gov,2008:accession-number=0001723433-26-000042",
+    "urn:tag:sec.gov,2008:accession-number=0000354190-26-000225",
+    "urn:tag:sec.gov,2008:accession-number=0001140361-26-044291",
+    "urn:tag:sec.gov,2008:accession-number=0001193125-26-461395",
+    "urn:tag:sec.gov,2008:accession-number=0001213900-26-121037",
+    "urn:tag:sec.gov,2008:accession-number=0001193805-26-001471",
+    "urn:tag:sec.gov,2008:accession-number=0000950142-26-003080",
+    "urn:tag:sec.gov,2008:accession-number=0001213900-26-121033",
+    "urn:tag:sec.gov,2008:accession-number=0001213900-26-120037",
+    "urn:tag:sec.gov,2008:accession-number=0001552781-26-000562",
+    "urn:tag:sec.gov,2008:accession-number=0001104659-26-128728",
+    "urn:tag:sec.gov,2008:accession-number=0001104659-26-128739"
   ],
   "status": "POLL_SUCCESS_PARTIAL_FEED"
 }
