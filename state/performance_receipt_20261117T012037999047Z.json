@@ -1,0 +1,180 @@
+{
+  "caveat": "Shadow hypotheses use indicative prior closes, not executable fills. Small samples are not proof of predictive edge.",
+  "cohorts": {
+    "2026-11-15": {
+      "dual_benchmark_scored": 0,
+      "fraction_beating_both": null,
+      "fraction_beating_spy": null,
+      "frozen": 4,
+      "mean_excess_return_vs_spy": null,
+      "mean_excess_return_vs_voo": null,
+      "mean_net_return": null,
+      "pending": 4,
+      "scored": 0
+    },
+    "2026-11-17": {
+      "dual_benchmark_scored": 0,
+      "fraction_beating_both": null,
+      "fraction_beating_spy": null,
+      "frozen": 15,
+      "mean_excess_return_vs_spy": null,
+      "mean_excess_return_vs_voo": null,
+      "mean_net_return": null,
+      "pending": 15,
+      "scored": 0
+    }
+  },
+  "dual_benchmark_scored": 0,
+  "forecasts": [
+    {
+      "frozen_at": "2026-11-15T15:07:18.358783Z",
+      "id": "8b0c74ed3a745a6da193a8fb",
+      "scored": false,
+      "sha256": "8b0c74ed3a745a6da193a8fbed3d58804b4a6a7574b6d6c3a971779385938503",
+      "symbol": "FCUV"
+    },
+    {
+      "frozen_at": "2026-11-15T15:07:18.358783Z",
+      "id": "cb7fbe5c3dfbc92861d8742f",
+      "scored": false,
+      "sha256": "cb7fbe5c3dfbc92861d8742f06c3ddcb0217f0b1cf1aab993a3839a58914afe2",
+      "symbol": "HWMV"
+    },
+    {
+      "frozen_at": "2026-11-15T15:07:18.358783Z",
+      "id": "d6e5cd4ed582dd1db4a9290d",
+      "scored": false,
+      "sha256": "d6e5cd4ed582dd1db4a9290da003e8f7266195f719b29248d092cba99a26c7bf",
+      "symbol": "QIS"
+    },
+    {
+      "frozen_at": "2026-11-15T15:07:18.358783Z",
+      "id": "d84d083a481af8af3371d5a1",
+      "scored": false,
+      "sha256": "d84d083a481af8af3371d5a129b177e8d8d4c6e46f82e63ec7d2db6daea95f90",
+      "symbol": "ONFO"
+    },
+    {
+      "frozen_at": "2026-11-17T01:20:37.392552Z",
+      "id": "033c3f8a57c58b29297076ba",
+      "scored": false,
+      "sha256": "033c3f8a57c58b29297076ba077477f8117dee1afcf548430d87aac05af4405e",
+      "symbol": "HIHO"
+    },
+    {
+      "frozen_at": "2026-11-17T01:20:37.392552Z",
+      "id": "0f1cfc2205ad59f323d0e855",
+      "scored": false,
+      "sha256": "0f1cfc2205ad59f323d0e8552388f057349c2932c3bfb2a2e6b3e389038c27c1",
+      "symbol": "CYAB"
+    },
+    {
+      "frozen_at": "2026-11-17T01:20:37.392552Z",
+      "id": "31133c0478ba514207911aed",
+      "scored": false,
+      "sha256": "31133c0478ba514207911aed8c67c8b8ef395dd0305a7c152b62ec9d71bfba4e",
+      "symbol": "ASMF"
+    },
+    {
+      "frozen_at": "2026-11-17T01:20:37.392552Z",
+      "id": "3be73444cb839c18304b63ef",
+      "scored": false,
+      "sha256": "3be73444cb839c18304b63efb12eda947b97c4370dc7667fa65baaef1651c13c",
+      "symbol": "AMST"
+    },
+    {
+      "frozen_at": "2026-11-17T01:20:37.392552Z",
+      "id": "3ff0178a069125d399329461",
+      "scored": false,
+      "sha256": "3ff0178a069125d399329461efb1a969b564c1f95f0e7d4426111a9bcd8c1c24",
+      "symbol": "CSAI"
+    },
+    {
+      "frozen_at": "2026-11-17T01:20:37.392552Z",
+      "id": "531fff4dedfb4112a2726a96",
+      "scored": false,
+      "sha256": "531fff4dedfb4112a2726a96a740244d52865acee653c946c0e1c0b3052abea5",
+      "symbol": "PSNYW"
+    },
+    {
+      "frozen_at": "2026-11-17T01:20:37.392552Z",
+      "id": "8900a9b02dfeacff3db54de3",
+      "scored": false,
+      "sha256": "8900a9b02dfeacff3db54de388cb7acb162f565bc85f1e8ecd16a68ee41f5aaa",
+      "symbol": "SCJN"
+    },
+    {
+      "frozen_at": "2026-11-17T01:20:37.392552Z",
+      "id": "92f02ad9c2b5444993787a8d",
+      "scored": false,
+      "sha256": "92f02ad9c2b5444993787a8db149a8e826c82941949c31d1764ab9f19ba9066f",
+      "symbol": "QQJL"
+    },
+    {
+      "frozen_at": "2026-11-17T01:20:37.392552Z",
+      "id": "b8413eb48bf2010af735503f",
+      "scored": false,
+      "sha256": "b8413eb48bf2010af735503fea54ebf1fdb7c507fa1def684b0059cd1f2bc0d9",
+      "symbol": "GDHG"
+    },
+    {
+      "frozen_at": "2026-11-17T01:20:37.392552Z",
+      "id": "bb71888def216ac75cbb9f93",
+      "scored": false,
+      "sha256": "bb71888def216ac75cbb9f930cdbc93a220f9b9f2a91d54aba14f61c7de60d53",
+      "symbol": "QAU"
+    },
+    {
+      "frozen_at": "2026-11-17T01:20:37.392552Z",
+      "id": "dbd0560d5791d9da8ec7f0d3",
+      "scored": false,
+      "sha256": "dbd0560d5791d9da8ec7f0d35cfd9611ba5a77e3e6b96f825b291f1a1a2ca57e",
+      "symbol": "LIAE"
+    },
+    {
+      "frozen_at": "2026-11-17T01:20:37.392552Z",
+      "id": "dc276d3f794c47644b381be2",
+      "scored": false,
+      "sha256": "dc276d3f794c47644b381be2e580c4aa9158648703dbd3d812e73e42b4866d8f",
+      "symbol": "IDMY"
+    },
+    {
+      "frozen_at": "2026-11-17T01:20:37.392552Z",
+      "id": "e7e8aced4cd59574987db915",
+      "scored": false,
+      "sha256": "e7e8aced4cd59574987db91503e62f30aac0183168585b9ab821e903f7e0039c",
+      "symbol": "WENNW"
+    },
+    {
+      "frozen_at": "2026-11-17T01:20:37.392552Z",
+      "id": "f15b0e0cfc3898b43f437f02",
+      "scored": false,
+      "sha256": "f15b0e0cfc3898b43f437f02a7cbaeff1b60a7c3b6dbeee23388f592222aff07",
+      "symbol": "NOMA"
+    },
+    {
+      "frozen_at": "2026-11-17T01:20:37.392552Z",
+      "id": "f6a66a62ec40645f2a07bacc",
+      "scored": false,
+      "sha256": "f6a66a62ec40645f2a07bacc2959c73bd9ad3d68f067e53032be2f1ea71470f7",
+      "symbol": "GMM"
+    }
+  ],
+  "forecasts_frozen": 19,
+  "fraction_beating_both": null,
+  "fraction_beating_spy": null,
+  "generated_at": "2026-11-17T01:20:37.999047+00:00",
+  "mean_excess_return_vs_spy": null,
+  "mean_excess_return_vs_voo": null,
+  "mean_net_return": null,
+  "outcomes_scored": 0,
+  "pending": 19,
+  "risk_diagnostics": {
+    "portfolio_annualized_volatility": null,
+    "portfolio_max_drawdown": null,
+    "reason": "No timestamped investable portfolio equity curve, positions or fills",
+    "risk_adjusted_portfolio_alpha": null,
+    "sample_size": 0,
+    "status": "INSUFFICIENT_SAMPLE"
+  }
+}
