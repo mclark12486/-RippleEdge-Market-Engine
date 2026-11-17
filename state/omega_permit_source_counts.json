@@ -1,9 +1,9 @@
 {
-  "checked_at": "2026-11-17T11:14:15.605809+00:00",
+  "checked_at": "2026-11-17T19:55:16.189847+00:00",
   "sources": {
     "chicago_building_permits": {
       "status": "COUNT_OK",
-      "reported_rows": 853111,
+      "reported_rows": 853205,
       "snapshot_consistent": false,
       "historical_completeness_verified": false
     },
