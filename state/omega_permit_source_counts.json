@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-11-17T19:55:16.189847+00:00",
+  "checked_at": "2026-11-18T02:28:07.649820+00:00",
   "sources": {
     "chicago_building_permits": {
       "status": "COUNT_OK",
@@ -9,7 +9,7 @@
     },
     "nyc_dob_permits": {
       "status": "COUNT_OK",
-      "reported_rows": 3991390,
+      "reported_rows": 3991416,
       "snapshot_consistent": false,
       "historical_completeness_verified": false
     }
