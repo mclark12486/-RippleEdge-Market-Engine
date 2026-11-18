@@ -1,0 +1,14 @@
+{
+  "run_id": "20261118T190343757236Z",
+  "checked_at": "2026-11-18T19:03:43.757505+00:00",
+  "latest_session": "2026-11-17",
+  "attempted_dates": [],
+  "successful_dates": [],
+  "errors": [],
+  "census": 13259,
+  "historical_sessions_available": 36,
+  "status": "BACKFILL_PROGRESS",
+  "scope": "Historical grouped daily bars, not intraday or forensic valuations",
+  "sqlite_integrity": "ok",
+  "db_sha256": "10bc18b78b661950f8cd4416cf3a3a3d6ab0efb90519c79b639cb1ebcb90e041"
+}
