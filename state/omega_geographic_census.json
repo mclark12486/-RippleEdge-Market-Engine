@@ -1,27 +1,27 @@
 {
   "all_us_jurisdictions_coverage": "NOT_ESTABLISHED",
   "attempted_pairs_this_run": 12,
-  "checked_at": "2026-11-17T19:54:01.848038+00:00",
+  "checked_at": "2026-11-18T02:26:42.587084+00:00",
   "company_relationships_verified": 0,
-  "configured_companies": 10403,
+  "configured_companies": 10399,
   "configured_jurisdictions": 2,
-  "configured_pair_attempt_coverage": 0.001249639527059502,
+  "configured_pair_attempt_coverage": 0.0013462832964708145,
   "configured_pair_success_coverage": 0.0,
-  "configured_pairs": 20806,
-  "cursor": 96,
+  "configured_pairs": 20798,
+  "cursor": 108,
   "failed_or_skipped_pairs_to_retry": [
-    "ABBV|chicago_building_permits",
-    "ABBV|nyc_dob_permits",
-    "ABCB|chicago_building_permits",
-    "ABCB|nyc_dob_permits",
-    "ABCFF|chicago_building_permits",
-    "ABCFF|nyc_dob_permits",
-    "ABCL|chicago_building_permits",
-    "ABCL|nyc_dob_permits",
-    "ABCP|chicago_building_permits",
-    "ABCP|nyc_dob_permits",
-    "ABEO|chicago_building_permits",
-    "ABEO|nyc_dob_permits"
+    "ABEV|chicago_building_permits",
+    "ABEV|nyc_dob_permits",
+    "ABG|chicago_building_permits",
+    "ABG|nyc_dob_permits",
+    "ABGC|chicago_building_permits",
+    "ABGC|nyc_dob_permits",
+    "ABLV|chicago_building_permits",
+    "ABLV|nyc_dob_permits",
+    "ABLVW|chicago_building_permits",
+    "ABLVW|nyc_dob_permits",
+    "ABLZF|chicago_building_permits",
+    "ABLZF|nyc_dob_permits"
   ],
   "failed_queries_this_run": 2,
   "last_attempt_by_pair": {
@@ -47,6 +47,8 @@
     "AAVXF|nyc_dob_permits": "2026-11-17T11:10:30.406217+00:00",
     "ABBV|chicago_building_permits": "2026-11-17T19:54:01.848038+00:00",
     "ABBV|nyc_dob_permits": "2026-11-17T19:54:01.848038+00:00",
+    "ABEV|chicago_building_permits": "2026-11-18T02:26:42.587084+00:00",
+    "ABEV|nyc_dob_permits": "2026-11-18T02:26:42.587084+00:00",
     "LLY|chicago_building_permits": "2026-11-15T16:28:31.162398+00:00",
     "LLY|nyc_dob_permits": "2026-11-15T16:28:31.162398+00:00",
     "PFE|chicago_building_permits": "2026-11-15T16:28:31.162398+00:00",
@@ -56,7 +58,7 @@
   "marketwide_coverage": "NOT_ESTABLISHED",
   "results": [
     {
-      "company": "AbbVie Inc.",
+      "company": "AMBEV S.A.",
       "jurisdiction": "chicago_building_permits",
       "records": [],
       "source": {
@@ -64,11 +66,11 @@
         "status": "BLOCKED"
       },
       "status": "BLOCKED",
-      "symbol": "ABBV",
+      "symbol": "ABEV",
       "trade_eligible": false
     },
     {
-      "company": "AbbVie Inc.",
+      "company": "AMBEV S.A.",
       "jurisdiction": "nyc_dob_permits",
       "records": [],
       "source": {
@@ -76,67 +78,67 @@
         "status": "BLOCKED"
       },
       "status": "BLOCKED",
-      "symbol": "ABBV",
+      "symbol": "ABEV",
       "trade_eligible": false
     },
     {
       "jurisdiction": "chicago_building_permits",
       "status": "SKIPPED_SOURCE_CIRCUIT_OPEN",
-      "symbol": "ABCB",
+      "symbol": "ABG",
       "trade_eligible": false
     },
     {
       "jurisdiction": "nyc_dob_permits",
       "status": "SKIPPED_SOURCE_CIRCUIT_OPEN",
-      "symbol": "ABCB",
+      "symbol": "ABG",
       "trade_eligible": false
     },
     {
       "jurisdiction": "chicago_building_permits",
       "status": "SKIPPED_SOURCE_CIRCUIT_OPEN",
-      "symbol": "ABCFF",
+      "symbol": "ABGC",
       "trade_eligible": false
     },
     {
       "jurisdiction": "nyc_dob_permits",
       "status": "SKIPPED_SOURCE_CIRCUIT_OPEN",
-      "symbol": "ABCFF",
+      "symbol": "ABGC",
       "trade_eligible": false
     },
     {
       "jurisdiction": "chicago_building_permits",
       "status": "SKIPPED_SOURCE_CIRCUIT_OPEN",
-      "symbol": "ABCL",
+      "symbol": "ABLV",
       "trade_eligible": false
     },
     {
       "jurisdiction": "nyc_dob_permits",
       "status": "SKIPPED_SOURCE_CIRCUIT_OPEN",
-      "symbol": "ABCL",
+      "symbol": "ABLV",
       "trade_eligible": false
     },
     {
       "jurisdiction": "chicago_building_permits",
       "status": "SKIPPED_SOURCE_CIRCUIT_OPEN",
-      "symbol": "ABCP",
+      "symbol": "ABLVW",
       "trade_eligible": false
     },
     {
       "jurisdiction": "nyc_dob_permits",
       "status": "SKIPPED_SOURCE_CIRCUIT_OPEN",
-      "symbol": "ABCP",
+      "symbol": "ABLVW",
       "trade_eligible": false
     },
     {
       "jurisdiction": "chicago_building_permits",
       "status": "SKIPPED_SOURCE_CIRCUIT_OPEN",
-      "symbol": "ABEO",
+      "symbol": "ABLZF",
       "trade_eligible": false
     },
     {
       "jurisdiction": "nyc_dob_permits",
       "status": "SKIPPED_SOURCE_CIRCUIT_OPEN",
-      "symbol": "ABEO",
+      "symbol": "ABLZF",
       "trade_eligible": false
     }
   ],
@@ -144,5 +146,5 @@
   "successful_pairs_ever": 0,
   "successful_queries_this_run": 0,
   "trade_eligible": false,
-  "unique_pairs_attempted": 26
+  "unique_pairs_attempted": 28
 }

@@ -1,7 +1,7 @@
 {
   "source": "https://www.sec.gov/files/company_tickers.json",
-  "retrieved_at": "2026-11-17T02:28:24.456450+00:00",
-  "registrants_with_tickers": 10404,
+  "retrieved_at": "2026-11-18T02:25:43.047607+00:00",
+  "registrants_with_tickers": 10400,
   "rejected_records": 0,
   "scope": "SEC tickers; not verified US-listed common-equity universe, not subsidiaries or all securities",
   "marketwide_complete": false
