@@ -1,0 +1,26 @@
+{
+  "run_id": "20261118T210314823016Z",
+  "parent_run_id": "20261118T120249829593Z",
+  "attempted": 150,
+  "research_rows_appended": 149,
+  "primary_xbrl_retrieved": 96,
+  "funds_deferred_no_primary": 53,
+  "failed": 1,
+  "errors": [
+    {
+      "symbol": "CRT",
+      "error": "HTTP Error 404: Not Found"
+    }
+  ],
+  "analysis_rows_before": 2558,
+  "analysis_rows_after": 2708,
+  "refresh_interval_days": 30,
+  "queue_policy": "new_issuers_first_then_stale_company_records; append_only",
+  "completed_equity_valuations": 0,
+  "verified_positive_catalysts": 0,
+  "coverage_denominator": 13280,
+  "run_primary_xbrl_fraction_of_universe_pct": 0.7229,
+  "status": "PARTIAL_ANALYSIS",
+  "sqlite_integrity": "ok",
+  "db_sha256": "38e82e7cb74956fefb9549354194d44cd8da18fb9687a93c7efccb19a2eb6725"
+}
