@@ -1,0 +1,21 @@
+{
+  "run_id": "20261119T031019962889Z",
+  "parent_run_id": "20261118T210314823016Z",
+  "attempted": 150,
+  "research_rows_appended": 150,
+  "primary_xbrl_retrieved": 85,
+  "funds_deferred_no_primary": 65,
+  "failed": 0,
+  "errors": [],
+  "analysis_rows_before": 2708,
+  "analysis_rows_after": 2858,
+  "refresh_interval_days": 30,
+  "queue_policy": "new_issuers_first_then_stale_company_records; append_only",
+  "completed_equity_valuations": 0,
+  "verified_positive_catalysts": 0,
+  "coverage_denominator": 13280,
+  "run_primary_xbrl_fraction_of_universe_pct": 0.6401,
+  "status": "PARTIAL_ANALYSIS",
+  "sqlite_integrity": "ok",
+  "db_sha256": "5fff398169922108583816697b42cb5e1e3d2c8ca2b837da40a4de7ff7e7ac94"
+}
