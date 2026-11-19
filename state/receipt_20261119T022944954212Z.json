@@ -1,0 +1,16 @@
+{
+  "run_id": "20261119T022944954212Z",
+  "started": "2026-11-19T02:29:44.954182+00:00",
+  "ended": "2026-11-19T03:09:47.129806+00:00",
+  "universe_source": "https://www.sec.gov/files/company_tickers.json",
+  "universe_count": 7996,
+  "checked": 7996,
+  "failed": 0,
+  "unchecked": 0,
+  "new_filing_records": 4055547,
+  "coverage_pct": 100.0,
+  "coverage_scope": "SEC CIK submissions only",
+  "full_market_hourly_coverage": "BLOCKED",
+  "database_sha256": "92339f8459abb1acd337ff91467804e09af2c933615a6c56cc16103c116901ed",
+  "integrity_check": "ok"
+}
