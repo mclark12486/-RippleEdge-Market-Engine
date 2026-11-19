@@ -8,11 +8,11 @@
     "execution": "SIMULATED_CLOSE_ONLY_NOT_LIVE",
     "paper_orders": [],
     "risk": "HOLD_OR_RESEARCH",
-    "session": "2026-11-17",
-    "sha256": "c5df67a831de627e9163ce5dc7cdbe5ce65f89682267788ef1672cb130086f5e"
+    "session": "2026-11-18",
+    "sha256": "9c5dc2b1d5b044c180566a07de9e86b870dd4f0e8e98d712e84e7e3fe894d248"
   },
   "limitation": "No verified alpha, no intraday execution, no brokerage access",
   "positions": {},
-  "session": "2026-11-17",
+  "session": "2026-11-18",
   "status": "SHADOW_CASH_ONLY"
 }
