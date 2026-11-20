@@ -1,27 +1,27 @@
 {
   "all_us_jurisdictions_coverage": "NOT_ESTABLISHED",
   "attempted_pairs_this_run": 12,
-  "checked_at": "2026-11-20T00:57:04.917331+00:00",
+  "checked_at": "2026-11-20T08:31:02.349729+00:00",
   "company_relationships_verified": 0,
   "configured_companies": 10397,
   "configured_jurisdictions": 2,
-  "configured_pair_attempt_coverage": 0.001923631816870251,
+  "configured_pair_attempt_coverage": 0.0020198134077137634,
   "configured_pair_success_coverage": 0.0,
   "configured_pairs": 20794,
-  "cursor": 180,
+  "cursor": 192,
   "failed_or_skipped_pairs_to_retry": [
-    "ACCS|chicago_building_permits",
-    "ACCS|nyc_dob_permits",
-    "ACCV|chicago_building_permits",
-    "ACCV|nyc_dob_permits",
-    "ACDC|chicago_building_permits",
-    "ACDC|nyc_dob_permits",
-    "ACEL|chicago_building_permits",
-    "ACEL|nyc_dob_permits",
-    "ACET|chicago_building_permits",
-    "ACET|nyc_dob_permits",
-    "ACFN|chicago_building_permits",
-    "ACFN|nyc_dob_permits"
+    "ACGC|chicago_building_permits",
+    "ACGC|nyc_dob_permits",
+    "ACGCU|chicago_building_permits",
+    "ACGCU|nyc_dob_permits",
+    "ACGCW|chicago_building_permits",
+    "ACGCW|nyc_dob_permits",
+    "ACGL|chicago_building_permits",
+    "ACGL|nyc_dob_permits",
+    "ACGLN|chicago_building_permits",
+    "ACGLN|nyc_dob_permits",
+    "ACGLO|chicago_building_permits",
+    "ACGLO|nyc_dob_permits"
   ],
   "failed_queries_this_run": 2,
   "last_attempt_by_pair": {
@@ -61,6 +61,8 @@
     "ACAT|nyc_dob_permits": "2026-11-19T18:41:11.316837+00:00",
     "ACCS|chicago_building_permits": "2026-11-20T00:57:04.917331+00:00",
     "ACCS|nyc_dob_permits": "2026-11-20T00:57:04.917331+00:00",
+    "ACGC|chicago_building_permits": "2026-11-20T08:31:02.349729+00:00",
+    "ACGC|nyc_dob_permits": "2026-11-20T08:31:02.349729+00:00",
     "LLY|chicago_building_permits": "2026-11-15T16:28:31.162398+00:00",
     "LLY|nyc_dob_permits": "2026-11-15T16:28:31.162398+00:00",
     "PFE|chicago_building_permits": "2026-11-15T16:28:31.162398+00:00",
@@ -70,7 +72,7 @@
   "marketwide_coverage": "NOT_ESTABLISHED",
   "results": [
     {
-      "company": "ACCESS Newswire Inc.",
+      "company": "ACP Holdings Acquisition Corp.",
       "jurisdiction": "chicago_building_permits",
       "records": [],
       "source": {
@@ -78,11 +80,11 @@
         "status": "BLOCKED"
       },
       "status": "BLOCKED",
-      "symbol": "ACCS",
+      "symbol": "ACGC",
       "trade_eligible": false
     },
     {
-      "company": "ACCESS Newswire Inc.",
+      "company": "ACP Holdings Acquisition Corp.",
       "jurisdiction": "nyc_dob_permits",
       "records": [],
       "source": {
@@ -90,67 +92,67 @@
         "status": "BLOCKED"
       },
       "status": "BLOCKED",
-      "symbol": "ACCS",
+      "symbol": "ACGC",
       "trade_eligible": false
     },
     {
       "jurisdiction": "chicago_building_permits",
       "status": "SKIPPED_SOURCE_CIRCUIT_OPEN",
-      "symbol": "ACCV",
+      "symbol": "ACGCU",
       "trade_eligible": false
     },
     {
       "jurisdiction": "nyc_dob_permits",
       "status": "SKIPPED_SOURCE_CIRCUIT_OPEN",
-      "symbol": "ACCV",
+      "symbol": "ACGCU",
       "trade_eligible": false
     },
     {
       "jurisdiction": "chicago_building_permits",
       "status": "SKIPPED_SOURCE_CIRCUIT_OPEN",
-      "symbol": "ACDC",
+      "symbol": "ACGCW",
       "trade_eligible": false
     },
     {
       "jurisdiction": "nyc_dob_permits",
       "status": "SKIPPED_SOURCE_CIRCUIT_OPEN",
-      "symbol": "ACDC",
+      "symbol": "ACGCW",
       "trade_eligible": false
     },
     {
       "jurisdiction": "chicago_building_permits",
       "status": "SKIPPED_SOURCE_CIRCUIT_OPEN",
-      "symbol": "ACEL",
+      "symbol": "ACGL",
       "trade_eligible": false
     },
     {
       "jurisdiction": "nyc_dob_permits",
       "status": "SKIPPED_SOURCE_CIRCUIT_OPEN",
-      "symbol": "ACEL",
+      "symbol": "ACGL",
       "trade_eligible": false
     },
     {
       "jurisdiction": "chicago_building_permits",
       "status": "SKIPPED_SOURCE_CIRCUIT_OPEN",
-      "symbol": "ACET",
+      "symbol": "ACGLN",
       "trade_eligible": false
     },
     {
       "jurisdiction": "nyc_dob_permits",
       "status": "SKIPPED_SOURCE_CIRCUIT_OPEN",
-      "symbol": "ACET",
+      "symbol": "ACGLN",
       "trade_eligible": false
     },
     {
       "jurisdiction": "chicago_building_permits",
       "status": "SKIPPED_SOURCE_CIRCUIT_OPEN",
-      "symbol": "ACFN",
+      "symbol": "ACGLO",
       "trade_eligible": false
     },
     {
       "jurisdiction": "nyc_dob_permits",
       "status": "SKIPPED_SOURCE_CIRCUIT_OPEN",
-      "symbol": "ACFN",
+      "symbol": "ACGLO",
       "trade_eligible": false
     }
   ],
@@ -158,5 +160,5 @@
   "successful_pairs_ever": 0,
   "successful_queries_this_run": 0,
   "trade_eligible": false,
-  "unique_pairs_attempted": 40
+  "unique_pairs_attempted": 42
 }
