@@ -1,0 +1,15 @@
+{
+  "run_id": "20261120T090820140192Z",
+  "checked_at": "2026-11-20T09:08:20.140224+00:00",
+  "session": "2026-11-19",
+  "census": 13259,
+  "bulk_bar_matched": 12184,
+  "missing": 1075,
+  "coverage_pct": 91.8923,
+  "signal_count": 1537,
+  "scope": "all census symbols matched to provider daily bars; not hourly quotes, fundamental audits, or catalyst verification",
+  "history_requirement": "5 prior daily bars; newly connected feeds may produce zero signals",
+  "status": "PARTIAL",
+  "sqlite_integrity": "ok",
+  "db_sha256": "52087767fd36d0f682abf897984a626426396915877ad1f36e47375ba971edae"
+}
