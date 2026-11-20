@@ -1,27 +1,27 @@
 {
   "all_us_jurisdictions_coverage": "NOT_ESTABLISHED",
   "attempted_pairs_this_run": 12,
-  "checked_at": "2026-11-20T17:17:51.847115+00:00",
+  "checked_at": "2026-11-20T23:21:31.891007+00:00",
   "company_relationships_verified": 0,
   "configured_companies": 10397,
   "configured_jurisdictions": 2,
-  "configured_pair_attempt_coverage": 0.0021159949985572763,
+  "configured_pair_attempt_coverage": 0.0022121765894007888,
   "configured_pair_success_coverage": 0.0,
   "configured_pairs": 20794,
-  "cursor": 204,
+  "cursor": 216,
   "failed_or_skipped_pairs_to_retry": [
-    "ACGP|chicago_building_permits",
-    "ACGP|nyc_dob_permits",
-    "ACH|chicago_building_permits",
-    "ACH|nyc_dob_permits",
-    "ACHC|chicago_building_permits",
-    "ACHC|nyc_dob_permits",
-    "ACHR|chicago_building_permits",
-    "ACHR|nyc_dob_permits",
-    "ACHV|chicago_building_permits",
-    "ACHV|nyc_dob_permits",
-    "ACI|chicago_building_permits",
-    "ACI|nyc_dob_permits"
+    "ACIC|chicago_building_permits",
+    "ACIC|nyc_dob_permits",
+    "ACIU|chicago_building_permits",
+    "ACIU|nyc_dob_permits",
+    "ACIW|chicago_building_permits",
+    "ACIW|nyc_dob_permits",
+    "ACLEW|chicago_building_permits",
+    "ACLEW|nyc_dob_permits",
+    "ACLS|chicago_building_permits",
+    "ACLS|nyc_dob_permits",
+    "ACM|chicago_building_permits",
+    "ACM|nyc_dob_permits"
   ],
   "failed_queries_this_run": 2,
   "last_attempt_by_pair": {
@@ -65,6 +65,8 @@
     "ACGC|nyc_dob_permits": "2026-11-20T08:31:02.349729+00:00",
     "ACGP|chicago_building_permits": "2026-11-20T17:17:51.847115+00:00",
     "ACGP|nyc_dob_permits": "2026-11-20T17:17:51.847115+00:00",
+    "ACIC|chicago_building_permits": "2026-11-20T23:21:31.891007+00:00",
+    "ACIC|nyc_dob_permits": "2026-11-20T23:21:31.891007+00:00",
     "LLY|chicago_building_permits": "2026-11-15T16:28:31.162398+00:00",
     "LLY|nyc_dob_permits": "2026-11-15T16:28:31.162398+00:00",
     "PFE|chicago_building_permits": "2026-11-15T16:28:31.162398+00:00",
@@ -74,87 +76,87 @@
   "marketwide_coverage": "NOT_ESTABLISHED",
   "results": [
     {
-      "company": "Associated Capital Group, Inc.",
+      "company": "AMERICAN COASTAL INSURANCE Corp",
       "jurisdiction": "chicago_building_permits",
+      "records": [],
+      "source": {
+        "error": "URLError:<urlopen error _ssl.c:994: The handshake operation timed out>",
+        "status": "BLOCKED"
+      },
+      "status": "BLOCKED",
+      "symbol": "ACIC",
+      "trade_eligible": false
+    },
+    {
+      "company": "AMERICAN COASTAL INSURANCE Corp",
+      "jurisdiction": "nyc_dob_permits",
       "records": [],
       "source": {
         "error": "TimeoutError:The read operation timed out",
         "status": "BLOCKED"
       },
       "status": "BLOCKED",
-      "symbol": "ACGP",
-      "trade_eligible": false
-    },
-    {
-      "company": "Associated Capital Group, Inc.",
-      "jurisdiction": "nyc_dob_permits",
-      "records": [],
-      "source": {
-        "error": "TimeoutError:The read operation timed out",
-        "status": "BLOCKED"
-      },
-      "status": "BLOCKED",
-      "symbol": "ACGP",
+      "symbol": "ACIC",
       "trade_eligible": false
     },
     {
       "jurisdiction": "chicago_building_permits",
       "status": "SKIPPED_SOURCE_CIRCUIT_OPEN",
-      "symbol": "ACH",
+      "symbol": "ACIU",
       "trade_eligible": false
     },
     {
       "jurisdiction": "nyc_dob_permits",
       "status": "SKIPPED_SOURCE_CIRCUIT_OPEN",
-      "symbol": "ACH",
+      "symbol": "ACIU",
       "trade_eligible": false
     },
     {
       "jurisdiction": "chicago_building_permits",
       "status": "SKIPPED_SOURCE_CIRCUIT_OPEN",
-      "symbol": "ACHC",
+      "symbol": "ACIW",
       "trade_eligible": false
     },
     {
       "jurisdiction": "nyc_dob_permits",
       "status": "SKIPPED_SOURCE_CIRCUIT_OPEN",
-      "symbol": "ACHC",
+      "symbol": "ACIW",
       "trade_eligible": false
     },
     {
       "jurisdiction": "chicago_building_permits",
       "status": "SKIPPED_SOURCE_CIRCUIT_OPEN",
-      "symbol": "ACHR",
+      "symbol": "ACLEW",
       "trade_eligible": false
     },
     {
       "jurisdiction": "nyc_dob_permits",
       "status": "SKIPPED_SOURCE_CIRCUIT_OPEN",
-      "symbol": "ACHR",
+      "symbol": "ACLEW",
       "trade_eligible": false
     },
     {
       "jurisdiction": "chicago_building_permits",
       "status": "SKIPPED_SOURCE_CIRCUIT_OPEN",
-      "symbol": "ACHV",
+      "symbol": "ACLS",
       "trade_eligible": false
     },
     {
       "jurisdiction": "nyc_dob_permits",
       "status": "SKIPPED_SOURCE_CIRCUIT_OPEN",
-      "symbol": "ACHV",
+      "symbol": "ACLS",
       "trade_eligible": false
     },
     {
       "jurisdiction": "chicago_building_permits",
       "status": "SKIPPED_SOURCE_CIRCUIT_OPEN",
-      "symbol": "ACI",
+      "symbol": "ACM",
       "trade_eligible": false
     },
     {
       "jurisdiction": "nyc_dob_permits",
       "status": "SKIPPED_SOURCE_CIRCUIT_OPEN",
-      "symbol": "ACI",
+      "symbol": "ACM",
       "trade_eligible": false
     }
   ],
@@ -162,5 +164,5 @@
   "successful_pairs_ever": 0,
   "successful_queries_this_run": 0,
   "trade_eligible": false,
-  "unique_pairs_attempted": 44
+  "unique_pairs_attempted": 46
 }
