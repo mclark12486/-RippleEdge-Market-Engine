@@ -1,14 +1,15 @@
 {
-  "checked_at": "2026-11-20T00:57:08.804794+00:00",
+  "checked_at": "2026-11-20T08:38:42.689527+00:00",
   "sources": {
     "chicago_building_permits": {
-      "status": "COUNT_FAILED",
-      "error": "TimeoutError:The read operation timed out",
+      "status": "COUNT_OK",
+      "reported_rows": 853516,
+      "snapshot_consistent": false,
       "historical_completeness_verified": false
     },
     "nyc_dob_permits": {
       "status": "COUNT_OK",
-      "reported_rows": 3991416,
+      "reported_rows": 3991464,
       "snapshot_consistent": false,
       "historical_completeness_verified": false
     }

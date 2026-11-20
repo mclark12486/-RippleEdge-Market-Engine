@@ -1,19 +1,19 @@
 {
-  "checked_at": "2026-11-20T00:57:27.494835+00:00",
+  "checked_at": "2026-11-20T08:38:56.738351+00:00",
   "sources": {
     "chicago_building_permits": {
-      "provider_rows": null,
-      "ingested_unique_lower_bound": 340,
-      "observed_fraction_lower_bound": null,
-      "provider_count_verified": false,
+      "provider_rows": 853516,
+      "ingested_unique_lower_bound": 355,
+      "observed_fraction_lower_bound": 0.00041593,
+      "provider_count_verified": true,
       "unique_count_is_exact": false,
       "historical_completeness_verified": false,
       "reason": "Sliding dedup window and changing provider data prevent exact full-history proof"
     },
     "nyc_dob_permits": {
-      "provider_rows": 3991416,
-      "ingested_unique_lower_bound": 345,
-      "observed_fraction_lower_bound": 8.644e-05,
+      "provider_rows": 3991464,
+      "ingested_unique_lower_bound": 360,
+      "observed_fraction_lower_bound": 9.019e-05,
       "provider_count_verified": true,
       "unique_count_is_exact": false,
       "historical_completeness_verified": false,
