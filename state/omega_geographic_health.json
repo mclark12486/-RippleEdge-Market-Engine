@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-11-20T23:21:01.049972+00:00",
+  "checked_at": "2026-11-21T04:17:26.144646+00:00",
   "sources": {
     "chicago_building_permits": {
       "status": "API_READ_OK",
@@ -7,8 +7,8 @@
       "company_search_verified": false
     },
     "nyc_dob_permits": {
-      "status": "API_READ_OK",
-      "sample_rows": 1,
+      "status": "API_READ_FAILED",
+      "error": "HTTPError:HTTP Error 503: Service Unavailable",
       "company_search_verified": false
     }
   }
