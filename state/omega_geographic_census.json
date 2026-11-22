@@ -1,27 +1,27 @@
 {
   "all_us_jurisdictions_coverage": "NOT_ESTABLISHED",
   "attempted_pairs_this_run": 12,
-  "checked_at": "2026-11-21T20:05:59.031569+00:00",
+  "checked_at": "2026-11-22T00:19:56.564575+00:00",
   "company_relationships_verified": 0,
   "configured_companies": 10398,
   "configured_jurisdictions": 2,
-  "configured_pair_attempt_coverage": 0.002500480861704174,
+  "configured_pair_attempt_coverage": 0.00259665320253895,
   "configured_pair_success_coverage": 0.0,
   "configured_pairs": 20796,
-  "cursor": 252,
+  "cursor": 264,
   "failed_or_skipped_pairs_to_retry": [
-    "ACR-PD|chicago_building_permits",
-    "ACR-PD|nyc_dob_permits",
-    "ACRE|chicago_building_permits",
-    "ACRE|nyc_dob_permits",
-    "ACRG|chicago_building_permits",
-    "ACRG|nyc_dob_permits",
-    "ACRL|chicago_building_permits",
-    "ACRL|nyc_dob_permits",
-    "ACRS|chicago_building_permits",
-    "ACRS|nyc_dob_permits",
-    "ACRV|chicago_building_permits",
-    "ACRV|nyc_dob_permits"
+    "ACT|chicago_building_permits",
+    "ACT|nyc_dob_permits",
+    "ACTG|chicago_building_permits",
+    "ACTG|nyc_dob_permits",
+    "ACTU|chicago_building_permits",
+    "ACTU|nyc_dob_permits",
+    "ACU|chicago_building_permits",
+    "ACU|nyc_dob_permits",
+    "ACUT|chicago_building_permits",
+    "ACUT|nyc_dob_permits",
+    "ACV|chicago_building_permits",
+    "ACV|nyc_dob_permits"
   ],
   "failed_queries_this_run": 2,
   "last_attempt_by_pair": {
@@ -73,6 +73,8 @@
     "ACON|nyc_dob_permits": "2026-11-21T13:02:14.373448+00:00",
     "ACR-PD|chicago_building_permits": "2026-11-21T20:05:59.031569+00:00",
     "ACR-PD|nyc_dob_permits": "2026-11-21T20:05:59.031569+00:00",
+    "ACT|chicago_building_permits": "2026-11-22T00:19:56.564575+00:00",
+    "ACT|nyc_dob_permits": "2026-11-22T00:19:56.564575+00:00",
     "LLY|chicago_building_permits": "2026-11-15T16:28:31.162398+00:00",
     "LLY|nyc_dob_permits": "2026-11-15T16:28:31.162398+00:00",
     "PFE|chicago_building_permits": "2026-11-15T16:28:31.162398+00:00",
@@ -82,7 +84,7 @@
   "marketwide_coverage": "NOT_ESTABLISHED",
   "results": [
     {
-      "company": "ACRES Commercial Realty Corp.",
+      "company": "Enact Holdings, Inc.",
       "jurisdiction": "chicago_building_permits",
       "records": [],
       "source": {
@@ -90,11 +92,11 @@
         "status": "BLOCKED"
       },
       "status": "BLOCKED",
-      "symbol": "ACR-PD",
+      "symbol": "ACT",
       "trade_eligible": false
     },
     {
-      "company": "ACRES Commercial Realty Corp.",
+      "company": "Enact Holdings, Inc.",
       "jurisdiction": "nyc_dob_permits",
       "records": [],
       "source": {
@@ -102,67 +104,67 @@
         "status": "BLOCKED"
       },
       "status": "BLOCKED",
-      "symbol": "ACR-PD",
+      "symbol": "ACT",
       "trade_eligible": false
     },
     {
       "jurisdiction": "chicago_building_permits",
       "status": "SKIPPED_SOURCE_CIRCUIT_OPEN",
-      "symbol": "ACRE",
+      "symbol": "ACTG",
       "trade_eligible": false
     },
     {
       "jurisdiction": "nyc_dob_permits",
       "status": "SKIPPED_SOURCE_CIRCUIT_OPEN",
-      "symbol": "ACRE",
+      "symbol": "ACTG",
       "trade_eligible": false
     },
     {
       "jurisdiction": "chicago_building_permits",
       "status": "SKIPPED_SOURCE_CIRCUIT_OPEN",
-      "symbol": "ACRG",
+      "symbol": "ACTU",
       "trade_eligible": false
     },
     {
       "jurisdiction": "nyc_dob_permits",
       "status": "SKIPPED_SOURCE_CIRCUIT_OPEN",
-      "symbol": "ACRG",
+      "symbol": "ACTU",
       "trade_eligible": false
     },
     {
       "jurisdiction": "chicago_building_permits",
       "status": "SKIPPED_SOURCE_CIRCUIT_OPEN",
-      "symbol": "ACRL",
+      "symbol": "ACU",
       "trade_eligible": false
     },
     {
       "jurisdiction": "nyc_dob_permits",
       "status": "SKIPPED_SOURCE_CIRCUIT_OPEN",
-      "symbol": "ACRL",
+      "symbol": "ACU",
       "trade_eligible": false
     },
     {
       "jurisdiction": "chicago_building_permits",
       "status": "SKIPPED_SOURCE_CIRCUIT_OPEN",
-      "symbol": "ACRS",
+      "symbol": "ACUT",
       "trade_eligible": false
     },
     {
       "jurisdiction": "nyc_dob_permits",
       "status": "SKIPPED_SOURCE_CIRCUIT_OPEN",
-      "symbol": "ACRS",
+      "symbol": "ACUT",
       "trade_eligible": false
     },
     {
       "jurisdiction": "chicago_building_permits",
       "status": "SKIPPED_SOURCE_CIRCUIT_OPEN",
-      "symbol": "ACRV",
+      "symbol": "ACV",
       "trade_eligible": false
     },
     {
       "jurisdiction": "nyc_dob_permits",
       "status": "SKIPPED_SOURCE_CIRCUIT_OPEN",
-      "symbol": "ACRV",
+      "symbol": "ACV",
       "trade_eligible": false
     }
   ],
@@ -170,5 +172,5 @@
   "successful_pairs_ever": 0,
   "successful_queries_this_run": 0,
   "trade_eligible": false,
-  "unique_pairs_attempted": 52
+  "unique_pairs_attempted": 54
 }
