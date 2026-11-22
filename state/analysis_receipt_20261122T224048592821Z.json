@@ -1,0 +1,34 @@
+{
+  "run_id": "20261122T224048592821Z",
+  "parent_run_id": "20261122T171730892961Z",
+  "attempted": 150,
+  "research_rows_appended": 147,
+  "primary_xbrl_retrieved": 70,
+  "funds_deferred_no_primary": 77,
+  "failed": 3,
+  "errors": [
+    {
+      "symbol": "GAB",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "symbol": "GAM",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "symbol": "GDV",
+      "error": "HTTP Error 404: Not Found"
+    }
+  ],
+  "analysis_rows_before": 4508,
+  "analysis_rows_after": 4658,
+  "refresh_interval_days": 30,
+  "queue_policy": "new_issuers_first_then_stale_company_records; append_only",
+  "completed_equity_valuations": 0,
+  "verified_positive_catalysts": 0,
+  "coverage_denominator": 13297,
+  "run_primary_xbrl_fraction_of_universe_pct": 0.5264,
+  "status": "PARTIAL_ANALYSIS",
+  "sqlite_integrity": "ok",
+  "db_sha256": "a78765a915490540c0ba55bdbe4ddb344349af35aab7387f14b4e19c45dfe7ee"
+}
