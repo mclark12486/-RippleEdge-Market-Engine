@@ -1,0 +1,30 @@
+{
+  "run_id": "20261122T082918442594Z",
+  "parent_run_id": "20261122T003416443268Z",
+  "attempted": 150,
+  "research_rows_appended": 148,
+  "primary_xbrl_retrieved": 77,
+  "funds_deferred_no_primary": 71,
+  "failed": 2,
+  "errors": [
+    {
+      "symbol": "FMN",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "symbol": "FOF",
+      "error": "HTTP Error 404: Not Found"
+    }
+  ],
+  "analysis_rows_before": 4208,
+  "analysis_rows_after": 4358,
+  "refresh_interval_days": 30,
+  "queue_policy": "new_issuers_first_then_stale_company_records; append_only",
+  "completed_equity_valuations": 0,
+  "verified_positive_catalysts": 0,
+  "coverage_denominator": 13297,
+  "run_primary_xbrl_fraction_of_universe_pct": 0.5791,
+  "status": "PARTIAL_ANALYSIS",
+  "sqlite_integrity": "ok",
+  "db_sha256": "df47c9311510e1ffe381331ec3fa0072cfa232269855c7d45d2eaa4cc7ea1e61"
+}
