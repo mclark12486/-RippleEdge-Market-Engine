@@ -1,27 +1,27 @@
 {
   "all_us_jurisdictions_coverage": "NOT_ESTABLISHED",
   "attempted_pairs_this_run": 12,
-  "checked_at": "2026-11-23T01:59:54.516452+00:00",
+  "checked_at": "2026-11-23T10:44:27.217888+00:00",
   "company_relationships_verified": 0,
   "configured_companies": 10398,
   "configured_jurisdictions": 2,
-  "configured_pair_attempt_coverage": 0.0029813425658780533,
+  "configured_pair_attempt_coverage": 0.0030775149067128293,
   "configured_pair_success_coverage": 0.0,
   "configured_pairs": 20796,
-  "cursor": 312,
+  "cursor": 324,
   "failed_or_skipped_pairs_to_retry": [
-    "ADBT|chicago_building_permits",
-    "ADBT|nyc_dob_permits",
-    "ADC|chicago_building_permits",
-    "ADC|nyc_dob_permits",
-    "ADC-PA|chicago_building_permits",
-    "ADC-PA|nyc_dob_permits",
-    "ADCT|chicago_building_permits",
-    "ADCT|nyc_dob_permits",
-    "ADDTF|chicago_building_permits",
-    "ADDTF|nyc_dob_permits",
-    "ADEA|chicago_building_permits",
-    "ADEA|nyc_dob_permits"
+    "ADESY|chicago_building_permits",
+    "ADESY|nyc_dob_permits",
+    "ADGM|chicago_building_permits",
+    "ADGM|nyc_dob_permits",
+    "ADI|chicago_building_permits",
+    "ADI|nyc_dob_permits",
+    "ADIA|chicago_building_permits",
+    "ADIA|nyc_dob_permits",
+    "ADIG|chicago_building_permits",
+    "ADIG|nyc_dob_permits",
+    "ADIS|chicago_building_permits",
+    "ADIS|nyc_dob_permits"
   ],
   "failed_queries_this_run": 2,
   "last_attempt_by_pair": {
@@ -83,6 +83,8 @@
     "ADAM|nyc_dob_permits": "2026-11-22T15:41:21.974091+00:00",
     "ADBT|chicago_building_permits": "2026-11-23T01:59:54.516452+00:00",
     "ADBT|nyc_dob_permits": "2026-11-23T01:59:54.516452+00:00",
+    "ADESY|chicago_building_permits": "2026-11-23T10:44:27.217888+00:00",
+    "ADESY|nyc_dob_permits": "2026-11-23T10:44:27.217888+00:00",
     "LLY|chicago_building_permits": "2026-11-15T16:28:31.162398+00:00",
     "LLY|nyc_dob_permits": "2026-11-15T16:28:31.162398+00:00",
     "PFE|chicago_building_permits": "2026-11-15T16:28:31.162398+00:00",
@@ -92,87 +94,87 @@
   "marketwide_coverage": "NOT_ESTABLISHED",
   "results": [
     {
-      "company": "Advasa Holdings, Inc.",
+      "company": "Andean Silver Ltd",
       "jurisdiction": "chicago_building_permits",
+      "records": [],
+      "source": {
+        "error": "URLError:<urlopen error _ssl.c:994: The handshake operation timed out>",
+        "status": "BLOCKED"
+      },
+      "status": "BLOCKED",
+      "symbol": "ADESY",
+      "trade_eligible": false
+    },
+    {
+      "company": "Andean Silver Ltd",
+      "jurisdiction": "nyc_dob_permits",
       "records": [],
       "source": {
         "error": "TimeoutError:The read operation timed out",
         "status": "BLOCKED"
       },
       "status": "BLOCKED",
-      "symbol": "ADBT",
-      "trade_eligible": false
-    },
-    {
-      "company": "Advasa Holdings, Inc.",
-      "jurisdiction": "nyc_dob_permits",
-      "records": [],
-      "source": {
-        "error": "TimeoutError:The read operation timed out",
-        "status": "BLOCKED"
-      },
-      "status": "BLOCKED",
-      "symbol": "ADBT",
+      "symbol": "ADESY",
       "trade_eligible": false
     },
     {
       "jurisdiction": "chicago_building_permits",
       "status": "SKIPPED_SOURCE_CIRCUIT_OPEN",
-      "symbol": "ADC",
+      "symbol": "ADGM",
       "trade_eligible": false
     },
     {
       "jurisdiction": "nyc_dob_permits",
       "status": "SKIPPED_SOURCE_CIRCUIT_OPEN",
-      "symbol": "ADC",
+      "symbol": "ADGM",
       "trade_eligible": false
     },
     {
       "jurisdiction": "chicago_building_permits",
       "status": "SKIPPED_SOURCE_CIRCUIT_OPEN",
-      "symbol": "ADC-PA",
+      "symbol": "ADI",
       "trade_eligible": false
     },
     {
       "jurisdiction": "nyc_dob_permits",
       "status": "SKIPPED_SOURCE_CIRCUIT_OPEN",
-      "symbol": "ADC-PA",
+      "symbol": "ADI",
       "trade_eligible": false
     },
     {
       "jurisdiction": "chicago_building_permits",
       "status": "SKIPPED_SOURCE_CIRCUIT_OPEN",
-      "symbol": "ADCT",
+      "symbol": "ADIA",
       "trade_eligible": false
     },
     {
       "jurisdiction": "nyc_dob_permits",
       "status": "SKIPPED_SOURCE_CIRCUIT_OPEN",
-      "symbol": "ADCT",
+      "symbol": "ADIA",
       "trade_eligible": false
     },
     {
       "jurisdiction": "chicago_building_permits",
       "status": "SKIPPED_SOURCE_CIRCUIT_OPEN",
-      "symbol": "ADDTF",
+      "symbol": "ADIG",
       "trade_eligible": false
     },
     {
       "jurisdiction": "nyc_dob_permits",
       "status": "SKIPPED_SOURCE_CIRCUIT_OPEN",
-      "symbol": "ADDTF",
+      "symbol": "ADIG",
       "trade_eligible": false
     },
     {
       "jurisdiction": "chicago_building_permits",
       "status": "SKIPPED_SOURCE_CIRCUIT_OPEN",
-      "symbol": "ADEA",
+      "symbol": "ADIS",
       "trade_eligible": false
     },
     {
       "jurisdiction": "nyc_dob_permits",
       "status": "SKIPPED_SOURCE_CIRCUIT_OPEN",
-      "symbol": "ADEA",
+      "symbol": "ADIS",
       "trade_eligible": false
     }
   ],
@@ -180,5 +182,5 @@
   "successful_pairs_ever": 0,
   "successful_queries_this_run": 0,
   "trade_eligible": false,
-  "unique_pairs_attempted": 62
+  "unique_pairs_attempted": 64
 }
