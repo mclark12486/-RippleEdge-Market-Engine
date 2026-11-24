@@ -1,0 +1,47 @@
+{
+  "run_id": "20261124T231505122400Z",
+  "started": "2026-11-24T23:15:05.122430+00:00",
+  "ended": "2026-11-24T23:15:06.981579+00:00",
+  "census_rows": 13274,
+  "unique_symbols": 13274,
+  "nasdaq_count": 5601,
+  "other_exchange_count": 7673,
+  "etf_flag_yes": 5829,
+  "feeds": {
+    "nasdaq": {
+      "status": "OK",
+      "count": 5601,
+      "url": "https://www.nasdaqtrader.com/dynamic/symdir/nasdaqlisted.txt",
+      "sha256": "e41eb4f58edb8272461b87992c7c704d3eb4611881950004e046e9e42f9d18f5",
+      "checked_at": "2026-11-24T23:15:05.702147+00:00"
+    },
+    "other": {
+      "status": "OK",
+      "count": 7673,
+      "url": "https://www.nasdaqtrader.com/dynamic/symdir/otherlisted.txt",
+      "sha256": "d5d4abddc953495961fabc99cc6a219095d40fce2742341ab67e0f99d3a17f24",
+      "checked_at": "2026-11-24T23:15:06.210060+00:00"
+    }
+  },
+  "sec_indexes": [
+    {
+      "date": "2026-11-24",
+      "status": "FAILED",
+      "error": "HTTP Error 403: Forbidden",
+      "url": "https://www.sec.gov/Archives/edgar/daily-index/2026/QTR4/master.20261124.idx"
+    },
+    {
+      "date": "2026-11-23",
+      "status": "OK",
+      "records": 4927,
+      "url": "https://www.sec.gov/Archives/edgar/daily-index/2026/QTR4/master.20261123.idx",
+      "checked_at": "2026-11-24T23:15:06.981560+00:00"
+    }
+  ],
+  "sec_index_records": 4927,
+  "new_sec_filing_records": 0,
+  "full_market_hourly_coverage": "BLOCKED: no bulk price, news, and ETF holdings feeds",
+  "scope_note": "Listing census, not individual issuer forensic review; SEC index not realtime",
+  "status": "SEC index observed; price/news/ETF holdings unavailable",
+  "db_sha256": "d5ac6b956134c4247e04c35ba741ad4524e5d7a25fe3415ea4058f1ef5a53681"
+}
