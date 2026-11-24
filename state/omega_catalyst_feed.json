@@ -106,1208 +106,1165 @@
         "status": "PARTIAL_NAME_SEARCH"
       }
     },
-    "checked_at": "2026-11-23T21:44:31.899176+00:00",
+    "checked_at": "2026-11-24T05:33:30.127309+00:00",
     "marketwide_all_categories_verified": false,
     "note": "No connector provides complete real-time coverage of every company or every event."
   },
-  "checked_at": "2026-11-23T21:44:31.897031+00:00",
+  "checked_at": "2026-11-24T05:33:30.125018+00:00",
   "events": [
     {
       "candidate_categories": [],
       "event_confirmed": false,
       "form": null,
       "source": "SEC_CURRENT_FILINGS",
-      "source_id": "urn:tag:sec.gov,2008:accession-number=0001666134-26-000109",
+      "source_id": "urn:tag:sec.gov,2008:accession-number=0002117604-26-000002",
       "status": "FORM_ONLY_UNVERIFIED",
-      "title": "4 - Ung Jeremy (0002019511) (Reporting)",
+      "title": "SCHEDULE 13D/A - George Matthew Spencer (0002117604) (Filed by)",
       "trade_eligible": false,
-      "updated": "2026-11-23T16:44:04-05:00"
+      "updated": "2026-11-23T21:56:19-05:00"
     },
     {
       "candidate_categories": [],
       "event_confirmed": false,
       "form": null,
       "source": "SEC_CURRENT_FILINGS",
-      "source_id": "urn:tag:sec.gov,2008:accession-number=0001666134-26-000109",
+      "source_id": "urn:tag:sec.gov,2008:accession-number=0002117604-26-000002",
       "status": "FORM_ONLY_UNVERIFIED",
-      "title": "4 - BLACKLINE, INC. (0001666134) (Issuer)",
+      "title": "SCHEDULE 13D/A - Merlin, Inc. (0002028707) (Subject)",
       "trade_eligible": false,
-      "updated": "2026-11-23T16:44:04-05:00"
+      "updated": "2026-11-23T21:56:19-05:00"
     },
     {
-      "candidate_categories": [
-        "mergers_acquisitions",
-        "legal_litigation",
-        "management_hiring_firing",
-        "patents_ip",
-        "research_developments",
-        "government_contracts",
-        "earnings_guidance",
-        "financing_capital"
-      ],
+      "candidate_categories": [],
       "event_confirmed": false,
-      "form": "8-K",
+      "form": null,
       "source": "SEC_CURRENT_FILINGS",
-      "source_id": "urn:tag:sec.gov,2008:accession-number=0001193125-26-472518",
+      "source_id": "urn:tag:sec.gov,2008:accession-number=0000912282-26-001541",
       "status": "FORM_ONLY_UNVERIFIED",
-      "title": "8-K - Texas Pacific Land Corp (0001811074) (Filer)",
+      "title": "SCHEDULE 13G - Kernwood Ltd (0001719611) (Filed by)",
       "trade_eligible": false,
-      "updated": "2026-11-23T16:43:42-05:00"
+      "updated": "2026-11-23T21:54:50-05:00"
     },
     {
       "candidate_categories": [],
       "event_confirmed": false,
       "form": null,
       "source": "SEC_CURRENT_FILINGS",
-      "source_id": "urn:tag:sec.gov,2008:accession-number=0000926877-26-000158",
+      "source_id": "urn:tag:sec.gov,2008:accession-number=0000912282-26-001541",
       "status": "FORM_ONLY_UNVERIFIED",
-      "title": "NPORT-P - Cypress Creek Portfolio Strategies Registered Fund, L.P. (0001279394) (Filer)",
+      "title": "SCHEDULE 13G - North American Construction Group Ltd. (0001368519) (Subject)",
       "trade_eligible": false,
-      "updated": "2026-11-23T16:43:35-05:00"
+      "updated": "2026-11-23T21:54:50-05:00"
     },
     {
       "candidate_categories": [],
       "event_confirmed": false,
       "form": null,
       "source": "SEC_CURRENT_FILINGS",
-      "source_id": "urn:tag:sec.gov,2008:accession-number=0002066370-26-000004",
+      "source_id": "urn:tag:sec.gov,2008:accession-number=0001493152-26-053869",
       "status": "FORM_ONLY_UNVERIFIED",
-      "title": "4 - Bancroft Robert E. (0002066370) (Reporting)",
+      "title": "4 - Smith Jada (0002022732) (Reporting)",
       "trade_eligible": false,
-      "updated": "2026-11-23T16:43:27-05:00"
+      "updated": "2026-11-23T21:52:47-05:00"
     },
     {
       "candidate_categories": [],
       "event_confirmed": false,
       "form": null,
       "source": "SEC_CURRENT_FILINGS",
-      "source_id": "urn:tag:sec.gov,2008:accession-number=0002066370-26-000004",
+      "source_id": "urn:tag:sec.gov,2008:accession-number=0001493152-26-053869",
       "status": "FORM_ONLY_UNVERIFIED",
-      "title": "4 - AEON Biopharma, Inc. (0001837607) (Issuer)",
+      "title": "4 - MICROVISION, INC. (0000065770) (Issuer)",
       "trade_eligible": false,
-      "updated": "2026-11-23T16:43:27-05:00"
+      "updated": "2026-11-23T21:52:47-05:00"
     },
     {
       "candidate_categories": [],
       "event_confirmed": false,
       "form": null,
       "source": "SEC_CURRENT_FILINGS",
-      "source_id": "urn:tag:sec.gov,2008:accession-number=0001437749-26-038087",
+      "source_id": "urn:tag:sec.gov,2008:accession-number=0001628280-26-075601",
       "status": "FORM_ONLY_UNVERIFIED",
-      "title": "4 - DAY L B (0001181929) (Reporting)",
+      "title": "4 - Klein Frank (0002037530) (Reporting)",
       "trade_eligible": false,
-      "updated": "2026-11-23T16:43:14-05:00"
+      "updated": "2026-11-23T21:52:45-05:00"
     },
     {
       "candidate_categories": [],
       "event_confirmed": false,
       "form": null,
       "source": "SEC_CURRENT_FILINGS",
-      "source_id": "urn:tag:sec.gov,2008:accession-number=0001437749-26-038087",
+      "source_id": "urn:tag:sec.gov,2008:accession-number=0001628280-26-075601",
       "status": "FORM_ONLY_UNVERIFIED",
-      "title": "4 - AgEagle Aerial Systems Inc. (0000008504) (Issuer)",
+      "title": "4 - Proto Labs Inc (0001443669) (Issuer)",
       "trade_eligible": false,
-      "updated": "2026-11-23T16:43:14-05:00"
+      "updated": "2026-11-23T21:52:45-05:00"
     },
     {
-      "candidate_categories": [
-        "earnings_guidance"
-      ],
+      "candidate_categories": [],
       "event_confirmed": false,
-      "form": "6-K",
+      "form": null,
       "source": "SEC_CURRENT_FILINGS",
-      "source_id": "urn:tag:sec.gov,2008:accession-number=0001829126-26-012749",
+      "source_id": "urn:tag:sec.gov,2008:accession-number=0001628280-26-075600",
       "status": "FORM_ONLY_UNVERIFIED",
-      "title": "6-K/A - Nexus Advanced Technologies Inc. (0002000756) (Filer)",
+      "title": "3 - Klein Frank (0002037530) (Reporting)",
       "trade_eligible": false,
-      "updated": "2026-11-23T16:42:57-05:00"
+      "updated": "2026-11-23T21:52:26-05:00"
     },
     {
-      "candidate_categories": [
-        "mergers_acquisitions",
-        "legal_litigation",
-        "management_hiring_firing",
-        "patents_ip",
-        "research_developments",
-        "government_contracts",
-        "earnings_guidance",
-        "financing_capital"
-      ],
+      "candidate_categories": [],
       "event_confirmed": false,
-      "form": "8-K",
+      "form": null,
       "source": "SEC_CURRENT_FILINGS",
-      "source_id": "urn:tag:sec.gov,2008:accession-number=0001628280-26-075530",
+      "source_id": "urn:tag:sec.gov,2008:accession-number=0001628280-26-075600",
       "status": "FORM_ONLY_UNVERIFIED",
-      "title": "8-K - Ready Capital Corp (0001527590) (Filer)",
+      "title": "3 - Proto Labs Inc (0001443669) (Issuer)",
       "trade_eligible": false,
-      "updated": "2026-11-23T16:42:51-05:00"
+      "updated": "2026-11-23T21:52:26-05:00"
     },
     {
       "candidate_categories": [],
       "event_confirmed": false,
       "form": null,
       "source": "SEC_CURRENT_FILINGS",
-      "source_id": "urn:tag:sec.gov,2008:accession-number=0001437749-26-038086",
+      "source_id": "urn:tag:sec.gov,2008:accession-number=0002166671-26-000003",
       "status": "FORM_ONLY_UNVERIFIED",
-      "title": "4 - McGurn Kevin (0002074510) (Reporting)",
+      "title": "3 - Libson Jeffrey Paul (0002166671) (Reporting)",
       "trade_eligible": false,
-      "updated": "2026-11-23T16:42:41-05:00"
+      "updated": "2026-11-23T21:52:09-05:00"
     },
     {
       "candidate_categories": [],
       "event_confirmed": false,
       "form": null,
       "source": "SEC_CURRENT_FILINGS",
-      "source_id": "urn:tag:sec.gov,2008:accession-number=0001437749-26-038086",
+      "source_id": "urn:tag:sec.gov,2008:accession-number=0002166671-26-000003",
       "status": "FORM_ONLY_UNVERIFIED",
-      "title": "4 - Trump Media & Technology Group Corp. (0001849635) (Issuer)",
+      "title": "3 - INOVIO PHARMACEUTICALS, INC. (0001055726) (Issuer)",
       "trade_eligible": false,
-      "updated": "2026-11-23T16:42:41-05:00"
+      "updated": "2026-11-23T21:52:09-05:00"
     },
     {
       "candidate_categories": [],
       "event_confirmed": false,
       "form": null,
       "source": "SEC_CURRENT_FILINGS",
-      "source_id": "urn:tag:sec.gov,2008:accession-number=0000950103-26-018009",
+      "source_id": "urn:tag:sec.gov,2008:accession-number=0001213900-26-123347",
       "status": "FORM_ONLY_UNVERIFIED",
-      "title": "FWP - Citigroup Global Markets Holdings Inc. (0000200245) (Subject)",
+      "title": "4 - Wentz George R. Jr. (0002153475) (Reporting)",
       "trade_eligible": false,
-      "updated": "2026-11-23T16:42:40-05:00"
+      "updated": "2026-11-23T21:51:29-05:00"
     },
     {
-      "candidate_categories": [
-        "legal_litigation",
-        "research_developments",
-        "earnings_guidance"
-      ],
+      "candidate_categories": [],
       "event_confirmed": false,
-      "form": "10-Q",
+      "form": null,
       "source": "SEC_CURRENT_FILINGS",
-      "source_id": "urn:tag:sec.gov,2008:accession-number=0001104659-26-131113",
+      "source_id": "urn:tag:sec.gov,2008:accession-number=0001213900-26-123347",
       "status": "FORM_ONLY_UNVERIFIED",
-      "title": "10-Q - Exyn Technologies, Inc. (0001960355) (Filer)",
+      "title": "4 - Fermi Inc. (0002071778) (Issuer)",
       "trade_eligible": false,
-      "updated": "2026-11-23T16:42:37-05:00"
+      "updated": "2026-11-23T21:51:29-05:00"
     },
     {
       "candidate_categories": [],
       "event_confirmed": false,
       "form": null,
       "source": "SEC_CURRENT_FILINGS",
-      "source_id": "urn:tag:sec.gov,2008:accession-number=0000064803-26-000123",
+      "source_id": "urn:tag:sec.gov,2008:accession-number=0001493152-26-053867",
       "status": "FORM_ONLY_UNVERIFIED",
-      "title": "4 - Mahoney Michael F (0001533022) (Reporting)",
+      "title": "4 - Herbst Jeffrey A (0001917553) (Reporting)",
       "trade_eligible": false,
-      "updated": "2026-11-23T16:42:25-05:00"
+      "updated": "2026-11-23T21:50:59-05:00"
     },
     {
       "candidate_categories": [],
       "event_confirmed": false,
       "form": null,
       "source": "SEC_CURRENT_FILINGS",
-      "source_id": "urn:tag:sec.gov,2008:accession-number=0000064803-26-000123",
+      "source_id": "urn:tag:sec.gov,2008:accession-number=0001493152-26-053867",
       "status": "FORM_ONLY_UNVERIFIED",
-      "title": "4 - CVS HEALTH Corp (0000064803) (Issuer)",
+      "title": "4 - MICROVISION, INC. (0000065770) (Issuer)",
       "trade_eligible": false,
-      "updated": "2026-11-23T16:42:25-05:00"
+      "updated": "2026-11-23T21:50:59-05:00"
     },
     {
       "candidate_categories": [],
       "event_confirmed": false,
       "form": null,
       "source": "SEC_CURRENT_FILINGS",
-      "source_id": "urn:tag:sec.gov,2008:accession-number=0001950047-26-011459",
+      "source_id": "urn:tag:sec.gov,2008:accession-number=0001213900-26-123346",
       "status": "FORM_ONLY_UNVERIFIED",
-      "title": "144 - OSTROFF DAWN (0001815563) (Reporting)",
+      "title": "3 - Wentz George R. Jr. (0002153475) (Reporting)",
       "trade_eligible": false,
-      "updated": "2026-11-23T16:42:21-05:00"
+      "updated": "2026-11-23T21:50:50-05:00"
     },
     {
       "candidate_categories": [],
       "event_confirmed": false,
       "form": null,
       "source": "SEC_CURRENT_FILINGS",
-      "source_id": "urn:tag:sec.gov,2008:accession-number=0001950047-26-011459",
+      "source_id": "urn:tag:sec.gov,2008:accession-number=0001213900-26-123346",
       "status": "FORM_ONLY_UNVERIFIED",
-      "title": "144 - Sweetgreen, Inc. (0001477815) (Subject)",
+      "title": "3 - Fermi Inc. (0002071778) (Issuer)",
       "trade_eligible": false,
-      "updated": "2026-11-23T16:42:21-05:00"
+      "updated": "2026-11-23T21:50:50-05:00"
     },
     {
       "candidate_categories": [],
       "event_confirmed": false,
       "form": null,
       "source": "SEC_CURRENT_FILINGS",
-      "source_id": "urn:tag:sec.gov,2008:accession-number=0000926877-26-000157",
+      "source_id": "urn:tag:sec.gov,2008:accession-number=0001493152-26-053865",
       "status": "FORM_ONLY_UNVERIFIED",
-      "title": "NPORT-P - Cypress Creek Portfolio Strategies Master Fund, L.P. (0001279392) (Filer)",
+      "title": "4 - Peterson Laura J. (0001744041) (Reporting)",
       "trade_eligible": false,
-      "updated": "2026-11-23T16:42:12-05:00"
+      "updated": "2026-11-23T21:49:54-05:00"
     },
     {
-      "candidate_categories": [
-        "legal_litigation",
-        "research_developments",
-        "earnings_guidance"
-      ],
+      "candidate_categories": [],
       "event_confirmed": false,
-      "form": "10-Q",
+      "form": null,
       "source": "SEC_CURRENT_FILINGS",
-      "source_id": "urn:tag:sec.gov,2008:accession-number=0001213900-26-123226",
+      "source_id": "urn:tag:sec.gov,2008:accession-number=0001493152-26-053865",
       "status": "FORM_ONLY_UNVERIFIED",
-      "title": "10-Q - Revium Rx. (0001839140) (Filer)",
+      "title": "4 - MICROVISION, INC. (0000065770) (Issuer)",
       "trade_eligible": false,
-      "updated": "2026-11-23T16:42:10-05:00"
+      "updated": "2026-11-23T21:49:54-05:00"
     },
     {
       "candidate_categories": [],
       "event_confirmed": false,
       "form": null,
       "source": "SEC_CURRENT_FILINGS",
-      "source_id": "urn:tag:sec.gov,2008:accession-number=0001628280-26-075529",
+      "source_id": "urn:tag:sec.gov,2008:accession-number=0001493152-26-053864",
       "status": "FORM_ONLY_UNVERIFIED",
-      "title": "4 - BELL ERIC CHRISTOPHER (0001837856) (Reporting)",
+      "title": "4 - Carlile Robert Paul (0001695923) (Reporting)",
       "trade_eligible": false,
-      "updated": "2026-11-23T16:41:58-05:00"
+      "updated": "2026-11-23T21:49:21-05:00"
     },
     {
       "candidate_categories": [],
       "event_confirmed": false,
       "form": null,
       "source": "SEC_CURRENT_FILINGS",
-      "source_id": "urn:tag:sec.gov,2008:accession-number=0001628280-26-075529",
+      "source_id": "urn:tag:sec.gov,2008:accession-number=0001493152-26-053864",
       "status": "FORM_ONLY_UNVERIFIED",
-      "title": "4 - MITEK SYSTEMS INC (0000807863) (Issuer)",
+      "title": "4 - MICROVISION, INC. (0000065770) (Issuer)",
       "trade_eligible": false,
-      "updated": "2026-11-23T16:41:58-05:00"
+      "updated": "2026-11-23T21:49:21-05:00"
     },
     {
       "candidate_categories": [],
       "event_confirmed": false,
       "form": null,
       "source": "SEC_CURRENT_FILINGS",
-      "source_id": "urn:tag:sec.gov,2008:accession-number=0001950047-26-011458",
+      "source_id": "urn:tag:sec.gov,2008:accession-number=0001493152-26-053861",
       "status": "FORM_ONLY_UNVERIFIED",
-      "title": "144 - Grech Patricia Y (0002081650) (Reporting)",
+      "title": "4 - BIDDISCOMBE SIMON (0001239891) (Reporting)",
       "trade_eligible": false,
-      "updated": "2026-11-23T16:41:49-05:00"
+      "updated": "2026-11-23T21:48:02-05:00"
     },
     {
       "candidate_categories": [],
       "event_confirmed": false,
       "form": null,
       "source": "SEC_CURRENT_FILINGS",
-      "source_id": "urn:tag:sec.gov,2008:accession-number=0001950047-26-011458",
+      "source_id": "urn:tag:sec.gov,2008:accession-number=0001493152-26-053861",
       "status": "FORM_ONLY_UNVERIFIED",
-      "title": "144 - QUALCOMM INC/DE (0000804328) (Subject)",
+      "title": "4 - MICROVISION, INC. (0000065770) (Issuer)",
       "trade_eligible": false,
-      "updated": "2026-11-23T16:41:49-05:00"
+      "updated": "2026-11-23T21:48:02-05:00"
     },
     {
       "candidate_categories": [],
       "event_confirmed": false,
       "form": null,
       "source": "SEC_CURRENT_FILINGS",
-      "source_id": "urn:tag:sec.gov,2008:accession-number=0001918704-26-036592",
+      "source_id": "urn:tag:sec.gov,2008:accession-number=0001193805-26-001521",
       "status": "FORM_ONLY_UNVERIFIED",
-      "title": "424B2 - Jefferies Financial Group Inc. (0000096223) (Filer)",
+      "title": "SCHEDULE 13D/A - BILL Holdings, Inc. (0001786352) (Subject)",
       "trade_eligible": false,
-      "updated": "2026-11-23T16:41:28-05:00"
+      "updated": "2026-11-23T21:45:14-05:00"
     },
     {
       "candidate_categories": [],
       "event_confirmed": false,
       "form": null,
       "source": "SEC_CURRENT_FILINGS",
-      "source_id": "urn:tag:sec.gov,2008:accession-number=0001918704-26-036591",
+      "source_id": "urn:tag:sec.gov,2008:accession-number=0001193805-26-001521",
       "status": "FORM_ONLY_UNVERIFIED",
-      "title": "424B2 - BofA Finance LLC (0001682472) (Filer)",
+      "title": "SCHEDULE 13D/A - Starboard Value LP (0001517137) (Filed by)",
       "trade_eligible": false,
-      "updated": "2026-11-23T16:41:23-05:00"
+      "updated": "2026-11-23T21:45:14-05:00"
     },
     {
       "candidate_categories": [],
       "event_confirmed": false,
       "form": null,
       "source": "SEC_CURRENT_FILINGS",
-      "source_id": "urn:tag:sec.gov,2008:accession-number=0001918704-26-036591",
+      "source_id": "urn:tag:sec.gov,2008:accession-number=0001104659-26-131284",
       "status": "FORM_ONLY_UNVERIFIED",
-      "title": "424B2 - BANK OF AMERICA CORP /DE/ (0000070858) (Filer)",
+      "title": "3 - Vertical Aerospace Ltd. (0001867102) (Issuer)",
       "trade_eligible": false,
-      "updated": "2026-11-23T16:41:23-05:00"
+      "updated": "2026-11-23T21:45:10-05:00"
     },
     {
       "candidate_categories": [],
       "event_confirmed": false,
       "form": null,
       "source": "SEC_CURRENT_FILINGS",
-      "source_id": "urn:tag:sec.gov,2008:accession-number=0001628280-26-075528",
+      "source_id": "urn:tag:sec.gov,2008:accession-number=0001104659-26-131284",
       "status": "FORM_ONLY_UNVERIFIED",
-      "title": "4 - Gafke Garrett (0001854399) (Reporting)",
+      "title": "3 - Mudrick Jason (0001367262) (Reporting)",
       "trade_eligible": false,
-      "updated": "2026-11-23T16:41:22-05:00"
+      "updated": "2026-11-23T21:45:10-05:00"
     },
     {
       "candidate_categories": [],
       "event_confirmed": false,
       "form": null,
       "source": "SEC_CURRENT_FILINGS",
-      "source_id": "urn:tag:sec.gov,2008:accession-number=0001628280-26-075528",
+      "source_id": "urn:tag:sec.gov,2008:accession-number=0002014215-26-000022",
       "status": "FORM_ONLY_UNVERIFIED",
-      "title": "4 - MITEK SYSTEMS INC (0000807863) (Issuer)",
+      "title": "144 - THATCHER TREVOR (0002014215) (Reporting)",
       "trade_eligible": false,
-      "updated": "2026-11-23T16:41:22-05:00"
+      "updated": "2026-11-23T21:42:05-05:00"
     },
     {
       "candidate_categories": [],
       "event_confirmed": false,
       "form": null,
       "source": "SEC_CURRENT_FILINGS",
-      "source_id": "urn:tag:sec.gov,2008:accession-number=0000926877-26-000156",
+      "source_id": "urn:tag:sec.gov,2008:accession-number=0002014215-26-000022",
       "status": "FORM_ONLY_UNVERIFIED",
-      "title": "NPORT-P - Cypress Creek Portfolio Strategies Institutional Fund, L.P. (0001478268) (Filer)",
+      "title": "144 - Palladyne AI Corp. (0001826681) (Subject)",
       "trade_eligible": false,
-      "updated": "2026-11-23T16:41:03-05:00"
+      "updated": "2026-11-23T21:42:05-05:00"
     },
     {
       "candidate_categories": [],
       "event_confirmed": false,
       "form": null,
       "source": "SEC_CURRENT_FILINGS",
-      "source_id": "urn:tag:sec.gov,2008:accession-number=0001104659-26-131111",
+      "source_id": "urn:tag:sec.gov,2008:accession-number=0002001011-26-000152",
       "status": "FORM_ONLY_UNVERIFIED",
-      "title": "SCHEDULE 13D/A - HOLCIM LTD. (0002016373) (Filed by)",
+      "title": "144 - Rocket Lab Corp (0001819994) (Subject)",
       "trade_eligible": false,
-      "updated": "2026-11-23T16:40:46-05:00"
+      "updated": "2026-11-23T21:41:11-05:00"
     },
     {
       "candidate_categories": [],
       "event_confirmed": false,
       "form": null,
       "source": "SEC_CURRENT_FILINGS",
-      "source_id": "urn:tag:sec.gov,2008:accession-number=0001104659-26-131111",
+      "source_id": "urn:tag:sec.gov,2008:accession-number=0002001011-26-000152",
       "status": "FORM_ONLY_UNVERIFIED",
-      "title": "SCHEDULE 13D/A - CEMENTOS PACASMAYO SAA (0001221029) (Subject)",
+      "title": "144 - Ricupati Agostino (0001710066) (Reporting)",
       "trade_eligible": false,
-      "updated": "2026-11-23T16:40:46-05:00"
+      "updated": "2026-11-23T21:41:11-05:00"
     },
     {
       "candidate_categories": [],
       "event_confirmed": false,
       "form": null,
       "source": "SEC_CURRENT_FILINGS",
-      "source_id": "urn:tag:sec.gov,2008:accession-number=0000898432-26-000800",
+      "source_id": "urn:tag:sec.gov,2008:accession-number=0002001011-26-000151",
       "status": "FORM_ONLY_UNVERIFIED",
-      "title": "SCHEDULE 13D/A - Unified Shares LLC (0002089353) (Filed by)",
+      "title": "144 - Clevenger Marvin Bradford (0002127567) (Reporting)",
       "trade_eligible": false,
-      "updated": "2026-11-23T16:40:38-05:00"
+      "updated": "2026-11-23T21:40:11-05:00"
     },
     {
       "candidate_categories": [],
       "event_confirmed": false,
       "form": null,
       "source": "SEC_CURRENT_FILINGS",
-      "source_id": "urn:tag:sec.gov,2008:accession-number=0000898432-26-000800",
+      "source_id": "urn:tag:sec.gov,2008:accession-number=0002001011-26-000151",
       "status": "FORM_ONLY_UNVERIFIED",
-      "title": "SCHEDULE 13D/A - Commercial Bancgroup, Inc. (0001981546) (Subject)",
+      "title": "144 - Rocket Lab Corp (0001819994) (Subject)",
       "trade_eligible": false,
-      "updated": "2026-11-23T16:40:38-05:00"
+      "updated": "2026-11-23T21:40:11-05:00"
     },
     {
       "candidate_categories": [],
       "event_confirmed": false,
       "form": null,
       "source": "SEC_CURRENT_FILINGS",
-      "source_id": "urn:tag:sec.gov,2008:accession-number=0001666134-26-000108",
+      "source_id": "urn:tag:sec.gov,2008:accession-number=0001998996-26-000022",
       "status": "FORM_ONLY_UNVERIFIED",
-      "title": "4 - Villanova Patrick (0001688119) (Reporting)",
+      "title": "144 - SONNE STEPHEN (0001998996) (Reporting)",
       "trade_eligible": false,
-      "updated": "2026-11-23T16:40:38-05:00"
+      "updated": "2026-11-23T21:39:48-05:00"
     },
     {
       "candidate_categories": [],
       "event_confirmed": false,
       "form": null,
       "source": "SEC_CURRENT_FILINGS",
-      "source_id": "urn:tag:sec.gov,2008:accession-number=0001666134-26-000108",
+      "source_id": "urn:tag:sec.gov,2008:accession-number=0001998996-26-000022",
       "status": "FORM_ONLY_UNVERIFIED",
-      "title": "4 - BLACKLINE, INC. (0001666134) (Issuer)",
+      "title": "144 - Palladyne AI Corp. (0001826681) (Subject)",
       "trade_eligible": false,
-      "updated": "2026-11-23T16:40:38-05:00"
+      "updated": "2026-11-23T21:39:48-05:00"
     },
     {
       "candidate_categories": [],
       "event_confirmed": false,
       "form": null,
       "source": "SEC_CURRENT_FILINGS",
-      "source_id": "urn:tag:sec.gov,2008:accession-number=0001839882-26-057736",
+      "source_id": "urn:tag:sec.gov,2008:accession-number=0002001011-26-000150",
       "status": "FORM_ONLY_UNVERIFIED",
-      "title": "424B2 - Wells Fargo Finance LLC (0001738143) (Filer)",
+      "title": "144 - Klein Frank (0002037530) (Reporting)",
       "trade_eligible": false,
-      "updated": "2026-11-23T16:40:33-05:00"
+      "updated": "2026-11-23T21:39:26-05:00"
     },
     {
       "candidate_categories": [],
       "event_confirmed": false,
       "form": null,
       "source": "SEC_CURRENT_FILINGS",
-      "source_id": "urn:tag:sec.gov,2008:accession-number=0001839882-26-057736",
+      "source_id": "urn:tag:sec.gov,2008:accession-number=0002001011-26-000150",
       "status": "FORM_ONLY_UNVERIFIED",
-      "title": "424B2 - WELLS FARGO & COMPANY/MN (0000072971) (Filer)",
+      "title": "144 - Rocket Lab Corp (0001819994) (Subject)",
       "trade_eligible": false,
-      "updated": "2026-11-23T16:40:33-05:00"
+      "updated": "2026-11-23T21:39:26-05:00"
     },
     {
       "candidate_categories": [],
       "event_confirmed": false,
       "form": null,
       "source": "SEC_CURRENT_FILINGS",
-      "source_id": "urn:tag:sec.gov,2008:accession-number=0001628280-26-075527",
+      "source_id": "urn:tag:sec.gov,2008:accession-number=0002001011-26-000149",
       "status": "FORM_ONLY_UNVERIFIED",
-      "title": "4 - Gray Jason (0001577363) (Reporting)",
+      "title": "144 - Rocket Lab Corp (0001819994) (Subject)",
       "trade_eligible": false,
-      "updated": "2026-11-23T16:40:31-05:00"
+      "updated": "2026-11-23T21:38:39-05:00"
     },
     {
       "candidate_categories": [],
       "event_confirmed": false,
       "form": null,
       "source": "SEC_CURRENT_FILINGS",
-      "source_id": "urn:tag:sec.gov,2008:accession-number=0001628280-26-075527",
+      "source_id": "urn:tag:sec.gov,2008:accession-number=0002001011-26-000149",
       "status": "FORM_ONLY_UNVERIFIED",
-      "title": "4 - MITEK SYSTEMS INC (0000807863) (Issuer)",
+      "title": "144 - Kampani Arjun (0001671507) (Reporting)",
       "trade_eligible": false,
-      "updated": "2026-11-23T16:40:31-05:00"
+      "updated": "2026-11-23T21:38:39-05:00"
     },
     {
-      "candidate_categories": [
-        "legal_litigation",
-        "patents_ip",
-        "earnings_guidance"
-      ],
+      "candidate_categories": [],
       "event_confirmed": false,
-      "form": "10-K",
+      "form": null,
       "source": "SEC_CURRENT_FILINGS",
-      "source_id": "urn:tag:sec.gov,2008:accession-number=0001681622-26-000086",
+      "source_id": "urn:tag:sec.gov,2008:accession-number=0001920634-26-000022",
       "status": "FORM_ONLY_UNVERIFIED",
-      "title": "10-K - Varex Imaging Corp (0001681622) (Filer)",
+      "title": "144 - GARAGIC DENIS (0001920634) (Reporting)",
       "trade_eligible": false,
-      "updated": "2026-11-23T16:40:29-05:00"
+      "updated": "2026-11-23T21:38:35-05:00"
     },
     {
       "candidate_categories": [],
       "event_confirmed": false,
       "form": null,
       "source": "SEC_CURRENT_FILINGS",
-      "source_id": "urn:tag:sec.gov,2008:accession-number=0001540655-26-000036",
+      "source_id": "urn:tag:sec.gov,2008:accession-number=0001920634-26-000022",
       "status": "FORM_ONLY_UNVERIFIED",
-      "title": "4 - Foran Joseph Wm (0001540655) (Reporting)",
+      "title": "144 - Palladyne AI Corp. (0001826681) (Subject)",
       "trade_eligible": false,
-      "updated": "2026-11-23T16:40:29-05:00"
+      "updated": "2026-11-23T21:38:35-05:00"
     },
     {
       "candidate_categories": [],
       "event_confirmed": false,
       "form": null,
       "source": "SEC_CURRENT_FILINGS",
-      "source_id": "urn:tag:sec.gov,2008:accession-number=0001540655-26-000036",
+      "source_id": "urn:tag:sec.gov,2008:accession-number=0002001011-26-000148",
       "status": "FORM_ONLY_UNVERIFIED",
-      "title": "4 - Matador Resources Co (0001520006) (Issuer)",
+      "title": "144 - Rocket Lab Corp (0001819994) (Subject)",
       "trade_eligible": false,
-      "updated": "2026-11-23T16:40:29-05:00"
+      "updated": "2026-11-23T21:37:00-05:00"
     },
     {
       "candidate_categories": [],
       "event_confirmed": false,
       "form": null,
       "source": "SEC_CURRENT_FILINGS",
-      "source_id": "urn:tag:sec.gov,2008:accession-number=0001985367-26-000003",
+      "source_id": "urn:tag:sec.gov,2008:accession-number=0002001011-26-000148",
       "status": "FORM_ONLY_UNVERIFIED",
-      "title": "4 - QumulusAI, Inc. (0002084026) (Issuer)",
+      "title": "144 - Spice Adam C. (0001509421) (Reporting)",
       "trade_eligible": false,
-      "updated": "2026-11-23T16:40:26-05:00"
+      "updated": "2026-11-23T21:37:00-05:00"
     },
     {
-      "candidate_categories": [
-        "legal_litigation",
-        "research_developments",
-        "earnings_guidance"
-      ],
+      "candidate_categories": [],
       "event_confirmed": false,
-      "form": "10-Q",
+      "form": null,
       "source": "SEC_CURRENT_FILINGS",
-      "source_id": "urn:tag:sec.gov,2008:accession-number=0001829126-26-012748",
+      "source_id": "urn:tag:sec.gov,2008:accession-number=0001437749-26-038125",
       "status": "FORM_ONLY_UNVERIFIED",
-      "title": "10-Q - Shreya Acquisition Group (0002083452) (Filer)",
+      "title": "SCHEDULE 13D - PT Tunas Harapan Perkasa (0002164580) (Filed by)",
       "trade_eligible": false,
-      "updated": "2026-11-23T16:40:26-05:00"
+      "updated": "2026-11-23T21:34:34-05:00"
     },
     {
       "candidate_categories": [],
       "event_confirmed": false,
       "form": null,
       "source": "SEC_CURRENT_FILINGS",
-      "source_id": "urn:tag:sec.gov,2008:accession-number=0001985367-26-000003",
+      "source_id": "urn:tag:sec.gov,2008:accession-number=0001437749-26-038125",
       "status": "FORM_ONLY_UNVERIFIED",
-      "title": "4 - Maniscalco Michael (0001985367) (Reporting)",
+      "title": "SCHEDULE 13D - HighPeak Energy, Inc. (0001792849) (Subject)",
       "trade_eligible": false,
-      "updated": "2026-11-23T16:40:26-05:00"
+      "updated": "2026-11-23T21:34:34-05:00"
     },
     {
       "candidate_categories": [],
       "event_confirmed": false,
       "form": null,
       "source": "SEC_CURRENT_FILINGS",
-      "source_id": "urn:tag:sec.gov,2008:accession-number=0000950103-26-018008",
+      "source_id": "urn:tag:sec.gov,2008:accession-number=0001437749-26-038124",
       "status": "FORM_ONLY_UNVERIFIED",
-      "title": "424B2 - BARCLAYS BANK PLC (0000312070) (Filer)",
+      "title": "SCHEDULE 13D - PT Danantara Energy International (0002164536) (Filed by)",
       "trade_eligible": false,
-      "updated": "2026-11-23T16:40:11-05:00"
+      "updated": "2026-11-23T21:33:19-05:00"
     },
     {
       "candidate_categories": [],
       "event_confirmed": false,
       "form": null,
       "source": "SEC_CURRENT_FILINGS",
-      "source_id": "urn:tag:sec.gov,2008:accession-number=0001493152-26-053786",
+      "source_id": "urn:tag:sec.gov,2008:accession-number=0001437749-26-038124",
       "status": "FORM_ONLY_UNVERIFIED",
-      "title": "3 - Quantum Space Holdings, LLC (0002166313) (Reporting)",
+      "title": "SCHEDULE 13D - HighPeak Energy, Inc. (0001792849) (Subject)",
       "trade_eligible": false,
-      "updated": "2026-11-23T16:40:10-05:00"
+      "updated": "2026-11-23T21:33:19-05:00"
     },
     {
       "candidate_categories": [],
       "event_confirmed": false,
       "form": null,
       "source": "SEC_CURRENT_FILINGS",
-      "source_id": "urn:tag:sec.gov,2008:accession-number=0001493152-26-053787",
+      "source_id": "urn:tag:sec.gov,2008:accession-number=0001437749-26-038122",
       "status": "FORM_ONLY_UNVERIFIED",
-      "title": "3 - Mirick Christopher R. (0002164221) (Reporting)",
+      "title": "3 - PT Energi Mega Persada Tbk (0002166207) (Reporting)",
       "trade_eligible": false,
-      "updated": "2026-11-23T16:40:10-05:00"
+      "updated": "2026-11-23T21:31:52-05:00"
     },
     {
       "candidate_categories": [],
       "event_confirmed": false,
       "form": null,
       "source": "SEC_CURRENT_FILINGS",
-      "source_id": "urn:tag:sec.gov,2008:accession-number=0001493152-26-053787",
+      "source_id": "urn:tag:sec.gov,2008:accession-number=0001437749-26-038122",
       "status": "FORM_ONLY_UNVERIFIED",
-      "title": "3 - Quantum Space, Inc. (0002145371) (Issuer)",
+      "title": "3 - PT Tunas Harapan Perkasa (0002164580) (Reporting)",
       "trade_eligible": false,
-      "updated": "2026-11-23T16:40:10-05:00"
+      "updated": "2026-11-23T21:31:52-05:00"
     },
     {
       "candidate_categories": [],
       "event_confirmed": false,
       "form": null,
       "source": "SEC_CURRENT_FILINGS",
-      "source_id": "urn:tag:sec.gov,2008:accession-number=0001493152-26-053786",
+      "source_id": "urn:tag:sec.gov,2008:accession-number=0001437749-26-038122",
       "status": "FORM_ONLY_UNVERIFIED",
-      "title": "3 - Quantum Space, Inc. (0002145371) (Issuer)",
+      "title": "3 - HighPeak Energy, Inc. (0001792849) (Issuer)",
       "trade_eligible": false,
-      "updated": "2026-11-23T16:40:10-05:00"
+      "updated": "2026-11-23T21:31:52-05:00"
     },
     {
       "candidate_categories": [],
       "event_confirmed": false,
       "form": null,
       "source": "SEC_CURRENT_FILINGS",
-      "source_id": "urn:tag:sec.gov,2008:accession-number=0001493152-26-053786",
+      "source_id": "urn:tag:sec.gov,2008:accession-number=0001437749-26-038121",
       "status": "FORM_ONLY_UNVERIFIED",
-      "title": "3 - Ghaffarian Kamal Seyed (0001963529) (Reporting)",
+      "title": "3 - PT Danantara Investment Management (0002166049) (Reporting)",
       "trade_eligible": false,
-      "updated": "2026-11-23T16:40:10-05:00"
+      "updated": "2026-11-23T21:31:20-05:00"
     },
     {
       "candidate_categories": [],
       "event_confirmed": false,
       "form": null,
       "source": "SEC_CURRENT_FILINGS",
-      "source_id": "urn:tag:sec.gov,2008:accession-number=0001104659-26-131110",
+      "source_id": "urn:tag:sec.gov,2008:accession-number=0001437749-26-038121",
       "status": "FORM_ONLY_UNVERIFIED",
-      "title": "425 - Zscaler, Inc. (0001713683) (Subject)",
+      "title": "3 - PT Danantara Energy International (0002164536) (Reporting)",
       "trade_eligible": false,
-      "updated": "2026-11-23T16:40:06-05:00"
+      "updated": "2026-11-23T21:31:20-05:00"
     },
     {
       "candidate_categories": [],
       "event_confirmed": false,
       "form": null,
       "source": "SEC_CURRENT_FILINGS",
-      "source_id": "urn:tag:sec.gov,2008:accession-number=0001104659-26-131110",
+      "source_id": "urn:tag:sec.gov,2008:accession-number=0001437749-26-038121",
       "status": "FORM_ONLY_UNVERIFIED",
-      "title": "425 - CrowdStrike Holdings, Inc. (0001535527) (Filed by)",
+      "title": "3 - HighPeak Energy, Inc. (0001792849) (Issuer)",
       "trade_eligible": false,
-      "updated": "2026-11-23T16:40:06-05:00"
+      "updated": "2026-11-23T21:31:20-05:00"
     },
     {
-      "candidate_categories": [
-        "mergers_acquisitions",
-        "legal_litigation",
-        "management_hiring_firing",
-        "patents_ip",
-        "research_developments",
-        "government_contracts",
-        "earnings_guidance",
-        "financing_capital"
-      ],
+      "candidate_categories": [],
       "event_confirmed": false,
-      "form": "8-K",
+      "form": null,
       "source": "SEC_CURRENT_FILINGS",
-      "source_id": "urn:tag:sec.gov,2008:accession-number=0001474903-26-000104",
+      "source_id": "urn:tag:sec.gov,2008:accession-number=0001104659-26-131280",
       "status": "FORM_ONLY_UNVERIFIED",
-      "title": "8-K - BGSF, INC. (0001474903) (Filer)",
+      "title": "SCHEDULE 13G - vVARDIS Holding AG (0001907709) (Subject)",
       "trade_eligible": false,
-      "updated": "2026-11-23T16:40:05-05:00"
+      "updated": "2026-11-23T21:30:27-05:00"
     },
     {
-      "candidate_categories": [
-        "mergers_acquisitions",
-        "legal_litigation",
-        "management_hiring_firing",
-        "patents_ip",
-        "research_developments",
-        "government_contracts",
-        "earnings_guidance",
-        "financing_capital"
-      ],
+      "candidate_categories": [],
       "event_confirmed": false,
-      "form": "8-K",
+      "form": null,
       "source": "SEC_CURRENT_FILINGS",
-      "source_id": "urn:tag:sec.gov,2008:accession-number=0001104659-26-131109",
+      "source_id": "urn:tag:sec.gov,2008:accession-number=0001104659-26-131280",
       "status": "FORM_ONLY_UNVERIFIED",
-      "title": "8-K - Exyn Technologies, Inc. (0001960355) (Filer)",
+      "title": "SCHEDULE 13G - Apollo Management Holdings GP, LLC (0001449433) (Filed by)",
       "trade_eligible": false,
-      "updated": "2026-11-23T16:39:48-05:00"
+      "updated": "2026-11-23T21:30:27-05:00"
     },
     {
       "candidate_categories": [],
       "event_confirmed": false,
       "form": null,
       "source": "SEC_CURRENT_FILINGS",
-      "source_id": "urn:tag:sec.gov,2008:accession-number=0001628280-26-075526",
+      "source_id": "urn:tag:sec.gov,2008:accession-number=0001493152-26-053857",
       "status": "FORM_ONLY_UNVERIFIED",
-      "title": "4 - Lyle David (0001416939) (Reporting)",
+      "title": "4 - NextBoat Inc. (0002067767) (Issuer)",
       "trade_eligible": false,
-      "updated": "2026-11-23T16:39:35-05:00"
+      "updated": "2026-11-23T21:30:02-05:00"
     },
     {
       "candidate_categories": [],
       "event_confirmed": false,
       "form": null,
       "source": "SEC_CURRENT_FILINGS",
-      "source_id": "urn:tag:sec.gov,2008:accession-number=0001628280-26-075526",
+      "source_id": "urn:tag:sec.gov,2008:accession-number=0001493152-26-053857",
       "status": "FORM_ONLY_UNVERIFIED",
-      "title": "4 - MITEK SYSTEMS INC (0000807863) (Issuer)",
+      "title": "4 - John Brian (0001534699) (Reporting)",
       "trade_eligible": false,
-      "updated": "2026-11-23T16:39:35-05:00"
+      "updated": "2026-11-23T21:30:02-05:00"
     },
     {
       "candidate_categories": [],
       "event_confirmed": false,
       "form": null,
       "source": "SEC_CURRENT_FILINGS",
-      "source_id": "urn:tag:sec.gov,2008:accession-number=0002165257-26-000001",
+      "source_id": "urn:tag:sec.gov,2008:accession-number=0001753926-26-002236",
       "status": "FORM_ONLY_UNVERIFIED",
-      "title": "D - IEQ SPV - Project Nourish, L.P. (0002165257) (Filer)",
+      "title": "SCHEDULE 13D/A - Williams Gregg (0001624919) (Filed by)",
       "trade_eligible": false,
-      "updated": "2026-11-23T16:39:34-05:00"
+      "updated": "2026-11-23T21:27:41-05:00"
     },
     {
       "candidate_categories": [],
       "event_confirmed": false,
       "form": null,
       "source": "SEC_CURRENT_FILINGS",
-      "source_id": "urn:tag:sec.gov,2008:accession-number=0000950142-26-003143",
+      "source_id": "urn:tag:sec.gov,2008:accession-number=0001753926-26-002236",
       "status": "FORM_ONLY_UNVERIFIED",
-      "title": "4 - Lichty Paul Robert (0002141486) (Reporting)",
+      "title": "SCHEDULE 13D/A - Vivani Medical, Inc. (0001266806) (Subject)",
       "trade_eligible": false,
-      "updated": "2026-11-23T16:39:30-05:00"
+      "updated": "2026-11-23T21:27:41-05:00"
     },
     {
       "candidate_categories": [],
       "event_confirmed": false,
       "form": null,
       "source": "SEC_CURRENT_FILINGS",
-      "source_id": "urn:tag:sec.gov,2008:accession-number=0000950142-26-003143",
+      "source_id": "urn:tag:sec.gov,2008:accession-number=0001104659-26-131277",
       "status": "FORM_ONLY_UNVERIFIED",
-      "title": "4 - Forge Nano Holdings, Inc. (0002101833) (Issuer)",
+      "title": "4 - Patel Sushil (0001860609) (Reporting)",
       "trade_eligible": false,
-      "updated": "2026-11-23T16:39:30-05:00"
+      "updated": "2026-11-23T21:22:09-05:00"
     },
     {
       "candidate_categories": [],
       "event_confirmed": false,
       "form": null,
       "source": "SEC_CURRENT_FILINGS",
-      "source_id": "urn:tag:sec.gov,2008:accession-number=0001193125-26-472511",
+      "source_id": "urn:tag:sec.gov,2008:accession-number=0001104659-26-131277",
       "status": "FORM_ONLY_UNVERIFIED",
-      "title": "NPORT-P - Investment Managers Series Trust (0001318342) (Filer)",
+      "title": "4 - Replimune Group, Inc. (0001737953) (Issuer)",
       "trade_eligible": false,
-      "updated": "2026-11-23T16:39:14-05:00"
+      "updated": "2026-11-23T21:22:09-05:00"
     },
     {
       "candidate_categories": [],
       "event_confirmed": false,
       "form": null,
       "source": "SEC_CURRENT_FILINGS",
-      "source_id": "urn:tag:sec.gov,2008:accession-number=0000898432-26-000799",
+      "source_id": "urn:tag:sec.gov,2008:accession-number=0001104659-26-131276",
       "status": "FORM_ONLY_UNVERIFIED",
-      "title": "4 - Spurlock Martha S. (0002088587) (Reporting)",
+      "title": "4 - Xynos Konstantinos (0001956241) (Reporting)",
       "trade_eligible": false,
-      "updated": "2026-11-23T16:39:11-05:00"
+      "updated": "2026-11-23T21:21:03-05:00"
     },
     {
-      "candidate_categories": [
-        "mergers_acquisitions",
-        "legal_litigation",
-        "management_hiring_firing",
-        "patents_ip",
-        "research_developments",
-        "government_contracts",
-        "earnings_guidance",
-        "financing_capital"
-      ],
+      "candidate_categories": [],
       "event_confirmed": false,
-      "form": "8-K",
+      "form": null,
       "source": "SEC_CURRENT_FILINGS",
-      "source_id": "urn:tag:sec.gov,2008:accession-number=0001628280-26-075523",
+      "source_id": "urn:tag:sec.gov,2008:accession-number=0001104659-26-131276",
       "status": "FORM_ONLY_UNVERIFIED",
-      "title": "8-K - Amentum Holdings, Inc. (0002011286) (Filer)",
+      "title": "4 - Replimune Group, Inc. (0001737953) (Issuer)",
       "trade_eligible": false,
-      "updated": "2026-11-23T16:39:11-05:00"
+      "updated": "2026-11-23T21:21:03-05:00"
     },
     {
       "candidate_categories": [],
       "event_confirmed": false,
       "form": null,
       "source": "SEC_CURRENT_FILINGS",
-      "source_id": "urn:tag:sec.gov,2008:accession-number=0000898432-26-000799",
+      "source_id": "urn:tag:sec.gov,2008:accession-number=0001193125-26-472919",
       "status": "FORM_ONLY_UNVERIFIED",
-      "title": "4 - Commercial Bancgroup, Inc. (0001981546) (Issuer)",
+      "title": "4 - WHITAKER WILLIAM (0002069120) (Reporting)",
       "trade_eligible": false,
-      "updated": "2026-11-23T16:39:11-05:00"
+      "updated": "2026-11-23T21:15:48-05:00"
     },
     {
-      "candidate_categories": [
-        "earnings_guidance"
-      ],
+      "candidate_categories": [],
       "event_confirmed": false,
-      "form": "6-K",
+      "form": null,
       "source": "SEC_CURRENT_FILINGS",
-      "source_id": "urn:tag:sec.gov,2008:accession-number=0001708441-26-000123",
+      "source_id": "urn:tag:sec.gov,2008:accession-number=0001193125-26-472919",
       "status": "FORM_ONLY_UNVERIFIED",
-      "title": "6-K - Mynd.ai, Inc. (0001708441) (Filer)",
+      "title": "4 - ASHLAND INC. (0001674862) (Issuer)",
       "trade_eligible": false,
-      "updated": "2026-11-23T16:38:53-05:00"
+      "updated": "2026-11-23T21:15:48-05:00"
     },
     {
       "candidate_categories": [],
       "event_confirmed": false,
       "form": null,
       "source": "SEC_CURRENT_FILINGS",
-      "source_id": "urn:tag:sec.gov,2008:accession-number=0001628280-26-075522",
+      "source_id": "urn:tag:sec.gov,2008:accession-number=0001193125-26-472918",
       "status": "FORM_ONLY_UNVERIFIED",
-      "title": "4 - WEST EDWARD H (0001186807) (Reporting)",
+      "title": "4 - RICHARDSON SAMUEL (0002069295) (Reporting)",
       "trade_eligible": false,
-      "updated": "2026-11-23T16:38:49-05:00"
+      "updated": "2026-11-23T21:15:09-05:00"
     },
     {
       "candidate_categories": [],
       "event_confirmed": false,
       "form": null,
       "source": "SEC_CURRENT_FILINGS",
-      "source_id": "urn:tag:sec.gov,2008:accession-number=0001628280-26-075522",
+      "source_id": "urn:tag:sec.gov,2008:accession-number=0001193125-26-472918",
       "status": "FORM_ONLY_UNVERIFIED",
-      "title": "4 - MITEK SYSTEMS INC (0000807863) (Issuer)",
+      "title": "4 - ASHLAND INC. (0001674862) (Issuer)",
       "trade_eligible": false,
-      "updated": "2026-11-23T16:38:49-05:00"
+      "updated": "2026-11-23T21:15:09-05:00"
     },
     {
-      "candidate_categories": [
-        "mergers_acquisitions",
-        "legal_litigation",
-        "management_hiring_firing",
-        "patents_ip",
-        "research_developments",
-        "government_contracts",
-        "earnings_guidance",
-        "financing_capital"
-      ],
+      "candidate_categories": [],
       "event_confirmed": false,
-      "form": "8-K",
+      "form": null,
       "source": "SEC_CURRENT_FILINGS",
-      "source_id": "urn:tag:sec.gov,2008:accession-number=0001681622-26-000085",
+      "source_id": "urn:tag:sec.gov,2008:accession-number=0001193125-26-472917",
       "status": "FORM_ONLY_UNVERIFIED",
-      "title": "8-K - Varex Imaging Corp (0001681622) (Filer)",
+      "title": "4 - ASHLAND INC. (0001674862) (Issuer)",
       "trade_eligible": false,
-      "updated": "2026-11-23T16:38:42-05:00"
+      "updated": "2026-11-23T21:14:41-05:00"
     },
     {
       "candidate_categories": [],
       "event_confirmed": false,
       "form": null,
       "source": "SEC_CURRENT_FILINGS",
-      "source_id": "urn:tag:sec.gov,2008:accession-number=0001628280-26-075521",
+      "source_id": "urn:tag:sec.gov,2008:accession-number=0001193125-26-472917",
       "status": "FORM_ONLY_UNVERIFIED",
-      "title": "144 - Preusse Mary Hogan (0001697749) (Reporting)",
+      "title": "4 - NOVO GUILLERMO (0001434813) (Reporting)",
       "trade_eligible": false,
-      "updated": "2026-11-23T16:38:39-05:00"
+      "updated": "2026-11-23T21:14:41-05:00"
     },
     {
       "candidate_categories": [],
       "event_confirmed": false,
       "form": null,
       "source": "SEC_CURRENT_FILINGS",
-      "source_id": "urn:tag:sec.gov,2008:accession-number=0001628280-26-075521",
+      "source_id": "urn:tag:sec.gov,2008:accession-number=0001193125-26-472916",
       "status": "FORM_ONLY_UNVERIFIED",
-      "title": "144 - KIMCO REALTY CORP (0000879101) (Subject)",
+      "title": "4 - MUSA OSAMA M (0001759443) (Reporting)",
       "trade_eligible": false,
-      "updated": "2026-11-23T16:38:39-05:00"
+      "updated": "2026-11-23T21:14:08-05:00"
     },
     {
       "candidate_categories": [],
       "event_confirmed": false,
       "form": null,
       "source": "SEC_CURRENT_FILINGS",
-      "source_id": "urn:tag:sec.gov,2008:accession-number=0001213900-26-123223",
+      "source_id": "urn:tag:sec.gov,2008:accession-number=0001193125-26-472916",
       "status": "FORM_ONLY_UNVERIFIED",
-      "title": "SCHEDULE 13D/A - True Sage International Ltd (0002094922) (Filed by)",
+      "title": "4 - ASHLAND INC. (0001674862) (Issuer)",
       "trade_eligible": false,
-      "updated": "2026-11-23T16:38:24-05:00"
+      "updated": "2026-11-23T21:14:08-05:00"
     },
     {
       "candidate_categories": [],
       "event_confirmed": false,
       "form": null,
       "source": "SEC_CURRENT_FILINGS",
-      "source_id": "urn:tag:sec.gov,2008:accession-number=0001213900-26-123223",
+      "source_id": "urn:tag:sec.gov,2008:accession-number=0001193125-26-472915",
       "status": "FORM_ONLY_UNVERIFIED",
-      "title": "SCHEDULE 13D/A - Republic Power Group Ltd (0001912884) (Subject)",
+      "title": "4 - MINICUCCI JAMES P. (0001989580) (Reporting)",
       "trade_eligible": false,
-      "updated": "2026-11-23T16:38:24-05:00"
+      "updated": "2026-11-23T21:13:37-05:00"
     },
     {
       "candidate_categories": [],
       "event_confirmed": false,
       "form": null,
       "source": "SEC_CURRENT_FILINGS",
-      "source_id": "urn:tag:sec.gov,2008:accession-number=0000780571-26-000251",
+      "source_id": "urn:tag:sec.gov,2008:accession-number=0001193125-26-472915",
       "status": "FORM_ONLY_UNVERIFIED",
-      "title": "4 - Wright David Marshall (0001672443) (Reporting)",
+      "title": "4 - ASHLAND INC. (0001674862) (Issuer)",
       "trade_eligible": false,
-      "updated": "2026-11-23T16:38:16-05:00"
+      "updated": "2026-11-23T21:13:37-05:00"
     },
     {
       "candidate_categories": [],
       "event_confirmed": false,
       "form": null,
       "source": "SEC_CURRENT_FILINGS",
-      "source_id": "urn:tag:sec.gov,2008:accession-number=0000780571-26-000251",
+      "source_id": "urn:tag:sec.gov,2008:accession-number=0001193125-26-472914",
       "status": "FORM_ONLY_UNVERIFIED",
-      "title": "4 - ITRON, INC. (0000780571) (Issuer)",
+      "title": "4 - LAMPKIN ROBIN E. (0001989313) (Reporting)",
       "trade_eligible": false,
-      "updated": "2026-11-23T16:38:16-05:00"
+      "updated": "2026-11-23T21:13:11-05:00"
     },
     {
       "candidate_categories": [],
       "event_confirmed": false,
       "form": null,
       "source": "SEC_CURRENT_FILINGS",
-      "source_id": "urn:tag:sec.gov,2008:accession-number=0001213900-26-123222",
+      "source_id": "urn:tag:sec.gov,2008:accession-number=0001193125-26-472914",
       "status": "FORM_ONLY_UNVERIFIED",
-      "title": "4 - Ng Hao Feng (0002124103) (Reporting)",
+      "title": "4 - ASHLAND INC. (0001674862) (Issuer)",
       "trade_eligible": false,
-      "updated": "2026-11-23T16:37:39-05:00"
+      "updated": "2026-11-23T21:13:11-05:00"
     },
     {
       "candidate_categories": [],
       "event_confirmed": false,
       "form": null,
       "source": "SEC_CURRENT_FILINGS",
-      "source_id": "urn:tag:sec.gov,2008:accession-number=0001213900-26-123222",
+      "source_id": "urn:tag:sec.gov,2008:accession-number=0001193125-26-472913",
       "status": "FORM_ONLY_UNVERIFIED",
-      "title": "4 - Republic Power Group Ltd (0001912884) (Issuer)",
+      "title": "4 - Drury Eileen (0001896343) (Reporting)",
       "trade_eligible": false,
-      "updated": "2026-11-23T16:37:39-05:00"
+      "updated": "2026-11-23T21:12:39-05:00"
     },
     {
       "candidate_categories": [],
       "event_confirmed": false,
       "form": null,
       "source": "SEC_CURRENT_FILINGS",
-      "source_id": "urn:tag:sec.gov,2008:accession-number=0001918704-26-036590",
+      "source_id": "urn:tag:sec.gov,2008:accession-number=0001193125-26-472913",
       "status": "FORM_ONLY_UNVERIFIED",
-      "title": "424B2 - JPMorgan Chase Financial Co. LLC (0001665650) (Filer)",
+      "title": "4 - ASHLAND INC. (0001674862) (Issuer)",
       "trade_eligible": false,
-      "updated": "2026-11-23T16:37:33-05:00"
+      "updated": "2026-11-23T21:12:39-05:00"
     },
     {
       "candidate_categories": [],
       "event_confirmed": false,
       "form": null,
       "source": "SEC_CURRENT_FILINGS",
-      "source_id": "urn:tag:sec.gov,2008:accession-number=0001918704-26-036590",
+      "source_id": "urn:tag:sec.gov,2008:accession-number=0001683382-26-000008",
       "status": "FORM_ONLY_UNVERIFIED",
-      "title": "424B2 - JPMORGAN CHASE & CO (0000019617) (Filer)",
+      "title": "4 - Paulonis Denise (0001683382) (Reporting)",
       "trade_eligible": false,
-      "updated": "2026-11-23T16:37:33-05:00"
+      "updated": "2026-11-23T21:11:13-05:00"
     },
     {
       "candidate_categories": [],
       "event_confirmed": false,
       "form": null,
       "source": "SEC_CURRENT_FILINGS",
-      "source_id": "urn:tag:sec.gov,2008:accession-number=0001666134-26-000107",
+      "source_id": "urn:tag:sec.gov,2008:accession-number=0001683382-26-000008",
       "status": "FORM_ONLY_UNVERIFIED",
-      "title": "4 - Ryan Owen (0001748906) (Reporting)",
+      "title": "4 - Sally Beauty Holdings, Inc. (0001368458) (Issuer)",
       "trade_eligible": false,
-      "updated": "2026-11-23T16:37:29-05:00"
+      "updated": "2026-11-23T21:11:13-05:00"
     },
     {
       "candidate_categories": [],
       "event_confirmed": false,
       "form": null,
       "source": "SEC_CURRENT_FILINGS",
-      "source_id": "urn:tag:sec.gov,2008:accession-number=0001666134-26-000107",
+      "source_id": "urn:tag:sec.gov,2008:accession-number=0001213900-26-123344",
       "status": "FORM_ONLY_UNVERIFIED",
-      "title": "4 - BLACKLINE, INC. (0001666134) (Issuer)",
+      "title": "4 - XTI Aerospace, Inc. (0001529113) (Issuer)",
       "trade_eligible": false,
-      "updated": "2026-11-23T16:37:29-05:00"
+      "updated": "2026-11-23T21:11:10-05:00"
     },
     {
       "candidate_categories": [],
       "event_confirmed": false,
       "form": null,
       "source": "SEC_CURRENT_FILINGS",
-      "source_id": "urn:tag:sec.gov,2008:accession-number=0001213900-26-123221",
+      "source_id": "urn:tag:sec.gov,2008:accession-number=0001213900-26-123344",
       "status": "FORM_ONLY_UNVERIFIED",
-      "title": "424B3 - Brookfield Infrastructure Income Fund Inc. (0001955857) (Filer)",
+      "title": "4 - ORNSTEIN JONATHAN G (0001054973) (Reporting)",
       "trade_eligible": false,
-      "updated": "2026-11-23T16:37:25-05:00"
+      "updated": "2026-11-23T21:11:10-05:00"
     },
     {
       "candidate_categories": [],
       "event_confirmed": false,
       "form": null,
       "source": "SEC_CURRENT_FILINGS",
-      "source_id": "urn:tag:sec.gov,2008:accession-number=0001853874-26-000016",
+      "source_id": "urn:tag:sec.gov,2008:accession-number=0001104659-26-131273",
       "status": "FORM_ONLY_UNVERIFIED",
-      "title": "4 - McLaughlin Matthew F. (0001853874) (Reporting)",
+      "title": "4 - Vaughan Benjamin Michael (0002122857) (Reporting)",
       "trade_eligible": false,
-      "updated": "2026-11-23T16:36:39-05:00"
+      "updated": "2026-11-23T21:10:15-05:00"
     },
     {
       "candidate_categories": [],
       "event_confirmed": false,
       "form": null,
       "source": "SEC_CURRENT_FILINGS",
-      "source_id": "urn:tag:sec.gov,2008:accession-number=0001853874-26-000016",
+      "source_id": "urn:tag:sec.gov,2008:accession-number=0001104659-26-131273",
       "status": "FORM_ONLY_UNVERIFIED",
-      "title": "4 - COMSCORE, INC. (0001158172) (Issuer)",
+      "title": "4 - Brookfield Infrastructure Partners L.P. (0001406234) (Issuer)",
       "trade_eligible": false,
-      "updated": "2026-11-23T16:36:39-05:00"
+      "updated": "2026-11-23T21:10:15-05:00"
     },
     {
       "candidate_categories": [],
       "event_confirmed": false,
       "form": null,
       "source": "SEC_CURRENT_FILINGS",
-      "source_id": "urn:tag:sec.gov,2008:accession-number=0001783108-26-000038",
+      "source_id": "urn:tag:sec.gov,2008:accession-number=0002107823-26-000004",
       "status": "FORM_ONLY_UNVERIFIED",
-      "title": "4 - Pursley James (0001783108) (Reporting)",
+      "title": "4 - Gupta Kapil Kumar (0002107823) (Reporting)",
       "trade_eligible": false,
-      "updated": "2026-11-23T16:36:32-05:00"
+      "updated": "2026-11-23T21:10:13-05:00"
     },
     {
       "candidate_categories": [],
       "event_confirmed": false,
       "form": null,
       "source": "SEC_CURRENT_FILINGS",
-      "source_id": "urn:tag:sec.gov,2008:accession-number=0001783108-26-000038",
+      "source_id": "urn:tag:sec.gov,2008:accession-number=0002107823-26-000004",
       "status": "FORM_ONLY_UNVERIFIED",
-      "title": "4 - Hinge Health, Inc. (0001673743) (Issuer)",
+      "title": "4 - Algorhythm Holdings, Inc. (0000923601) (Issuer)",
       "trade_eligible": false,
-      "updated": "2026-11-23T16:36:32-05:00"
+      "updated": "2026-11-23T21:10:13-05:00"
     },
     {
       "candidate_categories": [],
       "event_confirmed": false,
       "form": null,
       "source": "SEC_CURRENT_FILINGS",
-      "source_id": "urn:tag:sec.gov,2008:accession-number=0000950103-26-018007",
+      "source_id": "urn:tag:sec.gov,2008:accession-number=0001104659-26-131272",
       "status": "FORM_ONLY_UNVERIFIED",
-      "title": "424B2 - BARCLAYS BANK PLC (0000312070) (Filer)",
+      "title": "4 - Krant David Tyler (0002122569) (Reporting)",
       "trade_eligible": false,
-      "updated": "2026-11-23T16:36:31-05:00"
+      "updated": "2026-11-23T21:09:45-05:00"
     },
     {
       "candidate_categories": [],
       "event_confirmed": false,
       "form": null,
       "source": "SEC_CURRENT_FILINGS",
-      "source_id": "urn:tag:sec.gov,2008:accession-number=0001104659-26-131104",
+      "source_id": "urn:tag:sec.gov,2008:accession-number=0001104659-26-131272",
       "status": "FORM_ONLY_UNVERIFIED",
-      "title": "425 - USFM Corp (0002146845) (Filed by)",
+      "title": "4 - Brookfield Infrastructure Partners L.P. (0001406234) (Issuer)",
       "trade_eligible": false,
-      "updated": "2026-11-23T16:36:18-05:00"
+      "updated": "2026-11-23T21:09:45-05:00"
     },
     {
       "candidate_categories": [],
       "event_confirmed": false,
       "form": null,
       "source": "SEC_CURRENT_FILINGS",
-      "source_id": "urn:tag:sec.gov,2008:accession-number=0001104659-26-131104",
+      "source_id": "urn:tag:sec.gov,2008:accession-number=0001104659-26-131270",
       "status": "FORM_ONLY_UNVERIFIED",
-      "title": "425 - Twin Vee PowerCats, Co. (0001855509) (Subject)",
+      "title": "4 - Pollock Samuel James Bernard (0002122574) (Reporting)",
       "trade_eligible": false,
-      "updated": "2026-11-23T16:36:18-05:00"
+      "updated": "2026-11-23T21:09:12-05:00"
     },
     {
-      "candidate_categories": [
-        "mergers_acquisitions",
-        "legal_litigation",
-        "management_hiring_firing",
-        "patents_ip",
-        "research_developments",
-        "government_contracts",
-        "earnings_guidance",
-        "financing_capital"
-      ],
+      "candidate_categories": [],
       "event_confirmed": false,
-      "form": "8-K",
+      "form": null,
       "source": "SEC_CURRENT_FILINGS",
-      "source_id": "urn:tag:sec.gov,2008:accession-number=0001552781-26-000567",
+      "source_id": "urn:tag:sec.gov,2008:accession-number=0001104659-26-131270",
       "status": "FORM_ONLY_UNVERIFIED",
-      "title": "8-K - COCA COLA CO (0000021344) (Filer)",
+      "title": "4 - Brookfield Infrastructure Partners L.P. (0001406234) (Issuer)",
       "trade_eligible": false,
-      "updated": "2026-11-23T16:35:42-05:00"
+      "updated": "2026-11-23T21:09:12-05:00"
     },
     {
       "candidate_categories": [],
       "event_confirmed": false,
       "form": null,
       "source": "SEC_CURRENT_FILINGS",
-      "source_id": "urn:tag:sec.gov,2008:accession-number=0002162763-26-000001",
+      "source_id": "urn:tag:sec.gov,2008:accession-number=0001104659-26-131269",
       "status": "FORM_ONLY_UNVERIFIED",
-      "title": "D - O'Reilly Senior Living Fund I, LLC (0002162763) (Filer)",
+      "title": "4 - Brookfield Infrastructure Partners L.P. (0001406234) (Issuer)",
       "trade_eligible": false,
-      "updated": "2026-11-23T16:35:41-05:00"
+      "updated": "2026-11-23T21:08:18-05:00"
     },
     {
       "candidate_categories": [],
       "event_confirmed": false,
       "form": null,
       "source": "SEC_CURRENT_FILINGS",
-      "source_id": "urn:tag:sec.gov,2008:accession-number=0001992104-26-000531",
+      "source_id": "urn:tag:sec.gov,2008:accession-number=0001104659-26-131269",
       "status": "FORM_ONLY_UNVERIFIED",
-      "title": "497K - PGIM Rock ETF Trust (0001992104) (Filer)",
+      "title": "4 - BLIDNER JEFFREY M (0001245162) (Reporting)",
       "trade_eligible": false,
-      "updated": "2026-11-23T16:35:33-05:00"
+      "updated": "2026-11-23T21:08:18-05:00"
     },
     {
       "candidate_categories": [],
       "event_confirmed": false,
       "form": null,
       "source": "SEC_CURRENT_FILINGS",
-      "source_id": "urn:tag:sec.gov,2008:accession-number=0001992104-26-000530",
+      "source_id": "urn:tag:sec.gov,2008:accession-number=0001193125-26-472910",
       "status": "FORM_ONLY_UNVERIFIED",
-      "title": "497K - PGIM Rock ETF Trust (0001992104) (Filer)",
+      "title": "4 - Alphabet Inc. (0001652044) (Issuer)",
       "trade_eligible": false,
-      "updated": "2026-11-23T16:35:33-05:00"
+      "updated": "2026-11-23T21:07:55-05:00"
     },
     {
       "candidate_categories": [],
       "event_confirmed": false,
       "form": null,
       "source": "SEC_CURRENT_FILINGS",
-      "source_id": "urn:tag:sec.gov,2008:accession-number=0001959173-26-008239",
+      "source_id": "urn:tag:sec.gov,2008:accession-number=0001193125-26-472910",
       "status": "FORM_ONLY_UNVERIFIED",
-      "title": "144 - Harmer Ryan (0001850777) (Reporting)",
+      "title": "4 - Shriram Kavitark Ram (0001295084) (Reporting)",
       "trade_eligible": false,
-      "updated": "2026-11-23T16:35:23-05:00"
+      "updated": "2026-11-23T21:07:55-05:00"
     },
     {
       "candidate_categories": [],
       "event_confirmed": false,
       "form": null,
       "source": "SEC_CURRENT_FILINGS",
-      "source_id": "urn:tag:sec.gov,2008:accession-number=0001959173-26-008239",
+      "source_id": "urn:tag:sec.gov,2008:accession-number=0001104659-26-131268",
       "status": "FORM_ONLY_UNVERIFIED",
-      "title": "144 - Cricut, Inc. (0001828962) (Subject)",
+      "title": "4 - Brookfield Infrastructure Partners L.P. (0001406234) (Issuer)",
       "trade_eligible": false,
-      "updated": "2026-11-23T16:35:23-05:00"
+      "updated": "2026-11-23T21:07:37-05:00"
     },
     {
       "candidate_categories": [],
       "event_confirmed": false,
       "form": null,
       "source": "SEC_CURRENT_FILINGS",
-      "source_id": "urn:tag:sec.gov,2008:accession-number=0000950103-26-018006",
+      "source_id": "urn:tag:sec.gov,2008:accession-number=0001104659-26-131268",
       "status": "FORM_ONLY_UNVERIFIED",
-      "title": "424B2 - ROYAL BANK OF CANADA (0001000275) (Filer)",
+      "title": "4 - Schaumburg Anne C (0001322455) (Reporting)",
       "trade_eligible": false,
-      "updated": "2026-11-23T16:35:19-05:00"
+      "updated": "2026-11-23T21:07:37-05:00"
     },
     {
-      "candidate_categories": [
-        "mergers_acquisitions",
-        "legal_litigation",
-        "management_hiring_firing",
-        "patents_ip",
-        "research_developments",
-        "government_contracts",
-        "earnings_guidance",
-        "financing_capital"
-      ],
+      "candidate_categories": [],
       "event_confirmed": false,
-      "form": "8-K",
+      "form": null,
       "source": "SEC_CURRENT_FILINGS",
-      "source_id": "urn:tag:sec.gov,2008:accession-number=0001213900-26-123220",
+      "source_id": "urn:tag:sec.gov,2008:accession-number=0001104659-26-131267",
       "status": "FORM_ONLY_UNVERIFIED",
-      "title": "8-K - Future FinTech Group Inc. (0001066923) (Filer)",
+      "title": "4 - Cox William John (0002114387) (Reporting)",
       "trade_eligible": false,
-      "updated": "2026-11-23T16:35:13-05:00"
+      "updated": "2026-11-23T21:06:15-05:00"
     },
     {
       "candidate_categories": [],
       "event_confirmed": false,
       "form": null,
       "source": "SEC_CURRENT_FILINGS",
-      "source_id": "urn:tag:sec.gov,2008:accession-number=0000780571-26-000249",
+      "source_id": "urn:tag:sec.gov,2008:accession-number=0001104659-26-131267",
       "status": "FORM_ONLY_UNVERIFIED",
-      "title": "4 - Ware Christopher E. (0001921151) (Reporting)",
+      "title": "4 - Brookfield Infrastructure Partners L.P. (0001406234) (Issuer)",
       "trade_eligible": false,
-      "updated": "2026-11-23T16:35:10-05:00"
+      "updated": "2026-11-23T21:06:15-05:00"
     },
     {
       "candidate_categories": [],
       "event_confirmed": false,
       "form": null,
       "source": "SEC_CURRENT_FILINGS",
-      "source_id": "urn:tag:sec.gov,2008:accession-number=0000780571-26-000249",
+      "source_id": "urn:tag:sec.gov,2008:accession-number=0001104659-26-131266",
       "status": "FORM_ONLY_UNVERIFIED",
-      "title": "4 - ITRON, INC. (0000780571) (Issuer)",
+      "title": "4 - Muniz Quintanilla Daniel (0001436258) (Reporting)",
       "trade_eligible": false,
-      "updated": "2026-11-23T16:35:10-05:00"
+      "updated": "2026-11-23T21:05:03-05:00"
     },
     {
       "candidate_categories": [],
       "event_confirmed": false,
       "form": null,
       "source": "SEC_CURRENT_FILINGS",
-      "source_id": "urn:tag:sec.gov,2008:accession-number=0001388325-26-000055",
+      "source_id": "urn:tag:sec.gov,2008:accession-number=0001104659-26-131266",
       "status": "FORM_ONLY_UNVERIFIED",
-      "title": "SCHEDULE 13G - WINDWARD BIO GROUP AG (0002145089) (Subject)",
+      "title": "4 - Brookfield Infrastructure Partners L.P. (0001406234) (Issuer)",
       "trade_eligible": false,
-      "updated": "2026-11-23T16:34:55-05:00"
+      "updated": "2026-11-23T21:05:03-05:00"
     }
   ],
   "feed_entries": 100,
   "new_filings": 100,
   "seen_ids": [
+    "urn:tag:sec.gov,2008:accession-number=0002117604-26-000002",
+    "urn:tag:sec.gov,2008:accession-number=0000912282-26-001541",
+    "urn:tag:sec.gov,2008:accession-number=0001493152-26-053869",
+    "urn:tag:sec.gov,2008:accession-number=0001628280-26-075601",
+    "urn:tag:sec.gov,2008:accession-number=0001628280-26-075600",
+    "urn:tag:sec.gov,2008:accession-number=0002166671-26-000003",
+    "urn:tag:sec.gov,2008:accession-number=0001213900-26-123347",
+    "urn:tag:sec.gov,2008:accession-number=0001493152-26-053867",
+    "urn:tag:sec.gov,2008:accession-number=0001213900-26-123346",
+    "urn:tag:sec.gov,2008:accession-number=0001493152-26-053865",
+    "urn:tag:sec.gov,2008:accession-number=0001493152-26-053864",
+    "urn:tag:sec.gov,2008:accession-number=0001493152-26-053861",
+    "urn:tag:sec.gov,2008:accession-number=0001193805-26-001521",
+    "urn:tag:sec.gov,2008:accession-number=0001104659-26-131284",
+    "urn:tag:sec.gov,2008:accession-number=0002014215-26-000022",
+    "urn:tag:sec.gov,2008:accession-number=0002001011-26-000152",
+    "urn:tag:sec.gov,2008:accession-number=0002001011-26-000151",
+    "urn:tag:sec.gov,2008:accession-number=0001998996-26-000022",
+    "urn:tag:sec.gov,2008:accession-number=0002001011-26-000150",
+    "urn:tag:sec.gov,2008:accession-number=0002001011-26-000149",
+    "urn:tag:sec.gov,2008:accession-number=0001920634-26-000022",
+    "urn:tag:sec.gov,2008:accession-number=0002001011-26-000148",
+    "urn:tag:sec.gov,2008:accession-number=0001437749-26-038125",
+    "urn:tag:sec.gov,2008:accession-number=0001437749-26-038124",
+    "urn:tag:sec.gov,2008:accession-number=0001437749-26-038122",
+    "urn:tag:sec.gov,2008:accession-number=0001437749-26-038121",
+    "urn:tag:sec.gov,2008:accession-number=0001104659-26-131280",
+    "urn:tag:sec.gov,2008:accession-number=0001493152-26-053857",
+    "urn:tag:sec.gov,2008:accession-number=0001753926-26-002236",
+    "urn:tag:sec.gov,2008:accession-number=0001104659-26-131277",
+    "urn:tag:sec.gov,2008:accession-number=0001104659-26-131276",
+    "urn:tag:sec.gov,2008:accession-number=0001193125-26-472919",
+    "urn:tag:sec.gov,2008:accession-number=0001193125-26-472918",
+    "urn:tag:sec.gov,2008:accession-number=0001193125-26-472917",
+    "urn:tag:sec.gov,2008:accession-number=0001193125-26-472916",
+    "urn:tag:sec.gov,2008:accession-number=0001193125-26-472915",
+    "urn:tag:sec.gov,2008:accession-number=0001193125-26-472914",
+    "urn:tag:sec.gov,2008:accession-number=0001193125-26-472913",
+    "urn:tag:sec.gov,2008:accession-number=0001683382-26-000008",
+    "urn:tag:sec.gov,2008:accession-number=0001213900-26-123344",
+    "urn:tag:sec.gov,2008:accession-number=0001104659-26-131273",
+    "urn:tag:sec.gov,2008:accession-number=0002107823-26-000004",
+    "urn:tag:sec.gov,2008:accession-number=0001104659-26-131272",
+    "urn:tag:sec.gov,2008:accession-number=0001104659-26-131270",
+    "urn:tag:sec.gov,2008:accession-number=0001104659-26-131269",
+    "urn:tag:sec.gov,2008:accession-number=0001193125-26-472910",
+    "urn:tag:sec.gov,2008:accession-number=0001104659-26-131268",
+    "urn:tag:sec.gov,2008:accession-number=0001104659-26-131267",
+    "urn:tag:sec.gov,2008:accession-number=0001104659-26-131266",
     "urn:tag:sec.gov,2008:accession-number=0001666134-26-000109",
     "urn:tag:sec.gov,2008:accession-number=0001193125-26-472518",
     "urn:tag:sec.gov,2008:accession-number=0000926877-26-000158",
