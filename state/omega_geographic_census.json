@@ -1,27 +1,27 @@
 {
   "all_us_jurisdictions_coverage": "NOT_ESTABLISHED",
   "attempted_pairs_this_run": 12,
-  "checked_at": "2026-11-24T06:27:08.047048+00:00",
+  "checked_at": "2026-11-24T18:21:09.242850+00:00",
   "company_relationships_verified": 0,
   "configured_companies": 10398,
   "configured_jurisdictions": 2,
-  "configured_pair_attempt_coverage": 0.0032698595883823814,
+  "configured_pair_attempt_coverage": 0.003366031929217157,
   "configured_pair_success_coverage": 0.0,
   "configured_pairs": 20796,
-  "cursor": 348,
+  "cursor": 360,
   "failed_or_skipped_pairs_to_retry": [
-    "ADOOY|chicago_building_permits",
-    "ADOOY|nyc_dob_permits",
-    "ADP|chicago_building_permits",
-    "ADP|nyc_dob_permits",
-    "ADPT|chicago_building_permits",
-    "ADPT|nyc_dob_permits",
-    "ADRX|chicago_building_permits",
-    "ADRX|nyc_dob_permits",
-    "ADSE|chicago_building_permits",
-    "ADSE|nyc_dob_permits",
-    "ADSEW|chicago_building_permits",
-    "ADSEW|nyc_dob_permits"
+    "ADSK|chicago_building_permits",
+    "ADSK|nyc_dob_permits",
+    "ADSLF|chicago_building_permits",
+    "ADSLF|nyc_dob_permits",
+    "ADT|chicago_building_permits",
+    "ADT|nyc_dob_permits",
+    "ADTN|chicago_building_permits",
+    "ADTN|nyc_dob_permits",
+    "ADTTF|chicago_building_permits",
+    "ADTTF|nyc_dob_permits",
+    "ADUR|chicago_building_permits",
+    "ADUR|nyc_dob_permits"
   ],
   "failed_queries_this_run": 2,
   "last_attempt_by_pair": {
@@ -89,6 +89,8 @@
     "ADM|nyc_dob_permits": "2026-11-23T22:38:05.768546+00:00",
     "ADOOY|chicago_building_permits": "2026-11-24T06:27:08.047048+00:00",
     "ADOOY|nyc_dob_permits": "2026-11-24T06:27:08.047048+00:00",
+    "ADSK|chicago_building_permits": "2026-11-24T18:21:09.242850+00:00",
+    "ADSK|nyc_dob_permits": "2026-11-24T18:21:09.242850+00:00",
     "LLY|chicago_building_permits": "2026-11-15T16:28:31.162398+00:00",
     "LLY|nyc_dob_permits": "2026-11-15T16:28:31.162398+00:00",
     "PFE|chicago_building_permits": "2026-11-15T16:28:31.162398+00:00",
@@ -98,19 +100,19 @@
   "marketwide_coverage": "NOT_ESTABLISHED",
   "results": [
     {
-      "company": "Adaro Energy PT/ADR/",
+      "company": "Autodesk, Inc.",
       "jurisdiction": "chicago_building_permits",
       "records": [],
       "source": {
-        "error": "URLError:<urlopen error _ssl.c:994: The handshake operation timed out>",
+        "error": "TimeoutError:The read operation timed out",
         "status": "BLOCKED"
       },
       "status": "BLOCKED",
-      "symbol": "ADOOY",
+      "symbol": "ADSK",
       "trade_eligible": false
     },
     {
-      "company": "Adaro Energy PT/ADR/",
+      "company": "Autodesk, Inc.",
       "jurisdiction": "nyc_dob_permits",
       "records": [],
       "source": {
@@ -118,67 +120,67 @@
         "status": "BLOCKED"
       },
       "status": "BLOCKED",
-      "symbol": "ADOOY",
+      "symbol": "ADSK",
       "trade_eligible": false
     },
     {
       "jurisdiction": "chicago_building_permits",
       "status": "SKIPPED_SOURCE_CIRCUIT_OPEN",
-      "symbol": "ADP",
+      "symbol": "ADSLF",
       "trade_eligible": false
     },
     {
       "jurisdiction": "nyc_dob_permits",
       "status": "SKIPPED_SOURCE_CIRCUIT_OPEN",
-      "symbol": "ADP",
+      "symbol": "ADSLF",
       "trade_eligible": false
     },
     {
       "jurisdiction": "chicago_building_permits",
       "status": "SKIPPED_SOURCE_CIRCUIT_OPEN",
-      "symbol": "ADPT",
+      "symbol": "ADT",
       "trade_eligible": false
     },
     {
       "jurisdiction": "nyc_dob_permits",
       "status": "SKIPPED_SOURCE_CIRCUIT_OPEN",
-      "symbol": "ADPT",
+      "symbol": "ADT",
       "trade_eligible": false
     },
     {
       "jurisdiction": "chicago_building_permits",
       "status": "SKIPPED_SOURCE_CIRCUIT_OPEN",
-      "symbol": "ADRX",
+      "symbol": "ADTN",
       "trade_eligible": false
     },
     {
       "jurisdiction": "nyc_dob_permits",
       "status": "SKIPPED_SOURCE_CIRCUIT_OPEN",
-      "symbol": "ADRX",
+      "symbol": "ADTN",
       "trade_eligible": false
     },
     {
       "jurisdiction": "chicago_building_permits",
       "status": "SKIPPED_SOURCE_CIRCUIT_OPEN",
-      "symbol": "ADSE",
+      "symbol": "ADTTF",
       "trade_eligible": false
     },
     {
       "jurisdiction": "nyc_dob_permits",
       "status": "SKIPPED_SOURCE_CIRCUIT_OPEN",
-      "symbol": "ADSE",
+      "symbol": "ADTTF",
       "trade_eligible": false
     },
     {
       "jurisdiction": "chicago_building_permits",
       "status": "SKIPPED_SOURCE_CIRCUIT_OPEN",
-      "symbol": "ADSEW",
+      "symbol": "ADUR",
       "trade_eligible": false
     },
     {
       "jurisdiction": "nyc_dob_permits",
       "status": "SKIPPED_SOURCE_CIRCUIT_OPEN",
-      "symbol": "ADSEW",
+      "symbol": "ADUR",
       "trade_eligible": false
     }
   ],
@@ -186,5 +188,5 @@
   "successful_pairs_ever": 0,
   "successful_queries_this_run": 0,
   "trade_eligible": false,
-  "unique_pairs_attempted": 68
+  "unique_pairs_attempted": 70
 }
