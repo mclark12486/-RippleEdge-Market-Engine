@@ -1,0 +1,44 @@
+{
+  "run_id": "20261124T233533996459Z",
+  "parent_run_id": "20261124T140621959083Z",
+  "prior_evidence_rows": 188,
+  "evidence_rows_after": 188,
+  "started": "2026-11-24T23:35:33.996444+00:00",
+  "ended": "2026-11-24T23:35:35.336664+00:00",
+  "execution": "GitHub Actions shadow",
+  "census": 13274,
+  "queued_total": 13329,
+  "attempted": 3,
+  "primary_verified": 0,
+  "failed": 3,
+  "deferred": 13271,
+  "states": {
+    "PARTIAL": 188,
+    "QUEUED": 13141
+  },
+  "source_mapping": "https://www.sec.gov/files/company_tickers.json",
+  "mapping_count": 10400,
+  "errors": [
+    {
+      "symbol": "ACV",
+      "source": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001636289.json",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "symbol": "AEF",
+      "source": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000846676.json",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "symbol": "AFB",
+      "source": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001162027.json",
+      "error": "HTTP Error 404: Not Found"
+    }
+  ],
+  "valuation_completed": 0,
+  "forecast_scored": 0,
+  "status": "PARTIAL_RESEARCH_ONLY",
+  "warning": "SEC XBRL tag presence is not a forensic audit or catalyst scan",
+  "sqlite_integrity": "ok",
+  "db_sha256": "2802270c1736d1036a8e2a20a6f7ba617a026a2670ca1b41f1998c6e1a98b864"
+}
