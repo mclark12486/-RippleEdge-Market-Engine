@@ -1,0 +1,17 @@
+{
+  "blocked": 0,
+  "checked_at": "2026-11-25T16:10:03.475448Z",
+  "latest_price_run": "2026-11-24",
+  "new_forecasts": 0,
+  "outcomes_scored": 0,
+  "pending": 91,
+  "sqlite_integrity": "ok",
+  "status": "SHADOW_ACTIVE",
+  "summary": {
+    "mean_excess_return": 0.37055172556095817,
+    "mean_net_return": 0.3292813943853272,
+    "positive_excess_fraction": 0.5555555555555556,
+    "scored": 18,
+    "status": "DESCRIPTIVE_ONLY_NO_OUT_OF_SAMPLE_CLAIM"
+  }
+}
