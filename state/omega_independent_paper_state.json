@@ -1,7 +1,7 @@
 {
   "cash": 100,
   "equity": 100,
-  "last_session": "2026-11-23",
+  "last_session": "2026-11-24",
   "ledger": [
     {
       "cash": 100,
@@ -72,6 +72,16 @@
       "risk": "HOLD_OR_RESEARCH",
       "session": "2026-11-23",
       "sha256": "e273d67724eb53bc8481c3672da4ecc7ffd52fd79348b60a7a02955b7ecd7763"
+    },
+    {
+      "cash": 100,
+      "day_return": 0.0,
+      "equity": 100,
+      "execution": "SIMULATED_CLOSE_ONLY_NOT_LIVE",
+      "paper_orders": [],
+      "risk": "HOLD_OR_RESEARCH",
+      "session": "2026-11-24",
+      "sha256": "72bfdd3b377f78baa73fb8eb3bcc01211211a2e4e01fce6ec023641745d11faf"
     }
   ],
   "peak": 100,
