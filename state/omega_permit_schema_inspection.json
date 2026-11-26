@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-11-26T14:31:53.558907+00:00",
+  "checked_at": "2026-11-26T23:22:20.636530+00:00",
   "sources": {
     "chicago_building_permits": {
       "status": "SAMPLE_SCHEMA_READ_OK",
@@ -31,7 +31,18 @@
         "other_fee_waived",
         "subtotal_waived",
         "total_fee",
+        "contact_1_type",
+        "contact_1_name",
+        "contact_1_city",
+        "contact_1_state",
+        "contact_1_zipcode",
+        "contact_2_type",
+        "contact_2_name",
+        "contact_2_city",
+        "contact_2_state",
+        "contact_2_zipcode",
         "reported_cost",
+        "pin_list",
         "community_area",
         "census_tract",
         "ward",
