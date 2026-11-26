@@ -1,9 +1,10 @@
 {
-  "checked_at": "2026-11-26T04:29:34.541983+00:00",
+  "checked_at": "2026-11-26T14:31:43.316005+00:00",
   "sources": {
     "chicago_building_permits": {
-      "status": "COUNT_FAILED",
-      "error": "HTTPError:HTTP Error 503: Service Unavailable",
+      "status": "COUNT_OK",
+      "reported_rows": 854020,
+      "snapshot_consistent": false,
       "historical_completeness_verified": false
     },
     "nyc_dob_permits": {
