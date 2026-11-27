@@ -106,467 +106,165 @@
         "status": "PARTIAL_NAME_SEARCH"
       }
     },
-    "checked_at": "2026-11-27T11:21:14.660969+00:00",
+    "checked_at": "2026-11-27T20:05:21.736146+00:00",
     "marketwide_all_categories_verified": false,
     "note": "No connector provides complete real-time coverage of every company or every event."
   },
-  "checked_at": "2026-11-27T11:21:14.658138+00:00",
+  "checked_at": "2026-11-27T20:05:21.733403+00:00",
   "events": [
     {
       "candidate_categories": [],
       "event_confirmed": false,
       "form": null,
       "source": "SEC_CURRENT_FILINGS",
-      "source_id": "urn:tag:sec.gov,2008:accession-number=0001493152-26-054348",
+      "source_id": "urn:tag:sec.gov,2008:accession-number=0001839882-26-058454",
       "status": "FORM_ONLY_UNVERIFIED",
-      "title": "485BXT - GraniteShares ETF Trust (0001689873) (Filer)",
+      "title": "FWP - BANK OF MONTREAL /CAN/ (0000927971) (Subject)",
       "trade_eligible": false,
-      "updated": "2026-11-27T06:20:23-05:00"
+      "updated": "2026-11-27T15:04:47-05:00"
     },
     {
       "candidate_categories": [],
       "event_confirmed": false,
       "form": null,
       "source": "SEC_CURRENT_FILINGS",
-      "source_id": "urn:tag:sec.gov,2008:accession-number=0001493152-26-054348",
+      "source_id": "urn:tag:sec.gov,2008:accession-number=0001974078-26-000430",
       "status": "FORM_ONLY_UNVERIFIED",
-      "title": "485BXT - GraniteShares ETF Trust (0001689873) (Filer)",
+      "title": "144 - Graham Tyrone (0001978439) (Reporting)",
       "trade_eligible": false,
-      "updated": "2026-11-27T06:20:23-05:00"
-    },
-    {
-      "candidate_categories": [
-        "earnings_guidance"
-      ],
-      "event_confirmed": false,
-      "form": "6-K",
-      "source": "SEC_CURRENT_FILINGS",
-      "source_id": "urn:tag:sec.gov,2008:accession-number=0001193125-26-479101",
-      "status": "FORM_ONLY_UNVERIFIED",
-      "title": "6-K - Sanofi (0001121404) (Filer)",
-      "trade_eligible": false,
-      "updated": "2026-11-27T06:20:17-05:00"
+      "updated": "2026-11-27T15:04:14-05:00"
     },
     {
       "candidate_categories": [],
       "event_confirmed": false,
       "form": null,
       "source": "SEC_CURRENT_FILINGS",
-      "source_id": "urn:tag:sec.gov,2008:accession-number=0001493152-26-054347",
+      "source_id": "urn:tag:sec.gov,2008:accession-number=0001974078-26-000430",
       "status": "FORM_ONLY_UNVERIFIED",
-      "title": "485BXT - GraniteShares ETF Trust (0001689873) (Filer)",
+      "title": "144 - Amalgamated Financial Corp. (0001823608) (Subject)",
       "trade_eligible": false,
-      "updated": "2026-11-27T06:20:14-05:00"
+      "updated": "2026-11-27T15:04:14-05:00"
     },
     {
       "candidate_categories": [],
       "event_confirmed": false,
       "form": null,
       "source": "SEC_CURRENT_FILINGS",
-      "source_id": "urn:tag:sec.gov,2008:accession-number=0001493152-26-054347",
+      "source_id": "urn:tag:sec.gov,2008:accession-number=0001839882-26-058453",
       "status": "FORM_ONLY_UNVERIFIED",
-      "title": "485BXT - GraniteShares ETF Trust (0001689873) (Filer)",
+      "title": "FWP - BANK OF MONTREAL /CAN/ (0000927971) (Subject)",
       "trade_eligible": false,
-      "updated": "2026-11-27T06:20:14-05:00"
+      "updated": "2026-11-27T15:03:46-05:00"
     },
     {
       "candidate_categories": [],
       "event_confirmed": false,
       "form": null,
       "source": "SEC_CURRENT_FILINGS",
-      "source_id": "urn:tag:sec.gov,2008:accession-number=0001493152-26-054346",
+      "source_id": "urn:tag:sec.gov,2008:accession-number=0001214659-26-014778",
       "status": "FORM_ONLY_UNVERIFIED",
-      "title": "485BXT - GraniteShares ETF Trust (0001689873) (Filer)",
+      "title": "D/A - Sibilla Capital Onshore LLC (0001557666) (Filer)",
       "trade_eligible": false,
-      "updated": "2026-11-27T06:20:10-05:00"
+      "updated": "2026-11-27T15:03:42-05:00"
     },
     {
       "candidate_categories": [],
       "event_confirmed": false,
       "form": null,
       "source": "SEC_CURRENT_FILINGS",
-      "source_id": "urn:tag:sec.gov,2008:accession-number=0001493152-26-054346",
+      "source_id": "urn:tag:sec.gov,2008:accession-number=0001839882-26-058452",
       "status": "FORM_ONLY_UNVERIFIED",
-      "title": "485BXT - GraniteShares ETF Trust (0001689873) (Filer)",
+      "title": "FWP - BANK OF MONTREAL /CAN/ (0000927971) (Subject)",
       "trade_eligible": false,
-      "updated": "2026-11-27T06:20:10-05:00"
-    },
-    {
-      "candidate_categories": [
-        "earnings_guidance"
-      ],
-      "event_confirmed": false,
-      "form": "6-K",
-      "source": "SEC_CURRENT_FILINGS",
-      "source_id": "urn:tag:sec.gov,2008:accession-number=0001213900-26-124296",
-      "status": "FORM_ONLY_UNVERIFIED",
-      "title": "6-K - Wetour Robotics Ltd (0001941158) (Filer)",
-      "trade_eligible": false,
-      "updated": "2026-11-27T06:19:13-05:00"
+      "updated": "2026-11-27T15:02:57-05:00"
     },
     {
       "candidate_categories": [],
       "event_confirmed": false,
       "form": null,
       "source": "SEC_CURRENT_FILINGS",
-      "source_id": "urn:tag:sec.gov,2008:accession-number=0001213900-26-124295",
+      "source_id": "urn:tag:sec.gov,2008:accession-number=0001193125-26-480169",
       "status": "FORM_ONLY_UNVERIFIED",
-      "title": "3 - Zhao Jing (0002165317) (Reporting)",
+      "title": "424B2 - GS Finance Corp. (0001419828) (Filer)",
       "trade_eligible": false,
-      "updated": "2026-11-27T06:18:47-05:00"
+      "updated": "2026-11-27T15:02:32-05:00"
     },
     {
       "candidate_categories": [],
       "event_confirmed": false,
       "form": null,
       "source": "SEC_CURRENT_FILINGS",
-      "source_id": "urn:tag:sec.gov,2008:accession-number=0001213900-26-124295",
+      "source_id": "urn:tag:sec.gov,2008:accession-number=0001193125-26-480169",
       "status": "FORM_ONLY_UNVERIFIED",
-      "title": "3 - Linkhome Holdings Inc. (0002017758) (Issuer)",
+      "title": "424B2 - GOLDMAN SACHS GROUP INC (0000886982) (Filer)",
       "trade_eligible": false,
-      "updated": "2026-11-27T06:18:47-05:00"
+      "updated": "2026-11-27T15:02:32-05:00"
     },
     {
       "candidate_categories": [],
       "event_confirmed": false,
       "form": null,
       "source": "SEC_CURRENT_FILINGS",
-      "source_id": "urn:tag:sec.gov,2008:accession-number=0001686218-26-000006",
+      "source_id": "urn:tag:sec.gov,2008:accession-number=0001839882-26-058451",
       "status": "FORM_ONLY_UNVERIFIED",
-      "title": "4 - Hsieh Louis (0001686218) (Reporting)",
+      "title": "FWP - BANK OF MONTREAL /CAN/ (0000927971) (Subject)",
       "trade_eligible": false,
-      "updated": "2026-11-27T06:17:48-05:00"
+      "updated": "2026-11-27T15:01:52-05:00"
     },
     {
       "candidate_categories": [],
       "event_confirmed": false,
       "form": null,
       "source": "SEC_CURRENT_FILINGS",
-      "source_id": "urn:tag:sec.gov,2008:accession-number=0001686218-26-000006",
+      "source_id": "urn:tag:sec.gov,2008:accession-number=0001193125-26-480166",
       "status": "FORM_ONLY_UNVERIFIED",
-      "title": "4 - New Oriental Education & Technology Group Inc. (0001372920) (Issuer)",
+      "title": "S-8 - Atrium Therapeutics, Inc. (0002093101) (Filer)",
       "trade_eligible": false,
-      "updated": "2026-11-27T06:17:48-05:00"
+      "updated": "2026-11-27T15:01:44-05:00"
     },
     {
       "candidate_categories": [],
       "event_confirmed": false,
       "form": null,
       "source": "SEC_CURRENT_FILINGS",
-      "source_id": "urn:tag:sec.gov,2008:accession-number=0001493152-26-054342",
+      "source_id": "urn:tag:sec.gov,2008:accession-number=0001193125-26-480165",
       "status": "FORM_ONLY_UNVERIFIED",
-      "title": "485APOS - GraniteShares ETF Trust (0001689873) (Filer)",
+      "title": "424B2 - GS Finance Corp. (0001419828) (Filer)",
       "trade_eligible": false,
-      "updated": "2026-11-27T06:17:06-05:00"
+      "updated": "2026-11-27T15:01:18-05:00"
     },
     {
       "candidate_categories": [],
       "event_confirmed": false,
       "form": null,
       "source": "SEC_CURRENT_FILINGS",
-      "source_id": "urn:tag:sec.gov,2008:accession-number=0001493152-26-054342",
+      "source_id": "urn:tag:sec.gov,2008:accession-number=0001193125-26-480165",
       "status": "FORM_ONLY_UNVERIFIED",
-      "title": "485APOS - GraniteShares ETF Trust (0001689873) (Filer)",
+      "title": "424B2 - GOLDMAN SACHS GROUP INC (0000886982) (Filer)",
       "trade_eligible": false,
-      "updated": "2026-11-27T06:17:06-05:00"
+      "updated": "2026-11-27T15:01:18-05:00"
     },
     {
       "candidate_categories": [],
       "event_confirmed": false,
       "form": null,
       "source": "SEC_CURRENT_FILINGS",
-      "source_id": "urn:tag:sec.gov,2008:accession-number=0001493152-26-054341",
+      "source_id": "urn:tag:sec.gov,2008:accession-number=0001193125-26-480164",
       "status": "FORM_ONLY_UNVERIFIED",
-      "title": "485BXT - GraniteShares ETF Trust (0001689873) (Filer)",
+      "title": "424B2 - GS Finance Corp. (0001419828) (Filer)",
       "trade_eligible": false,
-      "updated": "2026-11-27T06:16:52-05:00"
+      "updated": "2026-11-27T15:01:01-05:00"
     },
     {
       "candidate_categories": [],
       "event_confirmed": false,
       "form": null,
       "source": "SEC_CURRENT_FILINGS",
-      "source_id": "urn:tag:sec.gov,2008:accession-number=0001493152-26-054341",
+      "source_id": "urn:tag:sec.gov,2008:accession-number=0001193125-26-480164",
       "status": "FORM_ONLY_UNVERIFIED",
-      "title": "485BXT - GraniteShares ETF Trust (0001689873) (Filer)",
+      "title": "424B2 - GOLDMAN SACHS GROUP INC (0000886982) (Filer)",
       "trade_eligible": false,
-      "updated": "2026-11-27T06:16:52-05:00"
-    },
-    {
-      "candidate_categories": [],
-      "event_confirmed": false,
-      "form": null,
-      "source": "SEC_CURRENT_FILINGS",
-      "source_id": "urn:tag:sec.gov,2008:accession-number=0001493152-26-054340",
-      "status": "FORM_ONLY_UNVERIFIED",
-      "title": "485BXT - GraniteShares ETF Trust (0001689873) (Filer)",
-      "trade_eligible": false,
-      "updated": "2026-11-27T06:16:51-05:00"
-    },
-    {
-      "candidate_categories": [],
-      "event_confirmed": false,
-      "form": null,
-      "source": "SEC_CURRENT_FILINGS",
-      "source_id": "urn:tag:sec.gov,2008:accession-number=0001493152-26-054340",
-      "status": "FORM_ONLY_UNVERIFIED",
-      "title": "485BXT - GraniteShares ETF Trust (0001689873) (Filer)",
-      "trade_eligible": false,
-      "updated": "2026-11-27T06:16:51-05:00"
-    },
-    {
-      "candidate_categories": [],
-      "event_confirmed": false,
-      "form": null,
-      "source": "SEC_CURRENT_FILINGS",
-      "source_id": "urn:tag:sec.gov,2008:accession-number=0001193125-26-479094",
-      "status": "FORM_ONLY_UNVERIFIED",
-      "title": "4 - Hori Akio (0002127800) (Reporting)",
-      "trade_eligible": false,
-      "updated": "2026-11-27T06:15:07-05:00"
-    },
-    {
-      "candidate_categories": [],
-      "event_confirmed": false,
-      "form": null,
-      "source": "SEC_CURRENT_FILINGS",
-      "source_id": "urn:tag:sec.gov,2008:accession-number=0001193125-26-479094",
-      "status": "FORM_ONLY_UNVERIFIED",
-      "title": "4 - NOMURA HOLDINGS INC (0001163653) (Issuer)",
-      "trade_eligible": false,
-      "updated": "2026-11-27T06:15:07-05:00"
-    },
-    {
-      "candidate_categories": [],
-      "event_confirmed": false,
-      "form": null,
-      "source": "SEC_CURRENT_FILINGS",
-      "source_id": "urn:tag:sec.gov,2008:accession-number=0000950103-26-018251",
-      "status": "FORM_ONLY_UNVERIFIED",
-      "title": "424B2 - ROYAL BANK OF CANADA (0001000275) (Filer)",
-      "trade_eligible": false,
-      "updated": "2026-11-27T06:14:16-05:00"
-    },
-    {
-      "candidate_categories": [],
-      "event_confirmed": false,
-      "form": null,
-      "source": "SEC_CURRENT_FILINGS",
-      "source_id": "urn:tag:sec.gov,2008:accession-number=0001493152-26-054338",
-      "status": "FORM_ONLY_UNVERIFIED",
-      "title": "485BXT - GraniteShares ETF Trust (0001689873) (Filer)",
-      "trade_eligible": false,
-      "updated": "2026-11-27T06:14:02-05:00"
-    },
-    {
-      "candidate_categories": [],
-      "event_confirmed": false,
-      "form": null,
-      "source": "SEC_CURRENT_FILINGS",
-      "source_id": "urn:tag:sec.gov,2008:accession-number=0001493152-26-054338",
-      "status": "FORM_ONLY_UNVERIFIED",
-      "title": "485BXT - GraniteShares ETF Trust (0001689873) (Filer)",
-      "trade_eligible": false,
-      "updated": "2026-11-27T06:14:02-05:00"
-    },
-    {
-      "candidate_categories": [
-        "earnings_guidance"
-      ],
-      "event_confirmed": false,
-      "form": "6-K",
-      "source": "SEC_CURRENT_FILINGS",
-      "source_id": "urn:tag:sec.gov,2008:accession-number=0001213900-26-124291",
-      "status": "FORM_ONLY_UNVERIFIED",
-      "title": "6-K - Republic Power Group Ltd (0001912884) (Filer)",
-      "trade_eligible": false,
-      "updated": "2026-11-27T06:13:10-05:00"
-    },
-    {
-      "candidate_categories": [
-        "earnings_guidance"
-      ],
-      "event_confirmed": false,
-      "form": "6-K",
-      "source": "SEC_CURRENT_FILINGS",
-      "source_id": "urn:tag:sec.gov,2008:accession-number=0001193125-26-479092",
-      "status": "FORM_ONLY_UNVERIFIED",
-      "title": "6-K - MIZUHO FINANCIAL GROUP INC (0001335730) (Filer)",
-      "trade_eligible": false,
-      "updated": "2026-11-27T06:12:50-05:00"
-    },
-    {
-      "candidate_categories": [
-        "earnings_guidance"
-      ],
-      "event_confirmed": false,
-      "form": "6-K",
-      "source": "SEC_CURRENT_FILINGS",
-      "source_id": "urn:tag:sec.gov,2008:accession-number=0001654954-26-010144",
-      "status": "FORM_ONLY_UNVERIFIED",
-      "title": "6-K - GSK plc (0001131399) (Filer)",
-      "trade_eligible": false,
-      "updated": "2026-11-27T06:12:10-05:00"
-    },
-    {
-      "candidate_categories": [],
-      "event_confirmed": false,
-      "form": null,
-      "source": "SEC_CURRENT_FILINGS",
-      "source_id": "urn:tag:sec.gov,2008:accession-number=0001844640-26-000010",
-      "status": "FORM_ONLY_UNVERIFIED",
-      "title": "SCHEDULE 13G - Ophir Asset Management Pty Ltd (0001844640) (Filed by)",
-      "trade_eligible": false,
-      "updated": "2026-11-27T06:12:06-05:00"
-    },
-    {
-      "candidate_categories": [],
-      "event_confirmed": false,
-      "form": null,
-      "source": "SEC_CURRENT_FILINGS",
-      "source_id": "urn:tag:sec.gov,2008:accession-number=0001844640-26-000010",
-      "status": "FORM_ONLY_UNVERIFIED",
-      "title": "SCHEDULE 13G - ARTIVION, INC. (0000784199) (Subject)",
-      "trade_eligible": false,
-      "updated": "2026-11-27T06:12:06-05:00"
-    },
-    {
-      "candidate_categories": [
-        "legal_litigation",
-        "patents_ip",
-        "earnings_guidance"
-      ],
-      "event_confirmed": false,
-      "form": "10-K",
-      "source": "SEC_CURRENT_FILINGS",
-      "source_id": "urn:tag:sec.gov,2008:accession-number=0001477932-26-007323",
-      "status": "FORM_ONLY_UNVERIFIED",
-      "title": "10-K/A - American Resources Corp (0001590715) (Filer)",
-      "trade_eligible": false,
-      "updated": "2026-11-27T06:11:59-05:00"
-    },
-    {
-      "candidate_categories": [],
-      "event_confirmed": false,
-      "form": null,
-      "source": "SEC_CURRENT_FILINGS",
-      "source_id": "urn:tag:sec.gov,2008:accession-number=0001193125-26-479091",
-      "status": "FORM_ONLY_UNVERIFIED",
-      "title": "4 - Ozaki Yukiko (0002120479) (Reporting)",
-      "trade_eligible": false,
-      "updated": "2026-11-27T06:11:57-05:00"
-    },
-    {
-      "candidate_categories": [],
-      "event_confirmed": false,
-      "form": null,
-      "source": "SEC_CURRENT_FILINGS",
-      "source_id": "urn:tag:sec.gov,2008:accession-number=0001193125-26-479091",
-      "status": "FORM_ONLY_UNVERIFIED",
-      "title": "4 - NOMURA HOLDINGS INC (0001163653) (Issuer)",
-      "trade_eligible": false,
-      "updated": "2026-11-27T06:11:57-05:00"
-    },
-    {
-      "candidate_categories": [],
-      "event_confirmed": false,
-      "form": null,
-      "source": "SEC_CURRENT_FILINGS",
-      "source_id": "urn:tag:sec.gov,2008:accession-number=0001213900-26-124289",
-      "status": "FORM_ONLY_UNVERIFIED",
-      "title": "4 - Regencell Bioscience Holdings Ltd (0001829667) (Issuer)",
-      "trade_eligible": false,
-      "updated": "2026-11-27T06:11:13-05:00"
-    },
-    {
-      "candidate_categories": [],
-      "event_confirmed": false,
-      "form": null,
-      "source": "SEC_CURRENT_FILINGS",
-      "source_id": "urn:tag:sec.gov,2008:accession-number=0001213900-26-124289",
-      "status": "FORM_ONLY_UNVERIFIED",
-      "title": "4 - LO WILLIAM WING YAN DR (0001134441) (Reporting)",
-      "trade_eligible": false,
-      "updated": "2026-11-27T06:11:13-05:00"
-    },
-    {
-      "candidate_categories": [],
-      "event_confirmed": false,
-      "form": null,
-      "source": "SEC_CURRENT_FILINGS",
-      "source_id": "urn:tag:sec.gov,2008:accession-number=0001225208-26-009170",
-      "status": "FORM_ONLY_UNVERIFIED",
-      "title": "3/A - Perry Kirk (0001685154) (Reporting)",
-      "trade_eligible": false,
-      "updated": "2026-11-27T06:11:01-05:00"
-    },
-    {
-      "candidate_categories": [],
-      "event_confirmed": false,
-      "form": null,
-      "source": "SEC_CURRENT_FILINGS",
-      "source_id": "urn:tag:sec.gov,2008:accession-number=0001225208-26-009170",
-      "status": "FORM_ONLY_UNVERIFIED",
-      "title": "3/A - KIMBERLY CLARK CORP (0000055785) (Issuer)",
-      "trade_eligible": false,
-      "updated": "2026-11-27T06:11:01-05:00"
-    },
-    {
-      "candidate_categories": [],
-      "event_confirmed": false,
-      "form": null,
-      "source": "SEC_CURRENT_FILINGS",
-      "source_id": "urn:tag:sec.gov,2008:accession-number=0001193125-26-479089",
-      "status": "FORM_ONLY_UNVERIFIED",
-      "title": "4 - Ogawa Shoji (0002120477) (Reporting)",
-      "trade_eligible": false,
-      "updated": "2026-11-27T06:10:36-05:00"
-    },
-    {
-      "candidate_categories": [],
-      "event_confirmed": false,
-      "form": null,
-      "source": "SEC_CURRENT_FILINGS",
-      "source_id": "urn:tag:sec.gov,2008:accession-number=0001193125-26-479089",
-      "status": "FORM_ONLY_UNVERIFIED",
-      "title": "4 - NOMURA HOLDINGS INC (0001163653) (Issuer)",
-      "trade_eligible": false,
-      "updated": "2026-11-27T06:10:36-05:00"
-    },
-    {
-      "candidate_categories": [],
-      "event_confirmed": false,
-      "form": null,
-      "source": "SEC_CURRENT_FILINGS",
-      "source_id": "urn:tag:sec.gov,2008:accession-number=0001193125-26-479088",
-      "status": "FORM_ONLY_UNVERIFIED",
-      "title": "4 - Tobari Akihito (0002127897) (Reporting)",
-      "trade_eligible": false,
-      "updated": "2026-11-27T06:10:23-05:00"
-    },
-    {
-      "candidate_categories": [],
-      "event_confirmed": false,
-      "form": null,
-      "source": "SEC_CURRENT_FILINGS",
-      "source_id": "urn:tag:sec.gov,2008:accession-number=0001193125-26-479088",
-      "status": "FORM_ONLY_UNVERIFIED",
-      "title": "4 - NOMURA HOLDINGS INC (0001163653) (Issuer)",
-      "trade_eligible": false,
-      "updated": "2026-11-27T06:10:23-05:00"
-    },
-    {
-      "candidate_categories": [
-        "earnings_guidance"
-      ],
-      "event_confirmed": false,
-      "form": "6-K",
-      "source": "SEC_CURRENT_FILINGS",
-      "source_id": "urn:tag:sec.gov,2008:accession-number=0001493152-26-054334",
-      "status": "FORM_ONLY_UNVERIFIED",
-      "title": "6-K - Viomi Technology Co., Ltd (0001742770) (Filer)",
-      "trade_eligible": false,
-      "updated": "2026-11-27T06:10:17-05:00"
+      "updated": "2026-11-27T15:01:01-05:00"
     },
     {
       "candidate_categories": [
@@ -582,725 +280,1039 @@
       "event_confirmed": false,
       "form": "8-K",
       "source": "SEC_CURRENT_FILINGS",
-      "source_id": "urn:tag:sec.gov,2008:accession-number=0001493152-26-054333",
+      "source_id": "urn:tag:sec.gov,2008:accession-number=0001493152-26-054485",
       "status": "FORM_ONLY_UNVERIFIED",
-      "title": "8-K - Chaince Digital Holdings Inc. (0001527762) (Filer)",
+      "title": "8-K - AI Financial Corp (0000862861) (Filer)",
       "trade_eligible": false,
-      "updated": "2026-11-27T06:10:06-05:00"
+      "updated": "2026-11-27T15:00:56-05:00"
     },
     {
       "candidate_categories": [],
       "event_confirmed": false,
       "form": null,
       "source": "SEC_CURRENT_FILINGS",
-      "source_id": "urn:tag:sec.gov,2008:accession-number=0001193125-26-479087",
+      "source_id": "urn:tag:sec.gov,2008:accession-number=0001839882-26-058450",
       "status": "FORM_ONLY_UNVERIFIED",
-      "title": "4 - Koike Hiroyasu (0001857372) (Reporting)",
+      "title": "FWP - BANK OF MONTREAL /CAN/ (0000927971) (Subject)",
       "trade_eligible": false,
-      "updated": "2026-11-27T06:10:05-05:00"
+      "updated": "2026-11-27T15:00:47-05:00"
     },
     {
       "candidate_categories": [],
       "event_confirmed": false,
       "form": null,
       "source": "SEC_CURRENT_FILINGS",
-      "source_id": "urn:tag:sec.gov,2008:accession-number=0001193125-26-479087",
+      "source_id": "urn:tag:sec.gov,2008:accession-number=0001193125-26-480162",
       "status": "FORM_ONLY_UNVERIFIED",
-      "title": "4 - NOMURA HOLDINGS INC (0001163653) (Issuer)",
+      "title": "424B2 - GS Finance Corp. (0001419828) (Filer)",
       "trade_eligible": false,
-      "updated": "2026-11-27T06:10:05-05:00"
+      "updated": "2026-11-27T15:00:38-05:00"
     },
     {
       "candidate_categories": [],
       "event_confirmed": false,
       "form": null,
       "source": "SEC_CURRENT_FILINGS",
-      "source_id": "urn:tag:sec.gov,2008:accession-number=0001193125-26-479086",
+      "source_id": "urn:tag:sec.gov,2008:accession-number=0001193125-26-480162",
       "status": "FORM_ONLY_UNVERIFIED",
-      "title": "4 - Ishizuka Masahiro (0002120468) (Reporting)",
+      "title": "424B2 - GOLDMAN SACHS GROUP INC (0000886982) (Filer)",
       "trade_eligible": false,
-      "updated": "2026-11-27T06:10:04-05:00"
-    },
-    {
-      "candidate_categories": [],
-      "event_confirmed": false,
-      "form": null,
-      "source": "SEC_CURRENT_FILINGS",
-      "source_id": "urn:tag:sec.gov,2008:accession-number=0001193125-26-479086",
-      "status": "FORM_ONLY_UNVERIFIED",
-      "title": "4 - NOMURA HOLDINGS INC (0001163653) (Issuer)",
-      "trade_eligible": false,
-      "updated": "2026-11-27T06:10:04-05:00"
+      "updated": "2026-11-27T15:00:38-05:00"
     },
     {
       "candidate_categories": [
+        "mergers_acquisitions",
         "legal_litigation",
+        "management_hiring_firing",
+        "patents_ip",
         "research_developments",
-        "earnings_guidance"
+        "government_contracts",
+        "earnings_guidance",
+        "financing_capital"
       ],
       "event_confirmed": false,
-      "form": "10-Q",
+      "form": "8-K",
       "source": "SEC_CURRENT_FILINGS",
-      "source_id": "urn:tag:sec.gov,2008:accession-number=0001493152-26-054332",
+      "source_id": "urn:tag:sec.gov,2008:accession-number=0001140361-26-045877",
       "status": "FORM_ONLY_UNVERIFIED",
-      "title": "10-Q - JOCOM HOLDINGS CORP. (0001907425) (Filer)",
+      "title": "8-K - Opendoor Technologies Inc. (0001801169) (Filer)",
       "trade_eligible": false,
-      "updated": "2026-11-27T06:10:03-05:00"
-    },
-    {
-      "candidate_categories": [
-        "earnings_guidance"
-      ],
-      "event_confirmed": false,
-      "form": "6-K",
-      "source": "SEC_CURRENT_FILINGS",
-      "source_id": "urn:tag:sec.gov,2008:accession-number=0001213900-26-124286",
-      "status": "FORM_ONLY_UNVERIFIED",
-      "title": "6-K - Chilwa Minerals Ltd (0002113605) (Filer)",
-      "trade_eligible": false,
-      "updated": "2026-11-27T06:09:48-05:00"
+      "updated": "2026-11-27T15:00:34-05:00"
     },
     {
       "candidate_categories": [],
       "event_confirmed": false,
       "form": null,
       "source": "SEC_CURRENT_FILINGS",
-      "source_id": "urn:tag:sec.gov,2008:accession-number=0001493152-26-054330",
+      "source_id": "urn:tag:sec.gov,2008:accession-number=0001104659-26-132456",
       "status": "FORM_ONLY_UNVERIFIED",
-      "title": "F-1/A - B & T Global Holding Ltd. (0002156248) (Filer)",
+      "title": "424B2 - HSBC USA INC /MD/ (0000083246) (Filer)",
       "trade_eligible": false,
-      "updated": "2026-11-27T06:08:19-05:00"
-    },
-    {
-      "candidate_categories": [
-        "earnings_guidance"
-      ],
-      "event_confirmed": false,
-      "form": "6-K",
-      "source": "SEC_CURRENT_FILINGS",
-      "source_id": "urn:tag:sec.gov,2008:accession-number=0001193125-26-479085",
-      "status": "FORM_ONLY_UNVERIFIED",
-      "title": "6-K - HDFC BANK LTD (0001144967) (Filer)",
-      "trade_eligible": false,
-      "updated": "2026-11-27T06:08:12-05:00"
-    },
-    {
-      "candidate_categories": [
-        "earnings_guidance"
-      ],
-      "event_confirmed": false,
-      "form": "6-K",
-      "source": "SEC_CURRENT_FILINGS",
-      "source_id": "urn:tag:sec.gov,2008:accession-number=0001292814-26-005410",
-      "status": "FORM_ONLY_UNVERIFIED",
-      "title": "6-K - NATIONAL STEEL CO (0001049659) (Filer)",
-      "trade_eligible": false,
-      "updated": "2026-11-27T06:07:25-05:00"
+      "updated": "2026-11-27T15:00:13-05:00"
     },
     {
       "candidate_categories": [],
       "event_confirmed": false,
       "form": null,
       "source": "SEC_CURRENT_FILINGS",
-      "source_id": "urn:tag:sec.gov,2008:accession-number=0001213900-26-124284",
+      "source_id": "urn:tag:sec.gov,2008:accession-number=0001207928-26-000012",
       "status": "FORM_ONLY_UNVERIFIED",
-      "title": "425 - RANGE RESOURCES CORP (0000315852) (Subject)",
+      "title": "4 - Quanterix Corp (0001503274) (Issuer)",
       "trade_eligible": false,
-      "updated": "2026-11-27T06:07:16-05:00"
+      "updated": "2026-11-27T15:00:06-05:00"
     },
     {
       "candidate_categories": [],
       "event_confirmed": false,
       "form": null,
       "source": "SEC_CURRENT_FILINGS",
-      "source_id": "urn:tag:sec.gov,2008:accession-number=0001213900-26-124284",
+      "source_id": "urn:tag:sec.gov,2008:accession-number=0001207928-26-000012",
       "status": "FORM_ONLY_UNVERIFIED",
-      "title": "425 - EQT Corp (0000033213) (Filed by)",
+      "title": "4 - DONNELLY WILLIAM P (0001207928) (Reporting)",
       "trade_eligible": false,
-      "updated": "2026-11-27T06:07:16-05:00"
-    },
-    {
-      "candidate_categories": [
-        "earnings_guidance"
-      ],
-      "event_confirmed": false,
-      "form": "6-K",
-      "source": "SEC_CURRENT_FILINGS",
-      "source_id": "urn:tag:sec.gov,2008:accession-number=0001213900-26-124283",
-      "status": "FORM_ONLY_UNVERIFIED",
-      "title": "6-K - Chilwa Minerals Ltd (0002113605) (Filer)",
-      "trade_eligible": false,
-      "updated": "2026-11-27T06:07:11-05:00"
-    },
-    {
-      "candidate_categories": [
-        "earnings_guidance"
-      ],
-      "event_confirmed": false,
-      "form": "6-K",
-      "source": "SEC_CURRENT_FILINGS",
-      "source_id": "urn:tag:sec.gov,2008:accession-number=0001205613-26-000087",
-      "status": "FORM_ONLY_UNVERIFIED",
-      "title": "6-K - SASOL LTD (0000314590) (Filer)",
-      "trade_eligible": false,
-      "updated": "2026-11-27T06:07:11-05:00"
-    },
-    {
-      "candidate_categories": [
-        "earnings_guidance"
-      ],
-      "event_confirmed": false,
-      "form": "6-K",
-      "source": "SEC_CURRENT_FILINGS",
-      "source_id": "urn:tag:sec.gov,2008:accession-number=0001437749-26-038347",
-      "status": "FORM_ONLY_UNVERIFIED",
-      "title": "6-K - ALTERITY THERAPEUTICS LTD (0001131343) (Filer)",
-      "trade_eligible": false,
-      "updated": "2026-11-27T06:06:37-05:00"
-    },
-    {
-      "candidate_categories": [
-        "earnings_guidance"
-      ],
-      "event_confirmed": false,
-      "form": "6-K",
-      "source": "SEC_CURRENT_FILINGS",
-      "source_id": "urn:tag:sec.gov,2008:accession-number=0001437749-26-038346",
-      "status": "FORM_ONLY_UNVERIFIED",
-      "title": "6-K - ALTERITY THERAPEUTICS LTD (0001131343) (Filer)",
-      "trade_eligible": false,
-      "updated": "2026-11-27T06:05:58-05:00"
-    },
-    {
-      "candidate_categories": [
-        "earnings_guidance"
-      ],
-      "event_confirmed": false,
-      "form": "6-K",
-      "source": "SEC_CURRENT_FILINGS",
-      "source_id": "urn:tag:sec.gov,2008:accession-number=0001650107-26-000153",
-      "status": "FORM_ONLY_UNVERIFIED",
-      "title": "6-K - COCA-COLA EUROPACIFIC PARTNERS plc (0001650107) (Filer)",
-      "trade_eligible": false,
-      "updated": "2026-11-27T06:05:57-05:00"
-    },
-    {
-      "candidate_categories": [
-        "earnings_guidance"
-      ],
-      "event_confirmed": false,
-      "form": "6-K",
-      "source": "SEC_CURRENT_FILINGS",
-      "source_id": "urn:tag:sec.gov,2008:accession-number=0001437749-26-038345",
-      "status": "FORM_ONLY_UNVERIFIED",
-      "title": "6-K - ALTERITY THERAPEUTICS LTD (0001131343) (Filer)",
-      "trade_eligible": false,
-      "updated": "2026-11-27T06:05:24-05:00"
-    },
-    {
-      "candidate_categories": [
-        "earnings_guidance"
-      ],
-      "event_confirmed": false,
-      "form": "6-K",
-      "source": "SEC_CURRENT_FILINGS",
-      "source_id": "urn:tag:sec.gov,2008:accession-number=0001171843-26-007735",
-      "status": "FORM_ONLY_UNVERIFIED",
-      "title": "6-K - Ero Copper Corp. (0001853860) (Filer)",
-      "trade_eligible": false,
-      "updated": "2026-11-27T06:05:05-05:00"
+      "updated": "2026-11-27T15:00:06-05:00"
     },
     {
       "candidate_categories": [],
       "event_confirmed": false,
       "form": null,
       "source": "SEC_CURRENT_FILINGS",
-      "source_id": "urn:tag:sec.gov,2008:accession-number=0001104659-26-132245",
+      "source_id": "urn:tag:sec.gov,2008:accession-number=0001839882-26-058449",
       "status": "FORM_ONLY_UNVERIFIED",
-      "title": "DEF 14C - Papaya Growth Opportunity Corp. I (0001894057) (Filer)",
+      "title": "FWP - BANK OF MONTREAL /CAN/ (0000927971) (Subject)",
       "trade_eligible": false,
-      "updated": "2026-11-27T06:05:02-05:00"
-    },
-    {
-      "candidate_categories": [
-        "earnings_guidance"
-      ],
-      "event_confirmed": false,
-      "form": "6-K",
-      "source": "SEC_CURRENT_FILINGS",
-      "source_id": "urn:tag:sec.gov,2008:accession-number=0001648257-26-000085",
-      "status": "FORM_ONLY_UNVERIFIED",
-      "title": "6-K - HUTCHMED (China) Ltd (0001648257) (Filer)",
-      "trade_eligible": false,
-      "updated": "2026-11-27T06:04:45-05:00"
+      "updated": "2026-11-27T14:59:57-05:00"
     },
     {
       "candidate_categories": [],
       "event_confirmed": false,
       "form": null,
       "source": "SEC_CURRENT_FILINGS",
-      "source_id": "urn:tag:sec.gov,2008:accession-number=0001918704-26-037089",
+      "source_id": "urn:tag:sec.gov,2008:accession-number=0001193125-26-480161",
+      "status": "FORM_ONLY_UNVERIFIED",
+      "title": "424B2 - GS Finance Corp. (0001419828) (Filer)",
+      "trade_eligible": false,
+      "updated": "2026-11-27T14:59:35-05:00"
+    },
+    {
+      "candidate_categories": [],
+      "event_confirmed": false,
+      "form": null,
+      "source": "SEC_CURRENT_FILINGS",
+      "source_id": "urn:tag:sec.gov,2008:accession-number=0001193125-26-480161",
+      "status": "FORM_ONLY_UNVERIFIED",
+      "title": "424B2 - GOLDMAN SACHS GROUP INC (0000886982) (Filer)",
+      "trade_eligible": false,
+      "updated": "2026-11-27T14:59:35-05:00"
+    },
+    {
+      "candidate_categories": [],
+      "event_confirmed": false,
+      "form": null,
+      "source": "SEC_CURRENT_FILINGS",
+      "source_id": "urn:tag:sec.gov,2008:accession-number=0001805526-26-000184",
+      "status": "FORM_ONLY_UNVERIFIED",
+      "title": "FWP - DeFi Development Corp. (0001805526) (Subject)",
+      "trade_eligible": false,
+      "updated": "2026-11-27T14:58:47-05:00"
+    },
+    {
+      "candidate_categories": [],
+      "event_confirmed": false,
+      "form": null,
+      "source": "SEC_CURRENT_FILINGS",
+      "source_id": "urn:tag:sec.gov,2008:accession-number=0001193125-26-480159",
+      "status": "FORM_ONLY_UNVERIFIED",
+      "title": "424B2 - GOLDMAN SACHS GROUP INC (0000886982) (Filer)",
+      "trade_eligible": false,
+      "updated": "2026-11-27T14:58:20-05:00"
+    },
+    {
+      "candidate_categories": [],
+      "event_confirmed": false,
+      "form": null,
+      "source": "SEC_CURRENT_FILINGS",
+      "source_id": "urn:tag:sec.gov,2008:accession-number=0001104659-26-132454",
+      "status": "FORM_ONLY_UNVERIFIED",
+      "title": "424B2 - HSBC USA INC /MD/ (0000083246) (Filer)",
+      "trade_eligible": false,
+      "updated": "2026-11-27T14:58:16-05:00"
+    },
+    {
+      "candidate_categories": [],
+      "event_confirmed": false,
+      "form": null,
+      "source": "SEC_CURRENT_FILINGS",
+      "source_id": "urn:tag:sec.gov,2008:accession-number=0001193125-26-480158",
+      "status": "FORM_ONLY_UNVERIFIED",
+      "title": "424B2 - GS Finance Corp. (0001419828) (Filer)",
+      "trade_eligible": false,
+      "updated": "2026-11-27T14:57:51-05:00"
+    },
+    {
+      "candidate_categories": [],
+      "event_confirmed": false,
+      "form": null,
+      "source": "SEC_CURRENT_FILINGS",
+      "source_id": "urn:tag:sec.gov,2008:accession-number=0001193125-26-480158",
+      "status": "FORM_ONLY_UNVERIFIED",
+      "title": "424B2 - GOLDMAN SACHS GROUP INC (0000886982) (Filer)",
+      "trade_eligible": false,
+      "updated": "2026-11-27T14:57:51-05:00"
+    },
+    {
+      "candidate_categories": [],
+      "event_confirmed": false,
+      "form": null,
+      "source": "SEC_CURRENT_FILINGS",
+      "source_id": "urn:tag:sec.gov,2008:accession-number=0001193125-26-480155",
+      "status": "FORM_ONLY_UNVERIFIED",
+      "title": "424B2 - GS Finance Corp. (0001419828) (Filer)",
+      "trade_eligible": false,
+      "updated": "2026-11-27T14:57:21-05:00"
+    },
+    {
+      "candidate_categories": [],
+      "event_confirmed": false,
+      "form": null,
+      "source": "SEC_CURRENT_FILINGS",
+      "source_id": "urn:tag:sec.gov,2008:accession-number=0001193125-26-480155",
+      "status": "FORM_ONLY_UNVERIFIED",
+      "title": "424B2 - GOLDMAN SACHS GROUP INC (0000886982) (Filer)",
+      "trade_eligible": false,
+      "updated": "2026-11-27T14:57:21-05:00"
+    },
+    {
+      "candidate_categories": [],
+      "event_confirmed": false,
+      "form": null,
+      "source": "SEC_CURRENT_FILINGS",
+      "source_id": "urn:tag:sec.gov,2008:accession-number=0002167271-26-000001",
+      "status": "FORM_ONLY_UNVERIFIED",
+      "title": "D - SeatMate Social, Inc. (0002167271) (Filer)",
+      "trade_eligible": false,
+      "updated": "2026-11-27T14:57:12-05:00"
+    },
+    {
+      "candidate_categories": [],
+      "event_confirmed": false,
+      "form": null,
+      "source": "SEC_CURRENT_FILINGS",
+      "source_id": "urn:tag:sec.gov,2008:accession-number=0000709283-26-000012",
+      "status": "FORM_ONLY_UNVERIFIED",
+      "title": "S-3ASR - QUANTUM CORP /DE/ (0000709283) (Filer)",
+      "trade_eligible": false,
+      "updated": "2026-11-27T14:57:09-05:00"
+    },
+    {
+      "candidate_categories": [],
+      "event_confirmed": false,
+      "form": null,
+      "source": "SEC_CURRENT_FILINGS",
+      "source_id": "urn:tag:sec.gov,2008:accession-number=0001193125-26-480153",
+      "status": "FORM_ONLY_UNVERIFIED",
+      "title": "424B2 - GS Finance Corp. (0001419828) (Filer)",
+      "trade_eligible": false,
+      "updated": "2026-11-27T14:56:38-05:00"
+    },
+    {
+      "candidate_categories": [],
+      "event_confirmed": false,
+      "form": null,
+      "source": "SEC_CURRENT_FILINGS",
+      "source_id": "urn:tag:sec.gov,2008:accession-number=0001193125-26-480153",
+      "status": "FORM_ONLY_UNVERIFIED",
+      "title": "424B2 - GOLDMAN SACHS GROUP INC (0000886982) (Filer)",
+      "trade_eligible": false,
+      "updated": "2026-11-27T14:56:38-05:00"
+    },
+    {
+      "candidate_categories": [],
+      "event_confirmed": false,
+      "form": null,
+      "source": "SEC_CURRENT_FILINGS",
+      "source_id": "urn:tag:sec.gov,2008:accession-number=0002166888-26-000001",
+      "status": "FORM_ONLY_UNVERIFIED",
+      "title": "D - 11MC PARTNERS SERIES 3 (0002166888) (Filer)",
+      "trade_eligible": false,
+      "updated": "2026-11-27T14:56:16-05:00"
+    },
+    {
+      "candidate_categories": [],
+      "event_confirmed": false,
+      "form": null,
+      "source": "SEC_CURRENT_FILINGS",
+      "source_id": "urn:tag:sec.gov,2008:accession-number=0001918704-26-037398",
+      "status": "FORM_ONLY_UNVERIFIED",
+      "title": "424B2 - BARCLAYS BANK PLC (0000312070) (Filer)",
+      "trade_eligible": false,
+      "updated": "2026-11-27T14:55:00-05:00"
+    },
+    {
+      "candidate_categories": [],
+      "event_confirmed": false,
+      "form": null,
+      "source": "SEC_CURRENT_FILINGS",
+      "source_id": "urn:tag:sec.gov,2008:accession-number=0000940400-26-048377",
+      "status": "FORM_ONLY_UNVERIFIED",
+      "title": "NPORT-P - DELAWARE VIP TRUST (0000814230) (Filer)",
+      "trade_eligible": false,
+      "updated": "2026-11-27T14:54:43-05:00"
+    },
+    {
+      "candidate_categories": [],
+      "event_confirmed": false,
+      "form": null,
+      "source": "SEC_CURRENT_FILINGS",
+      "source_id": "urn:tag:sec.gov,2008:accession-number=0000940400-26-048376",
+      "status": "FORM_ONLY_UNVERIFIED",
+      "title": "NPORT-P - DELAWARE VIP TRUST (0000814230) (Filer)",
+      "trade_eligible": false,
+      "updated": "2026-11-27T14:54:42-05:00"
+    },
+    {
+      "candidate_categories": [],
+      "event_confirmed": false,
+      "form": null,
+      "source": "SEC_CURRENT_FILINGS",
+      "source_id": "urn:tag:sec.gov,2008:accession-number=0000940400-26-048375",
+      "status": "FORM_ONLY_UNVERIFIED",
+      "title": "NPORT-P - AMG FUNDS (0001089951) (Filer)",
+      "trade_eligible": false,
+      "updated": "2026-11-27T14:54:41-05:00"
+    },
+    {
+      "candidate_categories": [],
+      "event_confirmed": false,
+      "form": null,
+      "source": "SEC_CURRENT_FILINGS",
+      "source_id": "urn:tag:sec.gov,2008:accession-number=0000940400-26-048374",
+      "status": "FORM_ONLY_UNVERIFIED",
+      "title": "NPORT-P - Ivy Variable Insurance Portfolios (0000810016) (Filer)",
+      "trade_eligible": false,
+      "updated": "2026-11-27T14:54:41-05:00"
+    },
+    {
+      "candidate_categories": [],
+      "event_confirmed": false,
+      "form": null,
+      "source": "SEC_CURRENT_FILINGS",
+      "source_id": "urn:tag:sec.gov,2008:accession-number=0000940400-26-048373",
+      "status": "FORM_ONLY_UNVERIFIED",
+      "title": "NPORT-P - AMG FUNDS (0001089951) (Filer)",
+      "trade_eligible": false,
+      "updated": "2026-11-27T14:54:40-05:00"
+    },
+    {
+      "candidate_categories": [],
+      "event_confirmed": false,
+      "form": null,
+      "source": "SEC_CURRENT_FILINGS",
+      "source_id": "urn:tag:sec.gov,2008:accession-number=0000940400-26-048372",
+      "status": "FORM_ONLY_UNVERIFIED",
+      "title": "NPORT-P - AMG FUNDS (0001089951) (Filer)",
+      "trade_eligible": false,
+      "updated": "2026-11-27T14:54:39-05:00"
+    },
+    {
+      "candidate_categories": [],
+      "event_confirmed": false,
+      "form": null,
+      "source": "SEC_CURRENT_FILINGS",
+      "source_id": "urn:tag:sec.gov,2008:accession-number=0000940400-26-048371",
+      "status": "FORM_ONLY_UNVERIFIED",
+      "title": "NPORT-P - Ivy Variable Insurance Portfolios (0000810016) (Filer)",
+      "trade_eligible": false,
+      "updated": "2026-11-27T14:54:38-05:00"
+    },
+    {
+      "candidate_categories": [],
+      "event_confirmed": false,
+      "form": null,
+      "source": "SEC_CURRENT_FILINGS",
+      "source_id": "urn:tag:sec.gov,2008:accession-number=0000940400-26-048370",
+      "status": "FORM_ONLY_UNVERIFIED",
+      "title": "NPORT-P - AMG FUNDS (0001089951) (Filer)",
+      "trade_eligible": false,
+      "updated": "2026-11-27T14:54:37-05:00"
+    },
+    {
+      "candidate_categories": [],
+      "event_confirmed": false,
+      "form": null,
+      "source": "SEC_CURRENT_FILINGS",
+      "source_id": "urn:tag:sec.gov,2008:accession-number=0000940400-26-048368",
+      "status": "FORM_ONLY_UNVERIFIED",
+      "title": "NPORT-P - Ivy Variable Insurance Portfolios (0000810016) (Filer)",
+      "trade_eligible": false,
+      "updated": "2026-11-27T14:54:37-05:00"
+    },
+    {
+      "candidate_categories": [],
+      "event_confirmed": false,
+      "form": null,
+      "source": "SEC_CURRENT_FILINGS",
+      "source_id": "urn:tag:sec.gov,2008:accession-number=0000940400-26-048369",
+      "status": "FORM_ONLY_UNVERIFIED",
+      "title": "NPORT-P - DELAWARE VIP TRUST (0000814230) (Filer)",
+      "trade_eligible": false,
+      "updated": "2026-11-27T14:54:36-05:00"
+    },
+    {
+      "candidate_categories": [],
+      "event_confirmed": false,
+      "form": null,
+      "source": "SEC_CURRENT_FILINGS",
+      "source_id": "urn:tag:sec.gov,2008:accession-number=0000940400-26-048367",
+      "status": "FORM_ONLY_UNVERIFIED",
+      "title": "NPORT-P - Ivy Variable Insurance Portfolios (0000810016) (Filer)",
+      "trade_eligible": false,
+      "updated": "2026-11-27T14:54:35-05:00"
+    },
+    {
+      "candidate_categories": [],
+      "event_confirmed": false,
+      "form": null,
+      "source": "SEC_CURRENT_FILINGS",
+      "source_id": "urn:tag:sec.gov,2008:accession-number=0000940400-26-048365",
+      "status": "FORM_ONLY_UNVERIFIED",
+      "title": "NPORT-P - AMG FUNDS (0001089951) (Filer)",
+      "trade_eligible": false,
+      "updated": "2026-11-27T14:54:34-05:00"
+    },
+    {
+      "candidate_categories": [],
+      "event_confirmed": false,
+      "form": null,
+      "source": "SEC_CURRENT_FILINGS",
+      "source_id": "urn:tag:sec.gov,2008:accession-number=0000940400-26-048366",
+      "status": "FORM_ONLY_UNVERIFIED",
+      "title": "NPORT-P - DELAWARE GROUP LIMITED-TERM GOVERNMENT FUNDS (0000357059) (Filer)",
+      "trade_eligible": false,
+      "updated": "2026-11-27T14:54:34-05:00"
+    },
+    {
+      "candidate_categories": [],
+      "event_confirmed": false,
+      "form": null,
+      "source": "SEC_CURRENT_FILINGS",
+      "source_id": "urn:tag:sec.gov,2008:accession-number=0000940400-26-048364",
+      "status": "FORM_ONLY_UNVERIFIED",
+      "title": "NPORT-P - DELAWARE VIP TRUST (0000814230) (Filer)",
+      "trade_eligible": false,
+      "updated": "2026-11-27T14:54:33-05:00"
+    },
+    {
+      "candidate_categories": [],
+      "event_confirmed": false,
+      "form": null,
+      "source": "SEC_CURRENT_FILINGS",
+      "source_id": "urn:tag:sec.gov,2008:accession-number=0000940400-26-048363",
+      "status": "FORM_ONLY_UNVERIFIED",
+      "title": "NPORT-P - AMG FUNDS (0001089951) (Filer)",
+      "trade_eligible": false,
+      "updated": "2026-11-27T14:54:32-05:00"
+    },
+    {
+      "candidate_categories": [],
+      "event_confirmed": false,
+      "form": null,
+      "source": "SEC_CURRENT_FILINGS",
+      "source_id": "urn:tag:sec.gov,2008:accession-number=0000919574-26-008282",
+      "status": "FORM_ONLY_UNVERIFIED",
+      "title": "4 - Balle Kim (0002126676) (Reporting)",
+      "trade_eligible": false,
+      "updated": "2026-11-27T14:54:31-05:00"
+    },
+    {
+      "candidate_categories": [],
+      "event_confirmed": false,
+      "form": null,
+      "source": "SEC_CURRENT_FILINGS",
+      "source_id": "urn:tag:sec.gov,2008:accession-number=0000919574-26-008282",
+      "status": "FORM_ONLY_UNVERIFIED",
+      "title": "4 - TORM plc (0001655891) (Issuer)",
+      "trade_eligible": false,
+      "updated": "2026-11-27T14:54:31-05:00"
+    },
+    {
+      "candidate_categories": [],
+      "event_confirmed": false,
+      "form": null,
+      "source": "SEC_CURRENT_FILINGS",
+      "source_id": "urn:tag:sec.gov,2008:accession-number=0000940400-26-048362",
+      "status": "FORM_ONLY_UNVERIFIED",
+      "title": "NPORT-P - AMG FUNDS (0001089951) (Filer)",
+      "trade_eligible": false,
+      "updated": "2026-11-27T14:54:31-05:00"
+    },
+    {
+      "candidate_categories": [],
+      "event_confirmed": false,
+      "form": null,
+      "source": "SEC_CURRENT_FILINGS",
+      "source_id": "urn:tag:sec.gov,2008:accession-number=0000940400-26-048361",
+      "status": "FORM_ONLY_UNVERIFIED",
+      "title": "NPORT-P - AMG FUNDS (0001089951) (Filer)",
+      "trade_eligible": false,
+      "updated": "2026-11-27T14:54:30-05:00"
+    },
+    {
+      "candidate_categories": [],
+      "event_confirmed": false,
+      "form": null,
+      "source": "SEC_CURRENT_FILINGS",
+      "source_id": "urn:tag:sec.gov,2008:accession-number=0000940400-26-048360",
+      "status": "FORM_ONLY_UNVERIFIED",
+      "title": "NPORT-P - AMG ETF Trust (0000879947) (Filer)",
+      "trade_eligible": false,
+      "updated": "2026-11-27T14:54:30-05:00"
+    },
+    {
+      "candidate_categories": [],
+      "event_confirmed": false,
+      "form": null,
+      "source": "SEC_CURRENT_FILINGS",
+      "source_id": "urn:tag:sec.gov,2008:accession-number=0000940400-26-048359",
+      "status": "FORM_ONLY_UNVERIFIED",
+      "title": "NPORT-P - DELAWARE VIP TRUST (0000814230) (Filer)",
+      "trade_eligible": false,
+      "updated": "2026-11-27T14:54:29-05:00"
+    },
+    {
+      "candidate_categories": [],
+      "event_confirmed": false,
+      "form": null,
+      "source": "SEC_CURRENT_FILINGS",
+      "source_id": "urn:tag:sec.gov,2008:accession-number=0000940400-26-048358",
+      "status": "FORM_ONLY_UNVERIFIED",
+      "title": "NPORT-P - AMG FUNDS (0001089951) (Filer)",
+      "trade_eligible": false,
+      "updated": "2026-11-27T14:54:28-05:00"
+    },
+    {
+      "candidate_categories": [],
+      "event_confirmed": false,
+      "form": null,
+      "source": "SEC_CURRENT_FILINGS",
+      "source_id": "urn:tag:sec.gov,2008:accession-number=0000940400-26-048357",
+      "status": "FORM_ONLY_UNVERIFIED",
+      "title": "NPORT-P - DELAWARE VIP TRUST (0000814230) (Filer)",
+      "trade_eligible": false,
+      "updated": "2026-11-27T14:54:28-05:00"
+    },
+    {
+      "candidate_categories": [],
+      "event_confirmed": false,
+      "form": null,
+      "source": "SEC_CURRENT_FILINGS",
+      "source_id": "urn:tag:sec.gov,2008:accession-number=0000940400-26-048355",
+      "status": "FORM_ONLY_UNVERIFIED",
+      "title": "NPORT-P - AMG FUNDS (0001089951) (Filer)",
+      "trade_eligible": false,
+      "updated": "2026-11-27T14:54:26-05:00"
+    },
+    {
+      "candidate_categories": [],
+      "event_confirmed": false,
+      "form": null,
+      "source": "SEC_CURRENT_FILINGS",
+      "source_id": "urn:tag:sec.gov,2008:accession-number=0000940400-26-048356",
+      "status": "FORM_ONLY_UNVERIFIED",
+      "title": "NPORT-P - DELAWARE VIP TRUST (0000814230) (Filer)",
+      "trade_eligible": false,
+      "updated": "2026-11-27T14:54:26-05:00"
+    },
+    {
+      "candidate_categories": [],
+      "event_confirmed": false,
+      "form": null,
+      "source": "SEC_CURRENT_FILINGS",
+      "source_id": "urn:tag:sec.gov,2008:accession-number=0001193125-26-480150",
+      "status": "FORM_ONLY_UNVERIFIED",
+      "title": "424B2 - GS Finance Corp. (0001419828) (Filer)",
+      "trade_eligible": false,
+      "updated": "2026-11-27T14:54:25-05:00"
+    },
+    {
+      "candidate_categories": [],
+      "event_confirmed": false,
+      "form": null,
+      "source": "SEC_CURRENT_FILINGS",
+      "source_id": "urn:tag:sec.gov,2008:accession-number=0000940400-26-048354",
+      "status": "FORM_ONLY_UNVERIFIED",
+      "title": "NPORT-P - AMG FUNDS (0001089951) (Filer)",
+      "trade_eligible": false,
+      "updated": "2026-11-27T14:54:25-05:00"
+    },
+    {
+      "candidate_categories": [],
+      "event_confirmed": false,
+      "form": null,
+      "source": "SEC_CURRENT_FILINGS",
+      "source_id": "urn:tag:sec.gov,2008:accession-number=0001193125-26-480150",
+      "status": "FORM_ONLY_UNVERIFIED",
+      "title": "424B2 - GOLDMAN SACHS GROUP INC (0000886982) (Filer)",
+      "trade_eligible": false,
+      "updated": "2026-11-27T14:54:25-05:00"
+    },
+    {
+      "candidate_categories": [],
+      "event_confirmed": false,
+      "form": null,
+      "source": "SEC_CURRENT_FILINGS",
+      "source_id": "urn:tag:sec.gov,2008:accession-number=0000940400-26-048352",
+      "status": "FORM_ONLY_UNVERIFIED",
+      "title": "NPORT-P - AMG FUNDS (0001089951) (Filer)",
+      "trade_eligible": false,
+      "updated": "2026-11-27T14:54:24-05:00"
+    },
+    {
+      "candidate_categories": [],
+      "event_confirmed": false,
+      "form": null,
+      "source": "SEC_CURRENT_FILINGS",
+      "source_id": "urn:tag:sec.gov,2008:accession-number=0000940400-26-048353",
+      "status": "FORM_ONLY_UNVERIFIED",
+      "title": "NPORT-P - AMG FUNDS III (0000720309) (Filer)",
+      "trade_eligible": false,
+      "updated": "2026-11-27T14:54:24-05:00"
+    },
+    {
+      "candidate_categories": [],
+      "event_confirmed": false,
+      "form": null,
+      "source": "SEC_CURRENT_FILINGS",
+      "source_id": "urn:tag:sec.gov,2008:accession-number=0000940400-26-048351",
+      "status": "FORM_ONLY_UNVERIFIED",
+      "title": "NPORT-P - AMG FUNDS III (0000720309) (Filer)",
+      "trade_eligible": false,
+      "updated": "2026-11-27T14:54:23-05:00"
+    },
+    {
+      "candidate_categories": [],
+      "event_confirmed": false,
+      "form": null,
+      "source": "SEC_CURRENT_FILINGS",
+      "source_id": "urn:tag:sec.gov,2008:accession-number=0000940400-26-048350",
+      "status": "FORM_ONLY_UNVERIFIED",
+      "title": "NPORT-P - DELAWARE VIP TRUST (0000814230) (Filer)",
+      "trade_eligible": false,
+      "updated": "2026-11-27T14:54:22-05:00"
+    },
+    {
+      "candidate_categories": [],
+      "event_confirmed": false,
+      "form": null,
+      "source": "SEC_CURRENT_FILINGS",
+      "source_id": "urn:tag:sec.gov,2008:accession-number=0000940400-26-048349",
+      "status": "FORM_ONLY_UNVERIFIED",
+      "title": "NPORT-P - DELAWARE VIP TRUST (0000814230) (Filer)",
+      "trade_eligible": false,
+      "updated": "2026-11-27T14:54:22-05:00"
+    },
+    {
+      "candidate_categories": [],
+      "event_confirmed": false,
+      "form": null,
+      "source": "SEC_CURRENT_FILINGS",
+      "source_id": "urn:tag:sec.gov,2008:accession-number=0000940400-26-048348",
+      "status": "FORM_ONLY_UNVERIFIED",
+      "title": "NPORT-P - AMG FUNDS (0001089951) (Filer)",
+      "trade_eligible": false,
+      "updated": "2026-11-27T14:54:21-05:00"
+    },
+    {
+      "candidate_categories": [],
+      "event_confirmed": false,
+      "form": null,
+      "source": "SEC_CURRENT_FILINGS",
+      "source_id": "urn:tag:sec.gov,2008:accession-number=0000940400-26-048347",
+      "status": "FORM_ONLY_UNVERIFIED",
+      "title": "NPORT-P - AMG FUNDS (0001089951) (Filer)",
+      "trade_eligible": false,
+      "updated": "2026-11-27T14:54:20-05:00"
+    },
+    {
+      "candidate_categories": [],
+      "event_confirmed": false,
+      "form": null,
+      "source": "SEC_CURRENT_FILINGS",
+      "source_id": "urn:tag:sec.gov,2008:accession-number=0000940400-26-048346",
+      "status": "FORM_ONLY_UNVERIFIED",
+      "title": "NPORT-P - AMG FUNDS (0001089951) (Filer)",
+      "trade_eligible": false,
+      "updated": "2026-11-27T14:54:20-05:00"
+    },
+    {
+      "candidate_categories": [],
+      "event_confirmed": false,
+      "form": null,
+      "source": "SEC_CURRENT_FILINGS",
+      "source_id": "urn:tag:sec.gov,2008:accession-number=0000940400-26-048345",
+      "status": "FORM_ONLY_UNVERIFIED",
+      "title": "NPORT-P - DELAWARE GROUP LIMITED-TERM GOVERNMENT FUNDS (0000357059) (Filer)",
+      "trade_eligible": false,
+      "updated": "2026-11-27T14:54:19-05:00"
+    },
+    {
+      "candidate_categories": [],
+      "event_confirmed": false,
+      "form": null,
+      "source": "SEC_CURRENT_FILINGS",
+      "source_id": "urn:tag:sec.gov,2008:accession-number=0000940400-26-048344",
+      "status": "FORM_ONLY_UNVERIFIED",
+      "title": "NPORT-P - AMG FUNDS (0001089951) (Filer)",
+      "trade_eligible": false,
+      "updated": "2026-11-27T14:54:18-05:00"
+    },
+    {
+      "candidate_categories": [],
+      "event_confirmed": false,
+      "form": null,
+      "source": "SEC_CURRENT_FILINGS",
+      "source_id": "urn:tag:sec.gov,2008:accession-number=0001104659-26-132452",
+      "status": "FORM_ONLY_UNVERIFIED",
+      "title": "424B2 - HSBC USA INC /MD/ (0000083246) (Filer)",
+      "trade_eligible": false,
+      "updated": "2026-11-27T14:54:06-05:00"
+    },
+    {
+      "candidate_categories": [],
+      "event_confirmed": false,
+      "form": null,
+      "source": "SEC_CURRENT_FILINGS",
+      "source_id": "urn:tag:sec.gov,2008:accession-number=0001193125-26-480149",
+      "status": "FORM_ONLY_UNVERIFIED",
+      "title": "424B2 - GS Finance Corp. (0001419828) (Filer)",
+      "trade_eligible": false,
+      "updated": "2026-11-27T14:54:02-05:00"
+    },
+    {
+      "candidate_categories": [],
+      "event_confirmed": false,
+      "form": null,
+      "source": "SEC_CURRENT_FILINGS",
+      "source_id": "urn:tag:sec.gov,2008:accession-number=0001193125-26-480149",
+      "status": "FORM_ONLY_UNVERIFIED",
+      "title": "424B2 - GOLDMAN SACHS GROUP INC (0000886982) (Filer)",
+      "trade_eligible": false,
+      "updated": "2026-11-27T14:54:02-05:00"
+    },
+    {
+      "candidate_categories": [],
+      "event_confirmed": false,
+      "form": null,
+      "source": "SEC_CURRENT_FILINGS",
+      "source_id": "urn:tag:sec.gov,2008:accession-number=0001918704-26-037397",
+      "status": "FORM_ONLY_UNVERIFIED",
+      "title": "424B2 - BARCLAYS BANK PLC (0000312070) (Filer)",
+      "trade_eligible": false,
+      "updated": "2026-11-27T14:53:56-05:00"
+    },
+    {
+      "candidate_categories": [],
+      "event_confirmed": false,
+      "form": null,
+      "source": "SEC_CURRENT_FILINGS",
+      "source_id": "urn:tag:sec.gov,2008:accession-number=0000950103-26-018357",
+      "status": "FORM_ONLY_UNVERIFIED",
+      "title": "424B2 - BARCLAYS BANK PLC (0000312070) (Filer)",
+      "trade_eligible": false,
+      "updated": "2026-11-27T14:53:40-05:00"
+    },
+    {
+      "candidate_categories": [],
+      "event_confirmed": false,
+      "form": null,
+      "source": "SEC_CURRENT_FILINGS",
+      "source_id": "urn:tag:sec.gov,2008:accession-number=0001653242-26-000169",
+      "status": "FORM_ONLY_UNVERIFIED",
+      "title": "4 - Pearce Jane (0002004049) (Reporting)",
+      "trade_eligible": false,
+      "updated": "2026-11-27T14:53:04-05:00"
+    },
+    {
+      "candidate_categories": [],
+      "event_confirmed": false,
+      "form": null,
+      "source": "SEC_CURRENT_FILINGS",
+      "source_id": "urn:tag:sec.gov,2008:accession-number=0001653242-26-000169",
+      "status": "FORM_ONLY_UNVERIFIED",
+      "title": "4 - Bank of N.T. Butterfield & Son Ltd (0001653242) (Issuer)",
+      "trade_eligible": false,
+      "updated": "2026-11-27T14:53:04-05:00"
+    },
+    {
+      "candidate_categories": [],
+      "event_confirmed": false,
+      "form": null,
+      "source": "SEC_CURRENT_FILINGS",
+      "source_id": "urn:tag:sec.gov,2008:accession-number=0001653242-26-000168",
+      "status": "FORM_ONLY_UNVERIFIED",
+      "title": "4 - McWatt Michael (0002001797) (Reporting)",
+      "trade_eligible": false,
+      "updated": "2026-11-27T14:52:58-05:00"
+    },
+    {
+      "candidate_categories": [],
+      "event_confirmed": false,
+      "form": null,
+      "source": "SEC_CURRENT_FILINGS",
+      "source_id": "urn:tag:sec.gov,2008:accession-number=0001653242-26-000168",
+      "status": "FORM_ONLY_UNVERIFIED",
+      "title": "4 - Bank of N.T. Butterfield & Son Ltd (0001653242) (Issuer)",
+      "trade_eligible": false,
+      "updated": "2026-11-27T14:52:58-05:00"
+    },
+    {
+      "candidate_categories": [],
+      "event_confirmed": false,
+      "form": null,
+      "source": "SEC_CURRENT_FILINGS",
+      "source_id": "urn:tag:sec.gov,2008:accession-number=0001653242-26-000167",
+      "status": "FORM_ONLY_UNVERIFIED",
+      "title": "4 - Lee Michael Sean (0002059501) (Reporting)",
+      "trade_eligible": false,
+      "updated": "2026-11-27T14:52:52-05:00"
+    },
+    {
+      "candidate_categories": [],
+      "event_confirmed": false,
+      "form": null,
+      "source": "SEC_CURRENT_FILINGS",
+      "source_id": "urn:tag:sec.gov,2008:accession-number=0001653242-26-000167",
+      "status": "FORM_ONLY_UNVERIFIED",
+      "title": "4 - Bank of N.T. Butterfield & Son Ltd (0001653242) (Issuer)",
+      "trade_eligible": false,
+      "updated": "2026-11-27T14:52:52-05:00"
+    },
+    {
+      "candidate_categories": [],
+      "event_confirmed": false,
+      "form": null,
+      "source": "SEC_CURRENT_FILINGS",
+      "source_id": "urn:tag:sec.gov,2008:accession-number=0001653242-26-000166",
+      "status": "FORM_ONLY_UNVERIFIED",
+      "title": "4 - Burns Andrew Ronald (0002013344) (Reporting)",
+      "trade_eligible": false,
+      "updated": "2026-11-27T14:52:47-05:00"
+    },
+    {
+      "candidate_categories": [],
+      "event_confirmed": false,
+      "form": null,
+      "source": "SEC_CURRENT_FILINGS",
+      "source_id": "urn:tag:sec.gov,2008:accession-number=0001653242-26-000166",
+      "status": "FORM_ONLY_UNVERIFIED",
+      "title": "4 - Bank of N.T. Butterfield & Son Ltd (0001653242) (Issuer)",
+      "trade_eligible": false,
+      "updated": "2026-11-27T14:52:47-05:00"
+    },
+    {
+      "candidate_categories": [],
+      "event_confirmed": false,
+      "form": null,
+      "source": "SEC_CURRENT_FILINGS",
+      "source_id": "urn:tag:sec.gov,2008:accession-number=0001653242-26-000165",
+      "status": "FORM_ONLY_UNVERIFIED",
+      "title": "4 - Feldman Jody Terence (0002014318) (Reporting)",
+      "trade_eligible": false,
+      "updated": "2026-11-27T14:52:41-05:00"
+    },
+    {
+      "candidate_categories": [],
+      "event_confirmed": false,
+      "form": null,
+      "source": "SEC_CURRENT_FILINGS",
+      "source_id": "urn:tag:sec.gov,2008:accession-number=0001213900-26-124520",
       "status": "FORM_ONLY_UNVERIFIED",
       "title": "424B2 - JPMorgan Chase Financial Co. LLC (0001665650) (Filer)",
       "trade_eligible": false,
-      "updated": "2026-11-27T06:04:43-05:00"
+      "updated": "2026-11-27T14:52:41-05:00"
     },
     {
       "candidate_categories": [],
       "event_confirmed": false,
       "form": null,
       "source": "SEC_CURRENT_FILINGS",
-      "source_id": "urn:tag:sec.gov,2008:accession-number=0001918704-26-037089",
+      "source_id": "urn:tag:sec.gov,2008:accession-number=0001653242-26-000165",
+      "status": "FORM_ONLY_UNVERIFIED",
+      "title": "4 - Bank of N.T. Butterfield & Son Ltd (0001653242) (Issuer)",
+      "trade_eligible": false,
+      "updated": "2026-11-27T14:52:41-05:00"
+    },
+    {
+      "candidate_categories": [],
+      "event_confirmed": false,
+      "form": null,
+      "source": "SEC_CURRENT_FILINGS",
+      "source_id": "urn:tag:sec.gov,2008:accession-number=0001213900-26-124520",
       "status": "FORM_ONLY_UNVERIFIED",
       "title": "424B2 - JPMORGAN CHASE & CO (0000019617) (Filer)",
       "trade_eligible": false,
-      "updated": "2026-11-27T06:04:43-05:00"
+      "updated": "2026-11-27T14:52:41-05:00"
     },
     {
       "candidate_categories": [],
       "event_confirmed": false,
       "form": null,
       "source": "SEC_CURRENT_FILINGS",
-      "source_id": "urn:tag:sec.gov,2008:accession-number=0001104659-26-132244",
+      "source_id": "urn:tag:sec.gov,2008:accession-number=0001653242-26-000164",
       "status": "FORM_ONLY_UNVERIFIED",
-      "title": "SCHEDULE 13D/A - Tether Global Investments Fund, S.I.C.A.F., S.A. (0002025889) (Filed by)",
+      "title": "4 - Hidalgo Tara (0001975035) (Reporting)",
       "trade_eligible": false,
-      "updated": "2026-11-27T06:04:27-05:00"
+      "updated": "2026-11-27T14:52:35-05:00"
     },
     {
       "candidate_categories": [],
       "event_confirmed": false,
       "form": null,
       "source": "SEC_CURRENT_FILINGS",
-      "source_id": "urn:tag:sec.gov,2008:accession-number=0001104659-26-132244",
+      "source_id": "urn:tag:sec.gov,2008:accession-number=0001653242-26-000164",
       "status": "FORM_ONLY_UNVERIFIED",
-      "title": "SCHEDULE 13D/A - Bitdeer Technologies Group (0001899123) (Subject)",
+      "title": "4 - Bank of N.T. Butterfield & Son Ltd (0001653242) (Issuer)",
       "trade_eligible": false,
-      "updated": "2026-11-27T06:04:27-05:00"
+      "updated": "2026-11-27T14:52:35-05:00"
     },
     {
       "candidate_categories": [],
       "event_confirmed": false,
       "form": null,
       "source": "SEC_CURRENT_FILINGS",
-      "source_id": "urn:tag:sec.gov,2008:accession-number=0002167218-26-000001",
+      "source_id": "urn:tag:sec.gov,2008:accession-number=0001653242-26-000163",
       "status": "FORM_ONLY_UNVERIFIED",
-      "title": "D - RnL1994, a Series of A Master Series, LLC (0002167218) (Filer)",
+      "title": "4 - Saunders Richard (0002013882) (Reporting)",
       "trade_eligible": false,
-      "updated": "2026-11-27T06:04:07-05:00"
+      "updated": "2026-11-27T14:52:29-05:00"
     },
     {
       "candidate_categories": [],
       "event_confirmed": false,
       "form": null,
       "source": "SEC_CURRENT_FILINGS",
-      "source_id": "urn:tag:sec.gov,2008:accession-number=0001104659-26-132241",
+      "source_id": "urn:tag:sec.gov,2008:accession-number=0001653242-26-000163",
       "status": "FORM_ONLY_UNVERIFIED",
-      "title": "SCHEDULE 13D/A - Versamet Royalties Corp (0002080073) (Subject)",
+      "title": "4 - Bank of N.T. Butterfield & Son Ltd (0001653242) (Issuer)",
       "trade_eligible": false,
-      "updated": "2026-11-27T06:04:06-05:00"
+      "updated": "2026-11-27T14:52:29-05:00"
     },
     {
       "candidate_categories": [],
       "event_confirmed": false,
       "form": null,
       "source": "SEC_CURRENT_FILINGS",
-      "source_id": "urn:tag:sec.gov,2008:accession-number=0001104659-26-132241",
+      "source_id": "urn:tag:sec.gov,2008:accession-number=0001918704-26-037396",
       "status": "FORM_ONLY_UNVERIFIED",
-      "title": "SCHEDULE 13D/A - Tether Global Investments Fund, S.I.C.A.F., S.A. (0002025889) (Filed by)",
+      "title": "424B2 - CANADIAN IMPERIAL BANK OF COMMERCE /CAN/ (0001045520) (Filer)",
       "trade_eligible": false,
-      "updated": "2026-11-27T06:04:06-05:00"
-    },
-    {
-      "candidate_categories": [
-        "earnings_guidance"
-      ],
-      "event_confirmed": false,
-      "form": "6-K",
-      "source": "SEC_CURRENT_FILINGS",
-      "source_id": "urn:tag:sec.gov,2008:accession-number=0001493152-26-054328",
-      "status": "FORM_ONLY_UNVERIFIED",
-      "title": "6-K - Clinuvel Pharmaceuticals Ltd (0001290877) (Filer)",
-      "trade_eligible": false,
-      "updated": "2026-11-27T06:04:06-05:00"
-    },
-    {
-      "candidate_categories": [
-        "earnings_guidance"
-      ],
-      "event_confirmed": false,
-      "form": "6-K",
-      "source": "SEC_CURRENT_FILINGS",
-      "source_id": "urn:tag:sec.gov,2008:accession-number=0001193125-26-479078",
-      "status": "FORM_ONLY_UNVERIFIED",
-      "title": "6-K - STUDIO CITY INTERNATIONAL HOLDINGS Ltd (0001713334) (Filer)",
-      "trade_eligible": false,
-      "updated": "2026-11-27T06:04:03-05:00"
-    },
-    {
-      "candidate_categories": [
-        "earnings_guidance"
-      ],
-      "event_confirmed": false,
-      "form": "6-K",
-      "source": "SEC_CURRENT_FILINGS",
-      "source_id": "urn:tag:sec.gov,2008:accession-number=0001193125-26-479077",
-      "status": "FORM_ONLY_UNVERIFIED",
-      "title": "6-K - TOYOTA MOTOR CORP/ (0001094517) (Filer)",
-      "trade_eligible": false,
-      "updated": "2026-11-27T06:03:54-05:00"
-    },
-    {
-      "candidate_categories": [
-        "earnings_guidance"
-      ],
-      "event_confirmed": false,
-      "form": "6-K",
-      "source": "SEC_CURRENT_FILINGS",
-      "source_id": "urn:tag:sec.gov,2008:accession-number=0001213900-26-124280",
-      "status": "FORM_ONLY_UNVERIFIED",
-      "title": "6-K - Hotel101 Global Holdings Corp. (0002054507) (Filer)",
-      "trade_eligible": false,
-      "updated": "2026-11-27T06:03:44-05:00"
-    },
-    {
-      "candidate_categories": [
-        "earnings_guidance"
-      ],
-      "event_confirmed": false,
-      "form": "6-K",
-      "source": "SEC_CURRENT_FILINGS",
-      "source_id": "urn:tag:sec.gov,2008:accession-number=0001104659-26-132240",
-      "status": "FORM_ONLY_UNVERIFIED",
-      "title": "6-K - X Financial (0001725033) (Filer)",
-      "trade_eligible": false,
-      "updated": "2026-11-27T06:03:29-05:00"
-    },
-    {
-      "candidate_categories": [
-        "earnings_guidance"
-      ],
-      "event_confirmed": false,
-      "form": "6-K",
-      "source": "SEC_CURRENT_FILINGS",
-      "source_id": "urn:tag:sec.gov,2008:accession-number=0001193125-26-479074",
-      "status": "FORM_ONLY_UNVERIFIED",
-      "title": "6-K - Melco Resorts & Entertainment LTD (0001381640) (Filer)",
-      "trade_eligible": false,
-      "updated": "2026-11-27T06:03:14-05:00"
-    },
-    {
-      "candidate_categories": [
-        "earnings_guidance"
-      ],
-      "event_confirmed": false,
-      "form": "6-K",
-      "source": "SEC_CURRENT_FILINGS",
-      "source_id": "urn:tag:sec.gov,2008:accession-number=0001193125-26-479073",
-      "status": "FORM_ONLY_UNVERIFIED",
-      "title": "6-K - SUMITOMO MITSUI FINANCIAL GROUP, INC. (0001022837) (Filer)",
-      "trade_eligible": false,
-      "updated": "2026-11-27T06:03:14-05:00"
-    },
-    {
-      "candidate_categories": [
-        "earnings_guidance"
-      ],
-      "event_confirmed": false,
-      "form": "6-K",
-      "source": "SEC_CURRENT_FILINGS",
-      "source_id": "urn:tag:sec.gov,2008:accession-number=0001193125-26-479072",
-      "status": "FORM_ONLY_UNVERIFIED",
-      "title": "6-K - SHINHAN FINANCIAL GROUP CO LTD (0001263043) (Filer)",
-      "trade_eligible": false,
-      "updated": "2026-11-27T06:03:13-05:00"
+      "updated": "2026-11-27T14:52:28-05:00"
     },
     {
       "candidate_categories": [],
       "event_confirmed": false,
       "form": null,
       "source": "SEC_CURRENT_FILINGS",
-      "source_id": "urn:tag:sec.gov,2008:accession-number=0001185185-26-005627",
+      "source_id": "urn:tag:sec.gov,2008:accession-number=0001104659-26-132450",
       "status": "FORM_ONLY_UNVERIFIED",
-      "title": "D - XEOLIT TRADING, INC. (0002152611) (Filer)",
+      "title": "N-23C3A - Monachil Credit Income Fund (0001867714) (Filer)",
       "trade_eligible": false,
-      "updated": "2026-11-27T06:03:11-05:00"
-    },
-    {
-      "candidate_categories": [
-        "earnings_guidance"
-      ],
-      "event_confirmed": false,
-      "form": "6-K",
-      "source": "SEC_CURRENT_FILINGS",
-      "source_id": "urn:tag:sec.gov,2008:accession-number=0001104659-26-132237",
-      "status": "FORM_ONLY_UNVERIFIED",
-      "title": "6-K - Concord Medical Services Holdings Ltd (0001472072) (Filer)",
-      "trade_eligible": false,
-      "updated": "2026-11-27T06:03:07-05:00"
+      "updated": "2026-11-27T14:52:25-05:00"
     },
     {
       "candidate_categories": [],
       "event_confirmed": false,
       "form": null,
       "source": "SEC_CURRENT_FILINGS",
-      "source_id": "urn:tag:sec.gov,2008:accession-number=0001178913-26-005389",
+      "source_id": "urn:tag:sec.gov,2008:accession-number=0001653242-26-000162",
       "status": "FORM_ONLY_UNVERIFIED",
-      "title": "4 - Trabelsi Arie (0002115847) (Reporting)",
+      "title": "4 - Collins Michael W (0001975405) (Reporting)",
       "trade_eligible": false,
-      "updated": "2026-11-27T06:02:51-05:00"
-    },
-    {
-      "candidate_categories": [],
-      "event_confirmed": false,
-      "form": null,
-      "source": "SEC_CURRENT_FILINGS",
-      "source_id": "urn:tag:sec.gov,2008:accession-number=0001178913-26-005389",
-      "status": "FORM_ONLY_UNVERIFIED",
-      "title": "4 - SuperCom Ltd (0001291855) (Issuer)",
-      "trade_eligible": false,
-      "updated": "2026-11-27T06:02:51-05:00"
-    },
-    {
-      "candidate_categories": [],
-      "event_confirmed": false,
-      "form": null,
-      "source": "SEC_CURRENT_FILINGS",
-      "source_id": "urn:tag:sec.gov,2008:accession-number=0001829126-26-012904",
-      "status": "FORM_ONLY_UNVERIFIED",
-      "title": "DEFR14A - Sound Point Meridian Capital, Inc. (0001930147) (Filer)",
-      "trade_eligible": false,
-      "updated": "2026-11-27T06:02:46-05:00"
-    },
-    {
-      "candidate_categories": [
-        "earnings_guidance"
-      ],
-      "event_confirmed": false,
-      "form": "6-K",
-      "source": "SEC_CURRENT_FILINGS",
-      "source_id": "urn:tag:sec.gov,2008:accession-number=0001292814-26-005408",
-      "status": "FORM_ONLY_UNVERIFIED",
-      "title": "6-K - COMPANHIA DE SANEAMENTO BASICO DO ESTADO DE SAO PAULO-SABESP (0001170858) (Filer)",
-      "trade_eligible": false,
-      "updated": "2026-11-27T06:02:35-05:00"
-    },
-    {
-      "candidate_categories": [
-        "earnings_guidance"
-      ],
-      "event_confirmed": false,
-      "form": "6-K",
-      "source": "SEC_CURRENT_FILINGS",
-      "source_id": "urn:tag:sec.gov,2008:accession-number=0001178913-26-005388",
-      "status": "FORM_ONLY_UNVERIFIED",
-      "title": "6-K - Caesarstone Ltd. (0001504379) (Filer)",
-      "trade_eligible": false,
-      "updated": "2026-11-27T06:02:28-05:00"
-    },
-    {
-      "candidate_categories": [
-        "earnings_guidance"
-      ],
-      "event_confirmed": false,
-      "form": "6-K",
-      "source": "SEC_CURRENT_FILINGS",
-      "source_id": "urn:tag:sec.gov,2008:accession-number=0001292814-26-005407",
-      "status": "FORM_ONLY_UNVERIFIED",
-      "title": "6-K - NATIONAL STEEL CO (0001049659) (Filer)",
-      "trade_eligible": false,
-      "updated": "2026-11-27T06:02:27-05:00"
-    },
-    {
-      "candidate_categories": [
-        "earnings_guidance"
-      ],
-      "event_confirmed": false,
-      "form": "6-K",
-      "source": "SEC_CURRENT_FILINGS",
-      "source_id": "urn:tag:sec.gov,2008:accession-number=0001193125-26-479067",
-      "status": "FORM_ONLY_UNVERIFIED",
-      "title": "6-K - SK hynix Inc. (0002120882) (Filer)",
-      "trade_eligible": false,
-      "updated": "2026-11-27T06:02:13-05:00"
-    },
-    {
-      "candidate_categories": [
-        "earnings_guidance"
-      ],
-      "event_confirmed": false,
-      "form": "6-K",
-      "source": "SEC_CURRENT_FILINGS",
-      "source_id": "urn:tag:sec.gov,2008:accession-number=0001104659-26-132231",
-      "status": "FORM_ONLY_UNVERIFIED",
-      "title": "6-K - Quantum eMotion Corp (0002106613) (Filer)",
-      "trade_eligible": false,
-      "updated": "2026-11-27T06:02:12-05:00"
-    },
-    {
-      "candidate_categories": [
-        "earnings_guidance"
-      ],
-      "event_confirmed": false,
-      "form": "6-K",
-      "source": "SEC_CURRENT_FILINGS",
-      "source_id": "urn:tag:sec.gov,2008:accession-number=0001178913-26-005387",
-      "status": "FORM_ONLY_UNVERIFIED",
-      "title": "6-K - ICL Group Ltd. (0000941221) (Filer)",
-      "trade_eligible": false,
-      "updated": "2026-11-27T06:02:12-05:00"
-    },
-    {
-      "candidate_categories": [
-        "earnings_guidance"
-      ],
-      "event_confirmed": false,
-      "form": "6-K",
-      "source": "SEC_CURRENT_FILINGS",
-      "source_id": "urn:tag:sec.gov,2008:accession-number=0001493152-26-054325",
-      "status": "FORM_ONLY_UNVERIFIED",
-      "title": "6-K - KNOREX LTD. (0001982960) (Filer)",
-      "trade_eligible": false,
-      "updated": "2026-11-27T06:01:59-05:00"
-    },
-    {
-      "candidate_categories": [],
-      "event_confirmed": false,
-      "form": null,
-      "source": "SEC_CURRENT_FILINGS",
-      "source_id": "urn:tag:sec.gov,2008:accession-number=0001104659-26-132227",
-      "status": "FORM_ONLY_UNVERIFIED",
-      "title": "3 - NAGANO TOMOKI (0002145261) (Reporting)",
-      "trade_eligible": false,
-      "updated": "2026-11-27T06:01:24-05:00"
-    },
-    {
-      "candidate_categories": [],
-      "event_confirmed": false,
-      "form": null,
-      "source": "SEC_CURRENT_FILINGS",
-      "source_id": "urn:tag:sec.gov,2008:accession-number=0001104659-26-132227",
-      "status": "FORM_ONLY_UNVERIFIED",
-      "title": "3 - INSTINCT BIO TECHNICAL CO HOLDINGS INC. (0002072188) (Issuer)",
-      "trade_eligible": false,
-      "updated": "2026-11-27T06:01:24-05:00"
-    },
-    {
-      "candidate_categories": [
-        "earnings_guidance"
-      ],
-      "event_confirmed": false,
-      "form": "6-K",
-      "source": "SEC_CURRENT_FILINGS",
-      "source_id": "urn:tag:sec.gov,2008:accession-number=0001437749-26-038341",
-      "status": "FORM_ONLY_UNVERIFIED",
-      "title": "6-K - Zentek Ltd. (0001904501) (Filer)",
-      "trade_eligible": false,
-      "updated": "2026-11-27T06:01:00-05:00"
-    },
-    {
-      "candidate_categories": [],
-      "event_confirmed": false,
-      "form": null,
-      "source": "SEC_CURRENT_FILINGS",
-      "source_id": "urn:tag:sec.gov,2008:accession-number=0001193125-26-478981",
-      "status": "FORM_ONLY_UNVERIFIED",
-      "title": "4 - Wang Yanjun (0002113214) (Reporting)",
-      "trade_eligible": false,
-      "updated": "2026-11-27T06:00:26-05:00"
-    },
-    {
-      "candidate_categories": [],
-      "event_confirmed": false,
-      "form": null,
-      "source": "SEC_CURRENT_FILINGS",
-      "source_id": "urn:tag:sec.gov,2008:accession-number=0001193125-26-478981",
-      "status": "FORM_ONLY_UNVERIFIED",
-      "title": "4 - Sea Ltd (0001703399) (Issuer)",
-      "trade_eligible": false,
-      "updated": "2026-11-27T06:00:26-05:00"
-    },
-    {
-      "candidate_categories": [],
-      "event_confirmed": false,
-      "form": null,
-      "source": "SEC_CURRENT_FILINGS",
-      "source_id": "urn:tag:sec.gov,2008:accession-number=9999999995-26-003638",
-      "status": "FORM_ONLY_UNVERIFIED",
-      "title": "EFFECT - PALATIN TECHNOLOGIES INC (0000911216) (Filer)",
-      "trade_eligible": false,
-      "updated": "2026-11-27T00:15:24-05:00"
-    },
-    {
-      "candidate_categories": [],
-      "event_confirmed": false,
-      "form": null,
-      "source": "SEC_CURRENT_FILINGS",
-      "source_id": "urn:tag:sec.gov,2008:accession-number=9999999995-26-003637",
-      "status": "FORM_ONLY_UNVERIFIED",
-      "title": "EFFECT - Surrozen, Inc./DE (0001824893) (Filer)",
-      "trade_eligible": false,
-      "updated": "2026-11-27T00:15:22-05:00"
-    },
-    {
-      "candidate_categories": [],
-      "event_confirmed": false,
-      "form": null,
-      "source": "SEC_CURRENT_FILINGS",
-      "source_id": "urn:tag:sec.gov,2008:accession-number=9999999995-26-003636",
-      "status": "FORM_ONLY_UNVERIFIED",
-      "title": "EFFECT - U Power Ltd (0001939780) (Filer)",
-      "trade_eligible": false,
-      "updated": "2026-11-27T00:15:21-05:00"
-    },
-    {
-      "candidate_categories": [],
-      "event_confirmed": false,
-      "form": null,
-      "source": "SEC_CURRENT_FILINGS",
-      "source_id": "urn:tag:sec.gov,2008:accession-number=9999999995-26-003635",
-      "status": "FORM_ONLY_UNVERIFIED",
-      "title": "EFFECT - Ribbon Communications Inc. (0001708055) (Filer)",
-      "trade_eligible": false,
-      "updated": "2026-11-27T00:15:20-05:00"
-    },
-    {
-      "candidate_categories": [],
-      "event_confirmed": false,
-      "form": null,
-      "source": "SEC_CURRENT_FILINGS",
-      "source_id": "urn:tag:sec.gov,2008:accession-number=9999999995-26-003634",
-      "status": "FORM_ONLY_UNVERIFIED",
-      "title": "EFFECT - Sunshine Biopharma Inc. (0001402328) (Filer)",
-      "trade_eligible": false,
-      "updated": "2026-11-27T00:15:18-05:00"
-    },
-    {
-      "candidate_categories": [],
-      "event_confirmed": false,
-      "form": null,
-      "source": "SEC_CURRENT_FILINGS",
-      "source_id": "urn:tag:sec.gov,2008:accession-number=9999999995-26-003633",
-      "status": "FORM_ONLY_UNVERIFIED",
-      "title": "EFFECT - Julong Holding Ltd (0002007846) (Filer)",
-      "trade_eligible": false,
-      "updated": "2026-11-27T00:15:17-05:00"
-    },
-    {
-      "candidate_categories": [],
-      "event_confirmed": false,
-      "form": null,
-      "source": "SEC_CURRENT_FILINGS",
-      "source_id": "urn:tag:sec.gov,2008:accession-number=9999999995-26-003632",
-      "status": "FORM_ONLY_UNVERIFIED",
-      "title": "EFFECT - New ERA Energy & Digital, Inc. (0002028336) (Filer)",
-      "trade_eligible": false,
-      "updated": "2026-11-27T00:15:15-05:00"
+      "updated": "2026-11-27T14:52:24-05:00"
     }
   ],
   "feed_entries": 100,
   "new_filings": 100,
   "seen_ids": [
+    "urn:tag:sec.gov,2008:accession-number=0001839882-26-058454",
+    "urn:tag:sec.gov,2008:accession-number=0001974078-26-000430",
+    "urn:tag:sec.gov,2008:accession-number=0001839882-26-058453",
+    "urn:tag:sec.gov,2008:accession-number=0001214659-26-014778",
+    "urn:tag:sec.gov,2008:accession-number=0001839882-26-058452",
+    "urn:tag:sec.gov,2008:accession-number=0001193125-26-480169",
+    "urn:tag:sec.gov,2008:accession-number=0001839882-26-058451",
+    "urn:tag:sec.gov,2008:accession-number=0001193125-26-480166",
+    "urn:tag:sec.gov,2008:accession-number=0001193125-26-480165",
+    "urn:tag:sec.gov,2008:accession-number=0001193125-26-480164",
+    "urn:tag:sec.gov,2008:accession-number=0001493152-26-054485",
+    "urn:tag:sec.gov,2008:accession-number=0001839882-26-058450",
+    "urn:tag:sec.gov,2008:accession-number=0001193125-26-480162",
+    "urn:tag:sec.gov,2008:accession-number=0001140361-26-045877",
+    "urn:tag:sec.gov,2008:accession-number=0001104659-26-132456",
+    "urn:tag:sec.gov,2008:accession-number=0001207928-26-000012",
+    "urn:tag:sec.gov,2008:accession-number=0001839882-26-058449",
+    "urn:tag:sec.gov,2008:accession-number=0001193125-26-480161",
+    "urn:tag:sec.gov,2008:accession-number=0001805526-26-000184",
+    "urn:tag:sec.gov,2008:accession-number=0001193125-26-480159",
+    "urn:tag:sec.gov,2008:accession-number=0001104659-26-132454",
+    "urn:tag:sec.gov,2008:accession-number=0001193125-26-480158",
+    "urn:tag:sec.gov,2008:accession-number=0001193125-26-480155",
+    "urn:tag:sec.gov,2008:accession-number=0002167271-26-000001",
+    "urn:tag:sec.gov,2008:accession-number=0000709283-26-000012",
+    "urn:tag:sec.gov,2008:accession-number=0001193125-26-480153",
+    "urn:tag:sec.gov,2008:accession-number=0002166888-26-000001",
+    "urn:tag:sec.gov,2008:accession-number=0001918704-26-037398",
+    "urn:tag:sec.gov,2008:accession-number=0000940400-26-048377",
+    "urn:tag:sec.gov,2008:accession-number=0000940400-26-048376",
+    "urn:tag:sec.gov,2008:accession-number=0000940400-26-048375",
+    "urn:tag:sec.gov,2008:accession-number=0000940400-26-048374",
+    "urn:tag:sec.gov,2008:accession-number=0000940400-26-048373",
+    "urn:tag:sec.gov,2008:accession-number=0000940400-26-048372",
+    "urn:tag:sec.gov,2008:accession-number=0000940400-26-048371",
+    "urn:tag:sec.gov,2008:accession-number=0000940400-26-048370",
+    "urn:tag:sec.gov,2008:accession-number=0000940400-26-048368",
+    "urn:tag:sec.gov,2008:accession-number=0000940400-26-048369",
+    "urn:tag:sec.gov,2008:accession-number=0000940400-26-048367",
+    "urn:tag:sec.gov,2008:accession-number=0000940400-26-048365",
+    "urn:tag:sec.gov,2008:accession-number=0000940400-26-048366",
+    "urn:tag:sec.gov,2008:accession-number=0000940400-26-048364",
+    "urn:tag:sec.gov,2008:accession-number=0000940400-26-048363",
+    "urn:tag:sec.gov,2008:accession-number=0000919574-26-008282",
+    "urn:tag:sec.gov,2008:accession-number=0000940400-26-048362",
+    "urn:tag:sec.gov,2008:accession-number=0000940400-26-048361",
+    "urn:tag:sec.gov,2008:accession-number=0000940400-26-048360",
+    "urn:tag:sec.gov,2008:accession-number=0000940400-26-048359",
+    "urn:tag:sec.gov,2008:accession-number=0000940400-26-048358",
+    "urn:tag:sec.gov,2008:accession-number=0000940400-26-048357",
+    "urn:tag:sec.gov,2008:accession-number=0000940400-26-048355",
+    "urn:tag:sec.gov,2008:accession-number=0000940400-26-048356",
+    "urn:tag:sec.gov,2008:accession-number=0001193125-26-480150",
+    "urn:tag:sec.gov,2008:accession-number=0000940400-26-048354",
+    "urn:tag:sec.gov,2008:accession-number=0000940400-26-048352",
+    "urn:tag:sec.gov,2008:accession-number=0000940400-26-048353",
+    "urn:tag:sec.gov,2008:accession-number=0000940400-26-048351",
+    "urn:tag:sec.gov,2008:accession-number=0000940400-26-048350",
+    "urn:tag:sec.gov,2008:accession-number=0000940400-26-048349",
+    "urn:tag:sec.gov,2008:accession-number=0000940400-26-048348",
+    "urn:tag:sec.gov,2008:accession-number=0000940400-26-048347",
+    "urn:tag:sec.gov,2008:accession-number=0000940400-26-048346",
+    "urn:tag:sec.gov,2008:accession-number=0000940400-26-048345",
+    "urn:tag:sec.gov,2008:accession-number=0000940400-26-048344",
+    "urn:tag:sec.gov,2008:accession-number=0001104659-26-132452",
+    "urn:tag:sec.gov,2008:accession-number=0001193125-26-480149",
+    "urn:tag:sec.gov,2008:accession-number=0001918704-26-037397",
+    "urn:tag:sec.gov,2008:accession-number=0000950103-26-018357",
+    "urn:tag:sec.gov,2008:accession-number=0001653242-26-000169",
+    "urn:tag:sec.gov,2008:accession-number=0001653242-26-000168",
+    "urn:tag:sec.gov,2008:accession-number=0001653242-26-000167",
+    "urn:tag:sec.gov,2008:accession-number=0001653242-26-000166",
+    "urn:tag:sec.gov,2008:accession-number=0001653242-26-000165",
+    "urn:tag:sec.gov,2008:accession-number=0001213900-26-124520",
+    "urn:tag:sec.gov,2008:accession-number=0001653242-26-000164",
+    "urn:tag:sec.gov,2008:accession-number=0001653242-26-000163",
+    "urn:tag:sec.gov,2008:accession-number=0001918704-26-037396",
+    "urn:tag:sec.gov,2008:accession-number=0001104659-26-132450",
+    "urn:tag:sec.gov,2008:accession-number=0001653242-26-000162",
     "urn:tag:sec.gov,2008:accession-number=0001493152-26-054348",
     "urn:tag:sec.gov,2008:accession-number=0001193125-26-479101",
     "urn:tag:sec.gov,2008:accession-number=0001493152-26-054347",
